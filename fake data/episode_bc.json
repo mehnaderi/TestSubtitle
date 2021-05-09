@@ -1,0 +1,47 @@
+[
+  {
+    "animeId" : 2,
+    "episodeNumber" : "01",
+    "episodeName" : "E001",
+    "link480p" : "",
+    "link720p" : "http://s1.namava.cf/Series/Black.Clover/Black%20Clover%20-%2001%20[720p].mkv",
+    "link1080p" : "",
+    "linkSubtitle" : ""
+  },
+  {
+    "animeId" : 2,
+    "episodeNumber" : "02",
+    "episodeName" : "E002",
+    "link480p" : "",
+    "link720p" : "http://s1.namava.cf/Series/Black.Clover/Black%20Clover%20-%2002%20[720p].mkv",
+    "link1080p" : "",
+    "linkSubtitle" : ""
+  },
+  {
+    "animeId" : 2,
+    "episodeNumber" : "03",
+    "episodeName" : "E003",
+    "link480p" : "",
+    "link720p" : "http://s1.namava.cf/Series/Black.Clover/Black%20Clover%20-%2003%20[720p].mkv",
+    "link1080p" : "",
+    "linkSubtitle" : ""
+  },
+  {
+    "animeId" : 2,
+    "episodeNumber" : "04",
+    "episodeName" : "E004",
+    "link480p" : "",
+    "link720p" : "http://s1.namava.cf/Series/Black.Clover/Black%20Clover%20-%2004%20[720p].mkv",
+    "link1080p" : "",
+    "linkSubtitle" : ""
+  },
+  {
+    "animeId" : 2,
+    "episodeNumber" : "05",
+    "episodeName" : "E005",
+    "link480p" : "",
+    "link720p" : "http://s1.namava.cf/Series/Black.Clover/Black%20Clover%20-%2005%20[720p].mkv",
+    "link1080p" : "",
+    "linkSubtitle" : "https://raw.githubusercontent.com/mehnaderi/TestSubtitle/main/assSubtitle.bc005.ass"
+  }
+]

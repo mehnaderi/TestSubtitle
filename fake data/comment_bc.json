@@ -1,0 +1,82 @@
+[
+  {
+    "id" : 1,
+    "animeID" : 2,
+    "userName" : "Behnam",
+    "userType" : "Guest",
+    "text" : "First Comment :)",
+    "date" : "2021/03/24 11:02"
+  },
+  {
+    "id" : 2,
+    "animeID" : 2,
+    "userName" : "Mehrdad",
+    "userType" : "Premium",
+    "text" : "Konnichava",
+    "date" : "2021/03/24 11:03"
+  },
+  {
+    "id" : 3,
+    "animeID" : 2,
+    "userName" : "Pooya",
+    "userType" : "Guest",
+    "text" : "Yoroshku",
+    "date" : "2021/03/24 12:01"
+  },
+  {
+    "id" : 4,
+    "animeID" : 2,
+    "userName" : "Pouriya",
+    "userType" : "Guest",
+    "text" : "Nani?",
+    "date" : "2021/03/24 12:32"
+  },
+  {
+    "id" : 5,
+    "animeID" : 2,
+    "userName" : "Mehrdad",
+    "userType" : "Premium",
+    "text" : "Nandemonai",
+    "date" : "2021/03/24 12:40"
+  },
+  {
+    "id" : 6,
+    "animeID" : 2,
+    "userName" : "Behnam",
+    "userType" : "Guest",
+    "text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "date" : "2021/03/24 13:02"
+  },
+  {
+    "id" : 7,
+    "animeID" : 2,
+    "userName" : "Pooya",
+    "userType" : "Guest",
+    "text" : "Kimi no dare?",
+    "date" : "2021/03/24 13:12"
+  },
+  {
+    "id" : 8,
+    "animeID" : 2,
+    "userName" : "Mehrdad",
+    "userType" : "Premium",
+    "text" : "Sayonara, Pooya Senpai",
+    "date" : "2021/03/24 14:02"
+  },
+  {
+    "id" : 9,
+    "animeID" : 2,
+    "userName" : "MohammadMahdi",
+    "userType" : "Guest",
+    "text" : ":)",
+    "date" : "2021/03/24 15:20"
+  },
+  {
+    "id" : 10,
+    "animeID" : 2,
+    "userName" : "Behnam",
+    "userType" : "Guest",
+    "text" : "Hi",
+    "date" : "2021/03/24 18:02"
+  }
+]
