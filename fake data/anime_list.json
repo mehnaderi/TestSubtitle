@@ -16,7 +16,7 @@
     "lastUpdated" : "2019/03/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 26,
     "ageRating" : "+13",
     "type": "TV"
@@ -38,7 +38,7 @@
     "lastUpdated" : "2021/03/23 17:40",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 170,
     "ageRating" : "+13",
     "type": "TV"
@@ -60,7 +60,7 @@
     "lastUpdated" : "2011/03/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 24,
     "ageRating" : "+13",
     "type": "TV"
@@ -82,7 +82,7 @@
     "lastUpdated" : "2010/03/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 64,
     "ageRating" : "R +17",
     "type": "TV"
@@ -104,7 +104,7 @@
     "lastUpdated" : "2015/03/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "R +17",
     "type": "TV"
@@ -126,7 +126,7 @@
     "lastUpdated" : "2013/08/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 25,
     "ageRating" : "R +17",
     "type": "TV"
@@ -148,7 +148,7 @@
     "lastUpdated" : "2014/011/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese", "English"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "R +17",
     "type": "TV"
@@ -170,7 +170,7 @@
     "lastUpdated" : "2021/03/20 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 13,
     "ageRating" : "+13",
     "type": "TV"
@@ -192,7 +192,7 @@
     "lastUpdated" : "2019/03/18 10:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "+13",
     "type": "TV"
@@ -214,7 +214,7 @@
     "lastUpdated" : "2021/03/19 23:50",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 24,
     "ageRating" : "R +17",
     "type": "TV"
@@ -236,7 +236,7 @@
     "lastUpdated" : "2006/03/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 37,
     "ageRating" : "TV-14",
     "type": ""
@@ -258,7 +258,7 @@
     "lastUpdated" : "2019/01/02 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 24,
     "ageRating" : "R +17",
     "type": "TV"
@@ -280,7 +280,7 @@
     "lastUpdated" : "2019/03/12 23:15",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 25,
     "ageRating" : "+13",
     "type": "TV"
@@ -302,7 +302,7 @@
     "lastUpdated" : "2019/06/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "R +17",
     "type": "TV"
@@ -324,7 +324,7 @@
     "lastUpdated" : "2016/010/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 13,
     "ageRating" : "TV-14",
     "type": ""
@@ -346,7 +346,7 @@
     "lastUpdated" : "2012/03/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 366,
     "ageRating" : "+13",
     "type": "TV"
@@ -368,7 +368,7 @@
     "lastUpdated" : "2005/03/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese", "English"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 220,
     "ageRating" : "+13",
     "type": "TV"
@@ -390,7 +390,7 @@
     "lastUpdated" : "2013/03/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 148,
     "ageRating" : "TV-14",
     "type": ""
@@ -412,7 +412,7 @@
     "lastUpdated" : "2020/01/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 24,
     "ageRating" : "+13",
     "type": "TV"
@@ -434,7 +434,7 @@
     "lastUpdated" : "2021/03/19 22:52",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 11,
     "ageRating" : "+13",
     "type": "TV"
@@ -456,7 +456,7 @@
     "lastUpdated" : "2021/03/14 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 11,
     "ageRating" : "+13",
     "type": "TV"
@@ -478,7 +478,7 @@
     "lastUpdated" : "2021/03/19 23:47",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "+13",
     "type": "TV"
@@ -500,7 +500,7 @@
     "lastUpdated" : "2014/03/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 75,
     "ageRating" : "+13",
     "type": "TV"
@@ -522,7 +522,7 @@
     "lastUpdated" : "2017/08/23 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "R - 17+",
     "type": "TV"
@@ -544,7 +544,7 @@
     "lastUpdated" : "2018/04/05 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Netflix"],
+    "sources" : ["Netflix"],
     "episodesNumber" : 13,
     "ageRating" : "+13",
     "type": "TV"
@@ -566,7 +566,7 @@
     "lastUpdated" : "2020/09/05 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "+13",
     "type": "TV"
@@ -588,7 +588,7 @@
     "lastUpdated" : "2015/09/05 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 13,
     "ageRating" : "R +17",
     "type": "TV"
@@ -610,7 +610,7 @@
     "lastUpdated" : "2021/01/01 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Korea"],
+    "sources" : ["Korea"],
     "episodesNumber" : 13,
     "ageRating" : "R +17",
     "type": "TV"
@@ -632,7 +632,7 @@
     "lastUpdated" : "2019/12/12 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "+13",
     "type": "TV"
@@ -654,7 +654,7 @@
     "lastUpdated" : "1997/09/05 23:14",
     "duration" : "2 hour and 15 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 1,
     "ageRating" : "+13",
     "type": "Movie"
@@ -676,7 +676,7 @@
     "lastUpdated" : "2014/09/05 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 24,
     "ageRating" : "R +17",
     "type": "TV"
@@ -698,7 +698,7 @@
     "lastUpdated" : "2017/04/22 23:14",
     "duration" : "1 hour and 45 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 1,
     "ageRating" : "+13",
     "type": "Movie"
@@ -720,7 +720,7 @@
     "lastUpdated" : "2018/06/05 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 24,
     "ageRating" : "+13",
     "type": "TV"
@@ -742,7 +742,7 @@
     "lastUpdated" : "2019/09/05 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 24,
     "ageRating" : "R +17",
     "type": "TV"
@@ -764,7 +764,7 @@
     "lastUpdated" : "2006/09/05 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 24,
     "ageRating" : "R +17",
     "type": "TV"
@@ -786,7 +786,7 @@
     "lastUpdated" : "2018/12/30 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "R +17",
     "type": "TV"
@@ -808,7 +808,7 @@
     "lastUpdated" : "2020/03/23 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 13,
     "ageRating" : "R +17",
     "type": "TV"
@@ -830,7 +830,7 @@
     "lastUpdated" : "2015/09/27 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 13,
     "ageRating" : "+13",
     "type": "TV"
@@ -852,7 +852,7 @@
     "lastUpdated" : "2019/12/22 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "+13",
     "type": "TV"
@@ -875,7 +875,7 @@
     "lastUpdated" : "2021/04/05 12:00",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 12,
     "ageRating" : "None",
     "type": "TV"
@@ -897,7 +897,7 @@
     "lastUpdated" : "2021/4/3 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 25,
     "ageRating" : "+13",
     "type": "TV"
@@ -919,7 +919,7 @@
     "lastUpdated" : "2021/5/18 23:14",
     "duration" : "24 Minutes",
     "languages" : ["Japanese"],
-    "productSource" : ["Japan"],
+    "sources" : ["Japan"],
     "episodesNumber" : 11,
     "ageRating" : "+13",
     "type": "TV"
