@@ -18,7 +18,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 26,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -40,7 +40,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 170,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -62,7 +62,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 24,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -84,7 +84,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 64,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -106,7 +106,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -128,7 +128,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan", "Wit Studio", "MAPPA"],
     "episodesNumber" : 25,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -150,7 +150,7 @@
     "languages" : ["Japanese", "English"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -172,7 +172,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 13,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -194,7 +194,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -216,7 +216,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 24,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -238,8 +238,8 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 37,
-    "ageRating" : "TV-14",
-    "type": ""
+    "ageRating" : "PG-13",
+    "type": "TV"
   },
   {
     "id" : 12,
@@ -260,7 +260,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 24,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -282,7 +282,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 25,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -304,7 +304,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -326,8 +326,8 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 13,
-    "ageRating" : "TV-14",
-    "type": ""
+    "ageRating" : "PG-13",
+    "type": "TV"
   },
   {
     "id" : 16,
@@ -348,7 +348,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 366,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -370,7 +370,7 @@
     "languages" : ["Japanese", "English"],
     "sources" : ["Japan"],
     "episodesNumber" : 220,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -392,8 +392,8 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 148,
-    "ageRating" : "TV-14",
-    "type": ""
+    "ageRating" : "PG-13",
+    "type": "TV"
   },
   {
     "id" : 19,
@@ -414,7 +414,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 24,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -436,7 +436,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 11,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -458,7 +458,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 11,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -480,7 +480,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -502,7 +502,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 75,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -524,7 +524,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "R - 17+",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -546,7 +546,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Netflix"],
     "episodesNumber" : 13,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -568,7 +568,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -590,7 +590,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 13,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -612,7 +612,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Korea"],
     "episodesNumber" : 13,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -634,7 +634,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -656,7 +656,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 1,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "Movie"
   },
   {
@@ -678,7 +678,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 24,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -700,7 +700,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 1,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "Movie"
   },
   {
@@ -722,7 +722,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 24,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -744,7 +744,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 24,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -766,7 +766,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 24,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -788,7 +788,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -810,7 +810,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 13,
-    "ageRating" : "R +17",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -832,7 +832,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 13,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -854,7 +854,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   }
 ,
@@ -877,7 +877,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 12,
-    "ageRating" : "None",
+    "ageRating" : "R",
     "type": "TV"
   },
   {
@@ -899,7 +899,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 25,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   },
   {
@@ -921,7 +921,7 @@
     "languages" : ["Japanese"],
     "sources" : ["Japan"],
     "episodesNumber" : 11,
-    "ageRating" : "+13",
+    "ageRating" : "PG-13",
     "type": "TV"
   }
 ]
