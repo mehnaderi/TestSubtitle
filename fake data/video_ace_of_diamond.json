@@ -14,5 +14,13 @@
     "link720p" : "https://aspb15.cdn.asset.aparat.com/aparat-video/de669a065ebb9a4dcd50cf613528013e23203603-720p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImE2ZmNlZjNiNzRhNGJmZGRkNjQwY2ZmMzViN2FjYmE5IiwiZXhwIjoxNjIxNjI1ODY2LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.MIjn0LwkdGkKfaoWYDyBH-5W041i4PzIZPCzGbfZ-ME",
     "link1080p" : "",
     "linkSubtitle" : ""
+  },
+  {
+    "animeId" : 2,
+    "videoName" : "Opening 13",
+    "link480p" : "https://aspb21.cdn.asset.aparat.com/aparat-video/e99031fbff760e35e9ec367322a4f09528677139-480p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6Ijc0OGFiOWFiODFkNGQ3ODgzMTc2NjcyN2E1NTFiMWEyIiwiZXhwIjoxNjIxNjMwMTg3LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.DD1MI91UWX0sE5i16bu6K1hT6H47w1MwVnyvdjY0vXc",
+    "link720p" : "https://aspb21.cdn.asset.aparat.com/aparat-video/e99031fbff760e35e9ec367322a4f09528677139-720p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6Ijc0OGFiOWFiODFkNGQ3ODgzMTc2NjcyN2E1NTFiMWEyIiwiZXhwIjoxNjIxNjMwMTg3LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.DD1MI91UWX0sE5i16bu6K1hT6H47w1MwVnyvdjY0vXc",
+    "link1080p" : "",
+    "linkSubtitle" : ""
   }
 ]
