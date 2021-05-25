@@ -1,47 +1,65 @@
 [
   {
-    "animeId" : 2,
-    "episodeNumber" : "01",
-    "episodeName" : "E001",
-    "link480p" : "http://s1.eidnowrooz.tk/Series/Anime/Sword.Art.Online-Alicization/Sword.Art.Online-Alicization.01.480p.Bia2Anime.mkv",
-    "link720p" : "",
-    "link1080p" : "",
-    "linkSubtitle" : ""
+    "animeId": 2,
+    "episodeNumber": "01",
+    "episodeName": "E001",
+    "link480p": "",
+    "link720p": "http://s1.namava.cf/Series/Black.Clover/Black%20Clover%20-%2001%20[720p].mkv",
+    "link1080p": "",
+    "linkSubtitle": ""
   },
   {
-    "animeId" : 2,
-    "episodeNumber" : "02",
-    "episodeName" : "E002",
-    "link480p" : "http://s1.eidnowrooz.tk/Series/Anime/Sword.Art.Online-Alicization/Sword.Art.Online-Alicization.02.480p.Bia2Anime.mkv",
-    "link720p" : "",
-    "link1080p" : "",
-    "linkSubtitle" : ""
+    "animeId": 2,
+    "episodeNumber": "02",
+    "episodeName": "E002",
+    "link480p": "",
+    "link720p": "http://s1.namava.cf/Series/Black.Clover/Black%20Clover%20-%2002%20[720p].mkv",
+    "link1080p": "",
+    "linkSubtitle": ""
   },
   {
-    "animeId" : 2,
-    "episodeNumber" : "03",
-    "episodeName" : "E003",
-    "link480p" : "http://s1.eidnowrooz.tk/Series/Anime/Sword.Art.Online-Alicization/Sword.Art.Online-Alicization.03.480p.Bia2Anime.mkv",
-    "link720p" : "",
-    "link1080p" : "",
-    "linkSubtitle" : ""
+    "animeId": 2,
+    "episodeNumber": "03",
+    "episodeName": "E003",
+    "link480p": "",
+    "link720p": "http://s1.namava.cf/Series/Black.Clover/Black%20Clover%20-%2003%20[720p].mkv",
+    "link1080p": "",
+    "linkSubtitle": ""
   },
   {
-    "animeId" : 2,
-    "episodeNumber" : "04",
-    "episodeName" : "E004",
-    "link480p" : "http://s1.eidnowrooz.tk/Series/Anime/Sword.Art.Online-Alicization/Sword.Art.Online-Alicization.04.480p.Bia2Anime.mkv",
-    "link720p" : "",
-    "link1080p" : "",
-    "linkSubtitle" : ""
+    "animeId": 2,
+    "episodeNumber": "04",
+    "episodeName": "E004",
+    "link480p": "",
+    "link720p": "http://s1.namava.cf/Series/Black.Clover/Black%20Clover%20-%2004%20[720p].mkv",
+    "link1080p": "",
+    "linkSubtitle": ""
   },
   {
-    "animeId" : 2,
-    "episodeNumber" : "05",
-    "episodeName" : "E005",
-    "link480p" : "http://s1.eidnowrooz.tk/Series/Anime/Sword.Art.Online-Alicization/Sword.Art.Online-Alicization.05.480p.Bia2Anime.mkv",
-    "link720p" : "",
-    "link1080p" : "",
-    "linkSubtitle" : "https://raw.githubusercontent.com/mehnaderi/TestSubtitle/main/assSubtitle.bc005.ass"
+    "animeId": 2,
+    "episodeNumber": "05",
+    "episodeName": "E005",
+    "link480p": "",
+    "link720p": "http://s1.namava.cf/Series/Black.Clover/Black%20Clover%20-%2005%20[720p].mkv",
+    "link1080p": "",
+    "linkSubtitle": "https://raw.githubusercontent.com/mehnaderi/TestSubtitle/main/assSubtitle.bc005.ass"
+  },
+  {
+    "animeId": 43,
+    "episodeNumber": "01",
+    "episodeName": "",
+    "link480p": "http://cf1.oyrbjdbfg.tk/Animation/Koe%20no%20Katachi/Koe.no.Katachi.Movie.BD.%5B480%5D.AnimDL.ir.mkv",
+    "link720p": "http://cf1.oyrbjdbfg.tk/Animation/Koe%20no%20Katachi/Koe.no.Katachi.Movie.BD.%5B720%5D.AnimDL.ir.mkv",
+    "link1080p": "http://cf1.oyrbjdbfg.tk/Animation/Koe%20no%20Katachi/Koe.no.Katachi.Movie.BD.%5B1080%5D.AnimDL.ir.mkv",
+    "linkSubtitle": ""
+  },
+  {
+    "animeId": 44,
+    "episodeNumber": "01",
+    "episodeName": "",
+    "link480p": "http://cf1.oyrbjdbfg.tk/Anime%20Movie/Kimi%20no%20na%20wa2016/Your.Name.2016.480pBD-AnimDL.ir.mkv",
+    "link720p": "http://cf1.oyrbjdbfg.tk/Anime%20Movie/Kimi%20no%20na%20wa2016/Your.Name.2016.720p.MkvCage-AnimDL.ir.mkv",
+    "link1080p": "http://cf1.oyrbjdbfg.tk/Anime%20Movie/Kimi%20no%20na%20wa2016/Your.Name.2016.1080p.6CH.MkvCage-AnimDL.ir.mkv",
+    "linkSubtitle": ""
   }
 ]
