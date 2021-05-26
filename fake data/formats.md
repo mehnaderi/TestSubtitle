@@ -2,23 +2,38 @@
 
 
 
--- Anime List object formats
+## Anime List object formats
+
+### Playing Status Values
+  - Playing
+  - Ended
+  - Not Released
+  - Canceled
+  - Other
 
 
-[Playing Status] : [ 'Playing', 'Ended', 'Not Released', 'Canceled', 'Other']
+### Type Value
+  - TV
+  - Movie
+  - OVA
+  - Special
+  - ONA
+  - 
 
-[Type] : [ 'TV', 'Movie', 'OVA', 'Special', 'ONA']
-
-[Age Rating] : [ 'PG', 'PG-13', 'R', 'R+']
-
-[Age Rating] : [ 'PG', 'PG-13', 'R', 'R+']
-
-
-[Time Format With Hour]    : ( example :   ['1 Hour and 45 minutes'] -->  parameters : 1 , 45  )
-[Time Format Without Hour] : ( example :   ['24 Minutes']  --> parameters : 24 )
-
-[Score Format] : Exactly up to two decimal places : (example : 8.00)
+### Age Rating
+  - PG
+  - PG-13
+  - R
+  - R+
 
 
+### Score Format
+  - Exactly up to two decimal places : `example : 8.00`
 
+### Time Format
+  - Time with hours
+  ` example :   ['1 Hour and 45 minutes'] -->  parameters : 1 , 45  `
+  - Time without hours
+     `example :   ['24 Minutes']  --> parameters : 24`
+ 
 
