@@ -1,0 +1,275 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Show_Title,Open Sans Semibold,36,&H00CD9612,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,0,0,0,0,100,100,0,0,1,1,1,3,13,60,67,1
+Style: Next_Ep_Title,Open Sans Semibold,39,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,13,13,147,1
+Style: sign_21564_164_Expulsion_of_gre,Open Sans Semibold,36,&H00946B0E,&H000000FF,&H00DEE9E9,&H00000000,1,0,0,0,100,100,0,0,1,4,0,5,247,247,0,1
+Style: sign_21718_168_Take_this_action,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,5,13,13,0,1
+Style: sign_23290_189_Analysis,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,4,233,489,0,1
+Style: sign_27864_219_Answer,Open Sans Semibold,36,&H00E2EFCE,&H000000FF,&H002D246D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,367,367,0,1
+Style: sign_27896_221_As_Previously_St,Open Sans Semibold,30,&H00E2EFCE,&H000000FF,&H000F1547,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,293,293,133,1
+Style: sign_27896_222_Thermal_Fluctuat,Open Sans Semibold,36,&H00E2EFCE,&H000000FF,&H000F1547,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,179,179,207,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:12.16,0:00:16.08,Show_Title,Title,0000,0000,0000,,{\fad(1614,389)}That {\c&H471E13&}Time {\c&HCD9612&}I Got {\c&H471E13&}Reincarnated {\c&HCD9612&}as a {\c&H7E4F0A&}Slime
+Dialogue: 0,0:01:30.45,0:01:35.12,Ep_Title,Title,0000,0000,0000,,{\fad(1193,558)}Episode 7: Conqueror of Flames
+Dialogue: 0,0:02:18.41,0:02:22.88,Flashback,Koenig,0000,0000,0000,,The great sorcerer Koenig has \Ncome to pay his respects!
+Dialogue: 0,0:02:23.30,0:02:24.75,Flashback,Koenig,0000,0000,0000,,Leon!
+Dialogue: 0,0:02:24.94,0:02:28.38,Flashback,Koenig,0000,0000,0000,,I will defeat you and become \Nthe Demon Lord myself!
+Dialogue: 0,0:02:28.38,0:02:30.34,Flashback,Koenig,0000,0000,0000,,You can die with your mind at ease!
+Dialogue: 0,0:02:31.61,0:02:34.87,Flashback,Leon,0000,0000,0000,,Who sent a lowly creature like you here?
+Dialogue: 0,0:02:35.86,0:02:37.44,Flashback,Leon,0000,0000,0000,,Still, this is a fine opportunity.
+Dialogue: 0,0:02:38.58,0:02:40.84,Flashback,Leon,0000,0000,0000,,Your turn has come, Ifrit.
+Dialogue: 0,0:02:41.83,0:02:43.03,Flashback,Leon,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:02:47.87,0:02:51.16,Flashback,Koenig,0000,0000,0000,,You're ignoring me?! \NYou'll regret underestimating me!
+Dialogue: 0,0:02:54.03,0:02:56.66,Flashback,Koenig,0000,0000,0000,,Oh, you want to die first?
+Dialogue: 0,0:02:56.80,0:02:58.20,Flashback,Koenig,0000,0000,0000,,Very well!
+Dialogue: 0,0:02:58.20,0:02:59.87,Flashback,Koenig,0000,0000,0000,,Go ahead and die!
+Dialogue: 0,0:03:18.36,0:03:19.98,Flashback,Leon,0000,0000,0000,,Very interesting.
+Dialogue: 0,0:03:22.43,0:03:25.23,Flashback,Leon,0000,0000,0000,,What did you say your name was?
+Dialogue: 0,0:03:26.78,0:03:28.88,Flashback,Shizu,0000,0000,0000,,Shizu...e.
+Dialogue: 0,0:03:29.36,0:03:31.33,Flashback,Leon,0000,0000,0000,,Shizu E?
+Dialogue: 0,0:03:31.87,0:03:32.53,Flashback,Leon,0000,0000,0000,,Hm...
+Dialogue: 0,0:03:33.33,0:03:35.76,Flashback,Leon,0000,0000,0000,,As of today, you will be called Shizu.
+Dialogue: 0,0:03:36.72,0:03:37.90,Flashback,Shizu,0000,0000,0000,,Shizu...
+Dialogue: 0,0:03:48.66,0:03:50.24,Flashback,Pirino,0000,0000,0000,,Eats lots, okay?
+Dialogue: 0,0:03:56.57,0:03:59.80,Flashback,Pirino,0000,0000,0000,,I-It got separated from its mother...
+Dialogue: 0,0:03:59.80,0:04:01.77,Flashback,Pirino,0000,0000,0000,,P-Please pretend you didn't see this!
+Dialogue: 0,0:04:03.26,0:04:04.83,Flashback,Shizu,0000,0000,0000,,I won't tell anyone.
+Dialogue: 0,0:04:05.29,0:04:07.27,Flashback,Shizu,0000,0000,0000,,Can I take care of it with you?
+Dialogue: 0,0:04:09.78,0:04:11.65,Flashback,Pirino,0000,0000,0000,,Yes, of course!
+Dialogue: 0,0:04:14.66,0:04:16.26,Flashback,Shizu,0000,0000,0000,,He's eating!
+Dialogue: 0,0:04:19.31,0:04:20.74,Flashback,Shizu,0000,0000,0000,,So what's his name?
+Dialogue: 0,0:04:21.15,0:04:23.66,Flashback,Pirino,0000,0000,0000,,Monsters don't have names.
+Dialogue: 0,0:04:23.66,0:04:26.17,Flashback,Shizu,0000,0000,0000,,But it's sad to have no name to go by.
+Dialogue: 0,0:04:28.69,0:04:30.34,Flashback,Shizu,0000,0000,0000,,See? He agrees.
+Dialogue: 0,0:04:31.05,0:04:32.46,Flashback,Shizu,0000,0000,0000,,How about Pizu?
+Dialogue: 0,0:04:32.62,0:04:35.50,Flashback,Pirino,0000,0000,0000,,Pizu... That sounds good!
+Dialogue: 0,0:04:35.94,0:04:37.22,Flashback,Pirino,0000,0000,0000,,Right, Pizu?
+Dialogue: 0,0:04:41.06,0:04:43.40,Flashback,Shizu,0000,0000,0000,,Look! He got bigger!
+Dialogue: 0,0:04:45.15,0:04:46.48,Flashback,Shizu,0000,0000,0000,,You got bigger!
+Dialogue: 0,0:04:48.90,0:04:52.71,Flashback,Shizu,0000,0000,0000,,Pirino, you know you can't \Ntake Pizu to the castle.
+Dialogue: 0,0:04:52.71,0:04:55.49,Flashback,Pirino,0000,0000,0000,,It'll be fine. He's really smart!
+Dialogue: 0,0:04:55.99,0:04:57.32,Flashback,Shizu,0000,0000,0000,,But...
+Dialogue: 0,0:04:57.32,0:04:59.25,Flashback,Pirino,0000,0000,0000,,He's really friendly with me.
+Dialogue: 0,0:04:59.25,0:05:01.66,Flashback,Pirino,0000,0000,0000,,I'm sure they'll let him be my familiar.
+Dialogue: 0,0:05:03.66,0:05:05.33,Flashback,Shizu,0000,0000,0000,,You think so?
+Dialogue: 0,0:05:08.38,0:05:09.42,Flashback,Pirino,0000,0000,0000,,What's wrong, Pizu?
+Dialogue: 0,0:05:10.21,0:05:12.70,Flashback,Pirino,0000,0000,0000,,It's okay... Come on, it's okay!
+Dialogue: 0,0:05:12.70,0:05:13.79,Flashback,Pirino,0000,0000,0000,,Just calm down!
+Dialogue: 0,0:05:14.67,0:05:17.43,Flashback,Pirino,0000,0000,0000,,Be good, now... Pizu!
+Dialogue: 0,0:05:20.74,0:05:22.93,Flashback,Pirino,0000,0000,0000,,It's okay... It's okay.
+Dialogue: 0,0:05:27.66,0:05:28.91,Flashback,Pirino,0000,0000,0000,,Shizu...
+Dialogue: 0,0:05:31.56,0:05:32.50,Flashback,Shizu,0000,0000,0000,,Enemy.
+Dialogue: 0,0:05:49.97,0:05:52.88,Flashback,Shizu,0000,0000,0000,,What... did I just...
+Dialogue: 0,0:05:53.73,0:05:55.83,Flashback,Shizu,0000,0000,0000,,M-My body...
+Dialogue: 0,0:05:57.05,0:05:59.18,Flashback,Shizu,0000,0000,0000,,My body moved on its own...
+Dialogue: 0,0:06:00.24,0:06:01.27,Flashback,Shizu,0000,0000,0000,,The flames...
+Dialogue: 0,0:06:01.88,0:06:04.91,Flashback,Shizu,0000,0000,0000,,I... I...
+Dialogue: 0,0:06:56.98,0:07:00.08,Main,Rimuru,0000,0000,0000,,So, do you like our town?
+Dialogue: 0,0:07:04.19,0:07:06.24,Main,Shizu,0000,0000,0000,,Yes, very much.
+Dialogue: 0,0:07:07.42,0:07:10.89,Main,Rimuru,0000,0000,0000,,You're welcome to stay\Nas long as you'd like, Shizu-san.
+Dialogue: 0,0:07:11.45,0:07:12.59,Main,Shizu,0000,0000,0000,,Thank you...
+Dialogue: 0,0:07:13.15,0:07:15.15,Main,Shizu,0000,0000,0000,,but I have to go.
+Dialogue: 0,0:07:15.15,0:07:16.32,Main,Rimuru,0000,0000,0000,,You do?
+Dialogue: 0,0:07:17.06,0:07:20.38,Main,Shizu,0000,0000,0000,,If I stay here, I might \Nbring trouble for you.
+Dialogue: 0,0:07:24.06,0:07:26.43,Main,Shizu,0000,0000,0000,,The goal of my journey is...
+Dialogue: 0,0:07:26.70,0:07:27.93,Main,Rimuru,0000,0000,0000,,Goal?
+Dialogue: 0,0:07:29.44,0:07:32.73,Main,Shizu,0000,0000,0000,,...to find the man who summoned me.
+Dialogue: 0,0:07:34.13,0:07:36.08,Main,Rimuru,0000,0000,0000,,What will you do when you find him?
+Dialogue: 0,0:07:44.87,0:07:45.95,Main,Rimuru,0000,0000,0000,,Well, okay!
+Dialogue: 0,0:07:45.95,0:07:48.54,Main,Rimuru,0000,0000,0000,,It's too bad, but you can come visit anytime!
+Dialogue: 0,0:07:48.54,0:07:50.82,Main,Rimuru,0000,0000,0000,,You'll always be welcome! Right, Ranga?
+Dialogue: 0,0:07:50.82,0:07:52.00,Main,Ranga,0000,0000,0000,,Of course!
+Dialogue: 0,0:07:52.24,0:07:54.34,Main,Shizu,0000,0000,0000,,Okay. Thank you.
+Dialogue: 0,0:07:58.13,0:07:59.71,Main,Shizu,0000,0000,0000,,Thank you, too, Ranga.
+Dialogue: 0,0:08:08.49,0:08:11.73,Main,Eren,0000,0000,0000,,Shizu, why don't you come \Nback to Blumund with us?
+Dialogue: 0,0:08:11.91,0:08:12.53,Main,Shizu,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:13.22,0:08:16.04,Main,Eren,0000,0000,0000,,It'd be awfully sad to say goodbye here.
+Dialogue: 0,0:08:17.06,0:08:19.72,Main,Shizu,0000,0000,0000,,You're all exceptional adventurers.
+Dialogue: 0,0:08:19.72,0:08:23.57,Main,Shizu,0000,0000,0000,,I'm sure it would be lots \Nof fun adventuring with you.
+Dialogue: 0,0:08:23.96,0:08:25.11,Main,Eren,0000,0000,0000,,Well, then...
+Dialogue: 0,0:08:28.16,0:08:32.25,Main,Shizu,0000,0000,0000,,Traveling together has shown me \Nhow nice it is to be part of a group.
+Dialogue: 0,0:08:32.84,0:08:36.88,Main,Shizu,0000,0000,0000,,I'm truly grateful my last journey \Nwas made with all of you.
+Dialogue: 0,0:08:37.41,0:08:40.63,Main,Eren,0000,0000,0000,,Shizu, what do you mean by "last"?
+Dialogue: 0,0:08:41.14,0:08:43.56,Main,Shizu,0000,0000,0000,,I've been around for decades, you know.
+Dialogue: 0,0:08:43.56,0:08:45.51,Main,Shizu,0000,0000,0000,,I'm not as young as I look.
+Dialogue: 0,0:08:46.59,0:08:50.26,Main,Eren,0000,0000,0000,,Huh? O-Oh, you were just joking!
+Dialogue: 0,0:08:50.26,0:08:52.89,Main,Eren,0000,0000,0000,,Gosh, don't scare me like that!
+Dialogue: 0,0:08:55.30,0:08:57.35,Main,Rigur,0000,0000,0000,,Ah, here they come.
+Dialogue: 0,0:08:57.94,0:08:59.41,Main,Eren,0000,0000,0000,,Sorry for the wait!
+Dialogue: 0,0:08:59.89,0:09:02.00,Main,Gido,0000,0000,0000,,Oh, we waited, all right.
+Dialogue: 0,0:09:02.00,0:09:05.28,Main,Kaval,0000,0000,0000,,Jeez, why do women take so long to get ready?
+Dialogue: 0,0:09:15.89,0:09:17.20,Main,Eren,0000,0000,0000,,Shizu?
+Dialogue: 0,0:09:20.93,0:09:22.37,Main,Rigurd,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:09:22.71,0:09:24.72,Main,Shizu,0000,0000,0000,,Not... again...
+Dialogue: 0,0:09:25.02,0:09:26.09,Main,Gido,0000,0000,0000,,Shizu?
+Dialogue: 0,0:09:26.09,0:09:27.22,Main,Kaval,0000,0000,0000,,Hey, what's wrong with you?
+Dialogue: 0,0:09:28.53,0:09:29.51,Main,Eren,0000,0000,0000,,Shizu!
+Dialogue: 0,0:09:39.90,0:09:42.41,Main,Eren,0000,0000,0000,,Shizu! Shizu!
+Dialogue: 0,0:10:11.68,0:10:13.33,Main,Rimuru,0000,0000,0000,,Hey! Is everyone okay?
+Dialogue: 0,0:10:13.94,0:10:15.12,Main,Kaval,0000,0000,0000,,What the hell is this?
+Dialogue: 0,0:10:15.12,0:10:17.31,Main,Kaval,0000,0000,0000,,We charge extra for hazard pay, you know!
+Dialogue: 0,0:10:17.31,0:10:20.19,Main,Gido,0000,0000,0000,,You should be telling Fuze that!
+Dialogue: 0,0:10:20.19,0:10:22.44,Main,Eren,0000,0000,0000,,Shizu! Shizu!
+Dialogue: 0,0:10:25.67,0:10:28.59,Main,Kaval,0000,0000,0000,,Shizu... Shizue Izawa?
+Dialogue: 0,0:10:28.59,0:10:29.15,Main,Eren,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:29.15,0:10:31.20,Main,Gido,0000,0000,0000,,Isn't Shizue Izawa...
+Dialogue: 0,0:10:31.42,0:10:33.50,Main,Kaval,0000,0000,0000,,...the Conqueror of Flames?!
+Dialogue: 0,0:10:35.79,0:10:40.46,Main,Eren,0000,0000,0000,,Y-You mean the hero of the \Nguild from about 50 years ago?!
+Dialogue: 0,0:10:40.92,0:10:42.42,Main,Eren,0000,0000,0000,,Shizu is her?
+Dialogue: 0,0:10:42.42,0:10:43.65,Main,Gido,0000,0000,0000,,The Conqueror of...
+Dialogue: 0,0:10:44.98,0:10:47.59,Main,Kaval,0000,0000,0000,,Wasn't she retired already?
+Dialogue: 0,0:10:51.37,0:10:52.76,Main,Rimuru,0000,0000,0000,,Rigurd, Rigur.
+Dialogue: 0,0:10:53.85,0:10:55.31,Main,Rimuru,0000,0000,0000,,Evacuate the others.
+Dialogue: 0,0:10:55.63,0:10:56.64,Main,Rigurd,0000,0000,0000,,But...
+Dialogue: 0,0:10:56.64,0:10:57.91,Main,Rigur,0000,0000,0000,,Rimuru-sama...
+Dialogue: 0,0:10:57.91,0:10:59.07,Main,Rimuru,0000,0000,0000,,That's an order.
+Dialogue: 0,0:10:59.07,0:11:01.19,Main,Rigurd,0000,0000,0000,,Yes, sir! As you wish!
+Dialogue: 0,0:11:05.17,0:11:06.30,Main,Rimuru,0000,0000,0000,,Are you there, Ranga?
+Dialogue: 0,0:11:07.01,0:11:09.01,Main,Ranga,0000,0000,0000,,Right here, Master.
+Dialogue: 0,0:11:09.42,0:11:10.68,Main,Rimuru,0000,0000,0000,,Once it starts, you're up.
+Dialogue: 0,0:11:10.68,0:11:11.57,Main,Ranga,0000,0000,0000,,Of course!
+Dialogue: 0,0:11:35.50,0:11:38.48,Main,Kaval,0000,0000,0000,,The fire spirit, Ifrit...
+Dialogue: 0,0:11:38.48,0:11:41.60,Main,Gido,0000,0000,0000,,There's no mistake, then. Shizu is...
+Dialogue: 0,0:11:41.60,0:11:45.23,Main,Eren,0000,0000,0000,,...the legendary hero, \Nthe Conqueror of Flames.
+Dialogue: 0,0:11:45.60,0:11:48.64,Main,Eren,0000,0000,0000,,Th-There's no way we can win \Nif we have to fight that!
+Dialogue: 0,0:11:48.64,0:11:52.99,Main,Gido,0000,0000,0000,,Not a chance. We're going to die here.
+Dialogue: 0,0:11:53.64,0:11:56.78,Main,Gido,0000,0000,0000,,My life was so short...
+Dialogue: 0,0:12:19.96,0:12:23.35,Main,Rimuru,0000,0000,0000,,Damn it! We just built all that!
+Dialogue: 0,0:12:23.67,0:12:25.39,Main,Eren,0000,0000,0000,,Ouch...
+Dialogue: 0,0:12:25.39,0:12:27.36,Main,Rimuru,0000,0000,0000,,You guys need to get out of here!
+Dialogue: 0,0:12:28.39,0:12:30.68,Main,Rimuru,0000,0000,0000,,We can't do that.
+Dialogue: 0,0:12:35.57,0:12:39.03,Main,Kaval,0000,0000,0000,,I don't know why she's \Nsuddenly out for blood...
+Dialogue: 0,0:12:39.51,0:12:41.33,Main,Gido,0000,0000,0000,,But she's one of us!
+Dialogue: 0,0:12:41.80,0:12:43.12,Main,Eren,0000,0000,0000,,We can't just leave her!
+Dialogue: 0,0:12:43.41,0:12:45.60,Main,Rimuru,0000,0000,0000,,All right. Just be careful.
+Dialogue: 0,0:12:46.43,0:12:48.17,Italics,Rimuru,0000,0000,0000,,They're really nice guys.
+Dialogue: 0,0:12:49.60,0:12:53.67,Main,Kaval,0000,0000,0000,,Never thought I'd see the day \Nwhen I'd fight a legendary hero.
+Dialogue: 0,0:12:53.95,0:12:56.93,Main,Gido,0000,0000,0000,,You never know what's \Ngoing to happen in life.
+Dialogue: 0,0:12:58.46,0:12:59.43,Main,Rimuru,0000,0000,0000,,Let's go!
+Dialogue: 0,0:13:04.94,0:13:07.69,Main,Rimuru,0000,0000,0000,,Hey! What is it you want?
+Dialogue: 0,0:13:13.90,0:13:14.69,Main,Rimuru,0000,0000,0000,,Water Blade!
+Dialogue: 0,0:13:20.48,0:13:22.74,Main,Rimuru,0000,0000,0000,,Yeah, I should've expected that.
+Dialogue: 0,0:13:27.47,0:13:29.14,Main,Eren,0000,0000,0000,,Icicle Lance!
+Dialogue: 0,0:13:38.23,0:13:40.43,Main,Rimuru,0000,0000,0000,,Hey, you doing okay?
+Dialogue: 0,0:13:40.43,0:13:42.06,Main,Eren,0000,0000,0000,,Just leave this to us!
+Dialogue: 0,0:13:42.30,0:13:45.89,Main,Eren,0000,0000,0000,,We've put our lives on the line \Nto be adventurers, you know!
+Dialogue: 0,0:13:46.16,0:13:48.67,Main,Kaval,0000,0000,0000,,Hey, gimme a break.
+Dialogue: 0,0:13:48.67,0:13:50.57,Main,Kaval,0000,0000,0000,,I'm the leader, remember?
+Dialogue: 0,0:13:50.57,0:13:52.30,Main,Kaval,0000,0000,0000,,Well, whatever.
+Dialogue: 0,0:13:52.30,0:13:54.03,Main,Kaval,0000,0000,0000,,We've got the first one!
+Dialogue: 0,0:13:54.54,0:13:56.82,Main,Gido,0000,0000,0000,,We're all in the same boat, as they say!
+Dialogue: 0,0:13:57.17,0:13:58.41,Main,Rimuru,0000,0000,0000,,I'll leave you to it, then.
+Dialogue: 0,0:13:58.41,0:13:59.87,Main,Rimuru,0000,0000,0000,,But don't overdo it.
+Dialogue: 0,0:14:00.16,0:14:01.49,Main,Rimuru,0000,0000,0000,,Whoa!
+Dialogue: 0,0:14:05.61,0:14:06.61,Main,Rimuru,0000,0000,0000,,Ranga!
+Dialogue: 0,0:14:07.07,0:14:07.86,Main,Ranga,0000,0000,0000,,Yes!
+Dialogue: 0,0:14:16.40,0:14:17.84,Main,Rimuru,0000,0000,0000,,Ranga, here they come!
+Dialogue: 0,0:14:23.46,0:14:26.14,Main,Rimuru,0000,0000,0000,,Just concentrate on evading \Nthem! I'll do the attacking!
+Dialogue: 0,0:14:26.53,0:14:27.85,Main,Ranga,0000,0000,0000,,Understood!
+Dialogue: 0,0:14:45.97,0:14:49.05,Main,Rimuru,0000,0000,0000,,We need to take care of those \Nguys before we can face Ifrit.
+Dialogue: 0,0:14:49.05,0:14:52.38,Main,Rimuru,0000,0000,0000,,What to do? My Water Blade \Nwill just evaporate...
+Dialogue: 0,0:14:53.72,0:14:57.80,Italics,Rimuru,0000,0000,0000,,But what if I shoot all the water \Nin my belly toward them at once?
+Dialogue: 0,0:14:58.16,0:14:59.13,Italics_Top,Great Sage,0000,0000,0000,,Answer.
+Dialogue: 0,0:14:58.30,0:14:59.30,Main,Text,0000,0000,0000,,Answer
+Dialogue: 0,0:14:59.13,0:15:01.45,Italics_Top,Great Sage,0000,0000,0000,,Expulsion of great amounts \Nof water is possible.
+Dialogue: 0,0:14:59.38,0:15:01.68,sign_21564_164_Expulsion_of_gre,Text,0000,0000,0000,,{\fad(1071,1)}Expulsion of\Ngreat amounts of water\Nis possible
+Dialogue: 0,0:15:01.72,0:15:03.35,Italics_Top,Great Sage,0000,0000,0000,,When it makes contact with a Salamander,
+Dialogue: 0,0:15:03.35,0:15:05.35,Italics_Top,Great Sage,0000,0000,0000,,it will cause an explosion of steam.
+Dialogue: 0,0:15:05.72,0:15:06.81,Italics_Top,Great Sage,0000,0000,0000,,Take this action?
+Dialogue: 0,0:15:05.81,0:15:06.81,sign_21718_168_Take_this_action,Text,0000,0000,0000,,{\fad(605,1)}Take this action?
+Dialogue: 0,0:15:07.23,0:15:08.87,Main,Rimuru,0000,0000,0000,,An explosion of steam?
+Dialogue: 0,0:15:08.87,0:15:11.21,Main,Rimuru,0000,0000,0000,,Will that destroy the Salamanders?
+Dialogue: 0,0:15:11.21,0:15:12.38,Italics_Top,Great Sage,0000,0000,0000,,It is possible.
+Dialogue: 0,0:15:13.44,0:15:18.07,Italics_Top,Great Sage,0000,0000,0000,,However, the force of the blast may \Ndestroy the surrounding area, as well.
+Dialogue: 0,0:15:18.30,0:15:20.69,Main,Rimuru,0000,0000,0000,,Well, what's the point in that, then?!
+Dialogue: 0,0:15:22.61,0:15:24.35,Main,Eren,0000,0000,0000,,Icicle Lance!
+Dialogue: 0,0:15:30.61,0:15:32.75,Main,Rimuru,0000,0000,0000,,Her attack is working, isn't it?
+Dialogue: 0,0:15:33.15,0:15:36.20,Italics_Top,Great Sage,0000,0000,0000,,Magic attacks are effective against spirits.
+Dialogue: 0,0:15:36.69,0:15:37.97,Main,Rimuru,0000,0000,0000,,Which means...
+Dialogue: 0,0:15:38.25,0:15:39.40,Main,Rimuru,0000,0000,0000,,Ranga!
+Dialogue: 0,0:15:39.40,0:15:40.21,Main,Ranga,0000,0000,0000,,Yes!
+Dialogue: 0,0:15:43.26,0:15:46.01,Main,Rimuru,0000,0000,0000,,Eren! Fire that attack at me!
+Dialogue: 0,0:15:46.24,0:15:49.89,Main,Eren,0000,0000,0000,,What?! Um, I don't know if I can...
+Dialogue: 0,0:15:49.89,0:15:51.77,Main,Rimuru,0000,0000,0000,,Just do it! Hurry!
+Dialogue: 0,0:15:51.77,0:15:54.27,Main,Eren,0000,0000,0000,,Don't complain to me later!
+Dialogue: 0,0:15:54.63,0:15:58.27,Main,Eren,0000,0000,0000,,Icicle Lance!
+Dialogue: 0,0:16:05.87,0:16:08.66,Main,Eren,0000,0000,0000,,What?! My magic...
+Dialogue: 0,0:16:09.25,0:16:10.21,Italics_Top,Great Sage,0000,0000,0000,,Notice.
+Dialogue: 0,0:16:09.29,0:16:10.33,sign_21718_168_Take_this_action,Text,0000,0000,0000,,Notice
+Dialogue: 0,0:16:10.21,0:16:13.16,Main,Great,0000,0000,0000,,Analysis of Icicle Lance successful.
+Dialogue: 0,0:16:11.37,0:16:13.16,sign_23290_189_Analysis,Text,0000,0000,0000,,{\fad(193,1)}Analysis
+Dialogue: 0,0:16:12.08,0:16:13.16,sign_23290_189_Analysis,Text,0000,0000,0000,,{\pos(380,180)\fad(151,1)}Successful
+Dialogue: 0,0:16:13.37,0:16:13.96,Main,Rimuru,0000,0000,0000,,All right!
+Dialogue: 0,0:16:29.89,0:16:31.52,Main,Rimuru,0000,0000,0000,,Icicle Shotgun!
+Dialogue: 0,0:16:34.93,0:16:35.66,Main,Rimuru,0000,0000,0000,,Yes!
+Dialogue: 0,0:16:42.57,0:16:43.99,Main,Rimuru,0000,0000,0000,,I'll get that one, too—
+Dialogue: 0,0:16:48.74,0:16:50.58,Main,Kaval,0000,0000,0000,,It's gonna blow itself up!
+Dialogue: 0,0:16:59.65,0:17:01.59,Main,Rimuru,0000,0000,0000,,Hey! Are you o—
+Dialogue: 0,0:17:02.32,0:17:03.63,Main,Rimuru,0000,0000,0000,,Nope, they're not...
+Dialogue: 0,0:17:07.81,0:17:10.51,Main,Rimuru,0000,0000,0000,,Ranga, get these three someplace safe.
+Dialogue: 0,0:17:10.70,0:17:11.74,Main,Ranga,0000,0000,0000,,But...
+Dialogue: 0,0:17:11.74,0:17:12.69,Main,Rimuru,0000,0000,0000,,Go!
+Dialogue: 0,0:17:12.69,0:17:15.18,Main,Rimuru,0000,0000,0000,,As you command, Master.
+Dialogue: 0,0:17:15.18,0:17:16.27,Main,Rimuru,0000,0000,0000,,Please be well.
+Dialogue: 0,0:17:16.67,0:17:17.89,Main,Rimuru,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:17:19.82,0:17:21.79,Main,Rimuru,0000,0000,0000,,I'll take down Ifrit.
+Dialogue: 0,0:17:33.84,0:17:37.54,Main,Rimuru,0000,0000,0000,,Okay, now we can fight without holding back.
+Dialogue: 0,0:18:05.15,0:18:07.65,Main,Rimuru,0000,0000,0000,,Take this! Icicle Shotgun!
+Dialogue: 0,0:18:15.68,0:18:16.66,Main,Rimuru,0000,0000,0000,,It's gonna work!
+Dialogue: 0,0:18:32.17,0:18:33.28,Main,Ranga,0000,0000,0000,,Master...
+Dialogue: 0,0:18:48.17,0:18:51.20,Italics,Rimuru,0000,0000,0000,,There should've been \Nsomething else I could do!
+Dialogue: 0,0:18:51.20,0:18:55.20,Italics,Rimuru,0000,0000,0000,,I can't believe I fell into the enemy's trap!
+Dialogue: 0,0:18:55.61,0:19:00.46,Italics,Rimuru,0000,0000,0000,,Instead of talking about seals, \NI should've hit them with Black Lightning!
+Dialogue: 0,0:19:00.46,0:19:03.73,Italics,Rimuru,0000,0000,0000,,And after I was just reincarnated \Nhere as a slime!
+Dialogue: 0,0:19:03.73,0:19:06.70,Italics,Rimuru,0000,0000,0000,,Is this really the end?!
+Dialogue: 0,0:19:07.43,0:19:08.93,Italics,Rimuru,0000,0000,0000,,It was a short life...
+Dialogue: 0,0:19:09.49,0:19:11.82,Italics,Rimuru,0000,0000,0000,,rather, a short slife.
+Dialogue: 0,0:19:13.58,0:19:17.06,Italics,Rimuru,0000,0000,0000,,Actually, I don't seem \Nto be taking much damage.
+Dialogue: 0,0:19:18.06,0:19:19.73,Italics,Rimuru,0000,0000,0000,,How long is it gonna take?
+Dialogue: 0,0:19:19.73,0:19:21.15,Italics,Rimuru,0000,0000,0000,,Is this some kind of tease?
+Dialogue: 0,0:19:22.04,0:19:22.88,Italics_Top,Great Sage,0000,0000,0000,,Answer.
+Dialogue: 0,0:19:22.15,0:19:22.73,sign_27864_219_Answer,Text,0000,0000,0000,,Answer
+Dialogue: 0,0:19:23.48,0:19:25.44,sign_27896_221_As_Previously_St,Text,0000,0000,0000,,As Previously Stated
+Dialogue: 0,0:19:23.48,0:19:25.44,sign_27896_222_Thermal_Fluctuat,Text,0000,0000,0000,,Thermal Fluctuation Resistance
+Dialogue: 0,0:19:23.48,0:19:25.51,Italics_Top,Great Sage,0000,0000,0000,,Due to "Thermal Fluctuation Resistance,"
+Dialogue: 0,0:19:25.51,0:19:28.90,Italics_Top,Great Sage,0000,0000,0000,,fire attacks are being \Nautomatically nullified.
+Dialogue: 0,0:19:25.73,0:19:28.90,sign_27896_222_Thermal_Fluctuat,Text,0000,0000,0000,,{\fs30}Fire attacks are being\N\Nautomatically nullified.
+Dialogue: 0,0:19:29.13,0:19:29.98,Main,Rimuru,0000,0000,0000,,Ah.
+Dialogue: 0,0:19:30.40,0:19:31.20,Italics_Top,Great Sage,0000,0000,0000,,Sigh...
+Dialogue: 0,0:19:31.61,0:19:33.75,Main,Rimuru,0000,0000,0000,,Hey, why do you sound exasperated?!
+Dialogue: 0,0:19:34.07,0:19:38.08,Main,Rimuru,0000,0000,0000,,Oh, well. If I can nullify fire attacks,
+Dialogue: 0,0:19:38.62,0:19:40.22,Main,Rimuru,0000,0000,0000,,this'll be easy mode!
+Dialogue: 0,0:19:40.62,0:19:42.15,Main,Rimuru,0000,0000,0000,,It's all good!
+Dialogue: 0,0:19:42.15,0:19:44.46,Italics,Rimuru,0000,0000,0000,,In fact, everything is...
+Dialogue: 0,0:19:44.63,0:19:46.42,Italics,Rimuru,0000,0000,0000,,according to plan!
+Dialogue: 0,0:20:10.22,0:20:12.27,Main,Rimuru,0000,0000,0000,,Did you just do something to me?
+Dialogue: 0,0:20:18.53,0:20:23.09,Main,Rimuru,0000,0000,0000,,I underestimated you, but not as \Nmuch as you underestimated me.
+Dialogue: 0,0:20:28.76,0:20:30.20,Main,Rimuru,0000,0000,0000,,My turn.
+Dialogue: 0,0:20:33.44,0:20:36.35,Italics_Top,Great,0000,0000,0000,,Use unique skill "Predator"?
+Dialogue: 0,0:20:37.41,0:20:38.32,Main,Rimuru,0000,0000,0000,,Yes!
+Dialogue: 0,0:20:55.37,0:20:56.55,Main,Rimuru,0000,0000,0000,,Shizu-san!
+Dialogue: 0,0:21:18.86,0:21:21.18,Main,Veldora,0000,0000,0000,,Give up, Ifrit.
+Dialogue: 0,0:21:29.34,0:21:32.11,Main,Veldora,0000,0000,0000,,You cannot break out of this place.
+Dialogue: 0,0:21:36.36,0:21:39.06,Main,Veldora,0000,0000,0000,,You are no match for Rimuru.
+Dialogue: 0,0:21:39.44,0:21:41.95,Main,Veldora,0000,0000,0000,,He is my sworn friend!
+Dialogue: 0,0:21:44.42,0:21:48.05,Main,Veldora,0000,0000,0000,,I am the Storm Dragon, Veldora Tempest.
+Dialogue: 0,0:21:48.64,0:21:51.33,Main,Veldora,0000,0000,0000,,It would be my pleasure to face you.
+Dialogue: 0,0:23:35.82,0:23:38.48,Italics_Top,Great Sage,0000,0000,0000,,Next time, "Inherited Will."
+Dialogue: 0,0:23:35.94,0:23:39.94,Next_Ep_Title,Title,0000,0000,0000,,{\u1\bord0\c&HCEDDE8&\fad(985,1)}Inherited{\u0} {\c&H000000&\3c&HD0DCE0&\bord2}Will
+Dialogue: 0,0:23:38.18,0:23:40.18,Main,,0000,0000,0000,,
+

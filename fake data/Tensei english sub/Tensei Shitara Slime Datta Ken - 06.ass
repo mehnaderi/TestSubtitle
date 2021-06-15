@@ -1,0 +1,370 @@
+[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00500000,&H00500000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Flashback_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00500000,&H00500000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Flashback_Italics_Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00500000,&H00500000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Italics_Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Show_Title,Arial,24,&H00CD9612,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,3,4,0,8,0010,0010,0020,1
+Style: Ep_Title,Times New Roman,18,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,0,0,0,0,100,100,0,0,1,1,1,3,0010,0042,0050,1
+Style: Next_Ep_Title,Times New Roman,26,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,0010,0010,0110,1
+Style: sign_2170_2_The_Ameldo_River,Times New Roman,20,&H00000000,&H000000FF,&H0093D2DC,&H3C000000,-1,0,0,0,100,100,0,0,3,4,2,2,0010,0010,0100,1
+Style: sign_2236_3_Free_Union__Blum,Times New Roman,24,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,-1,0,0,0,100,100,0,0,1,2,1,2,0157,0157,0065,1
+Style: sign_2572_8_Guildmaster_Fuze,Times New Roman,12,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0095,1
+Style: sign_2949_14_Kaval__Job_Class,Times New Roman,24,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,-1,0,0,0,100,100,0,0,1,2,1,2,0172,0172,0070,1
+Style: sign_6460_64_____Tempest_Star,Times New Roman,24,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,-1,0,0,0,100,100,0,0,1,2,1,2,0176,0176,0015,1
+Style: sign_6573_66_Black_Lightning,Times New Roman,24,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,-1,0,0,0,100,100,0,0,1,2,1,2,0226,0226,0140,1
+Style: sign_7916_76_Kaijin,Times New Roman,24,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,-1,0,0,0,100,100,0,0,1,1,2,2,0350,0215,0102,1
+Style: sign_8255_80_Garm,Times New Roman,24,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,-1,0,0,0,100,100,0,0,1,1,2,2,0445,0125,0112,1
+Style: sign_8393_82_Dord,Times New Roman,24,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,-1,0,0,0,100,100,0,0,1,1,2,2,0408,0171,0112,1
+Style: sign_8542_85_Myrd,Times New Roman,24,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,-1,0,0,0,100,100,0,0,1,1,2,2,0286,0286,0115,1
+Style: sign_26979_293_Thought_Communic,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,5,0173,0173,0000,1
+Style: sign_27777_299_Super_Express_Hi,Trebuchet MS,18,&H00261C16,&H000000FF,&H00B6C4CB,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0145,0323,0082,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:12.15,0:00:16.03,Show_Title,Title,0000,0000,0000,,{\fad(1614,389)}That {\c&H471E13&}Time {\c&HCD9612&}I Got {\c&H471E13&}Reincarnated {\c&HCD9612&}as a {\c&H7E4F0A&}Slime
+Dialogue: 0,0:01:30.48,0:01:33.23,sign_2170_2_The_Ameldo_River,Text,0000,0000,0000,,{\fad(527,1)\clip(m 190 230 l 426 230 425 270 208 270)\c&HFFFFFF&\3c&H23C318&\4c&H0B1B61&\shad3}\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hThe Ameld River\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:01:33.23,0:01:36.07,sign_2236_3_Free_Union__Blum,Text,0000,0000,0000,,Free Union  Blumund Guild
+Dialogue: 0,0:01:36.53,0:01:41.16,Ep_Title,Title,0000,0000,0000,,{\fad(1025,560)}Episode 6: Shizu
+Dialogue: 0,0:01:37.66,0:01:41.81,Main,Fuze,0000,0000,0000,,{\an8}There's no sign that the Eastern Empire is \Ntrying to cross the Great Forest of Jura.
+Dialogue: 0,0:01:42.24,0:01:43.74,Main,Fuze,0000,0000,0000,,{\an8}Not yet, at least.
+Dialogue: 0,0:01:46.93,0:01:49.86,Main,Fuze,0000,0000,0000,,{\an8}Our intelligence bureau is \Ncontinuing to monitor them.
+Dialogue: 0,0:01:47.25,0:01:51.50,sign_2572_8_Guildmaster_Fuze,Text,0000,0000,0000,,{\fad(524,1)}Guildmaster{\fs24} Fuze
+Dialogue: 0,0:01:50.91,0:01:54.21,Main,Fuze,0000,0000,0000,,{\an8}So, how did it go in the \NGreat Forest of Jura?
+Dialogue: 0,0:01:54.36,0:01:56.16,Main,Kaval,0000,0000,0000,,{\an8}It was a disaster!
+Dialogue: 0,0:01:56.16,0:01:59.57,Main,Kaval,0000,0000,0000,,{\an8}Can't you even say you're glad \Nwe came back in one piece?
+Dialogue: 0,0:02:00.69,0:02:02.01,Main,Fuze,0000,0000,0000,,{\an8}Let's hear your report.
+Dialogue: 0,0:02:02.72,0:02:05.85,Main,Kaval,0000,0000,0000,,{\an8}Seriously? We just got back.
+Dialogue: 0,0:02:02.93,0:02:05.85,sign_2949_14_Kaval__Job_Class,Text,0000,0000,0000,,{\fad(526,1)}Kaval  {\fs14}Job Class: {\fs16}Fighter
+Dialogue: 0,0:02:06.14,0:02:08.48,sign_2949_14_Kaval__Job_Class,Text,0000,0000,0000,,{\fad(528,10}Eren  {\fs14}Job Class: {\fs16}Sorcerer
+Dialogue: 0,0:02:06.41,0:02:08.48,Main,Eren,0000,0000,0000,,{\an8}I really want a bath...
+Dialogue: 0,0:02:08.77,0:02:12.02,sign_2949_14_Kaval__Job_Class,Text,0000,0000,0000,,{\fad(525,1)}Gido  {\fs14}Job Class: {\fs16}Thief
+Dialogue: 0,0:02:08.95,0:02:10.39,Main,Gido,0000,0000,0000,,{\an8}You think you two had it rough?
+Dialogue: 0,0:02:10.39,0:02:15.07,Main,Gido,0000,0000,0000,,{\an8}I had to listen to you \Nsquabbling the whole time.
+Dialogue: 0,0:02:17.11,0:02:18.37,Main,Kaval,0000,0000,0000,,Um...
+Dialogue: 0,0:02:20.93,0:02:25.68,Main,Kaval,0000,0000,0000,,While in the cave, we confirmed \NVeldora's disappearance.
+Dialogue: 0,0:02:25.68,0:02:27.58,Main,Kaval,0000,0000,0000,,We then searched the cave, \Nbut we found nothing.
+Dialogue: 0,0:02:28.66,0:02:29.80,Main,Fuze,0000,0000,0000,,Nothing?
+Dialogue: 0,0:02:29.80,0:02:31.33,Main,Eren,0000,0000,0000,,No, nothing.
+Dialogue: 0,0:02:33.09,0:02:35.34,Main,Fuze,0000,0000,0000,,I'm now clear on what happened in the cave.
+Dialogue: 0,0:02:35.48,0:02:36.66,Main,Gido,0000,0000,0000,,Then we'll just be—
+Dialogue: 0,0:02:36.66,0:02:38.24,Main,Fuze,0000,0000,0000,,I'll give you three days off.
+Dialogue: 0,0:02:38.24,0:02:39.09,Main,Three,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:39.30,0:02:42.80,Main,Fuze,0000,0000,0000,,Next, instead of the cave, you'll \Ninvestigate around the forest.
+Dialogue: 0,0:02:43.86,0:02:47.68,Main,Fuze,0000,0000,0000,,The monsters may be more \Nactive with Veldora gone.
+Dialogue: 0,0:02:47.68,0:02:50.10,Main,Fuze,0000,0000,0000,,Don't overlook any changes, \Nno matter how small.
+Dialogue: 0,0:02:50.57,0:02:52.97,Main,Fuze,0000,0000,0000,,Be thorough. Search every nook and cranny.
+Dialogue: 0,0:02:53.36,0:02:54.51,Main,Fuze,0000,0000,0000,,You may go.
+Dialogue: 0,0:02:55.52,0:02:57.53,Main,Kaval,0000,0000,0000,,"You may go," my ass!
+Dialogue: 0,0:02:57.53,0:02:59.40,Main,Eren,0000,0000,0000,,Why only three days?!
+Dialogue: 0,0:02:59.40,0:03:00.84,Main,Eren,0000,0000,0000,,Give us a longer break!
+Dialogue: 0,0:03:00.84,0:03:03.28,Main,Eren,0000,0000,0000,,We {\i1}just{\i0} got back, you know!
+Dialogue: 0,0:03:05.72,0:03:09.96,Main,Gido,0000,0000,0000,,I wish you would've said all \Nthis to the guildmaster.
+Dialogue: 0,0:03:09.96,0:03:13.23,Main,Kaval,0000,0000,0000,,That stupid old geezer!
+Dialogue: 0,0:03:09.96,0:03:13.23,Main,Eren,0000,0000,0000,,Give us a longer break!
+Dialogue: 0,0:03:14.73,0:03:16.91,Main,Eren,0000,0000,0000,,We have to go back to that forest?
+Dialogue: 0,0:03:16.91,0:03:20.55,Main,Kaval,0000,0000,0000,,Jeez, can't we do anything but complain? \NIt's making me feel worse.
+Dialogue: 0,0:03:20.80,0:03:22.25,Main,Eren,0000,0000,0000,,I want my bath...
+Dialogue: 0,0:03:22.25,0:03:23.10,Main,Shizu,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:03:30.05,0:03:31.23,Main,Kaval,0000,0000,0000,,Who are you?
+Dialogue: 0,0:03:31.61,0:03:34.58,Main,Shizu,0000,0000,0000,,Did you not say you are going \Nto the Great Forest of Jura?
+Dialogue: 0,0:03:35.00,0:03:36.51,Main,Kaval,0000,0000,0000,,What if we did?
+Dialogue: 0,0:03:36.99,0:03:39.86,Main,Shizu,0000,0000,0000,,Would you allow me to accompany \Nyou through the forest?
+Dialogue: 0,0:03:41.99,0:03:42.80,Main,Eren,0000,0000,0000,,Sure!
+Dialogue: 0,0:03:42.80,0:03:44.64,Main,Kaval,0000,0000,0000,,Hey!
+Dialogue: 0,0:03:44.64,0:03:47.37,Main,Kaval,0000,0000,0000,,I'm the leader! You can't \Ngive the okay before I do!
+Dialogue: 0,0:03:47.69,0:03:48.90,Main,Eren,0000,0000,0000,,Why not?
+Dialogue: 0,0:03:48.90,0:03:51.37,Main,Eren,0000,0000,0000,,Traveling is best with companions, \Nand life is best with compassion.
+Dialogue: 0,0:03:51.86,0:03:54.86,Main,Eren,0000,0000,0000,,Eren, Kaval, and Gido.
+Dialogue: 0,0:03:56.39,0:03:57.38,Main,Shizu,0000,0000,0000,,Shizu.
+Dialogue: 0,0:03:57.76,0:03:59.50,Main,Eren,0000,0000,0000,,Welcome aboard, Shizu!
+Dialogue: 0,0:03:59.96,0:04:01.04,Main,Kaval,0000,0000,0000,,Sheesh...
+Dialogue: 0,0:04:01.68,0:04:03.18,Main,Kaval,0000,0000,0000,,We leave in three days.
+Dialogue: 0,0:04:03.70,0:04:06.05,Main,Kaval,0000,0000,0000,,If that's okay with you, \Ncome along if you want.
+Dialogue: 0,0:04:08.56,0:04:09.70,Main,Shizu,0000,0000,0000,,I appreciate it.
+Dialogue: 0,0:04:17.67,0:04:20.34,Main,Rimuru,0000,0000,0000,,Ready, Ranga. Watch closely.
+Dialogue: 0,0:04:20.34,0:04:21.11,Main,Ranga,0000,0000,0000,,I shall!
+Dialogue: 0,0:04:21.38,0:04:24.15,Main,Rimuru,0000,0000,0000,,Rimuru, transform!
+Dialogue: 0,0:04:29.41,0:04:31.12,sign_6460_64_____Tempest_Star,Text,0000,0000,0000,,{\fad(276,1)}— Tempest Star Wolf —
+Dialogue: 0,0:04:31.51,0:04:34.00,Main,Rimuru,0000,0000,0000,,And now... Black Lightning!
+Dialogue: 0,0:04:34.12,0:04:35.62,sign_6573_66_Black_Lightning,Text,0000,0000,0000,,Black Lightning
+Dialogue: 0,0:04:46.87,0:04:48.23,Main,Rimuru,0000,0000,0000,,Wow.
+Dialogue: 0,0:04:52.05,0:04:55.23,Italics,Rimuru,0000,0000,0000,,I thought I'd try out the \Nnew skill I just learned,
+Dialogue: 0,0:04:55.23,0:04:59.15,Italics,Rimuru,0000,0000,0000,,but I'll have to be careful how I \Nuse it. It could be {\i0}too{\i1} powerful.
+Dialogue: 0,0:04:59.40,0:05:01.28,Main,Ranga,0000,0000,0000,,Black Lightning...
+Dialogue: 0,0:05:01.28,0:05:02.93,Main,Ranga,0000,0000,0000,,You never cease to amaze, Master!
+Dialogue: 0,0:05:11.30,0:05:13.96,Main,Rimuru,0000,0000,0000,,Ah... Everything's so peaceful.
+Dialogue: 0,0:05:17.24,0:05:19.90,Italics,Rimuru,0000,0000,0000,,Uh-huh. Looks like they're doing great.
+Dialogue: 0,0:05:21.08,0:05:23.93,Italics,Na,0000,0000,0000,,A few weeks had passed since Rimuru \Nreturned from Dwargon with Kaijin
+Dialogue: 0,0:05:23.93,0:05:25.75,Italics,Na,0000,0000,0000,,and the other dwarves.
+Dialogue: 0,0:05:30.14,0:05:34.27,sign_7916_76_Kaijin,,0000,0000,0000,,{\fad(523,1)}Kaijin
+Dialogue: 0,0:05:30.41,0:05:33.05,Main,Kaijin,0000,0000,0000,,{\an8}Strike while the iron's hot, as we say!
+Dialogue: 0,0:05:35.08,0:05:38.40,Italics,Na,0000,0000,0000,,There's the blacksmith, Kaijin, \Nwith expert smithing skills...
+Dialogue: 0,0:05:40.56,0:05:44.80,Italics,Na,0000,0000,0000,,The oldest of the three dwarf \Nbrothers, Garm, an armor smith...
+Dialogue: 0,0:05:44.28,0:05:47.53,sign_8255_80_Garm,Text,0000,0000,0000,,{\fad(481,1)}Garm
+Dialogue: 0,0:05:44.80,0:05:47.53,Main,Garm,0000,0000,0000,,Tanning hides makes them more durable.
+Dialogue: 0,0:05:50.03,0:05:53.99,sign_8393_82_Dord,Text,0000,0000,0000,,{\fad(528,1)}Dord
+Dialogue: 0,0:05:50.35,0:05:53.99,Italics,Na,0000,0000,0000,,The middle brother, Dord, whose \Ncraftsmanship is the finest among all dwarves...
+Dialogue: 0,0:05:55.76,0:05:57.09,Italics,Na,0000,0000,0000,,And the youngest brother, Myrd,
+Dialogue: 0,0:05:56.25,0:06:00.04,sign_8542_85_Myrd,Text,0000,0000,0000,,{\fad(523,1)}Myrd
+Dialogue: 0,0:05:57.09,0:06:00.04,Italics,Na,0000,0000,0000,,whose skill with his hands makes him \Nan expert in architecture and the arts.
+Dialogue: 0,0:06:01.31,0:06:03.36,Italics,Na,0000,0000,0000,,With their guidance,
+Dialogue: 0,0:06:03.36,0:06:07.25,Italics,Na,0000,0000,0000,,Rimuru and the Goblins were well on \Ntheir way to building a new village.
+Dialogue: 0,0:06:09.36,0:06:11.72,Italics,Rimuru,0000,0000,0000,,When we first came back from Dwargon,
+Dialogue: 0,0:06:11.72,0:06:14.64,Italics,Rimuru,0000,0000,0000,,I was a little surprised to \Nsee what had happened...
+Dialogue: 0,0:06:15.41,0:06:18.39,Flashback,Rimuru,0000,0000,0000,,Uh, Rigurd... What is this?
+Dialogue: 0,0:06:18.56,0:06:20.67,Flashback,Rigurd,0000,0000,0000,,They all heard the rumors about you
+Dialogue: 0,0:06:20.67,0:06:24.53,Flashback,Rigurd,0000,0000,0000,,and came here from the nearby Goblin \Nvillages to seek protection.
+Dialogue: 0,0:06:24.53,0:06:25.70,Flashback,Rimuru,0000,0000,0000,,O-Oh...
+Dialogue: 0,0:06:25.70,0:06:29.45,Flashback,All,0000,0000,0000,,Welcome home, Rimuru-sama!
+Dialogue: 0,0:06:30.87,0:06:33.99,Flashback,Rimuru,0000,0000,0000,,Great Sage, how many of them are there?
+Dialogue: 0,0:06:34.39,0:06:36.54,Flashback_Italics,Great Sage,0000,0000,0000,,{\an8}Answer: approximately 500.
+Dialogue: 0,0:06:36.54,0:06:37.35,Flashback,Rimuru,0000,0000,0000,,Fi—
+Dialogue: 0,0:06:39.40,0:06:42.50,Flashback_Italics,Rimuru,0000,0000,0000,,I thought about asking them to leave, but...
+Dialogue: 0,0:06:43.72,0:06:45.80,Flashback_Italics,Rimuru,0000,0000,0000,,What will happen if I turn them away?
+Dialogue: 0,0:06:46.11,0:06:48.80,Flashback_Italics_Top,Great Sage,0000,0000,0000,,Due to the disappearance of \Nthe Storm Dragon, Veldora,
+Dialogue: 0,0:06:49.09,0:06:52.12,Flashback_Italics_Top,Great Sage,0000,0000,0000,,Orcs, Lizardmen, Ogres,
+Dialogue: 0,0:06:52.12,0:06:56.93,Flashback_Italics_Top,Great Sage,0000,0000,0000,,and other intelligent monster races are vying \Nfor dominance in the Great Forest of Jura.
+Dialogue: 0,0:06:57.33,0:07:00.25,Flashback_Italics_Top,Great Sage,0000,0000,0000,,The unevolved Goblins will \Nlikely be eliminated.
+Dialogue: 0,0:07:00.25,0:07:02.21,Flashback_Italics,Rimuru,0000,0000,0000,,You answered that so easily...
+Dialogue: 0,0:07:03.27,0:07:05.82,Flashback,Rimuru,0000,0000,0000,,All right. Come with us, all who want to.
+Dialogue: 0,0:07:08.87,0:07:12.49,Italics,Na,0000,0000,0000,,So Rimuru named all 500 of the Goblins...
+Dialogue: 0,0:07:13.16,0:07:15.76,Italics,Na,0000,0000,0000,,and spent three days asleep again.
+Dialogue: 0,0:07:18.70,0:07:20.67,Main,Rimuru,0000,0000,0000,,I wasn't sure how it'd work out,
+Dialogue: 0,0:07:20.67,0:07:24.19,Main,Rimuru,0000,0000,0000,,but it's starting to look like \Nthey'll all be able to live here.
+Dialogue: 0,0:07:24.59,0:07:26.16,Main,Rimuru,0000,0000,0000,,Good job, Kaijin!
+Dialogue: 0,0:07:26.92,0:07:30.05,Main,Gobta,0000,0000,0000,,All right! I'll show you how it's done!
+Dialogue: 0,0:07:43.31,0:07:45.81,Main,Rimuru,0000,0000,0000,,Whoa! He summoned one!
+Dialogue: 0,0:07:47.39,0:07:48.85,Main,Gobta,0000,0000,0000,,There you have it.
+Dialogue: 0,0:07:48.85,0:07:50.57,Main,Gobta,0000,0000,0000,,Give it a try, all of you!
+Dialogue: 0,0:07:51.29,0:07:55.07,Italics,Na,0000,0000,0000,,Gobta is teaching the newbies \Nhow to summon a Tempest Wolf.
+Dialogue: 0,0:07:55.87,0:07:58.58,Italics,Rimuru,0000,0000,0000,,Never knew Gobta had it in him...
+Dialogue: 0,0:07:59.38,0:08:03.04,Italics,Na,0000,0000,0000,,When Rimuru nearly left Gobta \Nbehind in the Dwarven Kingdom...
+Dialogue: 0,0:08:05.15,0:08:07.79,Italics,Na,0000,0000,0000,,He prayed with all his might for help.
+Dialogue: 0,0:08:07.79,0:08:09.06,Italics,Na,0000,0000,0000,,And when he did...
+Dialogue: 0,0:08:13.64,0:08:15.93,Italics,Na,0000,0000,0000,,he succeeded in summoning his wolf.
+Dialogue: 0,0:08:16.62,0:08:19.31,Italics,Na,0000,0000,0000,,He then rode the wolf out of the kingdom,
+Dialogue: 0,0:08:19.73,0:08:24.13,Italics,Na,0000,0000,0000,,rejoined Rimuru's party, and made \Nit back to the village safely.
+Dialogue: 0,0:08:25.06,0:08:28.57,Italics,Rimuru,0000,0000,0000,,I guess that boy can do \Nthings when he really tries.
+Dialogue: 0,0:08:29.30,0:08:33.17,Italics,Na,0000,0000,0000,,Rimuru's opinion of Gobta went \Nup several levels after that.
+Dialogue: 0,0:08:33.82,0:08:35.68,Main,Gobta,0000,0000,0000,,That won't work.
+Dialogue: 0,0:08:35.68,0:08:38.58,Main,Gobta,0000,0000,0000,,You've gotta be more like, "Unnnngh"...
+Dialogue: 0,0:08:39.61,0:08:41.48,Main,Gobta,0000,0000,0000,,And then, "Pop!" Like that!
+Dialogue: 0,0:08:43.19,0:08:45.69,Italics,Rimuru,0000,0000,0000,,He's not the greatest teacher, though.
+Dialogue: 0,0:08:46.42,0:08:49.79,Italics,Na,0000,0000,0000,,Rimuru's opinion of Gobta went \Ndown several levels after that.
+Dialogue: 0,0:08:50.82,0:08:52.59,Main,Rigurd,0000,0000,0000,,Rimuru-sama!
+Dialogue: 0,0:08:54.11,0:08:55.22,Main,Rimuru,0000,0000,0000,,Rigurd.
+Dialogue: 0,0:08:56.02,0:09:00.60,Italics,Na,0000,0000,0000,,By the way, Rigurd was promoted \Nfrom Goblin Lord to Goblin King.
+Dialogue: 0,0:09:01.15,0:09:04.29,Italics,Na,0000,0000,0000,,He's the leader of all the other \Nvillage elders who joined us.
+Dialogue: 0,0:09:04.29,0:09:06.35,Italics,Na,0000,0000,0000,,Frankly, they threw the job at him.
+Dialogue: 0,0:09:09.68,0:09:15.26,Italics,Rimuru,0000,0000,0000,,It seems like becoming the Goblin \NKing made him evolve even further...
+Dialogue: 0,0:09:16.20,0:09:17.66,Main,Rimuru,0000,0000,0000,,Is something up?
+Dialogue: 0,0:09:17.66,0:09:21.15,Main,Rigurd,0000,0000,0000,,Yes, sir! We received a message \Nfrom Rigur and the security team.
+Dialogue: 0,0:09:21.15,0:09:23.83,Main,Rigurd,0000,0000,0000,,It seems they've discovered \Nsuspicious beings in the forest.
+Dialogue: 0,0:09:24.25,0:09:25.34,Main,Rimuru,0000,0000,0000,,Monsters?
+Dialogue: 0,0:09:25.34,0:09:27.37,Main,Rigurd,0000,0000,0000,,No, humans.
+Dialogue: 0,0:09:27.37,0:09:28.33,Main,Rimuru,0000,0000,0000,,Humans?
+Dialogue: 0,0:09:28.33,0:09:32.75,Main,Rigurd,0000,0000,0000,,They may be scouts from some nation \Nhoping to expand its dominion.
+Dialogue: 0,0:09:33.93,0:09:35.13,Main,Rimuru,0000,0000,0000,,Hmm...
+Dialogue: 0,0:09:42.51,0:09:44.69,Main,Gido,0000,0000,0000,,This is your fault, Kaval!
+Dialogue: 0,0:09:44.69,0:09:47.35,Main,Gido,0000,0000,0000,,You just had to stab a \NGiant Ant nest with your sword!
+Dialogue: 0,0:09:47.56,0:09:50.25,Main,Kaval,0000,0000,0000,,Shut up! Don't complain about your leader!
+Dialogue: 0,0:09:50.25,0:09:52.33,Main,Eren,0000,0000,0000,,For a leader, you're way too careless!
+Dialogue: 0,0:09:52.73,0:09:55.53,Main,Eren,0000,0000,0000,,If I die, I swear I'll \Ncome back to haunt you!
+Dialogue: 0,0:09:56.77,0:09:58.43,Main,Kaval,0000,0000,0000,,That's not even possible!
+Dialogue: 0,0:09:58.43,0:09:59.66,Main,Kaval,0000,0000,0000,,Because...
+Dialogue: 0,0:10:00.02,0:10:02.22,Main,Kaval,0000,0000,0000,,I'd be dying with you!
+Dialogue: 0,0:10:06.70,0:10:07.43,Main,Eren,0000,0000,0000,,Shizu!
+Dialogue: 0,0:10:07.43,0:10:08.08,Main,Kaval,0000,0000,0000,,No, don't!
+Dialogue: 0,0:11:11.79,0:11:13.61,Main,Eren,0000,0000,0000,,W-Wow...
+Dialogue: 0,0:11:16.03,0:11:16.98,Main,Eren,0000,0000,0000,,Shizu, that one's still—
+Dialogue: 0,0:11:25.59,0:11:26.58,Main,Eren,0000,0000,0000,,Shizu!
+Dialogue: 0,0:11:34.58,0:11:35.72,Main,Eren,0000,0000,0000,,Shizu!
+Dialogue: 0,0:11:37.19,0:11:38.44,Main,Eren,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:11:38.44,0:11:39.84,Main,Shizu,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:11:39.84,0:11:42.27,Main,Gido,0000,0000,0000,,What the heck was that?
+Dialogue: 0,0:11:42.27,0:11:44.43,Main,Kaval,0000,0000,0000,,It looked like... black lightning.
+Dialogue: 0,0:11:44.87,0:11:47.70,Main,Rimuru,0000,0000,0000,,I guess Black Lightning really is too strong.
+Dialogue: 0,0:11:47.70,0:11:49.51,Main,Rimuru,0000,0000,0000,,Better not use it, either.
+Dialogue: 0,0:11:56.03,0:11:57.40,Main,Three,0000,0000,0000,,A slime?
+Dialogue: 0,0:11:57.61,0:12:00.30,Main,Rimuru,0000,0000,0000,,Yeah. Got a problem with slimes?
+Dialogue: 0,0:12:00.30,0:12:01.90,Main,Kaval,0000,0000,0000,,Uh, no...
+Dialogue: 0,0:12:01.90,0:12:04.01,Main,Kaval,0000,0000,0000,,I just never knew slimes could talk.
+Dialogue: 0,0:12:04.44,0:12:05.91,Main,Eren,0000,0000,0000,,I can't believe it.
+Dialogue: 0,0:12:06.20,0:12:08.73,Main,Rimuru,0000,0000,0000,,Here, miss. This is yours, isn't it?
+Dialogue: 0,0:12:08.73,0:12:11.26,Main,Rimuru,0000,0000,0000,,Sorry about that. \NYou weren't hurt, were you?
+Dialogue: 0,0:12:14.62,0:12:16.42,Main,Shizu,0000,0000,0000,,No, I'm all right.
+Dialogue: 0,0:12:20.54,0:12:22.80,Italics,Rimuru,0000,0000,0000,,I met her sooner than I expected...
+Dialogue: 0,0:12:25.01,0:12:27.10,Main,Shizu,0000,0000,0000,,You saved me. Thank you.
+Dialogue: 0,0:12:27.76,0:12:29.27,Italics,Rimuru,0000,0000,0000,,The one I'm destined to be with.
+Dialogue: 0,0:12:31.80,0:12:33.33,Main,Rimuru,0000,0000,0000,,What are those four up to?
+Dialogue: 0,0:12:33.33,0:12:34.48,Main,Rigurd,0000,0000,0000,,Well...
+Dialogue: 0,0:12:34.48,0:12:37.18,Main,Kaval,0000,0000,0000,,Hey, damn it! I wanted that meat!
+Dialogue: 0,0:12:37.18,0:12:41.05,Main,Eren,0000,0000,0000,,What a jerk! I raised that \Nmeat myself, you know!
+Dialogue: 0,0:12:41.05,0:12:44.95,Main,Gido,0000,0000,0000,,Listen, man! I won't yield \Nwhen it comes to food!
+Dialogue: 0,0:12:46.45,0:12:47.96,Main,Rigurd,0000,0000,0000,,I'm sorry...
+Dialogue: 0,0:12:47.96,0:12:50.49,Main,Rigurd,0000,0000,0000,,They said they were starving, \Nso I gave them food.
+Dialogue: 0,0:12:50.66,0:12:52.64,Main,Rimuru,0000,0000,0000,,Hey, that's great!
+Dialogue: 0,0:12:52.64,0:12:55.75,Main,Rimuru,0000,0000,0000,,Helping those in need is a good thing!
+Dialogue: 0,0:12:55.94,0:12:58.23,Main,Rigurd,0000,0000,0000,,Yes, sir! Thank you very much!
+Dialogue: 0,0:12:58.23,0:13:00.65,Main,Rigurd,0000,0000,0000,,I hope to dedicate myself to doing just that!
+Dialogue: 0,0:13:00.65,0:13:01.80,Main,Rimuru,0000,0000,0000,,Good, good.
+Dialogue: 0,0:13:01.80,0:13:03.13,Main,Rigur,0000,0000,0000,,Rimuru-sama, go on in.
+Dialogue: 0,0:13:06.63,0:13:10.35,Italics,Rimuru,0000,0000,0000,,Now that I really look at them, \NI feel like I've seen them before...
+Dialogue: 0,0:13:10.81,0:13:11.60,Italics_Top,Great Sage,0000,0000,0000,,Answer.
+Dialogue: 0,0:13:12.43,0:13:14.85,Italics_Top,Grear Sage,0000,0000,0000,,They are the trio you \Nencountered in the cave.
+Dialogue: 0,0:13:15.64,0:13:17.77,Main,Rimuru,0000,0000,0000,,Oh, right. Those guys.
+Dialogue: 0,0:13:24.28,0:13:28.28,Italics,Rimuru,0000,0000,0000,,Eating with her mask on... This girl I'm \Ndestined to be with has some skills.
+Dialogue: 0,0:13:29.27,0:13:32.65,Main,Rigurd,0000,0000,0000,,Guests, I fear we have little to offer,
+Dialogue: 0,0:13:32.65,0:13:34.92,Main,Rigurd,0000,0000,0000,,but are you comfortable here?
+Dialogue: 0,0:13:35.62,0:13:37.45,Main,Rigurd,0000,0000,0000,,Allow me to make introductions.
+Dialogue: 0,0:13:38.00,0:13:42.79,Main,Rigurd,0000,0000,0000,,This is our master, the great Rimuru!
+Dialogue: 0,0:13:45.22,0:13:46.55,Main,Three,0000,0000,0000,,Master?
+Dialogue: 0,0:13:47.35,0:13:49.05,Main,Rimuru,0000,0000,0000,,Got a problem with that?
+Dialogue: 0,0:13:49.05,0:13:50.64,Main,Kaval,0000,0000,0000,,Uh, no...
+Dialogue: 0,0:13:50.64,0:13:54.56,Main,Eren,0000,0000,0000,,We knew you were no ordinary \Nslime, but we had no idea...
+Dialogue: 0,0:13:54.89,0:13:56.65,Italics,Rimuru,0000,0000,0000,,That threw them for a loop.
+Dialogue: 0,0:13:56.65,0:14:00.10,Italics,Rimuru,0000,0000,0000,,Maybe I should do something \Nto show them I'm harmless.
+Dialogue: 0,0:14:00.76,0:14:03.88,Main,Rimuru,0000,0000,0000,,Nice to meet you! I'm Rimuru the slime!
+Dialogue: 0,0:14:03.88,0:14:05.82,Main,Rimuru,0000,0000,0000,,I'm not a bad slime!
+Dialogue: 0,0:14:07.39,0:14:08.70,Main,Eren,0000,0000,0000,,Shizu?
+Dialogue: 0,0:14:08.70,0:14:11.98,Italics,Rimuru,0000,0000,0000,,Huh? Did she actually get that joke?
+Dialogue: 0,0:14:12.68,0:14:14.57,Main,Kaval,0000,0000,0000,,We apologize.
+Dialogue: 0,0:14:14.57,0:14:19.05,Main,Kaval,0000,0000,0000,,We never expected to be saved by a monster,
+Dialogue: 0,0:14:19.05,0:14:20.23,Main,Kaval,0000,0000,0000,,but we do appreciate it.
+Dialogue: 0,0:14:20.23,0:14:22.77,Main,Eren,0000,0000,0000,,Oh, and thanks for the meat!
+Dialogue: 0,0:14:22.77,0:14:24.34,Main,Eren,0000,0000,0000,,It's delicious!
+Dialogue: 0,0:14:24.65,0:14:26.65,Main,Gido,0000,0000,0000,,Th-Thanks for your help.
+Dialogue: 0,0:14:26.65,0:14:30.34,Main,Gido,0000,0000,0000,,I didn't expect to find Goblins \Nbuilding a village here.
+Dialogue: 0,0:14:32.82,0:14:34.35,Italics,Rimuru,0000,0000,0000,,She sure moves at her own pace...
+Dialogue: 0,0:14:34.96,0:14:38.10,Main,Rimuru,0000,0000,0000,,So, what brings you all the way out here?
+Dialogue: 0,0:14:38.37,0:14:42.51,Main,Kaval,0000,0000,0000,,I'm Kaval. For what it's worth, \NI'm the leader of this party.
+Dialogue: 0,0:14:42.51,0:14:43.26,Main,Kaval,0000,0000,0000,,This is...
+Dialogue: 0,0:14:43.26,0:14:44.72,Main,Eren,0000,0000,0000,,I'm Eren!
+Dialogue: 0,0:14:44.72,0:14:47.75,Main,Gido,0000,0000,0000,,Hello. I'm Gido. Nice to meet you.
+Dialogue: 0,0:14:48.11,0:14:52.37,Main,Kaval,0000,0000,0000,,And this is a temporary member who just \Nhappened to be going the same way as us.
+Dialogue: 0,0:14:53.97,0:14:54.87,Main,Shizu,0000,0000,0000,,Shizu.
+Dialogue: 0,0:14:55.48,0:14:58.44,Italics,Rimuru,0000,0000,0000,,The one I'm destined to be \Nwith is named Shizu, huh?
+Dialogue: 0,0:14:59.39,0:15:02.98,Italics,Rimuru,0000,0000,0000,,I guess she really is Japanese. \NShe's sitting seiza-style, even.
+Dialogue: 0,0:15:03.70,0:15:04.59,Main,Rimuru,0000,0000,0000,,And?
+Dialogue: 0,0:15:04.59,0:15:08.16,Main,Kaval,0000,0000,0000,,We're here at the request of the \NGuildmaster in the Kingdom of Blumund.
+Dialogue: 0,0:15:08.80,0:15:13.98,Italics,Rimuru,0000,0000,0000,,Kaval told me all of their plans, as if \Nhe'd never learned to suspect anyone.
+Dialogue: 0,0:15:14.67,0:15:20.41,Italics,Rimuru,0000,0000,0000,,A Guildmaster in Blumund, one of the nations \Nbordering the Great Forest of Jura,
+Dialogue: 0,0:15:20.41,0:15:22.15,Italics,Rimuru,0000,0000,0000,,asked them to investigate the area.
+Dialogue: 0,0:15:23.24,0:15:24.65,Main,Rimuru,0000,0000,0000,,I see.
+Dialogue: 0,0:15:25.35,0:15:29.65,Italics,Rimuru,0000,0000,0000,,Looks like Veldora's absence is having \Na greater effect than I realized.
+Dialogue: 0,0:15:30.10,0:15:34.49,Italics,Rimuru,0000,0000,0000,,People are coming to check out not just \Nthe cave, but all the surrounding area.
+Dialogue: 0,0:15:35.62,0:15:39.58,Main,Rimuru,0000,0000,0000,,As you can see, we're in the \Nmiddle of building our village,
+Dialogue: 0,0:15:39.58,0:15:42.92,Main,Rimuru,0000,0000,0000,,but, well... does the Guild \Nhave some problem with that?
+Dialogue: 0,0:15:44.04,0:15:46.07,Main,Kaval,0000,0000,0000,,I don't think so. Right?
+Dialogue: 0,0:15:46.07,0:15:47.44,Main,Eren,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:47.44,0:15:49.81,Main,Eren,0000,0000,0000,,It's nothing the Guild has any say in.
+Dialogue: 0,0:15:49.81,0:15:51.53,Main,Eren,0000,0000,0000,,What about the country, though?
+Dialogue: 0,0:15:52.93,0:15:54.18,Main,Gido,0000,0000,0000,,I have no idea, myself.
+Dialogue: 0,0:15:54.44,0:15:57.28,Main,Rimuru,0000,0000,0000,,I see. Well, I get it now.
+Dialogue: 0,0:15:57.28,0:16:01.21,Main,Rimuru,0000,0000,0000,,You should stay here tonight \Nand get some good rest.
+Dialogue: 0,0:16:01.21,0:16:02.98,Main,Three,0000,0000,0000,,Thank you!
+Dialogue: 0,0:16:03.56,0:16:04.82,Main,Rimuru,0000,0000,0000,,Treat them well.
+Dialogue: 0,0:16:04.82,0:16:05.64,Main,Both,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:16:17.09,0:16:18.48,Main,Rimuru,0000,0000,0000,,Do you have a minute?
+Dialogue: 0,0:16:24.15,0:16:26.39,Main,Rimuru,0000,0000,0000,,There's something I'd like to ask you.
+Dialogue: 0,0:16:26.39,0:16:28.43,Main,Rimuru,0000,0000,0000,,Are you, um, from Japa—
+Dialogue: 0,0:16:28.43,0:16:31.53,Main,Shizu,0000,0000,0000,,Slime-san, that line you said \Nwas from a game, wasn't it?
+Dialogue: 0,0:16:31.53,0:16:32.01,Main,Rimuru,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:34.50,0:16:36.64,Main,Shizu,0000,0000,0000,,"I'm not a bad slime."
+Dialogue: 0,0:16:40.07,0:16:44.04,Main,Shizu,0000,0000,0000,,I've never played it, but I heard about \Nit from someone else from my country.
+Dialogue: 0,0:16:44.04,0:16:45.23,Main,Rimuru,0000,0000,0000,,Yeah!
+Dialogue: 0,0:16:46.98,0:16:51.02,Italics,Rimuru,0000,0000,0000,,I've been held by so many \Nwomen since I took this form!
+Dialogue: 0,0:16:51.02,0:16:52.93,Italics,Rimuru,0000,0000,0000,,One of the side perks, I guess!
+Dialogue: 0,0:16:53.49,0:16:55.76,Main,Shizu,0000,0000,0000,,Are you from Japan, too?
+Dialogue: 0,0:16:55.76,0:16:56.66,Main,Rimuru,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:58.55,0:16:59.64,Main,Shizu,0000,0000,0000,,I see.
+Dialogue: 0,0:17:00.08,0:17:01.53,Main,Shizu,0000,0000,0000,,I'm glad I met you.
+Dialogue: 0,0:17:03.12,0:17:05.49,Main,Shizu,0000,0000,0000,,How did you come here?
+Dialogue: 0,0:17:05.49,0:17:09.81,Main,Rimuru,0000,0000,0000,,Actually, I was stabbed to death.
+Dialogue: 0,0:17:09.81,0:17:10.96,Main,Shizu,0000,0000,0000,,Stabbed?
+Dialogue: 0,0:17:11.20,0:17:14.10,Main,Rimuru,0000,0000,0000,,And the next thing I knew, \NI had this magnificent form!
+Dialogue: 0,0:17:14.61,0:17:18.04,Main,Shizu,0000,0000,0000,,I see. So you were reincarnated.
+Dialogue: 0,0:17:18.04,0:17:19.36,Main,Shizu,0000,0000,0000,,That must've been hard.
+Dialogue: 0,0:17:20.26,0:17:22.22,Main,Rimuru,0000,0000,0000,,Was it different for you?
+Dialogue: 0,0:17:24.55,0:17:27.95,Main,Shizu,0000,0000,0000,,I'm... a Summon.
+Dialogue: 0,0:17:28.56,0:17:29.80,Main,Rimuru,0000,0000,0000,,A Summon...
+Dialogue: 0,0:17:30.71,0:17:33.49,Italics,Rimuru,0000,0000,0000,,That's right. Veldora talked about that.
+Dialogue: 0,0:17:33.87,0:17:38.04,Flashback,Veldora,0000,0000,0000,,It takes more than 30 mages to perform \Na ritual that lasts several days
+Dialogue: 0,0:17:38.04,0:17:39.74,Flashback,Veldora,0000,0000,0000,,to bring one here from another world.
+Dialogue: 0,0:17:40.58,0:17:44.28,Flashback,Veldora,0000,0000,0000,,They're also expected to \Nserve as powerful weapons.
+Dialogue: 0,0:17:44.28,0:17:47.16,Flashback,Veldora,0000,0000,0000,,Magic is used to carve a \Ncurse into the Summon's soul
+Dialogue: 0,0:17:47.16,0:17:49.75,Flashback,Veldora,0000,0000,0000,,to ensure that the Summon \Ncan't defy the Summoner.
+Dialogue: 0,0:17:51.25,0:17:54.44,Italics,Rimuru,0000,0000,0000,,So... Shizu-san is a weapon?
+Dialogue: 0,0:17:55.21,0:17:57.50,Italics,Rimuru,0000,0000,0000,,And the curse...
+Dialogue: 0,0:17:58.18,0:18:01.63,Italics,Rimuru,0000,0000,0000,,I'm curious, but this probably \Nisn't the time to ask.
+Dialogue: 0,0:18:02.98,0:18:06.05,Main,Rimuru,0000,0000,0000,,So when were you summoned here?
+Dialogue: 0,0:18:07.04,0:18:08.36,Main,Shizu,0000,0000,0000,,A long time ago.
+Dialogue: 0,0:18:09.19,0:18:12.27,Main,Shizu,0000,0000,0000,,My town was burning, engulfed in flames...
+Dialogue: 0,0:18:13.09,0:18:14.31,Main,Rimuru,0000,0000,0000,,A war?
+Dialogue: 0,0:18:14.92,0:18:17.05,Main,Shizu,0000,0000,0000,,Bombs fell from the sky...
+Dialogue: 0,0:18:17.54,0:18:19.02,Italics,Rimuru,0000,0000,0000,,The air raids...
+Dialogue: 0,0:18:19.67,0:18:21.94,Main,Shizu,0000,0000,0000,,My mother and I fled together,
+Dialogue: 0,0:18:22.46,0:18:23.60,Main,shizu,0000,0000,0000,,but then...
+Dialogue: 0,0:18:24.16,0:18:25.46,Main,Rimuru,0000,0000,0000,,What happened to her?
+Dialogue: 0,0:18:28.47,0:18:29.61,Main,Rimuru,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:18:30.12,0:18:31.10,Main,Shizu,0000,0000,0000,,It's okay.
+Dialogue: 0,0:18:34.37,0:18:37.49,Main,Rimuru,0000,0000,0000,,Hey, I know! I'll show you something fun!
+Dialogue: 0,0:18:37.49,0:18:39.05,Main,Shizu,0000,0000,0000,,Something fun?
+Dialogue: 0,0:18:39.85,0:18:42.10,Italics,Rimuru,0000,0000,0000,,Great Sage, I'd like to use \NThought Communication
+Dialogue: 0,0:18:42.10,0:18:44.81,Italics,Rimuru,0000,0000,0000,,to show Shizu-san some of my memories.
+Dialogue: 0,0:18:45.08,0:18:45.94,Italics_Top,Great Sage,0000,0000,0000,,Understood.
+Dialogue: 0,0:18:45.22,0:18:47.06,sign_26979_293_Thought_Communic,Text,0000,0000,0000,,{\fad(654,1)}Thought Communication
+Dialogue: 0,0:18:45.94,0:18:47.06,Main,Rimuru,0000,0000,0000,,Here we go!
+Dialogue: 0,0:18:57.80,0:18:59.11,Main,Shizu,0000,0000,0000,,An elf?
+Dialogue: 0,0:18:59.89,0:19:02.70,Main,Rimuru,0000,0000,0000,,No, no! It's not... It's not like that!
+Dialogue: 0,0:19:03.03,0:19:04.08,Main,Shizu,0000,0000,0000,,She was pretty.
+Dialogue: 0,0:19:04.08,0:19:06.45,Main,Rimuru,0000,0000,0000,,Pretend you never saw that! \NLook at this one!
+Dialogue: 0,0:19:18.51,0:19:20.43,sign_27777_299_Super_Express_Hi,Text,0000,0000,0000,,{\frz270}Super Express Hikari
+Dialogue: 0,0:19:26.11,0:19:27.35,Main,Shizu,0000,0000,0000,,Wow...
+Dialogue: 0,0:19:28.52,0:19:32.04,Main,Shizu,0000,0000,0000,,It's like the skyscrapers of New York \Nthat I saw on a picture postcard once.
+Dialogue: 0,0:19:32.54,0:19:35.23,Main,Rimuru,0000,0000,0000,,After the war ended, peace came to Japan.
+Dialogue: 0,0:19:35.23,0:19:37.36,Main,Rimuru,0000,0000,0000,,The towns and the economy all boomed.
+Dialogue: 0,0:19:38.11,0:19:40.37,Main,Shizu,0000,0000,0000,,I see... I'm so glad.
+Dialogue: 0,0:19:42.05,0:19:44.62,Main,Shizu,0000,0000,0000,,I wish I could have shown my mother this.
+Dialogue: 0,0:19:46.05,0:19:51.18,Main,Rimuru,0000,0000,0000,,I want to make this world one where \Neveryone can live in peace, too.
+Dialogue: 0,0:19:51.77,0:19:54.92,Main,Shizu,0000,0000,0000,,That's wonderful. I hope it really happens.
+Dialogue: 0,0:19:55.41,0:19:57.12,Main,Rimuru,0000,0000,0000,,It will! I'm sure of it!
+Dialogue: 0,0:20:04.19,0:20:05.46,Main,Rimuru,0000,0000,0000,,Shizu-san?
+Dialogue: 0,0:20:08.15,0:20:09.57,Main,Shizu,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:20:09.57,0:20:11.03,Main,Rimuru,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:20:13.02,0:20:14.73,Main,Shizu,0000,0000,0000,,Yes, I think so.
+Dialogue: 0,0:20:17.43,0:20:19.28,Main,Kaijin,0000,0000,0000,,Hey, Rimuru!
+Dialogue: 0,0:20:19.67,0:20:21.44,Main,Kaijin,0000,0000,0000,,Got a minute?
+Dialogue: 0,0:20:22.64,0:20:26.27,Main,Kaijin,0000,0000,0000,,We'd like to talk to you about \Nwhere to build a new house.
+Dialogue: 0,0:20:26.27,0:20:27.12,Main,Rimuru,0000,0000,0000,,Sure.
+Dialogue: 0,0:20:27.60,0:20:28.52,Main,Rimuru,0000,0000,0000,,See you later.
+Dialogue: 0,0:20:28.52,0:20:29.30,Main,Shizu,0000,0000,0000,,See you.
+Dialogue: 0,0:20:31.96,0:20:33.53,Main,Kaijin,0000,0000,0000,,Was I interrupting?
+Dialogue: 0,0:20:33.53,0:20:34.64,Main,Rimuru,0000,0000,0000,,Shut up!
+Dialogue: 0,0:20:34.64,0:20:35.94,Main,Kaijin,0000,0000,0000,,Now, don't be shy.
+Dialogue: 0,0:20:35.94,0:20:37.12,Main,Rimuru,0000,0000,0000,,I'm not!
+Dialogue: 0,0:20:37.12,0:20:38.85,Main,Kaijin,0000,0000,0000,,But you're blushing.
+Dialogue: 0,0:20:57.86,0:20:59.07,Flashback,Shizu,0000,0000,0000,,Mommy!
+Dialogue: 0,0:20:59.07,0:21:00.23,Flashback,Shizu,0000,0000,0000,,Mommy!
+Dialogue: 0,0:21:22.10,0:21:23.67,Flashback,Leon,0000,0000,0000,,Another failure.
+Dialogue: 0,0:21:25.26,0:21:27.54,Flashback,Shizu,0000,0000,0000,,H-Help...
+Dialogue: 0,0:21:35.23,0:21:39.65,Flashback,Leon,0000,0000,0000,,I thought she was useless, but she \Nmay have an affinity for fire.
+Dialogue: 0,0:21:45.31,0:21:48.98,Flashback,Leon,0000,0000,0000,,Ifrit, I offer her body to you.
+Dialogue: 0,0:21:50.17,0:21:51.56,Flashback,Leon,0000,0000,0000,,Use it well.
+Dialogue: 0,0:23:35.88,0:23:38.63,Italics_Top,Great Sage,0000,0000,0000,,Next time, "Conqueror of Flames."
+Dialogue: 0,0:23:36.10,0:23:39.98,Next_Ep_Title,Title,0000,0000,0000,,{\fad(898,1)}Conqueror {\c&HDDE6EB&\3c&H000000&}of {\u1}Flames
+
+

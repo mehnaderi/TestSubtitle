@@ -1,0 +1,376 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Show_Title,Open Sans Semibold,36,&H00CD9612,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Ep_Title,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H8C000000,&H8C000000,0,0,0,0,100,100,0,0,1,1,1,3,13,53,67,1
+Style: Next_Ep_Title,Open Sans Semibold,39,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,13,13,147,1
+Style: sign_4961_43_It_hurts,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,13,13,0,1
+Style: sign_17935_188_Barren_Lands,Open Sans Semibold,18,&H000C203A,&H000000FF,&H004993AA,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,13,13,228,1
+Style: sign_20679_220_Sirius,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H006B97A9,&H006696A7,1,0,0,0,100,100,0,0,1,2,1,8,13,13,27,1
+Style: sign_20679_221_Altair__A_Record,Open Sans Semibold,30,&H00333939,&H000000FF,&H00FCFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:27.49,0:01:29.99,Show_Title,Title,0000,0000,0000,,That {\c&H471E13&}Time {\c&HCD9612&}I Got {\c&H471E13&}Reincarnated {\c&HCD9612&}as a {\c&H7E4F0A&}Slime
+Dialogue: 0,0:01:30.37,0:01:34.54,Ep_Title,Title,0000,0000,0000,,{\fad(1440,520)}Episode 21: Shizu-san's Students
+Dialogue: 0,0:01:32.69,0:01:35.20,Main,Rimuru,0000,0000,0000,,{\an8}Okay, I'm going to call the roll.
+Dialogue: 0,0:01:35.58,0:01:37.45,Main,Rimuru,0000,0000,0000,,Kenya Misaki-kun.
+Dialogue: 0,0:01:38.58,0:01:40.62,Main,Rimuru,0000,0000,0000,,Ryota Sekiguchi-kun.
+Dialogue: 0,0:01:41.59,0:01:43.56,Main,Rimuru,0000,0000,0000,,Gale Gibson-kun.
+Dialogue: 0,0:01:44.57,0:01:46.51,Main,Rimuru,0000,0000,0000,,Alice Rondo-san.
+Dialogue: 0,0:01:47.61,0:01:49.63,Main,Rimuru,0000,0000,0000,,Chloe Aubert-san.
+Dialogue: 0,0:01:50.95,0:01:52.52,Main,Rimuru,0000,0000,0000,,All right, now, listen up...
+Dialogue: 0,0:01:52.52,0:01:57.00,Main,Rimuru,0000,0000,0000,,When your name is called, \Nrespond loudly and clearly.
+Dialogue: 0,0:01:59.82,0:02:03.03,Main,Rimuru,0000,0000,0000,,Right, right, I understand.
+Dialogue: 0,0:02:03.03,0:02:06.24,Main,Rimuru,0000,0000,0000,,Okay, I'm going to call in a friend of mine.
+Dialogue: 0,0:02:09.14,0:02:10.63,Main,Rimuru,0000,0000,0000,,Kenya Misaki-kun.
+Dialogue: 0,0:02:10.63,0:02:11.28,Main,Kenya,0000,0000,0000,,H-Here!
+Dialogue: 0,0:02:11.54,0:02:13.18,Main,Rimuru,0000,0000,0000,,Ryota Sekiguchi-kun.
+Dialogue: 0,0:02:13.18,0:02:13.91,Main,Ryota,0000,0000,0000,,Here!
+Dialogue: 0,0:02:14.23,0:02:15.78,Main,Rimuru,0000,0000,0000,,Gale Gibson-kun.
+Dialogue: 0,0:02:15.78,0:02:16.45,Main,Gale,0000,0000,0000,,Here!
+Dialogue: 0,0:02:16.60,0:02:18.23,Main,Rimuru,0000,0000,0000,,Alice Rondo-san.
+Dialogue: 0,0:02:18.23,0:02:19.00,Main,Alice,0000,0000,0000,,H-Here!
+Dialogue: 0,0:02:19.29,0:02:20.92,Main,Rimuru,0000,0000,0000,,Chloe Aubert-san.
+Dialogue: 0,0:02:20.92,0:02:21.77,Main,Chloe,0000,0000,0000,,Here...
+Dialogue: 0,0:02:22.52,0:02:24.34,Main,Rimuru,0000,0000,0000,,Okay! Very good!
+Dialogue: 0,0:02:26.59,0:02:30.37,Main,Kenya,0000,0000,0000,,Hey! Threatening us with \Nthis giant dog is dirty!
+Dialogue: 0,0:02:33.18,0:02:36.31,Main,Ranga,0000,0000,0000,,I am Ranga. Nice to meet you, kid.
+Dialogue: 0,0:02:36.31,0:02:38.10,Main,Kenya,0000,0000,0000,,F-Fine, I get it!
+Dialogue: 0,0:02:39.63,0:02:41.39,Main,Rimuru,0000,0000,0000,,Looks like you're good friends already.
+Dialogue: 0,0:02:41.39,0:02:42.61,Main,Rimuru,0000,0000,0000,,That's great.
+Dialogue: 0,0:02:42.93,0:02:46.90,Main,Rimuru,0000,0000,0000,,So, I'm Rimuru, and I'll be \Nyour teacher starting today.
+Dialogue: 0,0:02:47.47,0:02:51.45,Main,Rimuru,0000,0000,0000,,I'm not as nice as Shizu-san. \NJust keep that in mind.
+Dialogue: 0,0:02:53.68,0:02:55.74,Main,Rimuru,0000,0000,0000,,What? No response?
+Dialogue: 0,0:02:57.65,0:02:58.83,Main,Kids,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:03:01.37,0:03:04.51,Italics,Rimuru,0000,0000,0000,,Looks like it won't be \Neasy to gain their trust.
+Dialogue: 0,0:03:05.72,0:03:07.67,Italics,Rimuru,0000,0000,0000,,Well, I can't blame them.
+Dialogue: 0,0:03:07.67,0:03:11.24,Italics,Rimuru,0000,0000,0000,,They were summoned into this \Nworld and then tossed aside.
+Dialogue: 0,0:03:12.59,0:03:15.97,Main,Rimuru,0000,0000,0000,,Okay! Are you all ready for a test?
+Dialogue: 0,0:03:16.30,0:03:19.09,Main,Alice,0000,0000,0000,,Hey! Why do we have to do that?
+Dialogue: 0,0:03:19.09,0:03:20.10,Main,Chloe,0000,0000,0000,,I hate tests.
+Dialogue: 0,0:03:21.53,0:03:23.82,Main,Gale,0000,0000,0000,,It's too soon for a test! \NI demand an explanation!
+Dialogue: 0,0:03:23.82,0:03:25.23,Main,Alice,0000,0000,0000,,Yeah! Explain this!
+Dialogue: 0,0:03:25.62,0:03:27.89,Main,Rimuru,0000,0000,0000,,Now, just relax.
+Dialogue: 0,0:03:28.39,0:03:32.28,Main,Rimuru,0000,0000,0000,,This test is one that \Nyou kids need right now.
+Dialogue: 0,0:03:32.56,0:03:36.01,Main,Kenya,0000,0000,0000,,We're just gonna die sooner or later, anyway.
+Dialogue: 0,0:03:36.01,0:03:37.53,Main,Kenya,0000,0000,0000,,What's the point in studying?
+Dialogue: 0,0:03:37.85,0:03:39.54,Main,Ryota,0000,0000,0000,,Th-That's right.
+Dialogue: 0,0:03:39.54,0:03:42.80,Main,Ryota,0000,0000,0000,,Our other teachers said we \Ncould just play as we wanted.
+Dialogue: 0,0:03:42.80,0:03:45.42,Main,Gale,0000,0000,0000,,We haven't studied at all since we came here.
+Dialogue: 0,0:03:45.78,0:03:48.82,Main,Chloe,0000,0000,0000,,I want to read picture books more.
+Dialogue: 0,0:03:48.82,0:03:51.05,Main,Alice,0000,0000,0000,,Who do you think you are, anyway?!
+Dialogue: 0,0:03:51.18,0:03:54.41,Main,Rimuru,0000,0000,0000,,Yes, yes. It's good to have so much energy.
+Dialogue: 0,0:03:54.41,0:03:58.06,Main,Rimuru,0000,0000,0000,,Don't worry. I called it a \Ntest, but it's a fun game.
+Dialogue: 0,0:03:58.45,0:03:59.64,Main,Kenya,0000,0000,0000,,A game?
+Dialogue: 0,0:03:59.84,0:04:05.10,Main,Rimuru,0000,0000,0000,,It'll give you children... I mean, \Nyou guys a chance to vent your frustrations.
+Dialogue: 0,0:04:07.89,0:04:11.15,Main,Rimuru,0000,0000,0000,,You will each fight a one-on-one \Nmock battle with me.
+Dialogue: 0,0:04:11.36,0:04:12.79,Main,Rimuru,0000,0000,0000,,You'll have ten minutes.
+Dialogue: 0,0:04:12.79,0:04:16.07,Main,Rimuru,0000,0000,0000,,If you can defeat me in that time, you win.
+Dialogue: 0,0:04:16.07,0:04:17.91,Main,Rimuru,0000,0000,0000,,Well? Easy enough, right?
+Dialogue: 0,0:04:18.44,0:04:19.49,Main,Kenya,0000,0000,0000,,That's it?
+Dialogue: 0,0:04:19.49,0:04:20.41,Main,Rimuru,0000,0000,0000,,Yep.
+Dialogue: 0,0:04:20.72,0:04:21.74,Main,Gale,0000,0000,0000,,Ten minutes?
+Dialogue: 0,0:04:21.74,0:04:22.66,Main,Rimuru,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:22.66,0:04:27.08,Main,Alice,0000,0000,0000,,Hah! So long as you don't sic that \Ndog on us, we won't need ten minutes!
+Dialogue: 0,0:04:27.49,0:04:29.48,Main,Rimuru,0000,0000,0000,,I can promise you I won't do that.
+Dialogue: 0,0:04:29.48,0:04:31.30,Main,Rimuru,0000,0000,0000,,Ranga, don't interfere.
+Dialogue: 0,0:04:31.30,0:04:31.92,Main,Ranga,0000,0000,0000,,Right.
+Dialogue: 0,0:04:32.94,0:04:34.42,Main,Kenya,0000,0000,0000,,I'm gonna win!
+Dialogue: 0,0:04:34.42,0:04:36.55,Main,Chloe,0000,0000,0000,,I want to read my picture book...
+Dialogue: 0,0:04:36.81,0:04:39.81,Main,Rimuru,0000,0000,0000,,Okay, Ryota-kun, you can be the referee.
+Dialogue: 0,0:04:40.16,0:04:42.18,Main,Ryota,0000,0000,0000,,Huh? O-Okay.
+Dialogue: 0,0:04:42.65,0:04:44.81,Main,Rimuru,0000,0000,0000,,Well, who wants to go first?
+Dialogue: 0,0:04:45.21,0:04:46.27,Main,Kenya,0000,0000,0000,,I will!
+Dialogue: 0,0:04:46.49,0:04:49.77,Main,Rimuru,0000,0000,0000,,Oh-ho? So Kenya Misaki-kun \Nis starting us off, eh?
+Dialogue: 0,0:04:51.53,0:04:53.19,Main,Kenya,0000,0000,0000,,We can use these?
+Dialogue: 0,0:04:53.19,0:04:54.90,Main,Rimuru,0000,0000,0000,,Pick whichever one you like.
+Dialogue: 0,0:04:55.22,0:04:58.03,Main,Rimuru,0000,0000,0000,,But if you lose, you have to \Nstart showing me some respect!
+Dialogue: 0,0:04:58.29,0:05:02.54,Main,Kenya,0000,0000,0000,,Hah! I've never lost to \Nanyone but Shizu-sensei!
+Dialogue: 0,0:05:02.98,0:05:05.79,Main,Rimuru,0000,0000,0000,,Save the big talk for after you beat me.
+Dialogue: 0,0:05:06.83,0:05:10.40,Italics,Rimuru,0000,0000,0000,,Now... Will this burn up some \Nof the excess magicule energy
+Dialogue: 0,0:05:10.40,0:05:13.43,Italics,Rimuru,0000,0000,0000,,that'll otherwise destroy him someday?
+Dialogue: 0,0:05:14.41,0:05:15.80,Main,Ryota,0000,0000,0000,,B-Begin!
+Dialogue: 0,0:05:20.53,0:05:21.76,Main,Kenya,0000,0000,0000,,Wh-Why, you!
+Dialogue: 0,0:05:24.14,0:05:25.31,Main,Gale,0000,0000,0000,,That's it! Go get him!
+Dialogue: 0,0:05:25.31,0:05:26.10,Main,Alice,0000,0000,0000,,Don't lose!
+Dialogue: 0,0:05:26.64,0:05:28.31,Main,Kenya,0000,0000,0000,,Quit dodging!
+Dialogue: 0,0:05:29.13,0:05:31.57,Main,Rimuru,0000,0000,0000,,You move pretty well, \Nbut you've got a ways to go!
+Dialogue: 0,0:05:41.18,0:05:43.94,Italics,Rimuru,0000,0000,0000,,These flames actually seem pretty weak.
+Dialogue: 0,0:05:43.94,0:05:47.83,Italics,Rimuru,0000,0000,0000,,Relative to the amount of energy \Nwithin him, it's really inefficient.
+Dialogue: 0,0:05:48.62,0:05:50.72,Main,Rimuru,0000,0000,0000,,Hey! Instead of relying on your flames,
+Dialogue: 0,0:05:50.72,0:05:52.88,Main,Rimuru,0000,0000,0000,,try just striking with raw energy.
+Dialogue: 0,0:05:53.07,0:05:57.01,Main,Kenya,0000,0000,0000,,Shut up! The techniques \NShizu-sensei used were awesome!
+Dialogue: 0,0:06:02.01,0:06:03.51,Main,Ryota,0000,0000,0000,,T-Time's up!
+Dialogue: 0,0:06:06.00,0:06:09.69,Main,Rimuru,0000,0000,0000,,Well, that's it. You'd better \Ncall me "Sensei" from now on.
+Dialogue: 0,0:06:09.69,0:06:11.59,Main,Kenya,0000,0000,0000,,D-Damn it!
+Dialogue: 0,0:06:11.59,0:06:12.90,Main,Rimuru,0000,0000,0000,,Who's next?
+Dialogue: 0,0:06:13.76,0:06:15.99,Main,Kenya,0000,0000,0000,,You'll pay for that!
+Dialogue: 0,0:06:17.89,0:06:19.46,Main,Rimuru,0000,0000,0000,,Chloe Aubert-san.
+Dialogue: 0,0:06:21.29,0:06:23.53,Main,Ryota,0000,0000,0000,,Chlo-chi, don't push yourself too hard.
+Dialogue: 0,0:06:23.53,0:06:25.08,Main,Alice,0000,0000,0000,,Don't get hurt, Chlo-chan!
+Dialogue: 0,0:06:27.12,0:06:30.76,Italics,Rimuru,0000,0000,0000,,I feel like I've seen her somewhere before...
+Dialogue: 0,0:06:30.76,0:06:32.55,Italics,Rimuru,0000,0000,0000,,She's so familiar...
+Dialogue: 0,0:06:32.55,0:06:33.59,Main,Ryota,0000,0000,0000,,Begin!
+Dialogue: 0,0:06:35.46,0:06:37.91,Italics,Rimuru,0000,0000,0000,,Is she gonna hit me with \Nthe corner of that book?
+Dialogue: 0,0:06:37.91,0:06:38.97,Italics,Rimuru,0000,0000,0000,,Surely not...
+Dialogue: 0,0:06:40.16,0:06:43.93,Main,Chloe,0000,0000,0000,,Flow of water, ensnare my enemy.
+Dialogue: 0,0:06:43.93,0:06:45.14,Main,Chloe,0000,0000,0000,,Water Jail!
+Dialogue: 0,0:06:49.39,0:06:52.23,Italics,Rimuru,0000,0000,0000,,Ah, she can use magic, too?
+Dialogue: 0,0:06:57.71,0:07:00.65,Italics,Rimuru,0000,0000,0000,,Impressive. Could she be a prodigy?
+Dialogue: 0,0:07:00.65,0:07:04.32,Main,Chloe,0000,0000,0000,,I can make blades of water \Nrain down on you from there.
+Dialogue: 0,0:07:06.04,0:07:08.69,Main,Chloe,0000,0000,0000,,If you admit defeat, I'll cancel them.
+Dialogue: 0,0:07:08.69,0:07:10.62,Main,Chloe,0000,0000,0000,,If you don't, you'll die.
+Dialogue: 0,0:07:11.37,0:07:13.88,Italics,Rimuru,0000,0000,0000,,So young, yet so frightening!
+Dialogue: 0,0:07:13.88,0:07:16.67,Main,Kenya,0000,0000,0000,,Hey, what's the problem? Just admit defeat!
+Dialogue: 0,0:07:16.67,0:07:17.88,Main,Alice,0000,0000,0000,,Nice, Chlo-chan!
+Dialogue: 0,0:07:17.88,0:07:18.86,Main,Ryota,0000,0000,0000,,G-Good job!
+Dialogue: 0,0:07:18.86,0:07:19.88,Main,Gale,0000,0000,0000,,Well done!
+Dialogue: 0,0:07:20.60,0:07:22.38,Main,Rimuru,0000,0000,0000,,This is certainly impressive magic.
+Dialogue: 0,0:07:24.61,0:07:27.18,Main,Rimuru,0000,0000,0000,,But it won't work on me.
+Dialogue: 0,0:07:34.48,0:07:38.73,Italics,Rimuru,0000,0000,0000,,I can get out of that little trick easily \Nwith my extra skill Magic Manipulation.
+Dialogue: 0,0:07:39.73,0:07:41.85,Main,Rimuru,0000,0000,0000,,You use this magic well.
+Dialogue: 0,0:07:41.85,0:07:43.74,Main,Rimuru,0000,0000,0000,,Make sure you keep studying it.
+Dialogue: 0,0:07:48.62,0:07:50.54,Italics,Rimuru,0000,0000,0000,,Ack, she's crying...
+Dialogue: 0,0:07:50.54,0:07:51.98,Italics,Rimuru,0000,0000,0000,,You'll have to forgive me.
+Dialogue: 0,0:07:51.98,0:07:55.63,Italics,Rimuru,0000,0000,0000,,I needed to show the overwhelming \Ndifference in skill between us.
+Dialogue: 0,0:08:02.89,0:08:05.22,Main,Gale,0000,0000,0000,,Don't hold it against me if you die.
+Dialogue: 0,0:08:08.72,0:08:10.81,Italics,Rimuru,0000,0000,0000,,Magic bullets, eh? \NAnd they're pretty powerful.
+Dialogue: 0,0:08:11.07,0:08:11.95,Main,Rimuru,0000,0000,0000,,But!
+Dialogue: 0,0:08:15.52,0:08:16.86,Main,Rimuru,0000,0000,0000,,Delicious. Thank you.
+Dialogue: 0,0:08:17.12,0:08:19.57,Main,Gale,0000,0000,0000,,What was that?! That was dirty!
+Dialogue: 0,0:08:19.84,0:08:22.19,Main,Rimuru,0000,0000,0000,,Use any dirty trick necessary to win.
+Dialogue: 0,0:08:22.19,0:08:24.07,Main,Rimuru,0000,0000,0000,,That's just what grown-ups do.
+Dialogue: 0,0:08:27.48,0:08:29.15,Italics,Rimuru,0000,0000,0000,,Ryota Sekiguchi-kun.
+Dialogue: 0,0:08:29.65,0:08:33.83,Italics,Rimuru,0000,0000,0000,,He seems a bit timid. \NThe polar opposite of Kenya, I'd say.
+Dialogue: 0,0:08:33.98,0:08:36.58,Main,Kenya,0000,0000,0000,,Ryota! Avenge me!
+Dialogue: 0,0:08:45.29,0:08:46.59,Italics,Rimuru,0000,0000,0000,,Body Enhancement?
+Dialogue: 0,0:08:47.14,0:08:49.41,Italics,Rimuru,0000,0000,0000,,No, maybe that's Berserker...
+Dialogue: 0,0:09:01.11,0:09:03.03,Italics,Rimuru,0000,0000,0000,,Nice strength enhancement.
+Dialogue: 0,0:09:03.71,0:09:07.25,Italics,Rimuru,0000,0000,0000,,Up against anyone but me, \Nhe might've put up a good fight.
+Dialogue: 0,0:09:07.90,0:09:12.41,Italics,Rimuru,0000,0000,0000,,But you lose major points for \Nabandoning your composure in battle.
+Dialogue: 0,0:09:21.52,0:09:24.43,Main,Alice,0000,0000,0000,,Looks like it's finally my turn!
+Dialogue: 0,0:09:25.76,0:09:31.12,Main,Alice,0000,0000,0000,,You useless losers better take a good \Nlook at what Alice Rondo-sama can do!
+Dialogue: 0,0:09:32.27,0:09:33.18,Main,Alice,0000,0000,0000,,Go!
+Dialogue: 0,0:09:33.57,0:09:36.89,Main,Alice,0000,0000,0000,,Everyone! Take that jerk out!
+Dialogue: 0,0:09:39.98,0:09:42.61,Italics,Rimuru,0000,0000,0000,,Puppetry? So she's a Golem Master, huh?
+Dialogue: 0,0:09:46.88,0:09:49.70,Italics,Rimuru,0000,0000,0000,,If she can fight this well \Nwith stuffed animals,
+Dialogue: 0,0:09:49.70,0:09:53.41,Italics,Rimuru,0000,0000,0000,,she could use dolls made from a \Nspecial alloy as actual weapons!
+Dialogue: 0,0:09:54.33,0:09:58.59,Italics,Rimuru,0000,0000,0000,,This might be the strongest \Nability out of the five of them.
+Dialogue: 0,0:09:59.21,0:10:00.66,Italics,Rimuru,0000,0000,0000,,It's kinda annoying...
+Dialogue: 0,0:10:00.66,0:10:02.92,Italics,Rimuru,0000,0000,0000,,Maybe I'll just burn them all up.
+Dialogue: 0,0:10:03.45,0:10:04.30,Italics_Top,Great Sage,0000,0000,0000,,Notice.
+Dialogue: 0,0:10:03.46,0:10:04.09,sign_4961_43_It_hurts,Text,0000,0000,0000,,Notice
+Dialogue: 0,0:10:04.30,0:10:08.43,Italics_Top,Great Sage,0000,0000,0000,,The probability that the individual \NAlice Rondo would cry is 100%.
+Dialogue: 0,0:10:08.64,0:10:09.93,Italics,Rimuru,0000,0000,0000,,Maybe not, then.
+Dialogue: 0,0:10:11.07,0:10:12.30,Main,Ryota,0000,0000,0000,,T-Time's up!
+Dialogue: 0,0:10:17.74,0:10:18.60,Main,Rimuru,0000,0000,0000,,Hmm...
+Dialogue: 0,0:10:18.93,0:10:23.11,Italics,Rimuru,0000,0000,0000,,Doesn't look like the energy in their \Nbodies has been reduced at all.
+Dialogue: 0,0:10:23.29,0:10:26.74,Italics,Rimuru,0000,0000,0000,,Another option might be to separate \Nit from them with Degenerate...
+Dialogue: 0,0:10:26.98,0:10:27.84,Italics_Top,Great Sage,0000,0000,0000,,Answer.
+Dialogue: 0,0:10:27.84,0:10:31.74,Italics_Top,Great Sage,0000,0000,0000,,The energy has fused with their souls \Nand cannot be separated from them.
+Dialogue: 0,0:10:32.14,0:10:33.41,Italics,Rimuru,0000,0000,0000,,I see...
+Dialogue: 0,0:10:33.41,0:10:37.65,Italics,Rimuru,0000,0000,0000,,They don't have much time, but I'll \Njust have to search for another way.
+Dialogue: 0,0:10:39.72,0:10:41.50,Main,Rimuru,0000,0000,0000,,Okay, eyes on me!
+Dialogue: 0,0:10:43.38,0:10:46.76,Main,Rimuru,0000,0000,0000,,As you have just learned through \Nexperience, I am strong!
+Dialogue: 0,0:10:48.61,0:10:50.64,Main,Rimuru,0000,0000,0000,,And as such, I promise
+Dialogue: 0,0:10:50.64,0:10:52.39,Main,Rimuru,0000,0000,0000,,to save all of you.
+Dialogue: 0,0:10:53.04,0:10:54.14,Main,Kenya,0000,0000,0000,,Save us?
+Dialogue: 0,0:10:54.58,0:10:57.64,Main,Rimuru,0000,0000,0000,,Yeah. I swear it on this mask.
+Dialogue: 0,0:10:58.28,0:11:00.45,Main,Alice,0000,0000,0000,,Is that Shizu-sensei's?
+Dialogue: 0,0:11:00.45,0:11:01.40,Main,Rimuru,0000,0000,0000,,It is.
+Dialogue: 0,0:11:01.63,0:11:04.05,Main,Rimuru,0000,0000,0000,,When Shizu-san entrusted this to me,
+Dialogue: 0,0:11:04.05,0:11:06.90,Main,Rimuru,0000,0000,0000,,I believe she also entrusted \Nme with all of you.
+Dialogue: 0,0:11:08.76,0:11:11.74,Main,Alice,0000,0000,0000,,All right. I'll trust you.
+Dialogue: 0,0:11:12.54,0:11:14.24,Main,Ryota,0000,0000,0000,,Th-Then... I will, too.
+Dialogue: 0,0:11:14.45,0:11:17.86,Main,Chloe,0000,0000,0000,,I trusted you from the beginning.
+Dialogue: 0,0:11:17.86,0:11:20.38,Main,Kenya,0000,0000,0000,,Jeez, you guys...
+Dialogue: 0,0:11:20.38,0:11:21.75,Main,Kenya,0000,0000,0000,,Fine. I will, too.
+Dialogue: 0,0:11:22.09,0:11:26.88,Main,Gale,0000,0000,0000,,You're right. I think we \Ncan trust this person, too.
+Dialogue: 0,0:11:29.24,0:11:30.26,Main,Rimuru,0000,0000,0000,,All right!
+Dialogue: 0,0:11:31.42,0:11:32.26,Italics,Rimuru,0000,0000,0000,,Wait...
+Dialogue: 0,0:11:32.96,0:11:37.90,Italics,Rimuru,0000,0000,0000,,Shizu-san came to this world around \Nthe same time these kids did, right?
+Dialogue: 0,0:11:38.38,0:11:42.52,Italics,Rimuru,0000,0000,0000,,She said the Demon Lord Leon \Nmade Ifrit possess her...
+Dialogue: 0,0:11:43.76,0:11:45.25,Italics,Rimuru,0000,0000,0000,,Could that mean...
+Dialogue: 0,0:11:46.49,0:11:47.65,Main,Gale,0000,0000,0000,,Um...
+Dialogue: 0,0:11:50.80,0:11:53.74,Main,Rimuru,0000,0000,0000,,Are we clear? I'll save you, no matter what.
+Dialogue: 0,0:11:53.74,0:11:57.66,Main,Rimuru,0000,0000,0000,,Shizu-san entrusted you to me, \Nand I won't abandon you.
+Dialogue: 0,0:11:58.33,0:12:00.25,Main,All,0000,0000,0000,,Thank you, Sensei!
+Dialogue: 0,0:12:01.25,0:12:04.85,Italics,Rimuru,0000,0000,0000,,"Sensei," huh? I like the sound of that.
+Dialogue: 0,0:12:06.08,0:12:09.21,Main,Rimuru,0000,0000,0000,,You guys are my students!
+Dialogue: 0,0:12:09.82,0:12:10.86,Main,Kids,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:12.27,0:12:12.98,Main,Rimuru,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:20.05,0:12:25.92,Italics,Rimuru,0000,0000,0000,,I used Warp Portal, which Vesta \Ntaught me, to visit Treyni-san.
+Dialogue: 0,0:12:31.45,0:12:36.31,Italics,Rimuru,0000,0000,0000,,If we can make superior spirits inhabit \Nthese kids, like Shizu-san and Ifrit,
+Dialogue: 0,0:12:36.31,0:12:39.93,Italics,Rimuru,0000,0000,0000,,it should be possible for \Nthem to control their energy.
+Dialogue: 0,0:12:44.13,0:12:46.88,Main,Treyni,0000,0000,0000,,Rimuru-sama, what brings you here?
+Dialogue: 0,0:12:47.09,0:12:48.73,Main,Rimuru,0000,0000,0000,,Hey, Treyni-san.
+Dialogue: 0,0:12:49.08,0:12:51.38,Main,Rimuru,0000,0000,0000,,I wanted to ask you where \Nsuperior spirits can be found.
+Dialogue: 0,0:12:51.98,0:12:53.06,Main,Treyni,0000,0000,0000,,Well...
+Dialogue: 0,0:12:53.78,0:12:55.57,Main,Treyni,0000,0000,0000,,There is a place called \Nthe Dwelling of Spirits,
+Dialogue: 0,0:12:55.57,0:12:58.39,Main,Treyni,0000,0000,0000,,which is ruled by the Queen of Spirits.
+Dialogue: 0,0:12:58.59,0:13:02.39,Main,Rimuru,0000,0000,0000,,Oh! So if I go there, \Ncan I meet superior spirits?
+Dialogue: 0,0:13:02.85,0:13:05.23,Main,Treyni,0000,0000,0000,,Yes, but...
+Dialogue: 0,0:13:06.91,0:13:10.50,Main,Treyni,0000,0000,0000,,You see, there are several entrances,
+Dialogue: 0,0:13:10.50,0:13:14.02,Main,Treyni,0000,0000,0000,,but the one I know of \Nhas long since vanished.
+Dialogue: 0,0:13:14.02,0:13:14.65,Main,Rimuru,0000,0000,0000,,Huh?!
+Dialogue: 0,0:13:15.86,0:13:21.07,Main,Treyni,0000,0000,0000,,The Queen of Spirits we once \Nserved passed away long ago.
+Dialogue: 0,0:13:21.47,0:13:24.03,Main,Treyni,0000,0000,0000,,As I have no connection with \Nthe current Queen of Spirits,
+Dialogue: 0,0:13:24.03,0:13:25.66,Main,Treyni,0000,0000,0000,,I am unsure where she resides.
+Dialogue: 0,0:13:25.93,0:13:27.23,Main,Rimuru,0000,0000,0000,,I see...
+Dialogue: 0,0:13:27.65,0:13:30.47,Main,Treyni,0000,0000,0000,,I am truly sorry I could be of no help.
+Dialogue: 0,0:13:30.47,0:13:31.58,Main,Rimuru,0000,0000,0000,,It's okay.
+Dialogue: 0,0:13:43.81,0:13:47.11,Main,Rimuru,0000,0000,0000,,Don't worry. Just leave it all to me.
+Dialogue: 0,0:13:55.04,0:13:57.63,Italics,Rimuru,0000,0000,0000,,It's been a month since I became a teacher.
+Dialogue: 0,0:13:58.04,0:14:01.57,Italics,Rimuru,0000,0000,0000,,I've spent that time trying to \Nfind where superior spirits live,
+Dialogue: 0,0:14:01.57,0:14:03.61,Italics,Rimuru,0000,0000,0000,,but I haven't found anything yet.
+Dialogue: 0,0:14:04.74,0:14:06.72,Italics,Rimuru,0000,0000,0000,,Today, we're having a picnic.
+Dialogue: 0,0:14:06.72,0:14:08.84,Italics,Rimuru,0000,0000,0000,,Everyone needs a break sometimes.
+Dialogue: 0,0:14:10.16,0:14:14.80,Main,Rimuru,0000,0000,0000,,Now, before we have lunch, I think we \Nshould do a bit of combat training.
+Dialogue: 0,0:14:15.07,0:14:17.26,Main,Kids,0000,0000,0000,,Aww!
+Dialogue: 0,0:14:17.56,0:14:20.20,Main,Rimuru,0000,0000,0000,,Those who do their best will earn a reward.
+Dialogue: 0,0:14:20.91,0:14:21.90,Main,Kenya,0000,0000,0000,,That's...
+Dialogue: 0,0:14:22.47,0:14:24.97,sign_20679_220_Sirius,Text,0000,0000,0000,,{\fad(1000,1)}Sirius
+Dialogue: 0,0:14:22.47,0:14:24.97,sign_20679_221_Altair__A_Record,Text,0000,0000,0000,,{\fad(1000,1)}Altair: A Record of Battles
+Dialogue: 0,0:14:23.41,0:14:24.97,Main,Rimuru,0000,0000,0000,,The latest issue!
+Dialogue: 0,0:14:26.04,0:14:28.06,Main,Kenya,0000,0000,0000,,Oh, man! I wanna see what happens next!
+Dialogue: 0,0:14:28.06,0:14:31.68,Main,Ryota,0000,0000,0000,,Y-Yeah! The last issue left off \Nright where it was getting good!
+Dialogue: 0,0:14:31.68,0:14:35.62,Main,Alice,0000,0000,0000,,I'm gonna get it before any of you!
+Dialogue: 0,0:14:35.62,0:14:36.99,Main,Chloe,0000,0000,0000,,I like manga, too.
+Dialogue: 0,0:14:37.19,0:14:42.01,Main,Gale,0000,0000,0000,,Well, I don't know much about \NJapanese manga and anime,
+Dialogue: 0,0:14:42.01,0:14:43.37,Main,Gale,0000,0000,0000,,but that makes it even more intriguing!
+Dialogue: 0,0:14:43.51,0:14:45.85,Main,Rimuru,0000,0000,0000,,So, who's going first?
+Dialogue: 0,0:14:45.85,0:14:46.75,Main,Kenya,0000,0000,0000,,Oh! Me! Me!
+Dialogue: 0,0:14:47.03,0:14:47.90,Main,Alice,0000,0000,0000,,No, me!
+Dialogue: 0,0:14:47.90,0:14:48.73,Main,Chloe,0000,0000,0000,,I will...
+Dialogue: 0,0:14:48.73,0:14:49.77,Main,Gale,0000,0000,0000,,I will!
+Dialogue: 0,0:14:49.77,0:14:50.62,Main,Ryota,0000,0000,0000,,Me, too!
+Dialogue: 0,0:14:50.62,0:14:52.31,Main,Gale,0000,0000,0000,,Please, let me!
+Dialogue: 0,0:14:52.31,0:14:54.92,Main,Chloe,0000,0000,0000,,Please! Please, Sensei!
+Dialogue: 0,0:14:55.75,0:14:58.50,Main,Kenya,0000,0000,0000,,Damn... I lost again today...
+Dialogue: 0,0:14:58.50,0:15:01.09,Main,Ryota,0000,0000,0000,,Sensei, you're so strong, \Nit should be illegal.
+Dialogue: 0,0:15:01.38,0:15:04.49,Main,Alice,0000,0000,0000,,Hey! You're supposed to go easy on girls!
+Dialogue: 0,0:15:04.49,0:15:06.56,Main,Chloe,0000,0000,0000,,I need to learn more magic...
+Dialogue: 0,0:15:06.92,0:15:08.98,Main,Gale,0000,0000,0000,,I guess we're just no match for him!
+Dialogue: 0,0:15:13.39,0:15:17.36,Main,Rimuru,0000,0000,0000,,Look, kiddos. You're dreaming if \Nyou think you can ever surpass me.
+Dialogue: 0,0:15:17.36,0:15:18.86,Main,Kids,0000,0000,0000,,Boo! Boo!
+Dialogue: 0,0:15:18.86,0:15:20.36,Main,Kids,0000,0000,0000,,Boo! Boo!
+Dialogue: 0,0:15:21.82,0:15:25.62,Main,Rimuru,0000,0000,0000,,Well, you all tried hard, \Nthough, so I'll let you...
+Dialogue: 0,0:15:27.71,0:15:28.62,Main,Kenya,0000,0000,0000,,Sensei?
+Dialogue: 0,0:15:34.13,0:15:36.38,Main,Rimuru,0000,0000,0000,,What is this pressure?
+Dialogue: 0,0:15:36.62,0:15:37.44,Italics_Top,Great Sage,0000,0000,0000,,Notice.
+Dialogue: 0,0:15:37.75,0:15:40.28,Italics_Top,Great Sage,0000,0000,0000,,High-density energy detected.
+Dialogue: 0,0:15:37.80,0:15:40.63,sign_4961_43_It_hurts,Text,0000,0000,0000,,{\bord4\fad(1982,1)}High-density\Nenergy\Ndetected.
+Dialogue: 0,0:15:40.28,0:15:42.88,Italics_Top,Great Sage,0000,0000,0000,,This response is a Sky Dragon.
+Dialogue: 0,0:15:43.38,0:15:44.89,Main,Rimuru,0000,0000,0000,,Sky Dragon?
+Dialogue: 0,0:15:56.35,0:15:58.96,Main,Rimuru,0000,0000,0000,,What was that? A stray Dragon?
+Dialogue: 0,0:15:58.96,0:16:00.53,Main,Alice,0000,0000,0000,,It was heading toward the capital!
+Dialogue: 0,0:16:01.18,0:16:03.66,Main,Rimuru,0000,0000,0000,,Oh, well. I'd better go help them.
+Dialogue: 0,0:16:03.82,0:16:04.60,Main,Kenya,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:05.34,0:16:09.58,Main,Rimuru,0000,0000,0000,,If we let that thing run free, \Na lot of people could get hurt.
+Dialogue: 0,0:16:09.96,0:16:12.83,Main,Rimuru,0000,0000,0000,,Ranga, stay here and protect these guys.
+Dialogue: 0,0:16:13.41,0:16:17.62,Main,Ranga,0000,0000,0000,,Master, shall I go and give \Nthat thing a good chomping?
+Dialogue: 0,0:16:17.62,0:16:19.46,Main,Rimuru,0000,0000,0000,,No, I'll go this time.
+Dialogue: 0,0:16:20.23,0:16:22.97,Main,Rimuru,0000,0000,0000,,I have to put on a good show for these kids.
+Dialogue: 0,0:16:23.18,0:16:24.24,Main,Ranga,0000,0000,0000,,I see.
+Dialogue: 0,0:16:24.24,0:16:25.55,Main,Kenya,0000,0000,0000,,Sensei!
+Dialogue: 0,0:16:25.76,0:16:27.91,Main,Kenya,0000,0000,0000,,I know you're strong,
+Dialogue: 0,0:16:27.91,0:16:29.78,Main,Kenya,0000,0000,0000,,but you can't beat a Dragon!
+Dialogue: 0,0:16:29.78,0:16:30.74,Main,Ryota,0000,0000,0000,,Yeah!
+Dialogue: 0,0:16:30.74,0:16:34.56,Main,Alice,0000,0000,0000,,If you die, who's going to save our lives?
+Dialogue: 0,0:16:34.77,0:16:38.39,Main,Rimuru,0000,0000,0000,,I'm not stupid enough to go \Nafter anyone I can't defeat!
+Dialogue: 0,0:16:38.39,0:16:40.12,Main,Rimuru,0000,0000,0000,,Just leave this to me!
+Dialogue: 0,0:16:41.05,0:16:41.61,Main,Kenya,0000,0000,0000,,Sensei!
+Dialogue: 0,0:16:41.61,0:16:42.61,Main,Kids,0000,0000,0000,,Sensei!
+Dialogue: 0,0:16:44.00,0:16:45.57,Main,Rimuru,0000,0000,0000,,Hang on to this for me!
+Dialogue: 0,0:16:48.70,0:16:50.95,Main,Alice,0000,0000,0000,,No fair, Chlo-chan!
+Dialogue: 0,0:16:56.46,0:16:57.96,Main,Kenya,0000,0000,0000,,H-He flew!
+Dialogue: 0,0:16:57.96,0:16:59.50,Main,Alice,0000,0000,0000,,Amazing...
+Dialogue: 0,0:17:02.25,0:17:04.60,Main,Rimuru,0000,0000,0000,,They'll know who I am if I go in like this...
+Dialogue: 0,0:17:06.78,0:17:07.93,Main,Rimuru,0000,0000,0000,,This'll do.
+Dialogue: 0,0:17:24.15,0:17:25.87,Main,Captain,0000,0000,0000,,Aim!
+Dialogue: 0,0:17:26.52,0:17:27.82,Main,Captain,0000,0000,0000,,Fire!
+Dialogue: 0,0:17:47.00,0:17:49.22,Main,Mjolmire,0000,0000,0000,,Is this the end for me?
+Dialogue: 0,0:17:56.35,0:17:58.29,Main,Soldier,0000,0000,0000,,U-Unbelievable!
+Dialogue: 0,0:17:58.29,0:18:00.76,Main,Soldier,0000,0000,0000,,He completely wiped out a Sky \NDragon's lightning attack!
+Dialogue: 0,0:18:00.76,0:18:02.61,Main,Soldier,0000,0000,0000,,Is that the Hero?!
+Dialogue: 0,0:18:04.86,0:18:07.61,Main,Rimuru,0000,0000,0000,,Compared to Charybdis, this is nothing!
+Dialogue: 0,0:18:27.82,0:18:29.13,Main,Rimuru,0000,0000,0000,,An invitation to dinner?
+Dialogue: 0,0:18:29.44,0:18:32.39,Main,Yuuki,0000,0000,0000,,Yes, a merchant named Mjolmire
+Dialogue: 0,0:18:32.39,0:18:36.04,Main,Yuuki,0000,0000,0000,,is quite keen on inviting \Nyou to the store he runs.
+Dialogue: 0,0:18:36.04,0:18:38.39,Main,Yuuki,0000,0000,0000,,He said the children can come along, too.
+Dialogue: 0,0:18:38.70,0:18:40.50,Main,Rimuru,0000,0000,0000,,And why is this guy inviting me?
+Dialogue: 0,0:18:40.50,0:18:44.35,Main,Yuuki,0000,0000,0000,,He said a mysterious warrior \Nsaved his life today.
+Dialogue: 0,0:18:45.20,0:18:48.65,Main,Yuuki,0000,0000,0000,,It was you who defeated \Nthe Sky Dragon, wasn't it?
+Dialogue: 0,0:18:49.40,0:18:51.61,Main,Rimuru,0000,0000,0000,,Was it, now?
+Dialogue: 0,0:18:51.61,0:18:52.97,Main,Rimuru,0000,0000,0000,,So, this... Myo...
+Dialogue: 0,0:18:52.97,0:18:54.36,Main,Yuuki,0000,0000,0000,,Mjolmire.
+Dialogue: 0,0:18:54.36,0:18:56.66,Main,Rimuru,0000,0000,0000,,Yeah, him. Is he trustworthy?
+Dialogue: 0,0:18:56.66,0:19:00.24,Main,Yuuki,0000,0000,0000,,He has earned the official merchant \Ncertification issued by the Kingdom of Blumund
+Dialogue: 0,0:19:00.24,0:19:01.84,Main,Yuuki,0000,0000,0000,,and the Free Union.
+Dialogue: 0,0:19:01.84,0:19:05.42,Main,Yuuki,0000,0000,0000,,Of course, he also works as a loan \Nshark out of the public eye...
+Dialogue: 0,0:19:05.70,0:19:09.92,Main,Yuuki,0000,0000,0000,,But I ran a background check \Non him. He can be trusted.
+Dialogue: 0,0:19:10.14,0:19:11.04,Main,Rimuru,0000,0000,0000,,Hmm...
+Dialogue: 0,0:19:16.58,0:19:19.35,Main,Kids,0000,0000,0000,,Wow!
+Dialogue: 0,0:19:19.56,0:19:20.71,Main,Kenya,0000,0000,0000,,It's so good!
+Dialogue: 0,0:19:20.71,0:19:22.31,Main,Gale,0000,0000,0000,,This is fantastic!
+Dialogue: 0,0:19:22.31,0:19:23.97,Main,Alice,0000,0000,0000,,What is this? It's so good!
+Dialogue: 0,0:19:23.97,0:19:24.73,Main,Chloe,0000,0000,0000,,Uh-huh!
+Dialogue: 0,0:19:27.28,0:19:28.86,Main,Mjolmire,0000,0000,0000,,What do you think?
+Dialogue: 0,0:19:29.74,0:19:31.70,Main,Rimuru,0000,0000,0000,,Yes, it's quite good.
+Dialogue: 0,0:19:31.94,0:19:34.47,Main,Mjolmire,0000,0000,0000,,Of course it is, of course it is!
+Dialogue: 0,0:19:34.47,0:19:37.46,Main,Mjolmire,0000,0000,0000,,I procured that via a \Nparticularly special route!
+Dialogue: 0,0:19:37.46,0:19:39.20,Main,Mjolmire,0000,0000,0000,,Go on, pour him some more!
+Dialogue: 0,0:19:44.06,0:19:47.02,Main,Rimuru,0000,0000,0000,,You're sure you don't mind \Nfeeding my students, too?
+Dialogue: 0,0:19:47.02,0:19:51.22,Main,Mjolmire,0000,0000,0000,,Not at all, not at all! \NI owe you my life, after all!
+Dialogue: 0,0:19:52.08,0:19:53.38,Main,Rimuru,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:19:53.76,0:19:58.10,Main,Mjolmire,0000,0000,0000,,I get information from all \Nover the place, you know.
+Dialogue: 0,0:19:58.10,0:20:03.90,Main,Mjolmire,0000,0000,0000,,Even with a different appearance, \NI know very well that was you.
+Dialogue: 0,0:20:05.90,0:20:11.15,Main,Mjolmire,0000,0000,0000,,And I must show my gratitude to \Nmy savior or incur Heaven's wrath!
+Dialogue: 0,0:20:11.60,0:20:16.91,Main,Mjolmire,0000,0000,0000,,So, shall we say that we're even now?
+Dialogue: 0,0:20:17.87,0:20:19.22,Main,Rimuru,0000,0000,0000,,I get it.
+Dialogue: 0,0:20:19.65,0:20:23.16,Italics,Rimuru,0000,0000,0000,,This guy seems trustworthy \Nenough as a merchant.
+Dialogue: 0,0:20:23.96,0:20:25.82,Main,Rimuru,0000,0000,0000,,By the way, Mjolmire-kun,
+Dialogue: 0,0:20:25.82,0:20:29.84,Main,Rimuru,0000,0000,0000,,with that information network of yours, \Nyou must know who I am, right?
+Dialogue: 0,0:20:30.08,0:20:31.43,Main,Mjolmire,0000,0000,0000,,Correct.
+Dialogue: 0,0:20:31.43,0:20:35.05,Main,Mjolmire,0000,0000,0000,,Then why don't you come to our town?
+Dialogue: 0,0:20:35.52,0:20:37.85,Main,Mjolmire,0000,0000,0000,,Go to... your town?
+Dialogue: 0,0:20:38.29,0:20:42.13,Main,Rimuru,0000,0000,0000,,We intend to sell all kinds of things, \Nbut we lack the know-how.
+Dialogue: 0,0:20:42.13,0:20:44.60,Main,Rimuru,0000,0000,0000,,If we had your help...
+Dialogue: 0,0:20:44.75,0:20:49.81,Main,Mjolmire,0000,0000,0000,,So we would both profit... I mean, benefit!
+Dialogue: 0,0:20:51.81,0:20:53.24,Main,Mjolmire,0000,0000,0000,,Very well.
+Dialogue: 0,0:20:53.50,0:20:54.74,Main,Rimuru,0000,0000,0000,,Then, it's settled.
+Dialogue: 0,0:20:57.90,0:21:01.74,Main,Mjolmire,0000,0000,0000,,Right... I have the invitation to your town.
+Dialogue: 0,0:21:02.02,0:21:06.25,Main,Mjolmire,0000,0000,0000,,Come visit me again. I'll cut \Nsome great deals just for you!
+Dialogue: 0,0:21:06.94,0:21:08.64,Main,Rimuru,0000,0000,0000,,But not for free, right?
+Dialogue: 0,0:21:09.46,0:21:13.74,Main,Lady,0000,0000,0000,,May the blessing of the Queen of \NSpirits safeguard these children.
+Dialogue: 0,0:21:14.77,0:21:16.55,Main,Chloe,0000,0000,0000,,Is that a magic spell?
+Dialogue: 0,0:21:17.12,0:21:21.25,Main,Lady,0000,0000,0000,,It's a prayer we say in my homeland.
+Dialogue: 0,0:21:21.25,0:21:25.89,Main,Lady,0000,0000,0000,,It means the Queen of Spirits, who lives in \Nthe Dwelling of Spirits, will protect you.
+Dialogue: 0,0:21:25.89,0:21:27.19,Main,Rimuru,0000,0000,0000,,E-Excuse me, miss!
+Dialogue: 0,0:21:27.41,0:21:29.64,Main,Rimuru,0000,0000,0000,,Did you just say "the Dwelling of Spirits"?
+Dialogue: 0,0:21:29.64,0:21:31.83,Main,Rimuru,0000,0000,0000,,Do you know where that is?
+Dialogue: 0,0:21:31.83,0:21:35.03,Main,Lady,0000,0000,0000,,Huh? Yes, I do...
+Dialogue: 0,0:21:35.03,0:21:37.95,Main,Lady,0000,0000,0000,,I come from a village near there.
+Dialogue: 0,0:21:41.74,0:21:45.50,Italics,Rimuru,0000,0000,0000,,In exchange for a handsome tip, \Nthe lady told me where to go...
+Dialogue: 0,0:21:45.71,0:21:50.71,sign_17935_188_Barren_Lands,Text,0000,0000,0000,,{\fad(1,975)\frz313\t(\fs20)\move(117,174,-40,110)}Barren Lands
+Dialogue: 0,0:21:45.71,0:21:50.71,sign_17935_188_Barren_Lands,Text,0000,0000,0000,,{\fad(1,975)\fs10\move(285,194,236,130)\t(\fs18)}The Western Provinces
+Dialogue: 0,0:21:45.71,0:21:50.71,sign_17935_188_Barren_Lands,Text,0000,0000,0000,,{\fad(1,975)\frz18\fs14\move(412,191,450,120)\t(\fs22)\3c&H6AA8B9&\bord1.5\blur1}Tempest
+Dialogue: 0,0:21:45.71,0:21:50.71,sign_17935_188_Barren_Lands,Text,0000,0000,0000,,{\move(510,80,600,-40)\fs10\t(\fs18)}The Eastern Plains
+Dialogue: 0,0:21:46.57,0:21:52.24,Italics_Top,Rimuru,0000,0000,0000,,The Ulg Nature Park, in the northern part of a \Nfrontier nation called the Republic of Ulgrasia.
+Dialogue: 0,0:21:49.75,0:21:53.30,sign_17935_188_Barren_Lands,Text,0000,0000,0000,,{\fad(986,1)\fs18\b1\t(\fs28)\3c&HAECED4&\blur1\move(353,255,388,250)\t(2697,3530,1 \c&H020403&\3c&H0B0C0C&)}Republic of\NUlgrasia
+Dialogue: 0,0:21:55.97,0:21:58.21,Italics,Rimuru,0000,0000,0000,,This is where the Dwelling of Spirits is...
+Dialogue: 0,0:22:00.21,0:22:03.77,Italics,Rimuru,0000,0000,0000,,Shizu-san, I swear I'm \Ngoing to save these kids.
+Dialogue: 0,0:23:36.00,0:23:38.76,Italics_Top,Great Sage,0000,0000,0000,,Next time, "Conquering the Labyrinth."
+Dialogue: 0,0:23:36.15,0:23:39.99,Next_Ep_Title,Title,0000,0000,0000,,{\fad(942,1)}Conquering{\bord0\u1\c&HDDE6EB&} the Labyrinth
+

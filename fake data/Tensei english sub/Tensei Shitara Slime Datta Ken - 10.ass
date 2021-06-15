@@ -1,0 +1,360 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Show_Title,Open Sans Semibold,36,&H00CD9612,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H8C000000,&H8C000000,0,0,0,0,100,100,0,0,1,1,1,3,13,53,67,1
+Style: Next_Ep_Title,Open Sans Semibold,39,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,13,13,147,1
+Style: sign_4961_43_It_hurts,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,13,13,0,1
+Style: sign_2170_2_The_Ameldo_River,Open Sans Semibold,36,&H00000000,&H000000FF,&H0093D2DC,&H3C000000,1,0,0,0,100,100,0,0,3,4,2,2,13,13,147,1
+Style: sign_15797_143_Kijin,Open Sans Semibold,42,&H00CDD7DF,&H000000FF,&H00070099,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,379,379,107,1
+Style: sign_23679_242_Gabiru,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H78000000,&H78000000,1,0,0,0,100,100,0,0,1,1,1,2,369,369,107,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:12.16,0:00:16.08,Show_Title,Title,0000,0000,0000,,{\fad(1614,389)}That {\c&H471E13&}Time {\c&HCD9612&}I Got {\c&H471E13&}Reincarnated {\c&HCD9612&}as a {\c&H7E4F0A&}Slime
+Dialogue: 0,0:01:30.53,0:01:35.12,Ep_Title,Title,0000,0000,0000,,{\fad(1321,433)}Episode 10: The Orc Lord
+Dialogue: 0,0:01:51.14,0:01:52.83,Main,Rigurd,0000,0000,0000,,G-Rimuru-sama?
+Dialogue: 0,0:01:52.83,0:01:54.68,Main,Rigur,0000,0000,0000,,Is it not to your tastes?
+Dialogue: 0,0:01:56.89,0:01:59.41,Main,Rimuru,0000,0000,0000,,That's so good!
+Dialogue: 0,0:02:05.86,0:02:08.05,Main,Rimuru,0000,0000,0000,,This is bliss!
+Dialogue: 0,0:02:09.05,0:02:12.52,Italics,Rimuru,0000,0000,0000,,I didn't have a sense of \Ntaste in my slime form.
+Dialogue: 0,0:02:12.52,0:02:16.54,Italics,Rimuru,0000,0000,0000,,This is the first time I've tasted \Nfood since I came to this world.
+Dialogue: 0,0:02:18.26,0:02:20.44,Italics,Rimuru,0000,0000,0000,,It's so great to be alive!
+Dialogue: 0,0:02:33.67,0:02:36.84,Main,Kaijin,0000,0000,0000,,The Orcs attacked the Ogres?
+Dialogue: 0,0:02:36.84,0:02:38.39,Main,Kaijin,0000,0000,0000,,That can't be!
+Dialogue: 0,0:02:39.53,0:02:40.68,Main,Benimaru,0000,0000,0000,,It's the truth.
+Dialogue: 0,0:02:41.09,0:02:43.61,Main,Kaijin,0000,0000,0000,,Can such a thing really happen?
+Dialogue: 0,0:02:43.61,0:02:45.25,Main,Rigurd,0000,0000,0000,,I don't know.
+Dialogue: 0,0:02:45.25,0:02:47.62,Main,Gobta,0000,0000,0000,,Is it that strange?
+Dialogue: 0,0:02:47.62,0:02:48.71,Main,Rigur,0000,0000,0000,,Gobta...
+Dialogue: 0,0:02:48.71,0:02:50.26,Main,Kaijin,0000,0000,0000,,Of course it is.
+Dialogue: 0,0:02:50.26,0:02:53.49,Main,Kaijin,0000,0000,0000,,Ogres are immeasurably stronger than Orcs.
+Dialogue: 0,0:02:53.49,0:02:56.91,Main,Kaijin,0000,0000,0000,,That such a weak race would \Nattack them is unthinkable.
+Dialogue: 0,0:02:57.76,0:03:00.29,Main,Benimaru,0000,0000,0000,,Nevertheless, they did come.
+Dialogue: 0,0:03:03.91,0:03:06.83,Main,Benimaru,0000,0000,0000,,They attacked our village out of nowhere.
+Dialogue: 0,0:03:07.96,0:03:10.42,Main,Benimaru,0000,0000,0000,,They carried weapons and wore armor,
+Dialogue: 0,0:03:11.23,0:03:14.29,Main,Benimaru,0000,0000,0000,,and their overwhelming numbers \Nfilled the entire forest.
+Dialogue: 0,0:03:16.04,0:03:18.23,Main,Benimaru,0000,0000,0000,,Those detestable pigs...
+Dialogue: 0,0:03:18.84,0:03:21.19,Main,Benimaru,0000,0000,0000,,overran our village.
+Dialogue: 0,0:03:21.53,0:03:23.60,Main,Kaijin,0000,0000,0000,,Orcs wearing armor?
+Dialogue: 0,0:03:23.60,0:03:28.44,Main,Benumaru,0000,0000,0000,,Yes, the same type of full \Nplate mail that Humans wear.
+Dialogue: 0,0:03:30.64,0:03:32.28,Main,Kaijin,0000,0000,0000,,That must mean...
+Dialogue: 0,0:03:32.69,0:03:36.04,Main,Rigurd,0000,0000,0000,,It's likely the Orcs are not working alone.
+Dialogue: 0,0:03:36.04,0:03:40.08,Main,Kaijin,0000,0000,0000,,Orcs could never round up all \Nthat valuable armor themselves.
+Dialogue: 0,0:03:41.88,0:03:43.24,Main,Benimaru,0000,0000,0000,,Exactly.
+Dialogue: 0,0:03:43.66,0:03:45.00,Main,Benimaru,0000,0000,0000,,Among them was...
+Dialogue: 0,0:03:48.91,0:03:51.22,Main,Kaijin,0000,0000,0000,,A masked majin?
+Dialogue: 0,0:03:54.22,0:03:56.18,Main,Benimaru,0000,0000,0000,,It was a high-level majin.
+Dialogue: 0,0:03:56.18,0:03:57.62,Main,Benimaru,0000,0000,0000,,I'm certain of it.
+Dialogue: 0,0:03:58.38,0:04:03.73,Main,Rigurd,0000,0000,0000,,And you fought Rimuru-sama because\Nyou had mistaken him for this masked majin.
+Dialogue: 0,0:04:03.73,0:04:04.65,Main,Benimaru,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:06.32,0:04:08.47,Main,Gobta,0000,0000,0000,,So... what does all this mean?
+Dialogue: 0,0:04:08.47,0:04:14.39,Main,Rigur,0000,0000,0000,,That the Orcs have sided with one \Nof the Demon Lords, possibly?
+Dialogue: 0,0:04:15.03,0:04:16.74,Main,Gobta,0000,0000,0000,,I see... I guess?
+Dialogue: 0,0:04:17.98,0:04:19.49,Main,Kaijin,0000,0000,0000,,A Demon Lord, eh?
+Dialogue: 0,0:04:19.97,0:04:22.62,Main,Rigurd,0000,0000,0000,,But why a Demon Lord?
+Dialogue: 0,0:04:23.28,0:04:24.55,Main,Benimaru,0000,0000,0000,,I don't know.
+Dialogue: 0,0:04:25.75,0:04:29.67,Main,Benimaru,0000,0000,0000,,The only thing I'm sure of is that
+Dialogue: 0,0:04:30.37,0:04:33.41,Main,Benimaru,0000,0000,0000,,only six of my three hundred \Nbrethren remain alive.
+Dialogue: 0,0:04:34.14,0:04:35.37,Main,Rimuru,0000,0000,0000,,I see.
+Dialogue: 0,0:04:35.37,0:04:37.37,Main,Rimuru,0000,0000,0000,,No wonder you're upset.
+Dialogue: 0,0:04:39.17,0:04:41.45,Main,Benimaru,0000,0000,0000,,Have you had enough meat, Rimuru?
+Dialogue: 0,0:04:41.45,0:04:43.55,Main,Rimuru,0000,0000,0000,,I'm taking a break.
+Dialogue: 0,0:04:43.55,0:04:45.74,Main,Rimuru,0000,0000,0000,,Your little sister's really something.
+Dialogue: 0,0:04:49.27,0:04:51.36,Main,Rimuru,0000,0000,0000,,She knows a lot about \Nmedicinal and cooking herbs.
+Dialogue: 0,0:04:51.36,0:04:53.99,Main,Rimuru,0000,0000,0000,,The Goblins took to her immediately.
+Dialogue: 0,0:04:54.46,0:04:56.43,Main,Benimaru,0000,0000,0000,,She was a sheltered child.
+Dialogue: 0,0:04:56.43,0:04:58.55,Main,Benimaru,0000,0000,0000,,She must be happy that \Nthey're relying on her.
+Dialogue: 0,0:04:59.58,0:05:02.76,Main,Rimuru,0000,0000,0000,,So, what are you guys going to do now?
+Dialogue: 0,0:05:02.76,0:05:04.50,Main,Benimaru,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:05:04.92,0:05:06.72,Main,Rimuru,0000,0000,0000,,I mean your plans for the future.
+Dialogue: 0,0:05:07.46,0:05:11.51,Main,Rimuru,0000,0000,0000,,Whether you rebuild your village \Nor relocate to another area,
+Dialogue: 0,0:05:11.51,0:05:15.03,Main,Rimuru,0000,0000,0000,,the fate of your comrades is depending \Non your leadership, right?
+Dialogue: 0,0:05:17.10,0:05:18.47,Main,Benimaru,0000,0000,0000,,That's easy.
+Dialogue: 0,0:05:18.65,0:05:21.38,Main,Benimaru,0000,0000,0000,,We will build our strength \Nand take them on again.
+Dialogue: 0,0:05:21.38,0:05:22.93,Main,Rimuru,0000,0000,0000,,Do you know where to find them?
+Dialogue: 0,0:05:27.41,0:05:29.68,Italics,Rimuru,0000,0000,0000,,He doesn't have a plan at all.
+Dialogue: 0,0:05:31.73,0:05:33.07,Main,Rimuru,0000,0000,0000,,Well, I have a suggestion.
+Dialogue: 0,0:05:33.65,0:05:36.93,Main,Rimuru,0000,0000,0000,,Do you guys have any interest \Nin being my subordinates?
+Dialogue: 0,0:05:37.95,0:05:38.93,Main,Benimaru,0000,0000,0000,,Subordinates?
+Dialogue: 0,0:05:39.42,0:05:41.41,Main,Rimuru,0000,0000,0000,,Of course, all I can pay you
+Dialogue: 0,0:05:43.12,0:05:45.50,Main,Rimuru,0000,0000,0000,,is guaranteed food, shelter, and clothing.
+Dialogue: 0,0:05:46.08,0:05:48.10,Main,Rimuru,0000,0000,0000,,You need a home base, right?
+Dialogue: 0,0:05:48.10,0:05:53.22,Main,Benimaru,0000,0000,0000,,But that would involve your \Nwhole village in our revenge.
+Dialogue: 0,0:05:54.49,0:05:57.97,Main,Rimuru,0000,0000,0000,,Well... I'm not just offering \Nthis as a favor to you guys.
+Dialogue: 0,0:05:59.24,0:06:02.93,Main,Rimuru,0000,0000,0000,,You said thousands of armed \NOrcs attacked you, right?
+Dialogue: 0,0:06:03.74,0:06:06.67,Main,Rimuru,0000,0000,0000,,And there might be a \NDemon Lord pulling the strings.
+Dialogue: 0,0:06:07.56,0:06:12.94,Main,Rigurd,0000,0000,0000,,The Orcs may be seeking dominion \Nover the Great Forest of Jura.
+Dialogue: 0,0:06:14.74,0:06:18.45,Main,Rimuru,0000,0000,0000,,This town isn't completely safe, either.
+Dialogue: 0,0:06:19.69,0:06:24.16,Main,Rimuru,0000,0000,0000,,Which is why adding as many to our \Nnumbers as possible would benefit us.
+Dialogue: 0,0:06:25.59,0:06:29.62,Main,Rimuru,0000,0000,0000,,Plus, if anything happened to \Nyou guys, I'd fight with you.
+Dialogue: 0,0:06:31.11,0:06:32.96,Main,Rimuru,0000,0000,0000,,I'll never abandon a friend.
+Dialogue: 0,0:06:34.68,0:06:35.81,Main,Benimaru,0000,0000,0000,,I see.
+Dialogue: 0,0:06:37.79,0:06:39.72,Main,Benimaru,0000,0000,0000,,Let me give it some thought.
+Dialogue: 0,0:06:40.20,0:06:43.13,Main,Rimuru,0000,0000,0000,,Sure. Take all the time you \Nneed to think about it.
+Dialogue: 0,0:06:43.83,0:06:47.86,Main,Rimuru,0000,0000,0000,,Well, I think I'll go get some more meat.
+Dialogue: 0,0:07:00.18,0:07:01.98,Main,Souei,0000,0000,0000,,It's not a bad offer.
+Dialogue: 0,0:07:04.16,0:07:06.49,Main,Souei,0000,0000,0000,,But it's your choice to make.
+Dialogue: 0,0:07:07.22,0:07:09.75,Main,Souei,0000,0000,0000,,We'll do whatever you \Nand the princess decide.
+Dialogue: 0,0:07:28.49,0:07:30.83,Main,Benimaru,0000,0000,0000,,If only I were stronger...
+Dialogue: 0,0:07:39.39,0:07:40.61,Main,Rimuru,0000,0000,0000,,Have you decided?
+Dialogue: 0,0:07:41.47,0:07:43.75,Main,Benimaru,0000,0000,0000,,The Ogres are a warring clan.
+Dialogue: 0,0:07:44.31,0:07:47.81,Main,Benimaru,0000,0000,0000,,We aren't against taking to the \Nbattlefield in service to another.
+Dialogue: 0,0:07:47.81,0:07:51.05,Main,Benimaru,0000,0000,0000,,If our master is strong, we are \Nall the more pleased to serve them.
+Dialogue: 0,0:07:54.39,0:07:58.21,Main,Benimaru,0000,0000,0000,,Can our contract last only until \Nwe take out the Orcs' leader?
+Dialogue: 0,0:07:58.62,0:08:01.09,Main,Rimuru,0000,0000,0000,,You can do whatever you want after that.
+Dialogue: 0,0:08:01.53,0:08:04.19,Main,Rimuru,0000,0000,0000,,You can stay and help us build a nation,
+Dialogue: 0,0:08:04.19,0:08:05.59,Main,Rimuru,0000,0000,0000,,or you can go on your way.
+Dialogue: 0,0:08:13.83,0:08:16.86,Main,Benimaru,0000,0000,0000,,I would like to accept the \Noffer you presented last night.
+Dialogue: 0,0:08:17.67,0:08:21.11,Main,Benimaru,0000,0000,0000,,We will hereby serve under you.
+Dialogue: 0,0:08:22.37,0:08:23.09,Main,Rimuru,0000,0000,0000,,Good.
+Dialogue: 0,0:08:24.95,0:08:27.79,Italics,Rimuru,0000,0000,0000,,I should've given more \Nconsideration to how he feels.
+Dialogue: 0,0:08:28.27,0:08:30.35,Italics,Rimuru,0000,0000,0000,,I'm sure all he wants is \Nto avenge his people now,
+Dialogue: 0,0:08:30.35,0:08:32.10,Italics,Rimuru,0000,0000,0000,,even if it gets him killed.
+Dialogue: 0,0:08:33.50,0:08:39.17,Italics,Rimuru,0000,0000,0000,,He's making this decision as a leader \Nwho's had to accept his own weakness.
+Dialogue: 0,0:08:40.54,0:08:41.80,Main,Rimuru,0000,0000,0000,,Lift your head.
+Dialogue: 0,0:08:45.36,0:08:49.42,Main,Rimuru,0000,0000,0000,,You're all accepted. Call in the others.
+Dialogue: 0,0:08:49.42,0:08:50.14,Main,Benimaru,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:08:51.73,0:08:53.27,Italics,Rimuru,0000,0000,0000,,All I can do...
+Dialogue: 0,0:08:53.81,0:08:56.61,Italics,Rimuru,0000,0000,0000,,is make sure he won't regret that decision.
+Dialogue: 0,0:09:04.81,0:09:07.53,Main,Rimuru,0000,0000,0000,,I'll give you names to prove \Nyou're my subordinates.
+Dialogue: 0,0:09:08.93,0:09:10.48,Main,Benimaru,0000,0000,0000,,All of us?
+Dialogue: 0,0:09:11.52,0:09:13.83,Main,Rimuru,0000,0000,0000,,Well, having no name makes \Nthings tough, doesn't it?
+Dialogue: 0,0:09:15.10,0:09:16.10,Main,Benimaru,0000,0000,0000,,But...
+Dialogue: 0,0:09:16.46,0:09:18.24,Main,Shuna,0000,0000,0000,,P-Please, wait.
+Dialogue: 0,0:09:18.24,0:09:21.86,Main,Shuna,0000,0000,0000,,Giving a name comes with great risks.
+Dialogue: 0,0:09:21.86,0:09:23.21,Main,Shuna,0000,0000,0000,,And to name such superior monsters—
+Dialogue: 0,0:09:23.21,0:09:26.01,Main,Rimuru,0000,0000,0000,,It's fine, really. Don't worry about it.
+Dialogue: 0,0:09:26.33,0:09:27.44,Main,Shuna,0000,0000,0000,,But...
+Dialogue: 0,0:09:27.44,0:09:31.37,Italics,Rimuru,0000,0000,0000,,The "risk" is me using too many \Nmagicules and falling asleep, right?
+Dialogue: 0,0:09:31.37,0:09:34.10,Italics,Rimuru,0000,0000,0000,,There's only six of them \Nthis time, so it'll be fine.
+Dialogue: 0,0:09:34.95,0:09:37.94,Main,Rimuru,0000,0000,0000,,Or do you just not want me to name you?
+Dialogue: 0,0:09:38.18,0:09:39.74,Main,Shuna,0000,0000,0000,,That isn't...
+Dialogue: 0,0:09:39.74,0:09:41.06,Main,Benimaru,0000,0000,0000,,We have no complaints.
+Dialogue: 0,0:09:41.06,0:09:42.32,Main,Shuna,0000,0000,0000,,Brother!
+Dialogue: 0,0:09:43.47,0:09:45.02,Main,Benimaru,0000,0000,0000,,We gratefully accept your names.
+Dialogue: 0,0:09:46.05,0:09:48.32,Main,Hakurou,0000,0000,0000,,If this is the young master's will, we accept.
+Dialogue: 0,0:09:50.85,0:09:52.23,Main,Rimuru,0000,0000,0000,,Okay, let's get started.
+Dialogue: 0,0:09:57.83,0:09:59.63,Main,Rimuru,0000,0000,0000,,You are...
+Dialogue: 0,0:10:03.32,0:10:06.44,Main,Shuna,0000,0000,0000,,Shion, it's time to switch places.
+Dialogue: 0,0:10:06.44,0:10:10.23,Main,Shion,0000,0000,0000,,Oh, no, Princess. \NI will look after Rimuru-sama.
+Dialogue: 0,0:10:10.23,0:10:12.32,Main,Shion,0000,0000,0000,,Please get some rest.
+Dialogue: 0,0:10:13.08,0:10:15.09,Main,Shuna,0000,0000,0000,,Really, Shion...
+Dialogue: 0,0:10:18.69,0:10:21.36,Main,Both,0000,0000,0000,,Rimuru-sama, good morning!
+Dialogue: 0,0:10:21.80,0:10:24.84,Main,Rimuru,0000,0000,0000,,Um... Who are you again?
+Dialogue: 0,0:10:25.74,0:10:29.46,Italics,Rimuru,0000,0000,0000,,Wait... My memory's a little fuzzy,
+Dialogue: 0,0:10:29.46,0:10:32.79,Italics,Rimuru,0000,0000,0000,,but I think I was about \Nto name the Ogres when...
+Dialogue: 0,0:10:32.79,0:10:33.81,Italics,Rimuru,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:34.30,0:10:36.74,Main,Benimaru,0000,0000,0000,,Have you awakened, Rimuru-sama?
+Dialogue: 0,0:10:38.19,0:10:40.87,Main,Rimuru,0000,0000,0000,,You're the "young master" \Nof the Ogres, right?
+Dialogue: 0,0:10:40.87,0:10:41.70,Main,Benimaru,0000,0000,0000,,Correct.
+Dialogue: 0,0:10:42.19,0:10:44.26,Main,Benimaru,0000,0000,0000,,I have evolved into a Kijin,
+Dialogue: 0,0:10:44.26,0:10:47.07,Main,Benimaru,0000,0000,0000,,and I have assumed the name \Nyou gave me: Benimaru.
+Dialogue: 0,0:10:48.94,0:10:49.78,Main,Rimuru,0000,0000,0000,,Oh!
+Dialogue: 0,0:10:50.38,0:10:54.97,Main,Rimuru,0000,0000,0000,,I remember now! I went into sleep \Nmode the moment I named him!
+Dialogue: 0,0:10:54.97,0:10:58.64,Italics,Rimuru,0000,0000,0000,,Wait, what did he say? "Kijin"? Not "Ogre"?
+Dialogue: 0,0:10:58.85,0:11:03.98,sign_15797_143_Kijin,Text,0000,0000,0000,,{\fad(1110,1)}Kijin
+Dialogue: 0,0:10:59.08,0:11:03.52,Italics_Top,Great Sage,0000,0000,0000,,"Kijin" refers to a race of \Nbeings uncommonly born of Ogres.
+Dialogue: 0,0:11:00.56,0:11:03.98,sign_4961_43_It_hurts,Text,0000,0000,0000,,{\bord4\c&HDFE4EA&\fad(1611,1)}"Kijin" refers to a race of \Nbeings uncommonly born of Ogres
+Dialogue: 0,0:11:04.24,0:11:05.86,Main,Rimuru,0000,0000,0000,,Huh...
+Dialogue: 0,0:11:06.30,0:11:10.21,Italics,Rimuru,0000,0000,0000,,His body looks... a little smaller?
+Dialogue: 0,0:11:10.21,0:11:14.91,Italics,Rimuru,0000,0000,0000,,The amount of magicules in \Nhim has exploded, though...
+Dialogue: 0,0:11:16.08,0:11:20.08,Italics,Rimuru,0000,0000,0000,,Is this a repeat of the Rigurd shock?!
+Dialogue: 0,0:11:20.66,0:11:24.13,Italics,Rimuru,0000,0000,0000,,This means he evolved from \Nan Ogre to a Kijin, right?
+Dialogue: 0,0:11:24.56,0:11:26.77,Main,Shuna,0000,0000,0000,,Rimuru-sama, I am Shuna.
+Dialogue: 0,0:11:28.55,0:11:31.50,Main,Shuna,0000,0000,0000,,I'm so glad to see that you've awakened.
+Dialogue: 0,0:11:31.50,0:11:32.68,Italics,Rimuru,0000,0000,0000,,Shuna...
+Dialogue: 0,0:11:33.49,0:11:35.65,Italics,Rimuru,0000,0000,0000,,Right, she's the Ogre princess.
+Dialogue: 0,0:11:35.65,0:11:39.18,Italics,Rimuru,0000,0000,0000,,She was already cute, \Nbut she's even prettier now!
+Dialogue: 0,0:11:40.10,0:11:41.33,Main,Shion,0000,0000,0000,,I am Shion.
+Dialogue: 0,0:11:41.95,0:11:46.02,Main,Shion,0000,0000,0000,,I'm very fond of the name \Nyou gave me, Rimuru-sama.
+Dialogue: 0,0:11:46.89,0:11:49.23,Italics,Rimuru,0000,0000,0000,,This busty beauty is Shion?
+Dialogue: 0,0:11:49.23,0:11:52.58,Italics,Rimuru,0000,0000,0000,,She looks less wild and more intelligent now.
+Dialogue: 0,0:11:53.50,0:11:59.59,Main,Rimuru,0000,0000,0000,,And the one behind Benimaru... \Nis the old man who cut off my arm.
+Dialogue: 0,0:12:00.74,0:12:02.54,Main,Hakurou,0000,0000,0000,,Such a mean-spirited remark.
+Dialogue: 0,0:12:02.73,0:12:06.32,Main,Hakurou,0000,0000,0000,,It was I who felt shocked when you \Ninstantly regenerated your arm.
+Dialogue: 0,0:12:06.97,0:12:09.47,Main,Rimuru,0000,0000,0000,,He looks a lot younger now.
+Dialogue: 0,0:12:09.47,0:12:12.76,Main,Rimuru,0000,0000,0000,,Is that a result of his evolution to Kijin?
+Dialogue: 0,0:12:14.98,0:12:16.54,Main,Rimuru,0000,0000,0000,,And I think you're...
+Dialogue: 0,0:12:16.95,0:12:19.09,Main,Souei,0000,0000,0000,,You have given me the name "Souei."
+Dialogue: 0,0:12:20.55,0:12:24.39,Main,Souei,0000,0000,0000,,I am glad to see that you \Nhave recovered, Rimuru-sama.
+Dialogue: 0,0:12:24.39,0:12:26.19,Main,Rimuru,0000,0000,0000,,Th-Thanks.
+Dialogue: 0,0:12:26.72,0:12:29.11,Italics_Top,Great Sage,0000,0000,0000,,Giving a name to a superior monster
+Dialogue: 0,0:12:29.11,0:12:31.53,Italics_Top,Great Sage,0000,0000,0000,,consumes an equally large \Namount of magicules.
+Dialogue: 0,0:12:32.52,0:12:37.73,Italics,Rimuru,0000,0000,0000,,In other words, naming just six of \Nthem drained almost all my magicules?
+Dialogue: 0,0:12:38.33,0:12:40.86,Italics,Rimuru,0000,0000,0000,,I wish you'd told me that sooner.
+Dialogue: 0,0:12:42.39,0:12:43.73,Main,Rimuru,0000,0000,0000,,Where's the sixth one?
+Dialogue: 0,0:12:43.73,0:12:47.29,Main,Benimaru,0000,0000,0000,,Oh, he's been spending a lot \Nof time at Kaijin's workshop.
+Dialogue: 0,0:12:47.61,0:12:49.72,Main,Kurobe,0000,0000,0000,,I heard Rimuru-sama has awakened!
+Dialogue: 0,0:12:49.72,0:12:51.84,Main,Rigurd,0000,0000,0000,,Ah, there he is.
+Dialogue: 0,0:12:52.27,0:12:54.15,Italics,Rimuru,0000,0000,0000,,I think he looked like this.
+Dialogue: 0,0:12:55.07,0:12:56.57,Italics,Rimuru,0000,0000,0000,,I wonder how he changed...
+Dialogue: 0,0:12:56.57,0:12:58.14,Main,Kurobe,0000,0000,0000,,Rimuru-sama!
+Dialogue: 0,0:12:58.69,0:13:01.05,Main,Kurobe,0000,0000,0000,,I'm so glad you're well!
+Dialogue: 0,0:13:02.05,0:13:04.57,Main,Kurobe,0000,0000,0000,,You recognize me, right? I am Kurobe.
+Dialogue: 0,0:13:04.57,0:13:06.56,Italics,Rimuru,0000,0000,0000,,He looks like an ordinary middle-aged guy!
+Dialogue: 0,0:13:06.79,0:13:07.89,Italics,Rimuru,0000,0000,0000,,So after a hot guy,
+Dialogue: 0,0:13:07.89,0:13:09.21,Italics,Rimuru,0000,0000,0000,,a cute girl,
+Dialogue: 0,0:13:09.21,0:13:10.11,Italics,Rimuru,0000,0000,0000,,a babe,
+Dialogue: 0,0:13:10.51,0:13:11.87,Italics,Rimuru,0000,0000,0000,,a dignified gray,
+Dialogue: 0,0:13:11.87,0:13:13.26,Italics,Rimuru,0000,0000,0000,,and another hot guy...
+Dialogue: 0,0:13:13.26,0:13:15.86,Italics,Rimuru,0000,0000,0000,,He's just a middle-aged guy! What a relief!
+Dialogue: 0,0:13:16.52,0:13:18.12,Main,Rimuru,0000,0000,0000,,I hope we'll be good friends, Kurobe!
+Dialogue: 0,0:13:18.12,0:13:19.37,Main,Kurobe,0000,0000,0000,,Sure!
+Dialogue: 0,0:13:25.20,0:13:26.37,Italics,Na,0000,0000,0000,,Meanwhile...
+Dialogue: 0,0:13:27.54,0:13:30.21,Italics,Na,0000,0000,0000,,The changes occurring in \Nthe Great Forest of Jura
+Dialogue: 0,0:13:30.21,0:13:32.63,Italics,Na,0000,0000,0000,,continued their invasive progress.
+Dialogue: 0,0:13:43.87,0:13:48.67,Italics,Na,0000,0000,0000,,{\an8}In the middle of the Great \NForest of Jura is Lake Siss.
+Dialogue: 0,0:13:44.22,0:13:50.02,sign_2170_2_The_Ameldo_River,Text,0000,0000,0000,,{\fad(530,1)\3c&H97D6DE&\clip(m 217 221 l 440 220 442 260 230 260)}\h\h\h\h\h\h\h\h\h\hLake Siss\h\h\h\h\h\h\h\h\h\h
+Dialogue: 0,0:13:50.47,0:13:53.61,Italics,Na,0000,0000,0000,,Vast marshlands surround the lake.
+Dialogue: 0,0:13:54.86,0:13:57.39,Italics,Na,0000,0000,0000,,The Lizardmen control this territory.
+Dialogue: 0,0:13:58.64,0:14:00.49,Main,Lizard,0000,0000,0000,,R-Reporting!
+Dialogue: 0,0:14:00.66,0:14:03.49,Main,Lizard,0000,0000,0000,,We have spotted an Orc \Narmy south of Lake Siss!
+Dialogue: 0,0:14:03.81,0:14:07.00,Main,Lizard,0000,0000,0000,,We believe they intend \Nto invade our territory!
+Dialogue: 0,0:14:07.21,0:14:08.69,Main,Chieftan,0000,0000,0000,,Orcs?
+Dialogue: 0,0:14:09.30,0:14:11.10,Main,Chieftan,0000,0000,0000,,Prepare for battle.
+Dialogue: 0,0:14:11.10,0:14:13.45,Main,Chieftan,0000,0000,0000,,We'll beat those pigs senseless.
+Dialogue: 0,0:14:13.45,0:14:15.26,Main,Sister,0000,0000,0000,,How many are there?
+Dialogue: 0,0:14:15.51,0:14:16.70,Main,Lizard,0000,0000,0000,,Well...
+Dialogue: 0,0:14:17.24,0:14:19.76,Main,Lizard,0000,0000,0000,,The Orc army numbers...
+Dialogue: 0,0:14:20.31,0:14:22.11,Main,Lizard,0000,0000,0000,,approximately 200,000.
+Dialogue: 0,0:14:23.05,0:14:26.89,Main,Sister,0000,0000,0000,,I-Impossible! How can they \Nhave twice what we have?!
+Dialogue: 0,0:14:27.37,0:14:31.35,Main,Lizard,0000,0000,0000,,We verified the number several times \Nwith Magic Sense and Sense Heat Source.
+Dialogue: 0,0:14:31.35,0:14:34.15,Main,Lizard,0000,0000,0000,,I swear on my life that it is true.
+Dialogue: 0,0:14:35.34,0:14:36.72,Main,Chieftan,0000,0000,0000,,Good work.
+Dialogue: 0,0:14:37.19,0:14:39.05,Main,Chieftan,0000,0000,0000,,You may rest.
+Dialogue: 0,0:14:39.05,0:14:39.78,Main,Lizard,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:14:42.70,0:14:44.59,Main,Chieftan,0000,0000,0000,,200,000?
+Dialogue: 0,0:14:45.57,0:14:51.46,Main,Chieftan,0000,0000,0000,,How does one keep such a ridiculous \Nnumber of Orc bellies full?
+Dialogue: 0,0:14:51.77,0:14:55.67,Main,Lizard,0000,0000,0000,,They're supposed to be an uncoordinated \Nlot that does whatever they please.
+Dialogue: 0,0:14:55.67,0:15:00.37,Main,Lizard,0000,0000,0000,,No one could lead an outrageous \Nnumber like 200,000 of them!
+Dialogue: 0,0:15:00.37,0:15:04.61,Main,Lizard,0000,0000,0000,,I heard a rumor that they \Ndestroyed the Ogre village.
+Dialogue: 0,0:15:04.61,0:15:05.72,Main,Both,0000,0000,0000,,They did what?!
+Dialogue: 0,0:15:07.07,0:15:08.81,Main,Chieftan,0000,0000,0000,,The Orc Lord...
+Dialogue: 0,0:15:10.21,0:15:14.81,Main,Chieftan,0000,0000,0000,,If there is an Orc who could command \Na force of 200,000 of his brethren,
+Dialogue: 0,0:15:15.69,0:15:21.15,Main,Chieftan,0000,0000,0000,,it would have to be the unique \Nmonster of legend, the Orc Lord.
+Dialogue: 0,0:15:23.33,0:15:25.13,Main,Lizard,0000,0000,0000,,O-Orc Lord?
+Dialogue: 0,0:15:25.13,0:15:26.66,Main,Lizard,0000,0000,0000,,But that's...
+Dialogue: 0,0:15:27.01,0:15:29.30,Main,Lizard,0000,0000,0000,,No, if that really is true,
+Dialogue: 0,0:15:29.30,0:15:34.42,Main,Lizard,0000,0000,0000,,it would explain how he's able to \Ncommand such a huge army of Orcs.
+Dialogue: 0,0:15:34.42,0:15:36.53,Main,Lizard,0000,0000,0000,,But what would he want?
+Dialogue: 0,0:15:36.53,0:15:38.67,Main,Lizard,0000,0000,0000,,That doesn't matter!
+Dialogue: 0,0:15:38.67,0:15:41.31,Main,Lizard,0000,0000,0000,,The question is whether\Nor not we can defeat them!
+Dialogue: 0,0:15:43.52,0:15:46.82,Main,Chieftan,0000,0000,0000,,If an Orc Lord truly has been born,
+Dialogue: 0,0:15:46.82,0:15:48.60,Main,Chieftan,0000,0000,0000,,it will be difficult for us to win.
+Dialogue: 0,0:15:50.96,0:15:57.61,Main,Chieftan,0000,0000,0000,,The Orc Lord is a true monster that devours \Neven the fear and terror of his own allies.
+Dialogue: 0,0:15:59.23,0:16:01.11,Main,Chieftan,0000,0000,0000,,It is only a possibility,
+Dialogue: 0,0:16:01.56,0:16:04.93,Main,Chieftan,0000,0000,0000,,but we must do everything we can possibly do.
+Dialogue: 0,0:16:04.93,0:16:06.71,Main,Sister,0000,0000,0000,,And what does that entail?
+Dialogue: 0,0:16:07.15,0:16:09.49,Main,Chieftan,0000,0000,0000,,I suppose we should request backup.
+Dialogue: 0,0:16:10.75,0:16:11.96,Main,Chieftan,0000,0000,0000,,My son!
+Dialogue: 0,0:16:12.42,0:16:14.34,Main,Chieftan,0000,0000,0000,,Is my son here?
+Dialogue: 0,0:16:15.07,0:16:17.15,Main,Gabiru,0000,0000,0000,,I'm right here.
+Dialogue: 0,0:16:21.21,0:16:26.06,Main,Gabiru,0000,0000,0000,,But, Father, must you address \Nme in such a boorish manner?
+Dialogue: 0,0:16:26.06,0:16:31.60,Main,Gabiru,0000,0000,0000,,{\an8}I have a name, Gabiru, which \Nwas given to me by Lord Gelmud.
+Dialogue: 0,0:16:27.60,0:16:31.60,sign_23679_242_Gabiru,Text,0000,0000,0000,,{\fad(522,1)}Gabiru
+Dialogue: 0,0:16:32.50,0:16:35.16,Main,Chieftan,0000,0000,0000,,What you are called makes no difference.
+Dialogue: 0,0:16:39.35,0:16:41.74,Main,Chieftan,0000,0000,0000,,There is something I need you to do.
+Dialogue: 0,0:16:44.03,0:16:45.74,Main,Gabiru,0000,0000,0000,,What would that be?
+Dialogue: 0,0:16:51.34,0:16:53.08,Main,Hakurou,0000,0000,0000,,You'll have to do better than that!
+Dialogue: 0,0:16:58.65,0:17:01.42,Main,Hakurou,0000,0000,0000,,Well, come on! Strike back!
+Dialogue: 0,0:17:03.98,0:17:08.52,Italics,Rimuru,0000,0000,0000,,Gobta casually said he wanted to learn \Nswordsmanship, and this happened.
+Dialogue: 0,0:17:08.94,0:17:11.64,Italics,Rimuru,0000,0000,0000,,Hakurou is definitely a tough coach.
+Dialogue: 0,0:17:13.67,0:17:16.31,Main,Rimuru,0000,0000,0000,,Orc Lord? What's that?
+Dialogue: 0,0:17:16.74,0:17:20.53,Main,Benimaru,0000,0000,0000,,Well, put simply... it's a beast.
+Dialogue: 0,0:17:20.53,0:17:22.19,Main,Rimuru,0000,0000,0000,,That's simple, all right.
+Dialogue: 0,0:17:22.69,0:17:26.40,Main,Benimaru,0000,0000,0000,,It's said that one is born to \Nthe Orcs every few centuries.
+Dialogue: 0,0:17:27.10,0:17:28.69,Main,Benimaru,0000,0000,0000,,It's a unique monster.
+Dialogue: 0,0:17:28.69,0:17:30.15,Main,Rimuru,0000,0000,0000,,Unique, huh?
+Dialogue: 0,0:17:30.94,0:17:34.55,Main,Benimaru,0000,0000,0000,,They say he devours even his \Nown allies' fear and terror,
+Dialogue: 0,0:17:34.55,0:17:37.81,Main,Benimaru,0000,0000,0000,,which makes him an \Nunnaturally effective leader.
+Dialogue: 0,0:17:37.81,0:17:39.17,Main,Rimuru,0000,0000,0000,,Yikes.
+Dialogue: 0,0:17:39.66,0:17:44.24,Main,Benimaru,0000,0000,0000,,The Orcs that attacked our village were \Nunfazed by the deaths of their own,
+Dialogue: 0,0:17:44.65,0:17:46.34,Main,Benimaru,0000,0000,0000,,so I thought that may be the case.
+Dialogue: 0,0:17:46.34,0:17:47.68,Main,Rimuru,0000,0000,0000,,I see.
+Dialogue: 0,0:17:48.33,0:17:52.31,Main,Benimaru,0000,0000,0000,,Of course, the possibility \Nof it is quite low.
+Dialogue: 0,0:17:53.98,0:17:58.19,Main,Rimuru,0000,0000,0000,,Any other ideas why they might \Nhave attacked your village?
+Dialogue: 0,0:17:58.53,0:17:59.81,Main,Benimaru,0000,0000,0000,,Well...
+Dialogue: 0,0:18:00.57,0:18:02.57,Main,Benimaru,0000,0000,0000,,I'm not sure if there's any connection,
+Dialogue: 0,0:18:03.44,0:18:07.07,Main,Benimaru,0000,0000,0000,,but shortly before the attack, \Na majin visited our village...
+Dialogue: 0,0:18:08.43,0:18:10.32,Flashback,Gelmud,0000,0000,0000,,I shall name you.
+Dialogue: 0,0:18:10.62,0:18:14.33,Main,Benimaru,0000,0000,0000,,He said that, but he \Nsounded too untrustworthy,
+Dialogue: 0,0:18:14.33,0:18:18.21,Main,Benimaru,0000,0000,0000,,so I turned him away, \Nand he cursed me as he left.
+Dialogue: 0,0:18:18.55,0:18:20.42,Main,Rimuru,0000,0000,0000,,A majin, huh?
+Dialogue: 0,0:18:20.42,0:18:23.84,Main,Rimuru,0000,0000,0000,,So you think he might have \Na grudge against you?
+Dialogue: 0,0:18:23.84,0:18:25.31,Main,Benimaru,0000,0000,0000,,I had no other choice.
+Dialogue: 0,0:18:25.79,0:18:28.72,Main,Benimaru,0000,0000,0000,,I want no such gift from \Nan unsuitable master.
+Dialogue: 0,0:18:29.42,0:18:33.73,Main,Benimaru,0000,0000,0000,,I wouldn't accept a name \Nfrom just anyone, after all.
+Dialogue: 0,0:18:36.77,0:18:38.89,Main,Benimaru,0000,0000,0000,,What was his name again?
+Dialogue: 0,0:18:39.06,0:18:40.09,Main,Benimaru,0000,0000,0000,,I think he said...
+Dialogue: 0,0:18:40.09,0:18:43.90,Main,Benimaru,0000,0000,0000,,Gela... Geli... Gele... Gelo?
+Dialogue: 0,0:18:48.17,0:18:49.40,Main,Souei,0000,0000,0000,,Gelmud.
+Dialogue: 0,0:18:49.40,0:18:51.03,Main,Benimaru,0000,0000,0000,,Right, that's it.
+Dialogue: 0,0:18:51.21,0:18:55.69,Main,Rimuru,0000,0000,0000,,Gelmud? I think I've \Nheard that name before...
+Dialogue: 0,0:18:57.51,0:19:01.29,Flashback,Rimuru,0000,0000,0000,,Rigur-kun, who gave your brother his name?
+Dialogue: 0,0:19:01.29,0:19:06.34,Flashback,Rigur,0000,0000,0000,,Sir! I'm told he received his name from \Na passing Demon called Lord Gelmud.
+Dialogue: 0,0:19:06.34,0:19:08.12,Flashback,Rigur,0000,0000,0000,,He saw promise in him.
+Dialogue: 0,0:19:08.12,0:19:09.42,Flashback,Rimuru,0000,0000,0000,,Gel...?
+Dialogue: 0,0:19:09.59,0:19:12.51,Flashback,Rigur,0000,0000,0000,,Gelmud. He's an officer \Nin the Demon Lord's army.
+Dialogue: 0,0:19:13.11,0:19:14.92,Main,Rimuru,0000,0000,0000,,I bet it's the same guy.
+Dialogue: 0,0:19:15.35,0:19:17.61,Italics,Rimuru,0000,0000,0000,,Does he just go around naming whoever?
+Dialogue: 0,0:19:17.61,0:19:18.77,Italics,Rimuru,0000,0000,0000,,Why?
+Dialogue: 0,0:19:19.28,0:19:21.33,Main,Souei,0000,0000,0000,,I bring a report, Rimuru-sama.
+Dialogue: 0,0:19:21.33,0:19:22.09,Main,Rimuru,0000,0000,0000,,Okay.
+Dialogue: 0,0:19:22.51,0:19:24.85,Main,Souei,0000,0000,0000,,I witnessed a group of Lizardmen.
+Dialogue: 0,0:19:24.85,0:19:27.69,Main,Rimuru,0000,0000,0000,,Lizardmen? Not Orcs?
+Dialogue: 0,0:19:27.69,0:19:28.40,Main,Souei,0000,0000,0000,,Correct.
+Dialogue: 0,0:19:28.78,0:19:30.95,Main,Souei,0000,0000,0000,,Because they make the marshlands their home,
+Dialogue: 0,0:19:30.95,0:19:33.77,Main,Souei,0000,0000,0000,,it seemed unnatural to see them near here,
+Dialogue: 0,0:19:33.77,0:19:35.71,Main,Souei,0000,0000,0000,,so I had to inform you at once.
+Dialogue: 0,0:19:37.61,0:19:41.79,Main,Souei,0000,0000,0000,,They seemed to be attempting negotiations \Nwith a nearby Goblin village.
+Dialogue: 0,0:19:41.99,0:19:44.79,Main,Souei,0000,0000,0000,,They may one day come here, as well.
+Dialogue: 0,0:19:45.17,0:19:46.28,Main,Rimuru,0000,0000,0000,,I see...
+Dialogue: 0,0:19:46.75,0:19:48.44,Main,Rimuru,0000,0000,0000,,Lizardmen...
+Dialogue: 0,0:20:06.22,0:20:08.86,Main,Gabiru,0000,0000,0000,,Honestly, that father of mine...
+Dialogue: 0,0:20:09.56,0:20:12.86,Flashback,Chieftan,0000,0000,0000,,Visit the local Goblin villages \Nand enlist their aid.
+Dialogue: 0,0:20:13.21,0:20:14.46,Main,Gabiru,0000,0000,0000,,Indeed!
+Dialogue: 0,0:20:15.35,0:20:19.99,Main,Gabiru,0000,0000,0000,,It is not the way of the proud \NLizardman race to fear mere Orcs!
+Dialogue: 0,0:20:20.79,0:20:24.75,Main,Gabiru,0000,0000,0000,,And he used to be such a great man...
+Dialogue: 0,0:20:24.93,0:20:28.27,Main,Lizard,0000,0000,0000,,Hey, Sir Gabiru, when are you \Ngonna become the chieftain?
+Dialogue: 0,0:20:30.97,0:20:35.12,Main,Gabiru,0000,0000,0000,,Oh, no. My comment may have \Nbeen a bit disrespectful,
+Dialogue: 0,0:20:35.12,0:20:38.26,Main,Gabiru,0000,0000,0000,,but I still fall far short of my father.
+Dialogue: 0,0:20:38.45,0:20:39.73,Main,Lizard,0000,0000,0000,,Really?
+Dialogue: 0,0:20:39.73,0:20:43.79,Main,Lizard,0000,0000,0000,,But as you are now, I bet you're just as \Nmighty as the chieftain during his glory days!
+Dialogue: 0,0:20:43.79,0:20:44.60,Main,Lizard,0000,0000,0000,,I agree.
+Dialogue: 0,0:20:44.99,0:20:46.60,Main,Gabiru,0000,0000,0000,,No, really, I...
+Dialogue: 0,0:20:47.03,0:20:49.32,Main,Lizard,0000,0000,0000,,I mean, you're named, after all!
+Dialogue: 0,0:20:49.32,0:20:53.05,Main,Lizard,0000,0000,0000,,Yes, and you are unequaled \Nin the art of the spear.
+Dialogue: 0,0:20:53.05,0:20:55.84,Main,Lizard,0000,0000,0000,,If you don't take your \Nstand now, when will you?
+Dialogue: 0,0:21:01.58,0:21:03.44,Italics,Gabiru,0000,0000,0000,,Eh? What is this?
+Dialogue: 0,0:21:03.91,0:21:09.60,Italics,Gabiru,0000,0000,0000,,Could it be... that I'm \Nactually pretty great?!
+Dialogue: 0,0:21:10.64,0:21:11.75,Main,Gabiru,0000,0000,0000,,You are right.
+Dialogue: 0,0:21:12.19,0:21:13.82,Main,Gabiru,0000,0000,0000,,My father has grown old.
+Dialogue: 0,0:21:13.82,0:21:15.54,Main,Gabiru,0000,0000,0000,,Even if I must be a bit forceful,
+Dialogue: 0,0:21:15.54,0:21:20.28,Main,Gabiru,0000,0000,0000,,I will show him that I have \Nstrength worthy of a chieftain!
+Dialogue: 0,0:21:21.41,0:21:25.15,Main,Gabiru,0000,0000,0000,,Then he can retire with peace of mind.
+Dialogue: 0,0:21:25.15,0:21:26.02,Main,Lizard,0000,0000,0000,,You mean...
+Dialogue: 0,0:21:29.08,0:21:30.07,Main,Gabiru,0000,0000,0000,,Yes!
+Dialogue: 0,0:21:34.20,0:21:36.68,Main,Gabiru,0000,0000,0000,,Once I drive away the Orc army,
+Dialogue: 0,0:21:36.68,0:21:40.49,Main,Gabiru,0000,0000,0000,,I will take my place as the \Nnext Lizardman chieftain!
+Dialogue: 0,0:21:40.69,0:21:43.32,Main,Lizard,0000,0000,0000,,That's our Sir Gabiru! Woohoo!
+Dialogue: 0,0:21:43.32,0:21:44.20,Main,Lizard,0000,0000,0000,,You're on fire!
+Dialogue: 0,0:21:44.20,0:21:45.62,Main,Lizard,0000,0000,0000,,You will surely be chieftain!
+Dialogue: 0,0:21:46.83,0:21:57.55,Main,All,0000,0000,0000,,{\an8}Gabiru! Gabiru! Gabiru!
+Dialogue: 0,0:21:50.29,0:21:51.81,Main,Gabiru,0000,0000,0000,,Let's go!
+Dialogue: 0,0:21:53.66,0:21:57.55,Main,Gabiru,0000,0000,0000,,Follow me, men! Your future is bright!
+Dialogue: 0,0:21:59.30,0:22:02.81,Main,All,0000,0000,0000,,{\an8}Gabiru! Gabiru! Gabiru!
+Dialogue: 0,0:23:35.82,0:23:38.50,Italics_Top,Great Sage,0000,0000,0000,,Next time, "Gabiru Is Here!"
+Dialogue: 0,0:23:36.07,0:23:39.94,Next_Ep_Title,Title,0000,0000,0000,,{\fad(855,1)}Gabiru{\bord0} {\c&HD7E5E3&\u1}Is Here!
+

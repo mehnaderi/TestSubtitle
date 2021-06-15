@@ -1,0 +1,453 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Show_Title,Open Sans Semibold,36,&H00CD9612,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Show_Title_Border,Open Sans Semibold,36,&HFFCD9612,&H000000FF,&H00FEFEFE,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Ep_Title,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H8C000000,&H8C000000,0,0,0,0,100,100,0,0,1,1,1,9,13,53,60,1
+Style: Next_Ep_Title,Open Sans Semibold,39,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,13,13,147,1
+Style: sign_1407_3_Tokyo__Present_D,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,120,1
+Style: sign_4961_43_It_hurts,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,13,13,0,1
+Style: sign_5362_56_Pain_Nullificati,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00030093,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,291,291,0,1
+Style: sign_5389_57__Acquired_,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00030093,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,165,1
+Style: sign_5406_61_Pain,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H00140A1A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,80,696,0,1
+Style: sign_5406_62_Nullification,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H00140A1A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,700,40,0,1
+Style: sign_5421_60_Creating_a_body_,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00040A2D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,253,253,0,1
+Style: sign_5820_68_Heat_Resistance_,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00040A2D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,107,533,207,1
+Style: sign_5820_69_Cold_Resistance,Open Sans Semibold,30,&H00DEDCC4,&H000000FF,&H00400708,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,536,111,207,1
+Style: sign_5879_71_Thermal_Fluctuat,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00040A2D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,80,1
+Style: sign_6524_80_Consistency_not_,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00321C1C,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,99,99,147,1
+Style: sign_6547_86_Employing_Altern,Open Sans Semibold,30,&H00495962,&H000000FF,&H00B7DFE7,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,231,231,313,1
+Style: sign_6571_89_Electric_Current,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00241513,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,212,212,0,1
+Style: sign_7648_110_Unique_Skill_Pre,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,203,1
+Style: sign_8749_130_Episode_1__The_S,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&HB4000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,357,53,67,1
+Style: sign_10188_148_Rock,Open Sans Semibold,39,&H00E5F1F0,&H000000FF,&H00160D07,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,439,327,240,1
+Style: sign_10805_158_Plant,Open Sans Semibold,36,&H00A8AF72,&H000000FF,&H00BFD3BD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,188,581,216,1
+Style: sign_10805_159_Intake,Open Sans Semibold,24,&H00ADAB88,&H000000FF,&H00BFD3BD,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,181,604,96,1
+Style: sign_10812_160_Disappear,Open Sans Semibold,27,&H00CCE4E7,&H000000FF,&H00BFD3BD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,623,111,256,1
+Style: sign_10805_161_Surge,Open Sans Semibold,36,&H0061D077,&H000000FF,&H00A7D648,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,728,35,211,1
+Style: sign_12076_176_Manly,Open Sans Semibold,39,&H0004058B,&H000000FF,&H0071B7E4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,676,67,244,1
+Style: sign_12107_177__Self_proclaimed,Open Sans Semibold,33,&H00EBEFFA,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,541,64,139,1
+Style: sign_14133_210_Mimicry_Skill,Open Sans Semibold,36,&H00BCDB99,&H000000FF,&H00BFD3BD,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,13,13,133,1
+Style: absorb,Open Sans Semibold,36,&H00BCDB99,&H000000FF,&H00BFD3BD,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,13,13,133,1
+Style: sign_14850_224_Hipokute_Herbs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,215,431,184,1
+Style: sign_14884_226_A_valuable_herb_,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,193,407,243,1
+Style: sign_15043_228_Magicules,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,572,124,157,1
+Style: sign_15070_232_Magicules_A_spec,Open Sans Semibold,36,&H00BAC1BF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,105,105,200,1
+Style: sign_15241_235_Magical_Beings,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,337,337,0,1
+Style: sign_15241_236_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,387,387,153,1
+Style: sign_15241_237_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,516,257,207,1
+Style: sign_15241_238_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,257,516,207,1
+Style: sign_15241_241_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,515,259,207,1
+Style: sign_15241_240_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,387,387,153,1
+Style: sign_15241_239_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,260,513,207,1
+Style: sign_15787_250_Affirmative,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,561,111,147,1
+Style: sign_16029_256_Potion,Open Sans Semibold,30,&H0092D877,&H000000FF,&H00EFFFE8,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,387,387,27,1
+Style: sign_16473_262_Magistone_Ore,Open Sans Semibold,27,&H00E5F1F0,&H000000FF,&H00160D07,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,621,109,213,1
+Style: sign_18051_283_____Water_Pressu,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,165,176,27,1
+Style: sign_18631_292_Notice_Physical_,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,299,299,0,1
+Style: sign_18685_294_Species_Skill_Se,Open Sans Semibold,27,&H00000000,&H000000FF,&H00DEE7EC,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,323,323,0,1
+Style: sign_22511_349_Extra_,Open Sans Semibold,42,&H00BAD5D8,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,364,364,120,1
+Style: sign_22562_351_Magic_Sense,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00714811,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,355,355,0,1
+Style: sign_22696_353_Would_you_like_t,Open Sans Semibold,27,&H00C1D5DA,&H000000FF,&H007B6137,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,219,219,181,1
+Style: sign_27703_419_____Absolute_Sev,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H00000000,1,0,0,0,100,100,0,0,1,1,2,2,229,229,53,1
+Style: sign_27841_421_Unlimited_Impris,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H00000000,1,0,0,0,100,100,0,0,1,1,2,2,233,233,13,1
+Style: sign_28058_425_Summon,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004E2611,&H00000000,1,0,0,0,100,100,0,0,1,4,1,2,568,145,196,1
+Style: sign_31457_472___Never_attempt_,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H64000000,&H64000000,0,0,0,0,100,100,0,0,1,1,1,2,280,293,107,1
+Style: sign_33977_476_Meeting_the_Gobl,Open Sans Semibold,39,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,265,265,147,1
+Style: sign_6555_88_Employing_Altern,Open Sans Semibold,30,&H00664C4D,&H000000FF,&H00E9F5F7,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,231,231,313,1
+Style: sign_8118_119_Sage_will_transf,Open Sans Semibold,36,&H004B4447,&H000000FF,&H00D9E4E5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,217,217,0,1
+Style: sign_18521_288_Pain_Nullificati,Open Sans Semibold,27,&H00000000,&H000000FF,&H00060098,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,324,324,0,1
+Style: sign_18533_289_Pain_Nullificati,Open Sans Semibold,27,&H00000000,&H000000FF,&H00DCE8E8,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,324,324,0,1
+Style: sign_16480_202_Mimic_Black_Serp,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,263,263,140,1
+Style: sign_2170_2_The_Ameldo_River,Open Sans Semibold,30,&H00000000,&H000000FF,&H0093D2DC,&H3C000000,1,0,0,0,100,100,0,0,3,4,2,2,13,13,133,1
+Style: sign_17935_188_Barren_Lands,Open Sans Semibold,15,&H000C203A,&H000000FF,&H004993AA,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,13,13,228,1
+Style: sign_18332_205_Leader_of_the_Fr,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H50000000,&H00000000,1,0,0,0,100,100,0,0,1,1,1,2,204,204,107,1
+Style: sign_31616_375_Charybdis,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H3C000000,1,0,0,0,100,100,0,0,1,1,2,2,13,13,107,1
+Style: sign_12526_141_Kingdom_of_Ingra,Open Sans Semibold,30,&H00783D1E,&H000000FF,&H00E8EEE9,&H3C000000,1,0,0,0,100,100,0,0,3,4,2,2,287,287,149,1
+Style: sign_20685_232_Sirius,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00351B9E,&H002E339B,1,0,0,0,100,100,0,0,1,2,1,8,452,325,117,1
+Style: sign_21808_249_That_Time_I_Got_,Open Sans Semibold,21,&H0093614D,&H000000FF,&H00F9FEF9,&H00E1D893,0,0,0,0,100,100,0,245,1,2,1,2,381,125,183,1
+Style: sign_21814_250_Land_of_the_Lust,Open Sans Semibold,21,&H00D6D7DD,&H000000FF,&H000F0C16,&H00E1D893,1,0,0,0,100,100,0,344,1,2,0,2,387,275,407,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:27.49,0:01:29.99,Show_Title,Title,0000,0000,0000,,That {\c&H471E13&}Time {\c&HCD9612&}I Got {\c&H471E13&}Reincarnated {\c&HCD9612&}as a {\c&H7E4F0A&}Slime
+Dialogue: 0,0:01:30.32,0:01:34.75,Ep_Title,Title,0000,0000,0000,,{\fad(1490,0)}Episode 20: Yuuki Kagurazaka
+Dialogue: 0,0:01:32.33,0:01:33.54,Main,Hakurou,0000,0000,0000,,Now, do it!
+Dialogue: 0,0:01:33.78,0:01:34.83,Main,Orcs,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:01:43.93,0:01:45.71,Main,Gobta,0000,0000,0000,,Amazing! You're the best, Master!
+Dialogue: 0,0:01:45.96,0:01:47.80,Main,Gobta,0000,0000,0000,,One neatly filleted Megalodon!
+Dialogue: 0,0:01:49.04,0:01:53.31,Main,Hakurou,0000,0000,0000,,A task simple enough to achieve before \Nbreakfast... or dinner, in this case.
+Dialogue: 0,0:01:55.24,0:01:56.67,Main,Kaijin,0000,0000,0000,,It's so light...
+Dialogue: 0,0:01:57.06,0:01:58.56,Main,Kaijin,0000,0000,0000,,And so hard.
+Dialogue: 0,0:01:58.56,0:02:00.55,Main,Kaijin,0000,0000,0000,,I bet we could use this.
+Dialogue: 0,0:02:00.55,0:02:02.19,Main,Kurobe,0000,0000,0000,,It'll make some nice weapons.
+Dialogue: 0,0:02:02.41,0:02:06.07,Main,Garm,0000,0000,0000,,It could be a shield, too. \NOr we could even work it into some armor.
+Dialogue: 0,0:02:06.07,0:02:08.45,Main,Dord,0000,0000,0000,,We could even make some \Nsimple accessories with it.
+Dialogue: 0,0:02:08.45,0:02:10.24,Main,Dord,0000,0000,0000,,They'd fetch a high price for sure.
+Dialogue: 0,0:02:17.20,0:02:20.58,Main,Gabiru,0000,0000,0000,,Geld, that was some splendid fighting!
+Dialogue: 0,0:02:20.58,0:02:22.33,Main,Gabiru,0000,0000,0000,,Your courage set an example \NI'd like to follow!
+Dialogue: 0,0:02:22.77,0:02:27.30,Main,Geld,0000,0000,0000,,You were unstoppable yourself, Gabiru! \NI can't express my admiration enough!
+Dialogue: 0,0:02:27.54,0:02:29.09,Main,Gabiru,0000,0000,0000,,Oh, no, Geld!
+Dialogue: 0,0:02:29.09,0:02:30.80,Main,Geld,0000,0000,0000,,Oh, no, Gabiru!
+Dialogue: 0,0:02:31.49,0:02:33.80,Main,Lizard,0000,0000,0000,,You're both awesome!
+Dialogue: 0,0:02:35.56,0:02:37.41,Italics,Na,0000,0000,0000,,With Charybdis no longer a threat,
+Dialogue: 0,0:02:37.41,0:02:40.06,Italics,Na,0000,0000,0000,,peace returned to the city of Rimuru.
+Dialogue: 0,0:02:40.65,0:02:44.57,Italics,Na,0000,0000,0000,,As an added windfall, the Demon Lord \NCarrion agreed to a non-aggression pact,
+Dialogue: 0,0:02:44.57,0:02:48.77,Italics,Na,0000,0000,0000,,adding further stability to the foundation \Nof the Jura Tempest Federation.
+Dialogue: 0,0:02:58.32,0:03:01.84,Main,Rimuru,0000,0000,0000,,Sheesh... I'm really worn out after all this.
+Dialogue: 0,0:03:03.02,0:03:06.11,Main,Rimuru,0000,0000,0000,,You were a big help, Milim. Thanks again.
+Dialogue: 0,0:03:06.69,0:03:09.73,Main,Milim,0000,0000,0000,,It was nothing! It's only \Nnatural I'd do that much!
+Dialogue: 0,0:03:09.73,0:03:11.54,Main,Milim,0000,0000,0000,,Feel free to thank me more!
+Dialogue: 0,0:03:11.54,0:03:13.72,Main,Milim,0000,0000,0000,,You were really something yourself, Rimuru!
+Dialogue: 0,0:03:13.72,0:03:18.00,Main,Milim,0000,0000,0000,,If you said you planned to become a \NDemon Lord, I'd have no objections!
+Dialogue: 0,0:03:18.34,0:03:21.71,Main,Rimuru,0000,0000,0000,,A Demon Lord? You know I \Nwouldn't become one of those.
+Dialogue: 0,0:03:21.71,0:03:23.35,Main,Rimuru,0000,0000,0000,,Is there any merit to being one?
+Dialogue: 0,0:03:24.35,0:03:25.81,Main,Milim,0000,0000,0000,,Merit?
+Dialogue: 0,0:03:25.81,0:03:28.11,Main,Rimuru,0000,0000,0000,,Why did you become a Demon Lord?
+Dialogue: 0,0:03:30.74,0:03:32.07,Main,Milim,0000,0000,0000,,Why did I?
+Dialogue: 0,0:03:32.53,0:03:35.49,Main,Milim,0000,0000,0000,,Did something bad happen and make \Nme become one out of frustration?
+Dialogue: 0,0:03:35.87,0:03:37.58,Main,Rimuru,0000,0000,0000,,Uh, why are you asking me?
+Dialogue: 0,0:03:38.19,0:03:40.61,Main,Milim,0000,0000,0000,,Good point! I can't really remember!
+Dialogue: 0,0:03:40.61,0:03:43.05,Main,Milim,0000,0000,0000,,It was so long ago that I forgot!
+Dialogue: 0,0:03:43.05,0:03:43.83,Main,Rimuru,0000,0000,0000,,I see.
+Dialogue: 0,0:03:44.15,0:03:44.83,Main,Milim,0000,0000,0000,,Oh, yeah!
+Dialogue: 0,0:03:44.99,0:03:46.09,Main,Milim,0000,0000,0000,,I just thought of one merit!
+Dialogue: 0,0:03:49.45,0:03:52.97,Main,Milim,0000,0000,0000,,It's because I became a Demon Lord \Nthat I found myself a bestie!
+Dialogue: 0,0:03:53.49,0:03:54.97,Main,Rimuru,0000,0000,0000,,R-Right...
+Dialogue: 0,0:03:59.72,0:04:03.01,Main,Milim,0000,0000,0000,,Anyway, bestie, I need \Nto get back to work now.
+Dialogue: 0,0:04:03.01,0:04:04.03,Main,Shion,0000,0000,0000,,Work?
+Dialogue: 0,0:04:04.03,0:04:05.45,Main,Shuna,0000,0000,0000,,Right now?
+Dialogue: 0,0:04:05.45,0:04:07.23,Main,Rimuru,0000,0000,0000,,That came out of nowhere.
+Dialogue: 0,0:04:07.23,0:04:09.69,Main,Milim,0000,0000,0000,,Well, it doesn't mean \NI'll never see you again!
+Dialogue: 0,0:04:10.10,0:04:11.61,Main,Milim,0000,0000,0000,,We'll only be apart for a little while!
+Dialogue: 0,0:04:13.20,0:04:13.95,Main,Milim,0000,0000,0000,,Transform!
+Dialogue: 0,0:04:23.21,0:04:27.75,Main,Milim,0000,0000,0000,,I'll be sure to tell the other Demon Lords \Nnot to mess with this place,
+Dialogue: 0,0:04:27.75,0:04:28.96,Main,Milim,0000,0000,0000,,so don't worry about that!
+Dialogue: 0,0:04:29.61,0:04:31.84,Main,Rimuru,0000,0000,0000,,You're going to see the other Demon Lords?
+Dialogue: 0,0:04:31.84,0:04:34.05,Main,Milim,0000,0000,0000,,Indeed. That's my job!
+Dialogue: 0,0:04:34.21,0:04:36.02,Main,Rimuru,0000,0000,0000,,Careful you don't let them trick you.
+Dialogue: 0,0:04:36.02,0:04:37.38,Main,Shion,0000,0000,0000,,Please don't let them trick you.
+Dialogue: 0,0:04:37.38,0:04:38.56,Main,Shuna,0000,0000,0000,,Don't let them trick you.
+Dialogue: 0,0:04:38.56,0:04:40.13,Main,Eren,0000,0000,0000,,Don't let them trick you, okay?
+Dialogue: 0,0:04:40.13,0:04:41.27,Main,Soka,0000,0000,0000,,Make certain they do not trick you.
+Dialogue: 0,0:04:41.54,0:04:43.85,Main,Milim,0000,0000,0000,,You all worry too much!
+Dialogue: 0,0:04:43.85,0:04:47.01,Main,Milim,0000,0000,0000,,They can't trick me! I'm too smart!
+Dialogue: 0,0:04:49.26,0:04:51.15,Main,Milim,0000,0000,0000,,Well, I'm off! Fwoosh!
+Dialogue: 0,0:04:52.57,0:04:54.07,Main,Rimuru,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:04:54.48,0:04:55.90,Main,Rimuru,0000,0000,0000,,Oh. She's gone.
+Dialogue: 0,0:04:56.52,0:04:59.16,Main,Eren,0000,0000,0000,,I envy how free-spirited she is.
+Dialogue: 0,0:04:59.48,0:05:02.10,Main,Shuna,0000,0000,0000,,That's so very like Lady Milim, though.
+Dialogue: 0,0:05:02.10,0:05:04.41,Main,Shion,0000,0000,0000,,I look forward to seeing her again.
+Dialogue: 0,0:05:25.99,0:05:30.77,Italics,Shizu,0000,0000,0000,,Please... save... those children...
+Dialogue: 0,0:05:32.22,0:05:35.19,Italics,Shizu,0000,0000,0000,,Hurry... to the royal capital...
+Dialogue: 0,0:05:41.27,0:05:42.19,Main,Rimuru,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:49.38,0:05:51.86,Main,Rimuru,0000,0000,0000,,That... wasn't just a dream.
+Dialogue: 0,0:05:51.86,0:05:54.05,Main,Rimuru,0000,0000,0000,,It's the regret Shizu-san's \Nclinging to, isn't it?
+Dialogue: 0,0:05:55.78,0:05:59.85,Flashback,Shizu,0000,0000,0000,,So I retired and became an instructor.
+Dialogue: 0,0:05:59.85,0:06:01.32,Flashback,Rimuru,0000,0000,0000,,An instructor?
+Dialogue: 0,0:06:01.32,0:06:03.47,Flashback,Shizu,0000,0000,0000,,A teacher at a school.
+Dialogue: 0,0:06:03.66,0:06:06.05,Flashback,Rimuru,0000,0000,0000,,Oh! There are schools here?
+Dialogue: 0,0:06:06.61,0:06:09.27,Flashback,Shizu,0000,0000,0000,,Yes, in a place called \Nthe Kingdom of Ingrassia.
+Dialogue: 0,0:06:10.57,0:06:12.64,Flashback,Shizu,0000,0000,0000,,It was a school for kids from other worlds.
+Dialogue: 0,0:06:18.47,0:06:20.99,Main,Rimuru,0000,0000,0000,,The royal capital of the Kingdom\Nof Ingrassia, huh?
+Dialogue: 0,0:06:27.43,0:06:28.54,Italics,Rimuru,0000,0000,0000,,There's Benimaru...
+Dialogue: 0,0:06:29.37,0:06:30.12,Italics,Rimuru,0000,0000,0000,,Kaijin...
+Dialogue: 0,0:06:31.30,0:06:32.08,Italics,Rimuru,0000,0000,0000,,Rigur...
+Dialogue: 0,0:06:32.52,0:06:34.00,Italics,Rimuru,0000,0000,0000,,The Goblin riders...
+Dialogue: 0,0:06:36.06,0:06:36.92,Italics,Rimuru,0000,0000,0000,,Geld...
+Dialogue: 0,0:06:38.92,0:06:40.22,Italics,Rimuru,0000,0000,0000,,Rigurd...
+Dialogue: 0,0:06:41.09,0:06:42.80,Italics,Rimuru,0000,0000,0000,,And heck, even Gabiru.
+Dialogue: 0,0:06:43.76,0:06:47.25,Italics,Rimuru,0000,0000,0000,,They should be just fine \Nwithout me for a while.
+Dialogue: 0,0:06:53.40,0:06:57.11,Flashback,Rimuru,0000,0000,0000,,So that's why I'm planning to \Ngo to the Kingdom of Ingrassia.
+Dialogue: 0,0:06:57.82,0:06:58.82,Flashback,Rimuru,0000,0000,0000,,Those kids were one of the reasons
+Dialogue: 0,0:06:58.82,0:07:02.70,Flashback,Rimuru,0000,0000,0000,,why Shizu-san made up her mind \Nto go see the Demon Lord Leon.
+Dialogue: 0,0:07:03.08,0:07:05.37,Flashback,Rimuru,0000,0000,0000,,And I promised Shizu-san, after all.
+Dialogue: 0,0:07:05.68,0:07:09.81,Flashback,Rigurd,0000,0000,0000,,I understand what you're saying... but...
+Dialogue: 0,0:07:09.81,0:07:11.93,Flashback,Hakurou,0000,0000,0000,,If anything should happen to you,
+Dialogue: 0,0:07:11.93,0:07:15.38,Flashback,Hakurou,0000,0000,0000,,the Jura Forest Alliance could \Nbe ripped up from its very roots,
+Dialogue: 0,0:07:15.38,0:07:17.75,Flashback,Hakurou,0000,0000,0000,,after it was only just \Nbeginning to come together.
+Dialogue: 0,0:07:17.99,0:07:20.12,Flashback,Ranga,0000,0000,0000,,I will go with him.
+Dialogue: 0,0:07:20.12,0:07:22.05,Flashback,Ranga,0000,0000,0000,,You can all rest at ease.
+Dialogue: 0,0:07:23.56,0:07:24.97,Flashback,Rimuru,0000,0000,0000,,What Ranga said.
+Dialogue: 0,0:07:26.11,0:07:28.97,Flashback,Rimuru,0000,0000,0000,,Work together to keep this town safe.
+Dialogue: 0,0:07:30.55,0:07:33.08,Flashback,Rimuru,0000,0000,0000,,I need you all to fulfill \Nyour roles the best you can.
+Dialogue: 0,0:07:33.08,0:07:33.99,Flashback,All,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:07:35.69,0:07:36.98,Flashback,Rimuru,0000,0000,0000,,Well, I'm off.
+Dialogue: 0,0:07:37.20,0:07:40.93,Flashback,Gabiru,0000,0000,0000,,P-Please, be well! We will \Nawait your return always!
+Dialogue: 0,0:07:40.93,0:07:42.46,Flashback,Lizard,0000,0000,0000,,Sir Gabiru, you're so sensitive!
+Dialogue: 0,0:07:42.46,0:07:43.99,Flashback,Lizard,0000,0000,0000,,Sir Gabiru, you're so kind!
+Dialogue: 0,0:07:44.26,0:07:46.74,Flashback,Rimuru,0000,0000,0000,,Don't be so dramatic. \NI'll be back in no time.
+Dialogue: 0,0:07:47.14,0:07:49.61,Flashback,Shion,0000,0000,0000,,Please do come back as soon as you can!
+Dialogue: 0,0:07:49.61,0:07:51.50,Flashback,Shuna,0000,0000,0000,,I pray you'll have a safe journey.
+Dialogue: 0,0:07:51.95,0:07:52.75,Flashback,Rimuru,0000,0000,0000,,Later!
+Dialogue: 0,0:07:53.12,0:07:56.00,Flashback,All,0000,0000,0000,,Farewell!
+Dialogue: 0,0:07:57.47,0:07:59.51,Italics,Rimuru,0000,0000,0000,,And so, I was on my way.
+Dialogue: 0,0:08:00.03,0:08:02.13,Italics,Rimuru,0000,0000,0000,,In the two years since I reincarnated here,
+Dialogue: 0,0:08:02.13,0:08:04.36,Italics,Rimuru,0000,0000,0000,,it's my first time visiting \Na nation of humans,
+Dialogue: 0,0:08:04.36,0:08:06.61,Italics,Rimuru,0000,0000,0000,,so I'm a little excited.
+Dialogue: 0,0:08:07.26,0:08:22.28,sign_17935_188_Barren_Lands,Text,0000,0000,0000,,{\move(118,120,98,105)\an8\3c&H5FA0B3&\t(\fs18)}Holy Empire\NRuberios
+Dialogue: 0,0:08:07.26,0:08:22.28,sign_17935_188_Barren_Lands,Text,0000,0000,0000,,{\move(232,172,298,190)\an8\3c&H5A9DAE&\t(\fs18)}Kingdom of Ingrassia
+Dialogue: 0,0:08:07.26,0:08:22.28,sign_17935_188_Barren_Lands,Text,0000,0000,0000,,{\move(270,218,363,270)\fs16\c&H092034&\3c&H599CB8&\bord2\t(\fs24)}The Western Provinces
+Dialogue: 0,0:08:07.26,0:08:22.28,sign_17935_188_Barren_Lands,Text,0000,0000,0000,,{\move(378,285,542,380)\t(\fs18)}Sorcerer's Dynasty Sarion
+Dialogue: 0,0:08:08.11,0:08:11.68,Italics_Top,Rimuru,0000,0000,0000,,The Kingdom of Ingrassia lies \Nto the west of our nation.
+Dialogue: 0,0:08:12.07,0:08:15.90,Italics_Top,Rimuru,0000,0000,0000,,It's also the home of the headquarters of \Nthe organization set up to help adventurers,
+Dialogue: 0,0:08:15.90,0:08:18.11,Italics_Top,Rimuru,0000,0000,0000,,the Free Union, which Fuze \Nand his people belong to.
+Dialogue: 0,0:08:18.52,0:08:21.57,Italics_Top,Rimuru,0000,0000,0000,,That's because its location is \Neasily accessible from all nations.
+Dialogue: 0,0:08:23.51,0:08:25.27,Italics,Rimuru,0000,0000,0000,,The school where these kids are,
+Dialogue: 0,0:08:25.27,0:08:28.99,Italics,Rimuru,0000,0000,0000,,Freedom Academy, was established \Nby one of Shizu-san's students.
+Dialogue: 0,0:08:30.16,0:08:32.43,Italics,Rimuru,0000,0000,0000,,That student's name is Yuuki Kagurazaka.
+Dialogue: 0,0:08:32.43,0:08:34.71,Italics,Rimuru,0000,0000,0000,,Based on the name, they must be Japanese...
+Dialogue: 0,0:08:34.71,0:08:36.64,Italics,Rimuru,0000,0000,0000,,My plan is to meet them first.
+Dialogue: 0,0:08:38.02,0:08:41.96,Italics,Rimuru,0000,0000,0000,,Fuze wrote a letter of introduction \Nfor me, so that won't be a problem.
+Dialogue: 0,0:08:42.42,0:08:46.43,sign_12526_141_Kingdom_of_Ingra,Text,0000,0000,0000,,{\fad(529,729)}Kingdom of Ingrassia
+Dialogue: 0,0:08:46.49,0:08:48.18,Italics,Rimuru,0000,0000,0000,,Thanks to Ranga,
+Dialogue: 0,0:08:48.18,0:08:52.15,Italics,Rimuru,0000,0000,0000,,I arrived at the royal capital of \NIngrassia in just three days.
+Dialogue: 0,0:08:55.47,0:08:57.93,Main,Rimuru,0000,0000,0000,,Stay hidden in my shadow.
+Dialogue: 0,0:08:57.93,0:09:01.06,Main,Rimuru,0000,0000,0000,,It'll cause a panic if you \Nwalk into the city like this.
+Dialogue: 0,0:09:01.06,0:09:04.81,Main,Ranga,0000,0000,0000,,Yes, Master. Feel free to \Ncall upon me at any time.
+Dialogue: 0,0:09:04.81,0:09:05.74,Main,Ranga,0000,0000,0000,,Take care.
+Dialogue: 0,0:09:05.74,0:09:06.60,Main,Rimuru,0000,0000,0000,,Sure.
+Dialogue: 0,0:09:11.93,0:09:15.00,Italics,Rimuru,0000,0000,0000,,There was a strict identification \Npolicy for entering the capital.
+Dialogue: 0,0:09:15.69,0:09:19.66,Italics,Rimuru,0000,0000,0000,,Just in case there was a magic barrier \Nto prevent monsters from entering,
+Dialogue: 0,0:09:19.66,0:09:22.37,Italics,Rimuru,0000,0000,0000,,I wore the magic-suppressing \Nmask to conceal my aura.
+Dialogue: 0,0:09:23.55,0:09:26.31,Italics,Rimuru,0000,0000,0000,,It'd probably be trouble if \Nthey found out I'm a monster,
+Dialogue: 0,0:09:26.31,0:09:27.75,Italics,Rimuru,0000,0000,0000,,so it's just in case.
+Dialogue: 0,0:09:28.73,0:09:31.64,Italics,Rimuru,0000,0000,0000,,And, with the ID that Fuze prepared for me,
+Dialogue: 0,0:09:31.99,0:09:34.26,Italics,Rimuru,0000,0000,0000,,I was able to enter the \Ncapital without issue.
+Dialogue: 0,0:09:42.80,0:09:43.65,Main,Rimuru,0000,0000,0000,,Sorry...
+Dialogue: 0,0:09:45.01,0:09:46.65,Italics,Rimuru,0000,0000,0000,,There are so many people.
+Dialogue: 0,0:09:47.67,0:09:50.13,Italics,Rimuru,0000,0000,0000,,It's quite a departure \Nfrom our little nation.
+Dialogue: 0,0:09:50.69,0:09:52.29,Italics,Rimuru,0000,0000,0000,,Definitely a big city.
+Dialogue: 0,0:09:53.74,0:09:54.83,Main,Rimuru,0000,0000,0000,,Whoa, seriously?!
+Dialogue: 0,0:09:55.21,0:09:56.62,Italics,Rimuru,0000,0000,0000,,Is that glass?
+Dialogue: 0,0:09:59.59,0:10:04.31,Italics,Rimuru,0000,0000,0000,,This is the biggest pane of glass \NI've seen since I came to this world.
+Dialogue: 0,0:10:07.15,0:10:08.59,Italics,Rimuru,0000,0000,0000,,This must be a church.
+Dialogue: 0,0:10:09.07,0:10:13.61,Italics,Rimuru,0000,0000,0000,,Wait... Don't churches \Nconsider monsters enemies?
+Dialogue: 0,0:10:13.61,0:10:16.37,Italics,Rimuru,0000,0000,0000,,Better make sure I don't \Nget involved with that.
+Dialogue: 0,0:10:18.48,0:10:21.98,sign_31616_375_Charybdis,Text,0000,0000,0000,,{\fad(273,725)}Free Union Headquarters
+Dialogue: 0,0:10:19.02,0:10:21.54,Italics,Rimuru,0000,0000,0000,,And that must be the Free Union headquarters.
+Dialogue: 0,0:10:25.89,0:10:29.41,Italics,Rimuru,0000,0000,0000,,Glass here, too... \NThey definitely have money.
+Dialogue: 0,0:10:33.72,0:10:35.12,Italics,Rimuru,0000,0000,0000,,Automatic doors?!
+Dialogue: 0,0:10:37.87,0:10:40.85,Main,Girl,0000,0000,0000,,I've verified your letter of introduction.
+Dialogue: 0,0:10:41.92,0:10:45.94,Main,Girl,0000,0000,0000,,The Grandmaster has agreed \Nto see you. I'll show you in.
+Dialogue: 0,0:10:46.34,0:10:47.53,Main,Girl,0000,0000,0000,,Right this way.
+Dialogue: 0,0:10:47.53,0:10:48.46,Main,Rimuru,0000,0000,0000,,Thanks.
+Dialogue: 0,0:10:53.36,0:10:57.14,Italics,Rimuru,0000,0000,0000,,We're teleporting? They must be \Nworried about spies and stuff.
+Dialogue: 0,0:10:57.82,0:10:59.94,Main,Girl,0000,0000,0000,,Please wait here for a few moments.
+Dialogue: 0,0:11:05.52,0:11:09.15,Italics,Rimuru,0000,0000,0000,,Now... What will this Grandmaster be like?
+Dialogue: 0,0:11:17.47,0:11:19.11,Main,Yuuki,0000,0000,0000,,Thank you for waiting.
+Dialogue: 0,0:11:20.04,0:11:21.40,Main,Yuuki,0000,0000,0000,,Pleased to meet you.
+Dialogue: 0,0:11:20.33,0:11:24.21,sign_31616_375_Charybdis,Text,0000,0000,0000,,{\fs16\pos(320,260)\fad(526,476)}Grandmaster  {\fs24}Yuuki Kagurazaka
+Dialogue: 0,0:11:21.40,0:11:25.38,Main,Yuuki,0000,0000,0000,,I'm the Grandmaster, Yuuki Kaguraza... ka...
+Dialogue: 0,0:11:30.88,0:11:34.27,Main,Rimuru,0000,0000,0000,,Nice to meet you, too. I'm Rimuru Tempest.
+Dialogue: 0,0:11:34.27,0:11:36.80,Main,Rimuru,0000,0000,0000,,I'm the leader of the \NJura Tempest Federation,
+Dialogue: 0,0:11:36.80,0:11:40.14,Main,Rimuru,0000,0000,0000,,the nation of monsters in the Forest of Jura.
+Dialogue: 0,0:11:41.33,0:11:44.65,Main,Yuuki,0000,0000,0000,,That mask... is Shizu-sensei's.
+Dialogue: 0,0:11:45.01,0:11:47.95,Main,Rimuru,0000,0000,0000,,That's right. You know who I am, don't you?
+Dialogue: 0,0:11:49.08,0:11:53.32,Main,Rimuru,0000,0000,0000,,I'm a slime that can mimic the \Nappearance of monsters I eat.
+Dialogue: 0,0:11:53.75,0:11:57.75,Main,Yuuki,0000,0000,0000,,Monsters you... eat?
+Dialogue: 0,0:12:10.02,0:12:11.38,Main,Rimuru,0000,0000,0000,,Calm down, kid.
+Dialogue: 0,0:12:14.20,0:12:15.89,Main,Rimuru,0000,0000,0000,,I'm not a bad slime.
+Dialogue: 0,0:12:18.45,0:12:19.68,Main,Yuuki,0000,0000,0000,,That line...
+Dialogue: 0,0:12:20.78,0:12:23.23,Main,Rimuru,0000,0000,0000,,I beat that game, too.
+Dialogue: 0,0:12:23.61,0:12:25.81,Main,Rimuru,0000,0000,0000,,You taught it to Shizu-san, didn't you?
+Dialogue: 0,0:12:27.37,0:12:29.82,Main,Yuuki,0000,0000,0000,,I'd like you to elaborate further on this.
+Dialogue: 0,0:12:31.32,0:12:32.83,Main,Rimuru,0000,0000,0000,,That's why I'm here.
+Dialogue: 0,0:12:34.82,0:12:38.05,Main,Yuuki,0000,0000,0000,,I see! So that's what happens \Nin the last episode!
+Dialogue: 0,0:12:38.05,0:12:40.58,Main,Yuuki,0000,0000,0000,,Wow, so Belldandy really...
+Dialogue: 0,0:12:42.12,0:12:44.53,Main,Rimuru,0000,0000,0000,,Anything else you'd like to know?
+Dialogue: 0,0:12:44.53,0:12:46.92,Main,Rimuru,0000,0000,0000,,By the time I got stabbed and died,
+Dialogue: 0,0:12:46.92,0:12:50.59,Main,Rimuru,0000,0000,0000,,I'd finished just about all \Nthe manga and anime you know!
+Dialogue: 0,0:12:50.97,0:12:53.88,Main,Rimuru,0000,0000,0000,,Naturally, I didn't miss \Na thing in that respect.
+Dialogue: 0,0:12:53.88,0:12:57.47,Main,Rimuru,0000,0000,0000,,It's important to get the basics down. \NThat's how a gentleman's gotta be.
+Dialogue: 0,0:12:57.67,0:13:01.62,Main,Yuuki,0000,0000,0000,,You amaze me, Master Rimuru! \NPlease, please teach me!
+Dialogue: 0,0:13:01.62,0:13:05.10,Main,Yuuki,0000,0000,0000,,What about games? \NHow many FFs were they up to?
+Dialogue: 0,0:13:06.41,0:13:07.69,Main,Rimuru,0000,0000,0000,,Nineteen.
+Dialogue: 0,0:13:07.69,0:13:09.30,Main,Yuuki,0000,0000,0000,,That many?!
+Dialogue: 0,0:13:09.81,0:13:10.61,Main,Yuuki,0000,0000,0000,,Anything else?
+Dialogue: 0,0:13:11.77,0:13:14.11,Main,Rimuru,0000,0000,0000,,The Sagrada Família is almost finished.
+Dialogue: 0,0:13:14.34,0:13:15.61,Main,Yuuki,0000,0000,0000,,Wow! Finally?!
+Dialogue: 0,0:13:16.49,0:13:17.61,Main,Rimuru,0000,0000,0000,,And {\i1}Iitomo{\i0} ended.
+Dialogue: 0,0:13:17.61,0:13:18.95,Main,Yuuki,0000,0000,0000,,Are you serious?!
+Dialogue: 0,0:13:18.95,0:13:21.95,Main,Yuuki,0000,0000,0000,,What am I gonna be "Uki Uki Watching" \Nevery weekday afternoon now?!
+Dialogue: 0,0:13:22.51,0:13:23.87,Main,Rimuru,0000,0000,0000,,{\i1}BomBom{\i0} is gone.
+Dialogue: 0,0:13:24.04,0:13:28.23,Main,Yuuki,0000,0000,0000,,What?! I looked forward to those \Ncomics every month as a kid!
+Dialogue: 0,0:13:28.23,0:13:30.75,Main,Yuuki,0000,0000,0000,,Hey! Is that one series \Nfinished yet? {\i1}Glass Ma{\i0}—
+Dialogue: 0,0:13:30.75,0:13:31.96,Main,Rimuru,0000,0000,0000,,Nope, it's still going.
+Dialogue: 0,0:13:32.16,0:13:34.21,Main,Yuuki,0000,0000,0000,,Still?! Then... Then what \Nabout {\i1}The Five Sta—{\i0}
+Dialogue: 0,0:13:34.21,0:13:36.97,Main,Rimuru,0000,0000,0000,,Well, since each book has \Nits own clear ending...
+Dialogue: 0,0:13:37.72,0:13:39.72,Main,Yuuki,0000,0000,0000,,So it still hasn't ended?
+Dialogue: 0,0:13:39.98,0:13:43.06,Main,Rimuru,0000,0000,0000,,I'd love to know how it's \Ngoing to end myself.
+Dialogue: 0,0:13:43.60,0:13:46.06,Main,Rimuru,0000,0000,0000,,As for the prime ministers we've had...
+Dialogue: 0,0:13:46.06,0:13:47.35,Main,Yuuki,0000,0000,0000,,Oh, I don't care about that.
+Dialogue: 0,0:13:47.35,0:13:47.98,Main,Rimuru,0000,0000,0000,,Huh?!
+Dialogue: 0,0:13:49.73,0:13:52.86,Main,Yuuki,0000,0000,0000,,Still, that's incredible. I'm so happy.
+Dialogue: 0,0:13:53.64,0:13:56.29,Main,Yuuki,0000,0000,0000,,Just hearing all this has been great,
+Dialogue: 0,0:13:56.29,0:13:59.61,Main,Yuuki,0000,0000,0000,,but I wish I could've seen \Nit all with my own eyes.
+Dialogue: 0,0:14:00.01,0:14:02.29,Main,Rimuru,0000,0000,0000,,Your own eyes, huh?
+Dialogue: 0,0:14:03.17,0:14:04.52,Main,Rimuru,0000,0000,0000,,Got any paper?
+Dialogue: 0,0:14:04.52,0:14:06.37,Main,Yuuki,0000,0000,0000,,Paper?
+Dialogue: 0,0:14:08.20,0:14:09.41,Main,Rimuru,0000,0000,0000,,Hang on a sec.
+Dialogue: 0,0:14:10.18,0:14:11.75,Main,Rimuru,0000,0000,0000,,Transform!
+Dialogue: 0,0:14:13.04,0:14:16.13,Main,Yuuki,0000,0000,0000,,Oh! So this is your true form!
+Dialogue: 0,0:14:22.72,0:14:25.14,sign_20685_232_Sirius,Text,0000,0000,0000,,{\fad(110,1)}Sirius
+Dialogue: 0,0:14:23.77,0:14:25.14,Main,,0000,0000,0000,,Here's a whole volume.
+Dialogue: 0,0:14:25.35,0:14:29.79,Main,Yuuki,0000,0000,0000,,Wow! What magic did you \Nuse to make this, Master?!
+Dialogue: 0,0:14:30.51,0:14:32.15,Main,Rimuru,0000,0000,0000,,That's a trade secret.
+Dialogue: 0,0:14:32.91,0:14:36.19,Italics,Rimuru,0000,0000,0000,,It was the result of using \NGreat Sage's ability to the fullest.
+Dialogue: 0,0:14:36.19,0:14:40.41,Italics,Rimuru,0000,0000,0000,,I copied images from my own memory \Nonto the paper I ingested.
+Dialogue: 0,0:14:40.41,0:14:42.77,Italics_Top,Great Sage,0000,0000,0000,,Notice. This is a waste of my ability.
+Dialogue: 0,0:14:42.16,0:14:46.41,sign_4961_43_It_hurts,Text,0000,0000,0000,,{\fs28\c&HD3D8D3&}Waste
+Dialogue: 0,0:14:42.77,0:14:46.41,Italics,Rimuru,0000,0000,0000,,You fool! This is an extremely \Neffective use of your ability!
+Dialogue: 0,0:14:47.05,0:14:49.16,Main,Rimuru,0000,0000,0000,,Well, you'd better get me more paper,
+Dialogue: 0,0:14:49.50,0:14:51.30,Main,Rimuru,0000,0000,0000,,if you want to read what comes next.
+Dialogue: 0,0:14:53.29,0:14:56.45,Main,Yuuki,0000,0000,0000,,Thank you so much, Master!
+Dialogue: 0,0:14:56.45,0:14:59.80,Main,Rimuru,0000,0000,0000,,Now, do you see that I'm not a bad slime?
+Dialogue: 0,0:14:59.95,0:15:01.57,Main,Yuuki,0000,0000,0000,,Of course!
+Dialogue: 0,0:15:04.48,0:15:06.77,Main,Yuuki,0000,0000,0000,,The news about Shizu-sensei is unfortunate,
+Dialogue: 0,0:15:06.77,0:15:08.51,Main,Yuuki,0000,0000,0000,,but I trust you.
+Dialogue: 0,0:15:09.56,0:15:10.06,sign_21808_249_That_Time_I_Got_,Text,0000,0000,0000,,{\fad(1,141)}That Time I Got Reincarnated as a Slime
+Dialogue: 0,0:15:09.70,0:15:12.94,Main,Yuuki,0000,0000,0000,,I'll take my time reading these later.
+Dialogue: 0,0:15:09.77,0:15:12.94,sign_21814_250_Land_of_the_Lust,Text,0000,0000,0000,,{\fad(482,1)}Land of the Lustrous
+Dialogue: 0,0:15:14.46,0:15:17.42,Main,Yuuki,0000,0000,0000,,So, what brought you here to see me?
+Dialogue: 0,0:15:17.42,0:15:21.20,Main,Yuuki,0000,0000,0000,,Are you looking for a way \Nto go back home, perhaps?
+Dialogue: 0,0:15:21.54,0:15:23.32,Main,Rimuru,0000,0000,0000,,No, it's not that...
+Dialogue: 0,0:15:24.01,0:15:25.70,Main,Rimuru,0000,0000,0000,,but is it possible to go back?
+Dialogue: 0,0:15:27.81,0:15:31.21,Main,Rimuru,0000,0000,0000,,Well, if it was, I'm sure you \Nwould've done it long ago.
+Dialogue: 0,0:15:31.67,0:15:35.78,Main,Rimuru,0000,0000,0000,,I've given up on that. I've probably \Nbeen cremated by now, anyway.
+Dialogue: 0,0:15:36.48,0:15:38.76,Main,Yuuki,0000,0000,0000,,It sounds like you have no way back.
+Dialogue: 0,0:15:39.20,0:15:42.73,Main,Yuuki,0000,0000,0000,,But I don't believe that it's impossible.
+Dialogue: 0,0:15:43.63,0:15:46.97,Main,Yuuki,0000,0000,0000,,There were legends of \Nogres and demons in Japan,
+Dialogue: 0,0:15:47.14,0:15:51.23,Main,Yuuki,0000,0000,0000,,and every other nation has \Nsimilar myths and stories, too.
+Dialogue: 0,0:15:51.23,0:15:54.18,Main,Yuuki,0000,0000,0000,,So I figure that if some condition is met,
+Dialogue: 0,0:15:54.18,0:15:56.64,Main,Yuuki,0000,0000,0000,,moving between our worlds should be possible.
+Dialogue: 0,0:15:57.10,0:15:58.74,Main,Rimuru,0000,0000,0000,,I see...
+Dialogue: 0,0:15:58.74,0:16:02.27,Main,Yuuki,0000,0000,0000,,If your goal wasn't to go back, \Nthen why are you here?
+Dialogue: 0,0:16:03.37,0:16:06.98,Main,Rimuru,0000,0000,0000,,I'm more than happy to \Njust live an easy life.
+Dialogue: 0,0:16:06.98,0:16:11.04,Main,Rimuru,0000,0000,0000,,I built a town, and I intended to \Nenjoy life with my friends there.
+Dialogue: 0,0:16:12.24,0:16:15.08,Main,Rimuru,0000,0000,0000,,But there was something bothering me.
+Dialogue: 0,0:16:15.74,0:16:17.09,Main,Yuuki,0000,0000,0000,,What was bothering you?
+Dialogue: 0,0:16:18.00,0:16:19.84,Main,Rimuru,0000,0000,0000,,Shizu-sensei's lingering regret.
+Dialogue: 0,0:16:22.39,0:16:25.51,Main,Yuuki,0000,0000,0000,,I see. Shizu-sensei's regret...
+Dialogue: 0,0:16:26.14,0:16:28.60,Main,Yuuki,0000,0000,0000,,The children of Freedom Academy.
+Dialogue: 0,0:16:29.81,0:16:32.60,Main,Yuuki,0000,0000,0000,,If that is Shizu-sensei's wish, then...
+Dialogue: 0,0:16:33.13,0:16:34.26,Main,Yuuki,0000,0000,0000,,Of course.
+Dialogue: 0,0:16:34.89,0:16:38.84,Main,Yuuki,0000,0000,0000,,Rimuru-san, I'm also willing \Nto entrust them to you.
+Dialogue: 0,0:16:40.44,0:16:44.24,Italics,Rimuru,0000,0000,0000,,Yuuki arranged for me to \Nbe a teacher at the school.
+Dialogue: 0,0:16:44.91,0:16:48.69,Italics,Rimuru,0000,0000,0000,,I'll be the one teaching \NShizu-sensei's students now.
+Dialogue: 0,0:16:49.39,0:16:52.05,Italics,Rimuru,0000,0000,0000,,Incidentally, it comes with \Na dorm just for the teachers!
+Dialogue: 0,0:16:52.05,0:16:53.83,Italics,Rimuru,0000,0000,0000,,Three meals a day, too!
+Dialogue: 0,0:16:54.02,0:16:55.75,Italics,Rimuru,0000,0000,0000,,My daily wage is ten silver coins.
+Dialogue: 0,0:16:55.75,0:16:57.67,Italics,Rimuru,0000,0000,0000,,The working conditions are pretty good!
+Dialogue: 0,0:16:59.47,0:17:03.05,Main,Yuuki,0000,0000,0000,,Rimuru-san, do you know Hinata Sakaguchi?
+Dialogue: 0,0:17:03.44,0:17:05.27,Main,Rimuru,0000,0000,0000,,Hinata Sakaguchi?
+Dialogue: 0,0:17:05.27,0:17:08.58,Main,Yuuki,0000,0000,0000,,She was once a student of Shizu-sensei's.
+Dialogue: 0,0:17:08.58,0:17:09.96,Main,Rimuru,0000,0000,0000,,Oh...
+Dialogue: 0,0:17:09.96,0:17:13.76,Main,Rimuru,0000,0000,0000,,The one who left Shizu-san?
+Dialogue: 0,0:17:13.76,0:17:14.70,Main,Yuuki,0000,0000,0000,,Yes.
+Dialogue: 0,0:17:15.82,0:17:21.45,Main,Yuuki,0000,0000,0000,,In her prime, Shizu-sensei had complete \Ncontrol over the superior spirit Ifrit,
+Dialogue: 0,0:17:21.97,0:17:26.92,Main,Yuuki,0000,0000,0000,,but Hinata gained strength surpassing \Nhers at the age of fifteen.
+Dialogue: 0,0:17:27.82,0:17:28.62,Main,Rimuru,0000,0000,0000,,Huh...
+Dialogue: 0,0:17:29.01,0:17:32.88,Main,Yuuki,0000,0000,0000,,That alone should give you \Nan idea of how strong she is.
+Dialogue: 0,0:17:34.09,0:17:37.08,Italics,Rimuru,0000,0000,0000,,Nope, not a clue. \NBetter just keep my mouth shut.
+Dialogue: 0,0:17:38.39,0:17:42.34,Main,Yuuki,0000,0000,0000,,You may wonder why I'm \Ntelling you about this...
+Dialogue: 0,0:17:43.76,0:17:45.67,Main,Yuuki,0000,0000,0000,,I just want you to know the difference
+Dialogue: 0,0:17:45.67,0:17:48.81,Main,Yuuki,0000,0000,0000,,between the Otherworlders, \Nlike Hinata and us,
+Dialogue: 0,0:17:49.26,0:17:51.17,Main,Yuuki,0000,0000,0000,,who came to this world spontaneously,
+Dialogue: 0,0:17:51.17,0:17:54.11,Main,Yuuki,0000,0000,0000,,and those five students, the Summons.
+Dialogue: 0,0:17:54.11,0:17:55.35,Main,Rimuru,0000,0000,0000,,Summons?
+Dialogue: 0,0:17:56.10,0:17:57.97,Italics,Rimuru,0000,0000,0000,,Veldora mentioned that...
+Dialogue: 0,0:17:59.15,0:18:00.62,Flashback,Rimuru,0000,0000,0000,,A Summon?
+Dialogue: 0,0:18:00.62,0:18:02.86,Flashback,Rimuru,0000,0000,0000,,Is that different from Otherworlders?
+Dialogue: 0,0:18:03.06,0:18:07.32,Flashback,Veldora,0000,0000,0000,,It takes more than 30 mages to perform \Na ritual that lasts several days
+Dialogue: 0,0:18:07.32,0:18:09.11,Flashback,Veldora,0000,0000,0000,,to bring one here from another world.
+Dialogue: 0,0:18:09.38,0:18:12.81,Flashback,Veldora,0000,0000,0000,,They're also expected to \Nserve as powerful weapons.
+Dialogue: 0,0:18:12.81,0:18:13.96,Flashback,Rimuru,0000,0000,0000,,Weapons?
+Dialogue: 0,0:18:13.96,0:18:15.80,Flashback,Veldora,0000,0000,0000,,Yes, for the Summoner.
+Dialogue: 0,0:18:15.80,0:18:18.66,Flashback,Veldora,0000,0000,0000,,Magic is used to carve a \Ncurse into the Summon's soul
+Dialogue: 0,0:18:18.66,0:18:21.38,Flashback,Veldora,0000,0000,0000,,to ensure that the Summon \Ncan't defy the Summoner.
+Dialogue: 0,0:18:22.46,0:18:26.07,Main,Yuuki,0000,0000,0000,,Since Summons are brought here \Nfor some specific purpose,
+Dialogue: 0,0:18:26.07,0:18:29.88,Main,Yuuki,0000,0000,0000,,they're always given power \Nsuited to that purpose.
+Dialogue: 0,0:18:30.03,0:18:34.55,Main,Yuuki,0000,0000,0000,,Just like the Hero who may become \Nmankind's trump card, in fact.
+Dialogue: 0,0:18:36.27,0:18:40.40,Main,Yuuki,0000,0000,0000,,When crossing worlds, \None is given a new body.
+Dialogue: 0,0:18:40.40,0:18:43.08,Main,Yuuki,0000,0000,0000,,At that time, the body takes \Nin a massive amount of energy
+Dialogue: 0,0:18:43.08,0:18:45.40,Main,Yuuki,0000,0000,0000,,and begins to acquire abilities.
+Dialogue: 0,0:18:47.20,0:18:51.24,Main,Yuuki,0000,0000,0000,,When a summoning is performed, \Nthere are times when a child is summoned.
+Dialogue: 0,0:18:51.98,0:18:54.12,Main,Yuuki,0000,0000,0000,,And when an amount of energy too vast
+Dialogue: 0,0:18:54.51,0:18:57.75,Main,Yuuki,0000,0000,0000,,for that child's growing body is taken in...
+Dialogue: 0,0:18:58.55,0:19:03.95,Main,Yuuki,0000,0000,0000,,Eventually, that body will be incinerated \Nby all that energy with nowhere to go.
+Dialogue: 0,0:19:03.95,0:19:04.68,Main,Rimuru,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:05.43,0:19:06.50,Main,Rimuru,0000,0000,0000,,Wait a minute.
+Dialogue: 0,0:19:06.91,0:19:09.25,Main,Rimuru,0000,0000,0000,,So those five kids you mentioned...
+Dialogue: 0,0:19:09.78,0:19:13.23,Main,Yuuki,0000,0000,0000,,You surmised correctly. They were summoned.
+Dialogue: 0,0:19:13.23,0:19:15.01,Main,Rimuru,0000,0000,0000,,Are they okay, then?
+Dialogue: 0,0:19:15.51,0:19:20.52,Main,Yuuki,0000,0000,0000,,They resulted when different nations \Ntried and failed to summon a Hero.
+Dialogue: 0,0:19:20.52,0:19:24.77,Main,Yuuki,0000,0000,0000,,Shizu-sensei took them in and \Ndid her best to save them.
+Dialogue: 0,0:19:24.96,0:19:28.90,Main,Rimuru,0000,0000,0000,,Different nations? Whole nations \Nare involved in summoning?
+Dialogue: 0,0:19:29.32,0:19:32.78,Main,Yuuki,0000,0000,0000,,Yes. I suppose that was this world's choice.
+Dialogue: 0,0:19:34.09,0:19:36.79,Main,Yuuki,0000,0000,0000,,Rather than strengthening armies \Nso they can face monsters,
+Dialogue: 0,0:19:37.26,0:19:41.59,Main,Yuuki,0000,0000,0000,,it may be more effective to summon an \NOtherworlder of incomparable strength.
+Dialogue: 0,0:19:41.59,0:19:43.04,Main,Yuuki,0000,0000,0000,,That's what they thought.
+Dialogue: 0,0:19:43.77,0:19:48.29,Main,Yuuki,0000,0000,0000,,If you know Shizu-sensei's strength, \NI'm sure you understand what that implies.
+Dialogue: 0,0:19:48.29,0:19:49.39,Main,Rimuru,0000,0000,0000,,But...
+Dialogue: 0,0:19:51.04,0:19:54.12,Main,Rimuru,0000,0000,0000,,Shizu-san hated this world.
+Dialogue: 0,0:19:54.99,0:19:57.39,Main,Rimuru,0000,0000,0000,,So what's going to happen to these kids?
+Dialogue: 0,0:19:58.35,0:20:02.00,Main,Yuuki,0000,0000,0000,,The longest any Summon has lasted \Naccording to our current records...
+Dialogue: 0,0:20:02.89,0:20:03.77,Main,Yuuki,0000,0000,0000,,is five years.
+Dialogue: 0,0:20:04.29,0:20:05.23,Main,Rimuru,0000,0000,0000,,Five years?
+Dialogue: 0,0:20:05.90,0:20:08.61,Main,Yuuki,0000,0000,0000,,No one has found a way to \Nprevent their destruction.
+Dialogue: 0,0:20:09.55,0:20:13.17,Main,Yuuki,0000,0000,0000,,Nearly all children under the age \Nof ten who have been summoned
+Dialogue: 0,0:20:13.17,0:20:15.41,Main,Yuuki,0000,0000,0000,,have died within five years.
+Dialogue: 0,0:20:17.04,0:20:21.66,Main,Yuuki,0000,0000,0000,,The nations willingly let us have these \Nchildren because of that, but still...
+Dialogue: 0,0:20:25.44,0:20:29.75,Main,Rimuru,0000,0000,0000,,So no matter what I do with these kids, \Nthe nations won't complain, right?
+Dialogue: 0,0:20:29.75,0:20:31.63,Main,Yuuki,0000,0000,0000,,You have something in mind?
+Dialogue: 0,0:20:31.94,0:20:32.79,Main,Rimuru,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:33.31,0:20:36.90,Main,Rimuru,0000,0000,0000,,If that's Shizu-san's wish, I'll take it on.
+Dialogue: 0,0:20:37.97,0:20:39.44,Main,Yuuki,0000,0000,0000,,Please!
+Dialogue: 0,0:20:39.44,0:20:42.98,Main,Yuuki,0000,0000,0000,,If it's at all possible, \Nplease save those children!
+Dialogue: 0,0:20:44.52,0:20:46.79,Italics,Rimuru,0000,0000,0000,,I'll just do whatever I can.
+Dialogue: 0,0:20:47.74,0:20:50.48,Italics,Rimuru,0000,0000,0000,,It's what I've always done, \Nand what I'll continue to do.
+Dialogue: 0,0:20:55.95,0:20:56.83,Main,Rimuru,0000,0000,0000,,Right!
+Dialogue: 0,0:20:57.76,0:21:01.04,Main,Rimuru,0000,0000,0000,,Heya! Starting today, I'm your new te—
+Dialogue: 0,0:21:06.71,0:21:10.34,Italics,Rimuru,0000,0000,0000,,Wait... I thought these \Nkids didn't have long left?
+Dialogue: 0,0:21:10.64,0:21:14.47,Italics,Rimuru,0000,0000,0000,,Aren't they just giving all that \Nexcess energy free rein to run wild?
+Dialogue: 0,0:21:14.47,0:21:15.94,Main,Ryota,0000,0000,0000,,Ken-chan, you're awesome!
+Dialogue: 0,0:21:15.94,0:21:18.85,Main,Gale,0000,0000,0000,,Is that your finishing move? \NYou finally perfected it!
+Dialogue: 0,0:21:18.85,0:21:21.81,Main,Alice,0000,0000,0000,,It wasn't good enough, though. He dodged it.
+Dialogue: 0,0:21:21.81,0:21:23.73,Main,Kenya,0000,0000,0000,,Shut up! I won't miss next time!
+Dialogue: 0,0:21:23.73,0:21:26.39,Italics,Rimuru,0000,0000,0000,,No way! No way! This is no good at all!
+Dialogue: 0,0:21:26.39,0:21:28.35,Italics,Rimuru,0000,0000,0000,,This classroom is pure chaos!
+Dialogue: 0,0:21:29.12,0:21:32.17,Main,Kuroe,0000,0000,0000,,He looks... a little like Shizu-sensei.
+Dialogue: 0,0:21:32.17,0:21:33.86,Main,Alice,0000,0000,0000,,Huh? You think so?
+Dialogue: 0,0:21:33.86,0:21:35.89,Main,Kenya,0000,0000,0000,,He doesn't look a bit like her.
+Dialogue: 0,0:21:36.24,0:21:38.24,sign_31616_375_Charybdis,Text,0000,0000,0000,,{\fad(273,1)}Kenya Misaki
+Dialogue: 0,0:21:36.38,0:21:38.24,Italics,Rimuru,0000,0000,0000,,Kenya Misaki, age 10.
+Dialogue: 0,0:21:38.49,0:21:40.49,sign_31616_375_Charybdis,Text,0000,0000,0000,,{\fad(275,1)}Ryota Sekiguchi
+Dialogue: 0,0:21:38.59,0:21:40.49,Italics,Rimuru,0000,0000,0000,,Ryota Sekiguchi, age 10.
+Dialogue: 0,0:21:40.74,0:21:42.68,Italics,Rimuru,0000,0000,0000,,Gale Gibson, age 11.
+Dialogue: 0,0:21:40.74,0:21:42.91,sign_31616_375_Charybdis,Text,0000,0000,0000,,{\fad(275,1)}Gale Gibson
+Dialogue: 0,0:21:43.12,0:21:44.81,Italics,Rimuru,0000,0000,0000,,Alice Rondo, age 9.
+Dialogue: 0,0:21:43.16,0:21:45.08,sign_31616_375_Charybdis,Text,0000,0000,0000,,{\fad(275,1)}Alice Rondo
+Dialogue: 0,0:21:45.33,0:21:47.75,sign_31616_375_Charybdis,Text,0000,0000,0000,,{\fad(275,1)}Chloe Aubert
+Dialogue: 0,0:21:45.44,0:21:47.17,Italics,Rimuru,0000,0000,0000,,Chloe Aubert, age 10.
+Dialogue: 0,0:21:50.57,0:21:52.61,Italics,Rimuru,0000,0000,0000,,I just felt something react...
+Dialogue: 0,0:21:53.83,0:21:55.71,Italics,Rimuru,0000,0000,0000,,Was that Veldora?
+Dialogue: 0,0:21:57.01,0:22:00.14,Italics,Rimuru,0000,0000,0000,,Anyway, since they're not \Nsupposed to have much time left,
+Dialogue: 0,0:22:00.14,0:22:02.60,Italics,Rimuru,0000,0000,0000,,I expected these kids to be meek and mild...
+Dialogue: 0,0:22:03.01,0:22:04.36,Italics,Rimuru,0000,0000,0000,,That's a bit depressing.
+Dialogue: 0,0:23:35.70,0:23:39.01,Italics_Top,Great Sage,0000,0000,0000,,Next time, "Shizu-san's Students."
+Dialogue: 0,0:23:36.11,0:23:39.99,Next_Ep_Title,Title,0000,0000,0000,,{\fad(898,1)}Shizu-san's {\u1\c&HD8E2E5&\3c&H000000&} Students
+

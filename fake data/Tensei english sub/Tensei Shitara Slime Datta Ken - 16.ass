@@ -1,0 +1,408 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Show_Title,Open Sans Semibold,36,&H00CD9612,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H8C000000,&H8C000000,0,0,0,0,100,100,0,0,1,1,1,3,13,53,67,1
+Style: Next_Ep_Title,Open Sans Semibold,39,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,13,13,147,1
+Style: sign_1407_3_Tokyo__Present_D,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,1,0,0,0,100,100,0,0,1,1,1,2,13,13,120,1
+Style: sign_266_4_Two_Days_Later,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,301,301,120,1
+Style: sign_290_5_King_Gazel_has_a,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,2,2,339,328,128,1
+Style: sign_11550_121_Demon__h_hLord,Open Sans Semibold,17,&H00FFFFFF,&H000000FF,&H50000000,&H28000000,1,0,0,0,100,100,0,0,1,1,2,1,333,456,129,1
+Style: sign_11550_122_Milim_Nava,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H50000000,&H28000000,1,0,0,0,100,100,0,0,1,1,2,1,377,276,125,1
+Style: sign_12369_134___Milim_Eye__,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,1,0,0,0,100,100,0,0,1,1,2,2,105,525,180,1
+Style: sign_17183_191_Answer,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00342166,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,367,367,0,1
+Style: sign_28067_337_Coffee,Open Sans Semibold,18,&H00030FCC,&H000000FF,&H00DDF2EB,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,117,681,188,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.26,0:00:03.10,Italics,Na,0000,0000,0000,,The alliance between the \NJura Tempest Federation
+Dialogue: 0,0:00:03.10,0:00:05.82,Italics,Na,0000,0000,0000,,and the Armed Nation of \NDwargon was established,
+Dialogue: 0,0:00:06.48,0:00:10.55,Italics,Na,0000,0000,0000,,and the nation of monsters gained \Npowerful backing support.
+Dialogue: 0,0:00:11.08,0:00:12.08,sign_266_4_Two_Days_Later,Text,0000,0000,0000,,Two Days Later
+Dialogue: 0,0:00:12.08,0:00:14.37,sign_290_5_King_Gazel_has_a,Text,0000,0000,0000,,King Gazel has arrived.
+Dialogue: 0,0:00:12.38,0:00:14.37,Main,Gazel,0000,0000,0000,,I'm here, Rimuru!
+Dialogue: 0,0:00:14.61,0:00:16.48,Main,Rimuru,0000,0000,0000,,What brings you here this time?
+Dialogue: 0,0:00:16.48,0:00:18.64,Main,Gazel,0000,0000,0000,,I'm here to give you all a gift.
+Dialogue: 0,0:00:18.64,0:00:19.82,Main,Rimuru,0000,0000,0000,,A gift?
+Dialogue: 0,0:00:25.96,0:00:26.63,Main,Rimuru,0000,0000,0000,,Huh?!
+Dialogue: 0,0:00:26.89,0:00:28.63,Main,Kaijin,0000,0000,0000,,That's Vesta!
+Dialogue: 0,0:01:58.52,0:02:00.98,Show_Title,Title,0000,0000,0000,,That {\c&H471E13&}Time {\c&HCD9612&}I Got {\c&H471E13&}Reincarnated {\c&HCD9612&}as a {\c&H7E4F0A&}Slime
+Dialogue: 0,0:02:04.44,0:02:09.11,Ep_Title,Title,0000,0000,0000,,{\fad(1279,559)}Episode 16: Demon Lord Milim Attacks
+Dialogue: 0,0:02:04.57,0:02:08.65,Main,Gazel,0000,0000,0000,,{\an8}It seemed a waste to leave such \Na talented man doing nothing,
+Dialogue: 0,0:02:08.65,0:02:12.42,Main,Gazel,0000,0000,0000,,{\an8}but I cannot allow him to work in my service.
+Dialogue: 0,0:02:12.42,0:02:13.91,Main,Gazel,0000,0000,0000,,Use him as you wish.
+Dialogue: 0,0:02:14.11,0:02:19.83,Main,Kaijin,0000,0000,0000,,My King... That would allow Vesta's \Nknowledge to leave the Dwarves!
+Dialogue: 0,0:02:20.06,0:02:23.30,Main,Gazel,0000,0000,0000,,Says the man who left the Dwarves himself?
+Dialogue: 0,0:02:24.32,0:02:26.33,Main,Gazel,0000,0000,0000,,That is what this alliance is for.
+Dialogue: 0,0:02:26.82,0:02:31.72,Main,Gazel,0000,0000,0000,,Make this land you have chosen to inhabit \Na leader in new and unique skills!
+Dialogue: 0,0:02:32.05,0:02:33.07,Main,Gazel,0000,0000,0000,,Vesta...
+Dialogue: 0,0:02:33.07,0:02:34.22,Main,Vesta,0000,0000,0000,,Y-Yes?
+Dialogue: 0,0:02:34.47,0:02:37.75,Main,Gazel,0000,0000,0000,,Devote yourself to studying here.
+Dialogue: 0,0:02:39.17,0:02:40.48,Main,vesta,0000,0000,0000,,I shall.
+Dialogue: 0,0:02:40.87,0:02:43.30,Main,Vesta,0000,0000,0000,,My King, this time...
+Dialogue: 0,0:02:43.30,0:02:46.23,Main,Vesta,0000,0000,0000,,This time, I will live \Nup to your expectations.
+Dialogue: 0,0:02:47.88,0:02:52.20,Main,Vesta,0000,0000,0000,,Rimuru, Kaijin... I am truly sorry.
+Dialogue: 0,0:02:53.14,0:02:57.24,Main,Vesta,0000,0000,0000,,Would you allow me to work here?
+Dialogue: 0,0:02:58.28,0:03:02.18,Main,Kaijin,0000,0000,0000,,Having one more talented researcher \Naround will be a big help.
+Dialogue: 0,0:03:02.18,0:03:06.14,Main,Kaijin,0000,0000,0000,,Rimuru, if anything bad happens, \NI'll take responsibility.
+Dialogue: 0,0:03:06.14,0:03:10.01,Main,Kaijin,0000,0000,0000,,Please have faith in me and show him mercy.
+Dialogue: 0,0:03:11.51,0:03:13.18,Main,Vesta,0000,0000,0000,,Kaijin...
+Dialogue: 0,0:03:13.67,0:03:16.79,Main,Rimuru,0000,0000,0000,,If it's okay with you, Kaijin, \NI have no objections.
+Dialogue: 0,0:03:17.65,0:03:19.52,Main,Rimuru,0000,0000,0000,,Welcome aboard, Vesta.
+Dialogue: 0,0:03:19.52,0:03:23.90,Main,Vesta,0000,0000,0000,,Thank you! I am unworthy, but I \Nwill give my utmost effort for you!
+Dialogue: 0,0:03:25.08,0:03:26.52,Main,Gazel,0000,0000,0000,,Then, farewell!
+Dialogue: 0,0:03:32.95,0:03:34.24,Main,Rimuru,0000,0000,0000,,Now, then...
+Dialogue: 0,0:03:34.51,0:03:36.99,Main,Rimuru,0000,0000,0000,,What are {\i1}you{\i0} doing here?
+Dialogue: 0,0:03:36.99,0:03:42.57,Main,Gabiru,0000,0000,0000,,Well... I, Gabiru, have arrived in hopes \Nthat I may be of some help to you!
+Dialogue: 0,0:03:42.57,0:03:44.25,Main,Lizard,0000,0000,0000,,You're so cool, Sir Gabiru!
+Dialogue: 0,0:03:44.25,0:03:45.25,Main,Lizard,0000,0000,0000,,Naturally!
+Dialogue: 0,0:03:45.39,0:03:46.49,Main,Shion,0000,0000,0000,,I'll cut him up.
+Dialogue: 0,0:03:46.49,0:03:47.50,Main,Gabiru,0000,0000,0000,,Wait, wait, wait, wait!
+Dialogue: 0,0:03:47.50,0:03:51.01,Main,Gabiru,0000,0000,0000,,We hoped you would permit \Nus to join your ranks!
+Dialogue: 0,0:03:51.01,0:03:54.38,Main,Gabiru,0000,0000,0000,,On my word, we will prove \Nuseful to you, so please!
+Dialogue: 0,0:03:54.38,0:03:55.47,Main,Lizards,0000,0000,0000,,Please!
+Dialogue: 0,0:03:55.61,0:03:58.32,Main,Lizard,0000,0000,0000,,It's as Sir Gabiru says.
+Dialogue: 0,0:03:58.67,0:04:00.72,Main,Sis,0000,0000,0000,,My brother has seen the error of his ways.
+Dialogue: 0,0:04:01.20,0:04:03.35,Main,Sis,0000,0000,0000,,Please grant him the opportunity to atone.
+Dialogue: 0,0:04:03.66,0:04:05.40,Main,Rimuru,0000,0000,0000,,The captain of the guard is here, too?
+Dialogue: 0,0:04:05.57,0:04:08.85,Main,Sis,0000,0000,0000,,Unlike my brother, I have not been disowned.
+Dialogue: 0,0:04:08.85,0:04:09.41,Main,Gabiru,0000,0000,0000,,What?!
+Dialogue: 0,0:04:09.41,0:04:13.03,Main,Sis,0000,0000,0000,,My father, Abiru, sent me \Nhere to gain more experience.
+Dialogue: 0,0:04:13.23,0:04:15.48,Main,Gabiru,0000,0000,0000,,You didn't follow me because you missed me?!
+Dialogue: 0,0:04:15.48,0:04:16.16,Main,Sis,0000,0000,0000,,No.
+Dialogue: 0,0:04:16.16,0:04:17.03,Main,,0000,0000,0000,,D'oh!
+Dialogue: 0,0:04:17.48,0:04:18.87,Main,Rimuru,0000,0000,0000,,I see.
+Dialogue: 0,0:04:19.54,0:04:23.91,Main,Sis,0000,0000,0000,,{\an8}I do respect you, dear brother, \Nbut right now, Master Souei is...
+Dialogue: 0,0:04:20.28,0:04:24.99,Italics,Rimuru,0000,0000,0000,,And so Vesta, along with Gabiru and \Nhis brethren, joined the nation.
+Dialogue: 0,0:04:23.91,0:04:26.29,Main,Rimuru,0000,0000,0000,,{\an8}You've always been such a brat!
+Dialogue: 0,0:04:26.71,0:04:31.69,Italics,Na,0000,0000,0000,,Since they were now allies, I gave \NGabiru's sister and servants names, too.
+Dialogue: 0,0:04:32.10,0:04:34.05,Main,Rimuru,0000,0000,0000,,Okay, in this order, you're...
+Dialogue: 0,0:04:34.28,0:04:38.95,Main,Rimuru,0000,0000,0000,,Soka, Toka, Saika, Nanso, and Hokuso.
+Dialogue: 0,0:04:40.46,0:04:41.93,Main,Soka,0000,0000,0000,,Thank you so much.
+Dialogue: 0,0:04:43.34,0:04:46.44,Main,Rimuru,0000,0000,0000,,Gabiru-kun, don't act so jealous.
+Dialogue: 0,0:04:46.70,0:04:49.82,Main,Rimuru,0000,0000,0000,,You already have a perfectly \Ngood name, "Gabiru."
+Dialogue: 0,0:04:49.82,0:04:51.74,Main,Rimuru,0000,0000,0000,,Wait, did I just—
+Dialogue: 0,0:04:53.53,0:04:55.32,Main,Rimuru,0000,0000,0000,,Gabiru's shining...
+Dialogue: 0,0:04:55.63,0:04:58.82,Main,Rimuru,0000,0000,0000,,Wait, can names be overwritten?!
+Dialogue: 0,0:04:58.82,0:05:02.39,Main,Gabiru,0000,0000,0000,,Thank you! I will follow you \Nfor the rest of my life!
+Dialogue: 0,0:05:05.06,0:05:08.92,Italics,Rimuru,0000,0000,0000,,So I had no choice but to name \Nall of Gabiru's brethren,
+Dialogue: 0,0:05:08.92,0:05:12.26,Italics,Rimuru,0000,0000,0000,,and they evolved into Dragonewts.
+Dialogue: 0,0:05:13.74,0:05:15.50,Main,Souei,0000,0000,0000,,They want to join our ranks?
+Dialogue: 0,0:05:16.17,0:05:18.06,Main,Souei,0000,0000,0000,,May I use them as I wish?
+Dialogue: 0,0:05:18.06,0:05:18.84,Main,Rimuru,0000,0000,0000,,Sure.
+Dialogue: 0,0:05:19.10,0:05:21.35,Main,Rimuru,0000,0000,0000,,Train them up as you see fit.
+Dialogue: 0,0:05:22.25,0:05:24.64,Main,Souei,0000,0000,0000,,As you command, Rimuru-sama.
+Dialogue: 0,0:05:24.64,0:05:27.02,Main,Soka,0000,0000,0000,,I'll work my hardest for you!
+Dialogue: 0,0:05:27.02,0:05:32.27,sign_1407_3_Tokyo__Present_D,Text,0000,0000,0000,,{\an8\move(574,240,719,240)}Hokuso
+Dialogue: 0,0:05:27.02,0:05:32.27,sign_1407_3_Tokyo__Present_D,Text,0000,0000,0000,,{\an8\move(320,136,465,136)}Nanso
+Dialogue: 0,0:05:27.02,0:05:32.27,sign_1407_3_Tokyo__Present_D,Text,0000,0000,0000,,{\an8\move(145,150,290,150)}Soka
+Dialogue: 0,0:05:27.02,0:05:32.27,sign_1407_3_Tokyo__Present_D,Text,0000,0000,0000,,{\an8\move(36,152,181,152)}Saika
+Dialogue: 0,0:05:27.02,0:05:32.27,sign_1407_3_Tokyo__Present_D,Text,0000,0000,0000,,{\an8\move(-81,282,64,282)}Toka
+Dialogue: 0,0:05:27.92,0:05:30.12,Italics,Rimuru,0000,0000,0000,,I left Soka and the other \Nservants in Souei's care
+Dialogue: 0,0:05:30.12,0:05:32.27,Italics,Rimuru,0000,0000,0000,,and gave Gabiru and his boys work to do.
+Dialogue: 0,0:05:32.86,0:05:34.28,Italics,Rimuru,0000,0000,0000,,That aside...
+Dialogue: 0,0:05:34.70,0:05:39.16,Italics,Rimuru,0000,0000,0000,,I guess some Lizardmen end up looking \Nalmost human when they evolve.
+Dialogue: 0,0:05:40.53,0:05:45.56,Italics,Na,0000,0000,0000,,Gabiru and his boys were sent to cultivate \Nvaluable hipokute herbs in Veldora's cave.
+Dialogue: 0,0:05:45.56,0:05:48.84,Italics,Na,0000,0000,0000,,It's a damp place, so it's a \Nperfect home for them, too.
+Dialogue: 0,0:05:50.16,0:05:51.23,Main,Rimuru,0000,0000,0000,,Gabiru-kun!
+Dialogue: 0,0:05:51.99,0:05:53.67,Main,Rimuru,0000,0000,0000,,How's the cultivation coming along?
+Dialogue: 0,0:05:55.00,0:05:56.67,Main,Gabiru,0000,0000,0000,,I'm glad you asked!
+Dialogue: 0,0:05:56.67,0:05:58.09,Main,Gabiru,0000,0000,0000,,It's coming along nicely!
+Dialogue: 0,0:05:58.09,0:06:01.30,Main,Gabiru,0000,0000,0000,,Behold the fruits of my labor!
+Dialogue: 0,0:06:01.30,0:06:02.42,Main,Rimuru,0000,0000,0000,,Let's see.
+Dialogue: 0,0:06:03.91,0:06:05.31,Main,Rimuru,0000,0000,0000,,That's just a weed!
+Dialogue: 0,0:06:05.55,0:06:07.13,Main,Gabiru,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:06:07.13,0:06:11.44,Main,Gabiru,0000,0000,0000,,I do apologize! It seems I was \Na bit too hasty for results!
+Dialogue: 0,0:06:11.81,0:06:16.41,Main,Rimuru,0000,0000,0000,,Weeds should be even harder to grow \Nin a magicule-rich place like this!
+Dialogue: 0,0:06:17.79,0:06:21.70,Italics,Rimuru,0000,0000,0000,,We also set up a room for Vesta \Nto do his research in the cave.
+Dialogue: 0,0:06:22.43,0:06:26.95,Italics,Rimuru,0000,0000,0000,,He's working to create healing \Npotions from hipokute herbs.
+Dialogue: 0,0:06:27.49,0:06:32.46,Italics,Rimuru,0000,0000,0000,,If we can mass-produce potions as effective \Nas the ones I produce within me,
+Dialogue: 0,0:06:32.72,0:06:34.63,Italics,Rimuru,0000,0000,0000,,it'll be a big help for us.
+Dialogue: 0,0:06:37.17,0:06:38.72,Italics,Rimuru,0000,0000,0000,,A lot has happened,
+Dialogue: 0,0:06:39.29,0:06:42.14,Italics,Rimuru,0000,0000,0000,,but it looks like we can \Nfinally take it easy.
+Dialogue: 0,0:06:47.66,0:06:50.14,Main,Milim,0000,0000,0000,,Interesting! Very interesting!
+Dialogue: 0,0:06:50.59,0:06:53.27,Main,Milim,0000,0000,0000,,I'll undertake the investigation \Nof this toy myself!
+Dialogue: 0,0:06:53.51,0:06:57.40,Main,Clayman,0000,0000,0000,,But, Milim, we have a non-aggression \Npact with the Forest of Jura.
+Dialogue: 0,0:06:57.67,0:06:59.60,Main,Milim,0000,0000,0000,,A non-aggression pact?
+Dialogue: 0,0:06:59.60,0:07:03.41,Main,Milim,0000,0000,0000,,Now that Veldora's gone, we can abolish that.
+Dialogue: 0,0:07:03.63,0:07:06.16,Main,Clayman,0000,0000,0000,,I see. That is true.
+Dialogue: 0,0:07:08.31,0:07:09.78,Main,Milim,0000,0000,0000,,All right, that's that!
+Dialogue: 0,0:07:09.78,0:07:12.58,Main,Milim,0000,0000,0000,,But no interfering with each other! Got it?
+Dialogue: 0,0:07:13.39,0:07:14.42,Main,Clayman,0000,0000,0000,,Of course.
+Dialogue: 0,0:07:14.69,0:07:17.30,Main,Milim,0000,0000,0000,,Then, it's settled! We have an agreement!
+Dialogue: 0,0:07:18.05,0:07:20.08,Main,Milim,0000,0000,0000,,I'm going out to investigate at once!
+Dialogue: 0,0:07:20.08,0:07:23.39,Main,Milim,0000,0000,0000,,Don't try to interfere, \NClayman, Carrion, and Frey!
+Dialogue: 0,0:07:25.59,0:07:27.14,Italics,Rimuru,0000,0000,0000,,What is this magic I sense?
+Dialogue: 0,0:07:27.14,0:07:31.19,Italics,Rimuru,0000,0000,0000,,An enormous mass of magic power is \Nheading this way at an incredible speed!
+Dialogue: 0,0:07:56.11,0:07:57.43,Main,Milim,0000,0000,0000,,Greetings!
+Dialogue: 0,0:07:57.43,0:08:01.72,Main,Milim,0000,0000,0000,,I am the one and only Dragonoid, \Nalso known as the Destroyer,
+Dialogue: 0,0:08:01.72,0:08:04.97,sign_11550_121_Demon__h_hLord,Text,0000,0000,0000,,{\fad(480,1)\pos(250,263)}Demon\N\h\hLord
+Dialogue: 0,0:08:01.72,0:08:04.97,sign_11550_122_Milim_Nava,Text,0000,0000,0000,,{\fad(480,1)\pos(283,266)}Milim Nava
+Dialogue: 0,0:08:02.19,0:08:04.60,Main,Milim,0000,0000,0000,,{\an8}the Demon Lord Milim Nava!
+Dialogue: 0,0:08:05.12,0:08:06.66,Italics,Rimuru,0000,0000,0000,,She's a Demon Lord?!
+Dialogue: 0,0:08:07.18,0:08:09.91,Main,Milim,0000,0000,0000,,I heard you were the strongest in this town,
+Dialogue: 0,0:08:09.91,0:08:11.48,Main,Milim,0000,0000,0000,,so I came to introduce myself.
+Dialogue: 0,0:08:12.48,0:08:16.64,Italics,Rimuru,0000,0000,0000,,Her ambition is every bit \Nas powerful as Veldora's.
+Dialogue: 0,0:08:16.86,0:08:19.36,Italics,Rimuru,0000,0000,0000,,She's definitely a real Demon Lord.
+Dialogue: 0,0:08:20.65,0:08:22.30,Main,Rimuru,0000,0000,0000,,N-Nice to meet you.
+Dialogue: 0,0:08:22.30,0:08:25.41,Main,Rimuru,0000,0000,0000,,I'm Rimuru, the leader of this town.
+Dialogue: 0,0:08:26.46,0:08:30.91,Main,Rimuru,0000,0000,0000,,I-It's impressive that you could tell \Na slime like me was the strongest here.
+Dialogue: 0,0:08:32.04,0:08:35.17,Main,Milim,0000,0000,0000,,A simple task for one such as me!
+Dialogue: 0,0:08:35.37,0:08:40.41,Main,Milim,0000,0000,0000,,My Milim Eye can even ascertain the \Nlevel of magicules in whoever it sees!
+Dialogue: 0,0:08:35.87,0:08:37.88,sign_12369_134___Milim_Eye__,Text,0000,0000,0000,,{\fad(280,1)}- Milim Eye -
+Dialogue: 0,0:08:41.25,0:08:43.01,Main,Rimuru,0000,0000,0000,,Oh? Milim Eye?
+Dialogue: 0,0:08:43.01,0:08:47.26,Main,Milim,0000,0000,0000,,Just assume that it's no use pretending \Nto be a weakling around me.
+Dialogue: 0,0:08:47.52,0:08:50.79,Italics,Rimuru,0000,0000,0000,,Is that something like my skill, Appraisal?
+Dialogue: 0,0:08:51.40,0:08:54.46,Italics,Rimuru,0000,0000,0000,,And I don't need to appraise her to see...
+Dialogue: 0,0:08:54.89,0:08:55.89,Italics,Rimuru,0000,0000,0000,,she's flat.
+Dialogue: 0,0:08:56.40,0:08:58.02,Italics,Rimuru,0000,0000,0000,,I can't beat this one.
+Dialogue: 0,0:08:58.02,0:09:00.15,Italics,Rimuru,0000,0000,0000,,I'm pretty sure nothing I do will work.
+Dialogue: 0,0:09:03.25,0:09:05.24,Italics,Rimuru,0000,0000,0000,,She's definitely a prodigy.
+Dialogue: 0,0:09:06.29,0:09:08.76,Main,Milim,0000,0000,0000,,By the way, is that your true form?
+Dialogue: 0,0:09:08.76,0:09:14.54,Main,Milim,0000,0000,0000,,Was that silver-haired humanoid who \Ndefeated Gelmud a transformation?
+Dialogue: 0,0:09:17.16,0:09:19.17,Main,Rimuru,0000,0000,0000,,Sounds like you know everything.
+Dialogue: 0,0:09:21.27,0:09:23.05,Main,Rimuru,0000,0000,0000,,Is this the form you're referring to?
+Dialogue: 0,0:09:23.05,0:09:26.80,Main,Milim,0000,0000,0000,,Ooh! So it really was you!
+Dialogue: 0,0:09:27.12,0:09:29.51,Main,Milim,0000,0000,0000,,So you defeated the Orc Lord?
+Dialogue: 0,0:09:29.83,0:09:32.46,Main,Rimuru,0000,0000,0000,,W-Well, yes, I did win...
+Dialogue: 0,0:09:32.46,0:09:35.10,Main,Rimuru,0000,0000,0000,,So, what business do you have with me?
+Dialogue: 0,0:09:35.30,0:09:40.28,Main,Rimuru,0000,0000,0000,,You're... not here to avenge Gelmud, are you?
+Dialogue: 0,0:09:40.28,0:09:41.86,Main,Milim,0000,0000,0000,,Hm? My business?
+Dialogue: 0,0:09:42.33,0:09:44.26,Main,Milim,0000,0000,0000,,I came to introduce myself.
+Dialogue: 0,0:09:48.11,0:09:49.82,Italics,Rimuru,0000,0000,0000,,That's it?!
+Dialogue: 0,0:09:51.78,0:09:52.66,Main,Shion,0000,0000,0000,,Prepare to die!
+Dialogue: 0,0:09:53.23,0:09:54.54,Main,Ranga,0000,0000,0000,,Come, Master!
+Dialogue: 0,0:09:58.83,0:09:59.86,Main,Rimuru,0000,0000,0000,,W-Wait, Ranga!
+Dialogue: 0,0:09:59.86,0:10:01.54,Main,Ranga,0000,0000,0000,,We cannot wait! Forgive me!
+Dialogue: 0,0:10:03.44,0:10:06.59,Main,Milim,0000,0000,0000,,Oh, you want to play with me?
+Dialogue: 0,0:10:06.59,0:10:08.03,Main,Rimuru,0000,0000,0000,,I said wait!
+Dialogue: 0,0:10:16.41,0:10:18.39,Main,Souei,0000,0000,0000,,You may be a Demon Lord,
+Dialogue: 0,0:10:18.39,0:10:21.15,Main,Souei,0000,0000,0000,,but no one can escape the \Nbinding of these threads.
+Dialogue: 0,0:10:21.37,0:10:22.48,Main,Benimaru,0000,0000,0000,,Burn to ash!
+Dialogue: 0,0:10:27.17,0:10:30.03,Main,Benimaru,0000,0000,0000,,I hope that at least singed her.
+Dialogue: 0,0:10:32.86,0:10:35.20,Main,Milim,0000,0000,0000,,Wow, this is amazing!
+Dialogue: 0,0:10:35.20,0:10:38.41,Main,Milim,0000,0000,0000,,Any other Demon Lord might not have escaped
+Dialogue: 0,0:10:38.77,0:10:41.86,Main,Milim,0000,0000,0000,,an attack like that in one piece!
+Dialogue: 0,0:10:42.34,0:10:46.42,Main,Milim,0000,0000,0000,,But it's not gonna work on me!
+Dialogue: 0,0:10:49.49,0:10:50.68,Main,Ranga,0000,0000,0000,,Master!
+Dialogue: 0,0:10:58.25,0:10:59.91,Main,Rimuru,0000,0000,0000,,You okay, Shion?
+Dialogue: 0,0:10:59.91,0:11:01.54,Main,Rimuru,0000,0000,0000,,Here's a healing potion.
+Dialogue: 0,0:11:01.96,0:11:03.52,Main,Shion,0000,0000,0000,,Rimuru-sama...
+Dialogue: 0,0:11:04.10,0:11:07.04,Main,Benimaru,0000,0000,0000,,Rimuru-sama... Please flee from here.
+Dialogue: 0,0:11:07.04,0:11:09.07,Main,Souei,0000,0000,0000,,We will... handle this...
+Dialogue: 0,0:11:09.82,0:11:11.20,Main,Rimuru,0000,0000,0000,,Here's some for you guys, too.
+Dialogue: 0,0:11:11.31,0:11:12.88,Main,Rimuru,0000,0000,0000,,Drink those and rest.
+Dialogue: 0,0:11:15.29,0:11:16.83,Main,Rimuru,0000,0000,0000,,I'll take care of this.
+Dialogue: 0,0:11:17.36,0:11:20.95,Main,Milim,0000,0000,0000,,What's this? Haven't played enough yet?
+Dialogue: 0,0:11:21.49,0:11:22.67,Main,Milim,0000,0000,0000,,Very well.
+Dialogue: 0,0:11:23.22,0:11:25.88,Main,Milim,0000,0000,0000,,I'll play with you some more.
+Dialogue: 0,0:11:26.59,0:11:27.78,Main,Benimaru,0000,0000,0000,,Rimuru-sama...
+Dialogue: 0,0:11:27.78,0:11:29.88,Main,Rimuru,0000,0000,0000,,Once you give up, it's all over.
+Dialogue: 0,0:11:30.38,0:11:32.00,Main,Rimuru,0000,0000,0000,,So you gotta do what you can.
+Dialogue: 0,0:11:32.70,0:11:34.21,Main,Rimuru,0000,0000,0000,,Don't get your hopes up.
+Dialogue: 0,0:11:35.53,0:11:38.56,Main,Milim,0000,0000,0000,,Oh? You're going to face me?
+Dialogue: 0,0:11:39.45,0:11:42.91,Main,Rimuru,0000,0000,0000,,If you're so confident, \Nwhy not taste one of my attacks?
+Dialogue: 0,0:11:45.39,0:11:48.07,Main,Milim,0000,0000,0000,,Very well! Sounds interesting!
+Dialogue: 0,0:11:48.49,0:11:51.34,Main,Milim,0000,0000,0000,,But if it doesn't work,
+Dialogue: 0,0:11:51.34,0:11:54.70,Main,Milim,0000,0000,0000,,you must swear to become my subordinate.
+Dialogue: 0,0:11:55.29,0:11:56.26,Main,Rimuru,0000,0000,0000,,Fine.
+Dialogue: 0,0:11:56.66,0:11:57.83,sign_17183_191_Answer,Text,0000,0000,0000,,{\fad(149,1)}Answer
+Dialogue: 0,0:11:56.73,0:11:57.45,Italics_Top,Great Sage,0000,0000,0000,,Answer.
+Dialogue: 0,0:11:57.83,0:11:59.74,Italics_Top,Great Sage,0000,0000,0000,,To the nearest measurable degree,
+Dialogue: 0,0:11:59.74,0:12:01.83,Italics_Top,Great Sage,0000,0000,0000,,her magicules exceed yours \Nby more than ten times.
+Dialogue: 0,0:12:02.29,0:12:06.62,Italics,Rimuru,0000,0000,0000,,She hasn't even gotten serious yet, \Nand she's ten times stronger than me?
+Dialogue: 0,0:12:08.89,0:12:09.67,Italics,Rimuru,0000,0000,0000,,In that case,
+Dialogue: 0,0:12:10.18,0:12:12.20,Italics,Rimuru,0000,0000,0000,,there's just one thing I can do.
+Dialogue: 0,0:12:21.77,0:12:23.64,Main,Rimuru,0000,0000,0000,,Take this!
+Dialogue: 0,0:12:37.70,0:12:39.37,Main,Milim,0000,0000,0000,,What in the world is this?!
+Dialogue: 0,0:12:39.37,0:12:42.25,Main,Milim,0000,0000,0000,,I've never had anything so delicious!
+Dialogue: 0,0:12:42.25,0:12:43.04,Italics,Rimuru,0000,0000,0000,,Yes!
+Dialogue: 0,0:12:44.44,0:12:45.96,Main,Rimuru,0000,0000,0000,,What's wrong, Demon Lord Milim?
+Dialogue: 0,0:12:45.96,0:12:46.87,Main,Milim,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:46.87,0:12:49.35,Main,Rimuru,0000,0000,0000,,If you'll admit defeat to me now,
+Dialogue: 0,0:12:49.95,0:12:52.80,Main,Rimuru,0000,0000,0000,,I'd be willing to give you this, too.
+Dialogue: 0,0:12:55.94,0:12:58.73,Italics,Rimuru,0000,0000,0000,,It's honey I found and ate in the forest.
+Dialogue: 0,0:12:59.45,0:13:00.81,Main,Milim,0000,0000,0000,,I want it!
+Dialogue: 0,0:13:01.98,0:13:04.89,Main,Milim,0000,0000,0000,,But to admit defeat...
+Dialogue: 0,0:13:05.28,0:13:08.27,Main,Rimuru,0000,0000,0000,,Mm, that's tasty!
+Dialogue: 0,0:13:08.86,0:13:11.64,Main,Rimuru,0000,0000,0000,,Whoops, looks like I'm running low now.
+Dialogue: 0,0:13:11.64,0:13:14.03,Main,Milim,0000,0000,0000,,W-Wait, wait! I have a proposal!
+Dialogue: 0,0:13:14.03,0:13:16.58,Main,Milim,0000,0000,0000,,A draw! Why don't we call \Nit a draw this time?!
+Dialogue: 0,0:13:16.58,0:13:19.16,Main,Milim,0000,0000,0000,,We'll forget all of this happened!
+Dialogue: 0,0:13:19.16,0:13:20.16,Main,Rimuru,0000,0000,0000,,Oh-ho?
+Dialogue: 0,0:13:20.16,0:13:22.71,Main,Milim,0000,0000,0000,,O-Of course, that's not all!
+Dialogue: 0,0:13:22.71,0:13:26.58,Main,Milim,0000,0000,0000,,I'll swear never to mess \Nwith any of you ever again!
+Dialogue: 0,0:13:27.27,0:13:28.50,Italics,Rimuru,0000,0000,0000,,I win.
+Dialogue: 0,0:13:28.50,0:13:30.43,Italics,Rimuru,0000,0000,0000,,Her power is overwhelming,
+Dialogue: 0,0:13:30.43,0:13:33.06,Italics,Rimuru,0000,0000,0000,,but she's as much a child on the \Ninside as she is on the outside.
+Dialogue: 0,0:13:33.89,0:13:36.31,Main,Rimuru,0000,0000,0000,,Very well. I'll accept your terms.
+Dialogue: 0,0:13:36.68,0:13:39.68,Main,Rimuru,0000,0000,0000,,All right. We'll call it a draw this time.
+Dialogue: 0,0:13:43.79,0:13:48.18,Italics,Rimuru,0000,0000,0000,,And that's how we overcame \Nthis unprecedented prodigy.
+Dialogue: 0,0:13:54.63,0:13:57.45,Main,Milim,0000,0000,0000,,It's so good! This is so good!
+Dialogue: 0,0:13:57.45,0:13:58.61,Main,Rimuru,0000,0000,0000,,Glad to hear it.
+Dialogue: 0,0:13:59.36,0:14:03.71,Italics,Rimuru,0000,0000,0000,,I wish she'd just leave before \Nthis gets any more out of hand...
+Dialogue: 0,0:14:03.71,0:14:04.87,Main,Milim,0000,0000,0000,,Hey...
+Dialogue: 0,0:14:05.36,0:14:08.12,Main,Milim,0000,0000,0000,,Don't you ever think of \Nbecoming a Demon Lord?
+Dialogue: 0,0:14:08.55,0:14:11.63,Main,Rimuru,0000,0000,0000,,Why should I put myself \Nthrough that kind of hassle?
+Dialogue: 0,0:14:11.63,0:14:13.63,Main,Milim,0000,0000,0000,,Huh? But you'd be a Demon Lord!
+Dialogue: 0,0:14:13.92,0:14:17.07,Main,Milim,0000,0000,0000,,Aren't they awesome? \NDoesn't everyone want to be one?
+Dialogue: 0,0:14:17.07,0:14:18.13,Main,Rimuru,0000,0000,0000,,Hell no.
+Dialogue: 0,0:14:18.13,0:14:18.88,Main,Milim,0000,0000,0000,,Huh?!
+Dialogue: 0,0:14:18.88,0:14:19.67,Main,Rimuru,0000,0000,0000,,Huh?!
+Dialogue: 0,0:14:21.15,0:14:24.01,Main,Rimuru,0000,0000,0000,,Does something good happen \Nwhen you become a Demon Lord?
+Dialogue: 0,0:14:24.01,0:14:27.00,Main,Milim,0000,0000,0000,,Strong opponents come from \Nall over to fight you!
+Dialogue: 0,0:14:27.00,0:14:27.93,Main,Milim,0000,0000,0000,,It's fun!
+Dialogue: 0,0:14:28.13,0:14:30.84,Main,Rimuru,0000,0000,0000,,I get plenty of that already. Not interested.
+Dialogue: 0,0:14:30.84,0:14:33.94,Main,Milim,0000,0000,0000,,What?! Then what do you even enjoy in life?
+Dialogue: 0,0:14:34.30,0:14:35.63,Main,Rimuru,0000,0000,0000,,All kinds of things.
+Dialogue: 0,0:14:35.63,0:14:38.27,Main,Rimuru,0000,0000,0000,,I've got a lot to do. It's crazy.
+Dialogue: 0,0:14:38.27,0:14:41.20,Main,Rimuru,0000,0000,0000,,Is there anything fun about being \Na Demon Lord besides fighting?
+Dialogue: 0,0:14:41.66,0:14:43.35,Main,Milim,0000,0000,0000,,Well, no...
+Dialogue: 0,0:14:43.83,0:14:46.37,Main,Milim,0000,0000,0000,,But you get to boss Majin and Humans around!
+Dialogue: 0,0:14:47.41,0:14:49.93,Main,Rimuru,0000,0000,0000,,Doesn't that just mean you're bored?
+Dialogue: 0,0:14:51.24,0:14:53.63,Italics,Rimuru,0000,0000,0000,,Ah. She's definitely bored.
+Dialogue: 0,0:14:53.91,0:14:57.38,Main,Rimuru,0000,0000,0000,,Well, I should head back. \NTake care going home.
+Dialogue: 0,0:14:57.57,0:14:58.33,Main,Milim,0000,0000,0000,,Wait!
+Dialogue: 0,0:14:58.33,0:15:01.25,Main,Milim,0000,0000,0000,,You're doing something more fun than \Nbeing a Demon Lord, aren't you?
+Dialogue: 0,0:15:01.25,0:15:01.89,Main,Rimuru,0000,0000,0000,,No—
+Dialogue: 0,0:15:01.89,0:15:03.85,Main,Milim,0000,0000,0000,,No fair! No fair! No fair!
+Dialogue: 0,0:15:04.03,0:15:05.38,Main,Milim,0000,0000,0000,,Now I'm mad!
+Dialogue: 0,0:15:05.38,0:15:06.79,Main,Rimuru,0000,0000,0000,,I don't know what you want me to—
+Dialogue: 0,0:15:06.79,0:15:10.23,Main,Milim,0000,0000,0000,,Tell me what it is! And then let me join you!
+Dialogue: 0,0:15:10.23,0:15:11.72,Main,Milim,0000,0000,0000,,Take me to your village!
+Dialogue: 0,0:15:11.72,0:15:12.77,Main,Rimuru,0000,0000,0000,,Temper tantrums now?!
+Dialogue: 0,0:15:14.77,0:15:18.34,Main,Rimuru,0000,0000,0000,,Fine, fine. But I have one condition.
+Dialogue: 0,0:15:18.34,0:15:21.36,Main,Rimuru,0000,0000,0000,,From now on, you'll call me "Rimuru-san."
+Dialogue: 0,0:15:21.53,0:15:23.49,Main,Milim,0000,0000,0000,,Screw that! You should \Naddress {\i1}me{\i0} with respect!
+Dialogue: 0,0:15:23.49,0:15:26.19,Main,Milim,0000,0000,0000,,You will call me "Great Milim"!
+Dialogue: 0,0:15:26.19,0:15:27.37,Main,Rimuru,0000,0000,0000,,Okay, let's do this.
+Dialogue: 0,0:15:27.71,0:15:31.67,Main,Rimuru,0000,0000,0000,,I'll call you "Milim," \Nand you can call me "Rimuru."
+Dialogue: 0,0:15:31.67,0:15:32.37,Main,Rimuru,0000,0000,0000,,How's that?
+Dialogue: 0,0:15:33.30,0:15:36.67,Main,Milim,0000,0000,0000,,Fine... But just you and no one else!
+Dialogue: 0,0:15:36.67,0:15:40.88,Main,Milim,0000,0000,0000,,The only ones I allow to call me \N"Milim" are my fellow Demon Lords.
+Dialogue: 0,0:15:41.12,0:15:43.08,Main,Rimuru,0000,0000,0000,,Right, right. Thanks a lot.
+Dialogue: 0,0:15:43.54,0:15:46.01,Main,Rimuru,0000,0000,0000,,So I guess we're friends from now on.
+Dialogue: 0,0:15:46.15,0:15:47.47,Main,Milim,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:15:47.47,0:15:49.50,Main,Rimuru,0000,0000,0000,,I'll show you my village now,
+Dialogue: 0,0:15:49.50,0:15:52.02,Main,Rimuru,0000,0000,0000,,but no causing any commotion \Nwithout my permission.
+Dialogue: 0,0:15:52.33,0:15:54.08,Main,Rimuru,0000,0000,0000,,Promise me, Milim.
+Dialogue: 0,0:15:54.08,0:15:57.27,Main,Milim,0000,0000,0000,,Of course! I promise, Rimuru!
+Dialogue: 0,0:15:57.69,0:16:02.85,Italics,Benimaru,0000,0000,0000,,Leave it to Rimuru-sama to tame \Nthe Demon Lord Milim so easily.
+Dialogue: 0,0:16:02.85,0:16:03.53,Italics,Ranga,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:03.97,0:16:05.83,Italics,Shion,0000,0000,0000,,That's to be expected of Rimuru-sama.
+Dialogue: 0,0:16:05.83,0:16:09.07,Italics,Souei,0000,0000,0000,,I shall go and inform Rigurd at once.
+Dialogue: 0,0:16:11.32,0:16:12.42,Main,Gabiru,0000,0000,0000,,Oh?
+Dialogue: 0,0:16:13.16,0:16:15.79,Main,Gabiru,0000,0000,0000,,And who is this little runt?
+Dialogue: 0,0:16:21.97,0:16:23.81,Main,Milim,0000,0000,0000,,Who are you calling a runt?
+Dialogue: 0,0:16:23.81,0:16:25.47,Main,Milim,0000,0000,0000,,You wanna be murdered?
+Dialogue: 0,0:16:25.81,0:16:28.47,Italics,Rimuru,0000,0000,0000,,I just told her not to cause any commotion...
+Dialogue: 0,0:16:28.63,0:16:32.01,Main,Milim,0000,0000,0000,,Listen up! I'm in a very good mood right now!
+Dialogue: 0,0:16:32.01,0:16:33.98,Main,Milim,0000,0000,0000,,That's why I'm letting you off the hook!
+Dialogue: 0,0:16:34.41,0:16:36.48,Main,Milim,0000,0000,0000,,It won't happen again, so watch your step!
+Dialogue: 0,0:16:38.12,0:16:42.07,Main,Gabiru,0000,0000,0000,,I saw my father waving at \Nme from across the river...
+Dialogue: 0,0:16:42.07,0:16:43.99,Main,Rimuru,0000,0000,0000,,Your father's alive, dork.
+Dialogue: 0,0:16:43.99,0:16:44.92,Main,Gabiru,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:44.92,0:16:47.20,Main,Gabiru,0000,0000,0000,,By the way, who's this little—
+Dialogue: 0,0:16:47.61,0:16:50.24,Main,Gabiru,0000,0000,0000,,I mean... this young lady?
+Dialogue: 0,0:16:50.60,0:16:53.75,Main,Rimuru,0000,0000,0000,,This is Milim. \NShe's a Demon Lord, apparently.
+Dialogue: 0,0:16:53.75,0:16:55.66,Main,Gabiru,0000,0000,0000,,A Demon Lord?!
+Dialogue: 0,0:16:55.66,0:16:57.50,Italics,Rimuru,0000,0000,0000,,I know the feeling, man.
+Dialogue: 0,0:16:58.07,0:17:02.63,Main,Rimuru,0000,0000,0000,,Listen, Milim, you can't just slug \Nsomeone right away when you get mad.
+Dialogue: 0,0:17:03.29,0:17:05.77,Main,Milim,0000,0000,0000,,It's his fault for making me mad.
+Dialogue: 0,0:17:05.77,0:17:08.39,Main,Milim,0000,0000,0000,,Besides, that was just \Nmy way of saying hello!
+Dialogue: 0,0:17:08.93,0:17:12.14,Main,Rimuru,0000,0000,0000,,Slugging people is not saying \Nhello. No more of that.
+Dialogue: 0,0:17:14.76,0:17:17.03,Main,Rimuru,0000,0000,0000,,Allow me to introduce our new ally.
+Dialogue: 0,0:17:17.03,0:17:21.27,Main,Rimuru,0000,0000,0000,,We'll be treating her as a guest, \Nso be courteous with her.
+Dialogue: 0,0:17:21.52,0:17:23.28,Main,Milim,0000,0000,0000,,I'm Milim Nava!
+Dialogue: 0,0:17:23.41,0:17:26.31,Main,Goblin,0000,0000,0000,,What?! The Demon Lord Milim?!
+Dialogue: 0,0:17:26.31,0:17:29.49,Main,Goblin,0000,0000,0000,,Wow! This is my first time seeing her!
+Dialogue: 0,0:17:29.69,0:17:31.74,Main,Gobta,0000,0000,0000,,Way to go, Rimuru-sama!
+Dialogue: 0,0:17:31.95,0:17:34.82,Main,Rigurd,0000,0000,0000,,He befriended a tyrant like her...
+Dialogue: 0,0:17:34.82,0:17:38.25,Main,Rigurd,0000,0000,0000,,This means Tempest can exist in peace!
+Dialogue: 0,0:17:38.61,0:17:40.85,Italics,Rimuru,0000,0000,0000,,So Milim is famous?
+Dialogue: 0,0:17:40.85,0:17:43.00,Italics,Rimuru,0000,0000,0000,,Everyone's surprisingly okay with this.
+Dialogue: 0,0:17:43.20,0:17:46.15,Main,Milim,0000,0000,0000,,I've decided to live here from \Nnow on! Nice to know you!
+Dialogue: 0,0:17:46.15,0:17:47.01,Main,Rimuru,0000,0000,0000,,Huh?!
+Dialogue: 0,0:17:49.32,0:17:51.18,Main,Rimuru,0000,0000,0000,,What do you mean, live here?
+Dialogue: 0,0:17:51.35,0:17:53.35,Main,Milim,0000,0000,0000,,Exactly what I said.
+Dialogue: 0,0:17:53.35,0:17:55.68,Main,Milim,0000,0000,0000,,I've decided to live here, too!
+Dialogue: 0,0:17:55.68,0:17:56.65,Main,Rimuru,0000,0000,0000,,Uh...
+Dialogue: 0,0:17:57.30,0:18:01.86,Main,Rimuru,0000,0000,0000,,W-Well, you heard her, so treat \Nher as you would any other.
+Dialogue: 0,0:18:04.01,0:18:05.57,Italics,Rimuru,0000,0000,0000,,She's pretty popular...
+Dialogue: 0,0:18:05.82,0:18:09.26,Main,Milim,0000,0000,0000,,If anything happens, you can rely on me!
+Dialogue: 0,0:18:11.95,0:18:14.08,Italics,Rimuru,0000,0000,0000,,Friends with a Demon Lord, huh?
+Dialogue: 0,0:18:14.82,0:18:17.66,Main,Milim,0000,0000,0000,,You're right. Calling us \N"friends" is a little weird.
+Dialogue: 0,0:18:17.89,0:18:19.67,Main,Rimuru,0000,0000,0000,,Er, you heard me?
+Dialogue: 0,0:18:20.30,0:18:24.55,Main,Milim,0000,0000,0000,,Let me think... Rather than friends...
+Dialogue: 0,0:18:25.09,0:18:26.72,Main,Milim,0000,0000,0000,,We're besties!
+Dialogue: 0,0:18:27.55,0:18:28.92,Main,Rimuru,0000,0000,0000,,Besties?!
+Dialogue: 0,0:18:30.13,0:18:31.14,Main,Milim,0000,0000,0000,,Aren't we?
+Dialogue: 0,0:18:34.14,0:18:35.52,Main,Rimuru,0000,0000,0000,,We're besties! We're besties!
+Dialogue: 0,0:18:35.67,0:18:38.06,Main,Rimuru,0000,0000,0000,,Everyone! We're besties!
+Dialogue: 0,0:18:41.90,0:19:00.00,Main,All,0000,0000,0000,,{\an8}Besties! Besties! Besties!
+Dialogue: 0,0:18:46.77,0:18:50.49,Main,Milim,0000,0000,0000,,There, see? You're so good \Nat surprising people!
+Dialogue: 0,0:18:51.85,0:18:55.20,Italics,Rimuru,0000,0000,0000,,And thus, the Demon Lord Milim, a being \Nmore dangerous than a powder keg,
+Dialogue: 0,0:18:55.20,0:18:58.74,Italics,Rimuru,0000,0000,0000,,became a part of the Jura Tempest Federation.
+Dialogue: 0,0:19:01.96,0:19:06.46,Main,,0000,0000,0000,,
+Dialogue: 0,0:19:03.60,0:19:07.63,Main,Milim,0000,0000,0000,,What is this? It feels fantastic!
+Dialogue: 0,0:19:07.85,0:19:10.62,Main,Rimuru,0000,0000,0000,,Myrd of the three Dwarf \Nbrothers designed it for me.
+Dialogue: 0,0:19:10.62,0:19:13.60,Main,Rimuru,0000,0000,0000,,It's my beloved hot spring, \Nflowing freely from the source.
+Dialogue: 0,0:19:13.75,0:19:16.85,Main,Milim,0000,0000,0000,,Amazing! You can swim in here!
+Dialogue: 0,0:19:18.27,0:19:20.66,Main,Shuna,0000,0000,0000,,You shouldn't swim in the bath.
+Dialogue: 0,0:19:21.22,0:19:22.57,Main,Shuna,0000,0000,0000,,Don't do it.
+Dialogue: 0,0:19:23.52,0:19:28.24,Italics,Rimuru,0000,0000,0000,,Right, well... I just casually \Njoined in, but I think I'm ready...
+Dialogue: 0,0:19:29.27,0:19:31.88,Italics,Rimuru,0000,0000,0000,,...for some coffee milk.
+Dialogue: 0,0:19:30.61,0:19:35.87,sign_28067_337_Coffee,Text,0000,0000,0000,,Coffee
+Dialogue: 0,0:19:31.88,0:19:35.53,Italics,Rimuru,0000,0000,0000,,Milk is one thing, but I wonder \Nif we can make coffee...
+Dialogue: 0,0:19:36.14,0:19:39.13,Italics,Rimuru,0000,0000,0000,,Come to think of it, \Nwe managed to raise dandelions.
+Dialogue: 0,0:19:39.13,0:19:40.24,Main,Rigurd,0000,0000,0000,,Rimuru-sama.
+Dialogue: 0,0:19:41.07,0:19:42.47,Main,Rimuru,0000,0000,0000,,Oh... What's up?
+Dialogue: 0,0:19:42.83,0:19:44.38,Main,Rigurd,0000,0000,0000,,It's about Lady Milim.
+Dialogue: 0,0:19:44.77,0:19:48.54,Main,Rigurd,0000,0000,0000,,I never imagined a Demon Lord would \Ntake the initiative in coming here.
+Dialogue: 0,0:19:48.54,0:19:53.12,Main,Rimuru,0000,0000,0000,,Yeah, but she did promise not to cause \Nany commotion without my permission.
+Dialogue: 0,0:19:53.60,0:19:58.39,Main,Kaijin,0000,0000,0000,,Yes, but... what's more concerning is \Nwhat the other Demon Lords will do.
+Dialogue: 0,0:20:00.19,0:20:01.64,Main,Rimuru,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:20:01.89,0:20:04.55,Main,Kaijin,0000,0000,0000,,There are several Demon Lords.
+Dialogue: 0,0:20:04.55,0:20:06.90,Main,Kaijin,0000,0000,0000,,They share the role of governing \Nthrough a constitution.
+Dialogue: 0,0:20:07.47,0:20:11.89,Main,Kaijin,0000,0000,0000,,Your declaration that \NLady Milim is our friend
+Dialogue: 0,0:20:11.89,0:20:15.87,Main,Kaijin,0000,0000,0000,,means this village is now \Nunder her protection.
+Dialogue: 0,0:20:16.91,0:20:20.88,Main,Kaijin,0000,0000,0000,,Under normal circumstances, \Nthat might be a good thing, but...
+Dialogue: 0,0:20:21.36,0:20:25.29,Main,Hakurou,0000,0000,0000,,Rimuru-sama, you hold the \Nposition of supreme ruler.
+Dialogue: 0,0:20:25.58,0:20:30.74,Main,Hakurou,0000,0000,0000,,In other words, it will appear \Nto the other Demon Lords that
+Dialogue: 0,0:20:30.74,0:20:35.30,Main,Hakurou,0000,0000,0000,,the Great Forest of Jura has forged \Nan alliance with the Demon Lord Milim.
+Dialogue: 0,0:20:35.47,0:20:39.00,Main,Benimaru,0000,0000,0000,,The Demon Lord Milim will \Ninstantly gain more influence,
+Dialogue: 0,0:20:39.00,0:20:41.47,Main,Benimaru,0000,0000,0000,,upsetting the balance among the Demon Lords.
+Dialogue: 0,0:20:42.24,0:20:43.73,Main,Rimuru,0000,0000,0000,,I see.
+Dialogue: 0,0:20:43.97,0:20:49.73,Main,Rigurd,0000,0000,0000,,But in reality, there is no way we \Ncould stop the Demon Lord Milim.
+Dialogue: 0,0:20:50.02,0:20:52.58,Main,Benimaru,0000,0000,0000,,Her strength was on a \Ncompletely different level.
+Dialogue: 0,0:20:52.88,0:20:56.61,Main,Benimaru,0000,0000,0000,,If not for Rimuru-sama, \Nwe wouldn't be alive right now.
+Dialogue: 0,0:20:56.84,0:21:01.05,Main,Souei,0000,0000,0000,,Precisely. If the other \NDemon Lords become hostile,
+Dialogue: 0,0:21:01.05,0:21:03.54,Main,Souei,0000,0000,0000,,would we not have a better \Nchance against them?
+Dialogue: 0,0:21:07.92,0:21:09.17,Main,Rigurd,0000,0000,0000,,On that note...
+Dialogue: 0,0:21:09.33,0:21:14.05,Main,Rigurd,0000,0000,0000,,We shall entrust everything to Rimuru-sama, \Nthe one she has deemed her "bestie"!
+Dialogue: 0,0:21:14.39,0:21:15.72,Main,Three,0000,0000,0000,,No objections.
+Dialogue: 0,0:21:15.72,0:21:16.84,Main,Rimuru,0000,0000,0000,,You dumped it all on me?!
+Dialogue: 0,0:21:17.39,0:21:21.50,Main,Hakurou,0000,0000,0000,,Lady Milim is one of the most \Npowerful of all Demon Lords.
+Dialogue: 0,0:21:21.50,0:21:25.98,Main,Hakurou,0000,0000,0000,,She is known as a Demon Lord that everyone \Nshould avoid making an enemy of.
+Dialogue: 0,0:21:26.23,0:21:30.60,Main,Hakurou,0000,0000,0000,,We have no choice but to entrust \Neverything to Rimuru-sama.
+Dialogue: 0,0:21:33.93,0:21:36.85,Italics,Rimuru,0000,0000,0000,,"I guess there's no choice"... or so I thought.
+Dialogue: 0,0:21:37.21,0:21:41.49,Italics,Rimuru,0000,0000,0000,,But we didn't know that the \Nwhirlwind Milim would stir up
+Dialogue: 0,0:21:41.98,0:21:44.98,Italics,Rimuru,0000,0000,0000,,had only just begun to blow.
+Dialogue: 0,0:21:47.16,0:21:48.25,Main,Milim,0000,0000,0000,,This is fun!
+Dialogue: 0,0:21:50.34,0:21:53.63,Main,Shuna,0000,0000,0000,,I told you, you shouldn't play in the bath!
+Dialogue: 0,0:21:56.13,0:21:56.51,Main,Shion,0000,0000,0000,,Take that!
+Dialogue: 0,0:21:59.22,0:22:00.84,Main,Milim,0000,0000,0000,,Now you've done it! Take that!
+Dialogue: 0,0:22:00.84,0:22:03.05,Main,Shuna,0000,0000,0000,,Enough, you two!
+Dialogue: 0,0:23:35.90,0:23:38.83,Italics_Top,Great Sage,0000,0000,0000,,Next time, "The Gathering."
+Dialogue: 0,0:23:36.15,0:23:39.99,Next_Ep_Title,Title,0000,0000,0000,,{\fad(775,1)}The{\u1\bord0\c&HDDE6EB&} Gathering
+

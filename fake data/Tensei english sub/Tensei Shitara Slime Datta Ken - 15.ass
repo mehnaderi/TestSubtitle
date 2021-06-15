@@ -1,0 +1,352 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Show_Title,Open Sans Semibold,36,&H00CD9612,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H8C000000,&H8C000000,0,0,0,0,100,100,0,0,1,1,1,3,13,53,67,1
+Style: Next_Ep_Title,Open Sans Semibold,39,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,13,13,147,1
+Style: sign_10070_92_Samurai,Open Sans Semibold,42,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,1,0,0,0,100,100,0,0,1,2,1,7,187,511,39,1
+Style: sign_10180_94_Instructor,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,1,0,0,0,100,100,0,0,1,2,1,7,39,641,273,1
+Style: sign_10180_95_Spy,Open Sans Semibold,42,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,1,0,0,0,100,100,0,0,1,2,1,8,721,63,200,1
+Style: sign_10282_99_Holy_Princess,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,1,0,0,0,100,100,0,0,1,2,1,9,448,157,27,1
+Style: sign_26254_261_Haze__Thunder_of,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,1,0,0,0,100,100,0,0,1,2,1,8,143,143,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.93,0:00:04.27,Italics,Na,0000,0000,0000,,The day after the defeat \Nof the Demon Lord Geld,
+Dialogue: 0,0:00:04.27,0:00:06.95,Italics,Na,0000,0000,0000,,representatives of each \Nrace gathered together
+Dialogue: 0,0:00:07.53,0:00:09.61,Italics,Na,0000,0000,0000,,to discuss what would \Nhappen after the battle.
+Dialogue: 0,0:00:10.82,0:00:14.96,Main,Treyni,0000,0000,0000,,Chairman Rimuru Tempest, \Nplease begin the conference.
+Dialogue: 0,0:00:14.96,0:00:16.71,Main,Rimuru,0000,0000,0000,,Uh...
+Dialogue: 0,0:01:49.51,0:01:52.01,Show_Title,Title,0000,0000,0000,,That {\c&H471E13&}Time {\c&HCD9612&}I Got {\c&H471E13&}Reincarnated {\c&HCD9612&}as a {\c&H7E4F0A&}Slime
+Dialogue: 0,0:01:52.97,0:01:57.56,Ep_Title,Title,0000,0000,0000,,{\fad(1279,559)}Episode 15: The Jura Forest Alliance
+Dialogue: 0,0:01:53.29,0:01:57.78,Main,Rimuru,0000,0000,0000,,{\an8}Uh... I've never led a meeting like this \Nbefore, so it's not my strong suit.
+Dialogue: 0,0:01:57.78,0:02:00.08,Main,Rimuru,0000,0000,0000,,So I'll just say what's on my mind.
+Dialogue: 0,0:02:00.54,0:02:03.39,Main,Rimuru,0000,0000,0000,,I'd like you to save your \Ndeliberations until after that.
+Dialogue: 0,0:02:05.16,0:02:09.93,Main,Rimuru,0000,0000,0000,,I'll start by saying this: I don't intend \Nto charge the Orcs with any crimes.
+Dialogue: 0,0:02:12.96,0:02:15.79,Main,Rimuru,0000,0000,0000,,I know this may upset the Lizardmen, \Nwho suffered the most casualties,
+Dialogue: 0,0:02:16.09,0:02:17.14,Main,Rimuru,0000,0000,0000,,but hear me out.
+Dialogue: 0,0:02:18.67,0:02:21.91,Main,Rimuru,0000,0000,0000,,The cause of all this was \Nstarvation due to a famine.
+Dialogue: 0,0:02:21.91,0:02:27.39,Main,Rimuru,0000,0000,0000,,Anyone, of any race, might have made \Nthe same choices under those conditions.
+Dialogue: 0,0:02:28.58,0:02:31.56,Main,Rimuru,0000,0000,0000,,Of course, this is just my \Npublic stance on the matter.
+Dialogue: 0,0:02:32.67,0:02:36.31,Main,Chieftan,0000,0000,0000,,Then may we hear your personal \Nthoughts on it, as well?
+Dialogue: 0,0:02:37.63,0:02:40.73,Main,Rimuru,0000,0000,0000,,I've taken all of the Orcs' sins upon myself.
+Dialogue: 0,0:02:40.73,0:02:42.47,Main,Rimuru,0000,0000,0000,,If anyone has a complaint, bring it to me.
+Dialogue: 0,0:02:42.47,0:02:44.49,Main,General,0000,0000,0000,,P-Please, wait!
+Dialogue: 0,0:02:44.49,0:02:46.28,Main,General,0000,0000,0000,,Surely there is no logic to—
+Dialogue: 0,0:02:46.46,0:02:49.15,Main,Rimuru,0000,0000,0000,,That was my promise with the Demon Lord Geld.
+Dialogue: 0,0:02:55.44,0:02:56.85,Main,Chieftan,0000,0000,0000,,I see.
+Dialogue: 0,0:02:57.35,0:03:01.25,Main,Chieftan,0000,0000,0000,,However, I feel that answer \Nis somewhat unfair.
+Dialogue: 0,0:03:01.40,0:03:04.85,Italics,Rimuru,0000,0000,0000,,Yeah, I can see why he \Nwouldn't accept it so easily.
+Dialogue: 0,0:03:06.67,0:03:09.76,Main,Benimaru,0000,0000,0000,,There is one immutable rule \Nshared among all monsters:
+Dialogue: 0,0:03:10.32,0:03:12.15,Main,Benimaru,0000,0000,0000,,"Survival of the fittest."
+Dialogue: 0,0:03:12.15,0:03:14.76,Main,Benimaru,0000,0000,0000,,The moment they faced each other, \Nthey were both prepared for that.
+Dialogue: 0,0:03:16.40,0:03:20.50,Main,Rimuru,0000,0000,0000,,You guys lost your home, too. \NDon't you have any complaints?
+Dialogue: 0,0:03:20.50,0:03:22.88,Main,Benimaru,0000,0000,0000,,I would be lying if I said we didn't,
+Dialogue: 0,0:03:22.88,0:03:25.73,Main,Benimaru,0000,0000,0000,,but if it happens again, we will not \Ndisgrace ourselves a second time.
+Dialogue: 0,0:03:28.39,0:03:29.28,Main,Rimuru,0000,0000,0000,,Uh-huh...
+Dialogue: 0,0:03:30.06,0:03:32.83,Main,Chieftan,0000,0000,0000,,I see... That is a fair point.
+Dialogue: 0,0:03:33.27,0:03:37.49,Main,Chieftan,0000,0000,0000,,But there is one thing I must know.
+Dialogue: 0,0:03:37.86,0:03:38.86,Main,Rimuru,0000,0000,0000,,What's that?
+Dialogue: 0,0:03:39.35,0:03:41.76,Main,Chieftan,0000,0000,0000,,What will be done with the Orcs?
+Dialogue: 0,0:03:44.29,0:03:47.08,Main,Chieftan,0000,0000,0000,,You have said you will not \Ncharge them with any crimes.
+Dialogue: 0,0:03:47.08,0:03:50.84,Main,Chieftan,0000,0000,0000,,Does that mean you intend to \Naccept all of their survivors?
+Dialogue: 0,0:03:53.61,0:03:57.68,Main,Rimuru,0000,0000,0000,,Even with their numbers down, \Nthere are still 150,000 of them.
+Dialogue: 0,0:03:58.13,0:03:59.42,Main,Rimuru,0000,0000,0000,,That being the case...
+Dialogue: 0,0:04:00.33,0:04:02.85,Main,Rimuru,0000,0000,0000,,It may sound like some kind of dream,
+Dialogue: 0,0:04:03.17,0:04:05.73,Main,Rimuru,0000,0000,0000,,but I'm thinking we can all work together.
+Dialogue: 0,0:04:06.11,0:04:07.43,Main,Chieftan,0000,0000,0000,,Work together?
+Dialogue: 0,0:04:07.43,0:04:08.61,Main,Sis,0000,0000,0000,,Meaning what, exactly?
+Dialogue: 0,0:04:11.01,0:04:14.74,Main,Rimuru,0000,0000,0000,,The Lizardmen will share a \Nclean water source and fish,
+Dialogue: 0,0:04:14.74,0:04:16.76,Main,Rimuru,0000,0000,0000,,the Goblins will offer places to live,
+Dialogue: 0,0:04:16.76,0:04:19.68,Main,Rimuru,0000,0000,0000,,and our town will give them processed goods.
+Dialogue: 0,0:04:20.05,0:04:21.98,Main,Rimuru,0000,0000,0000,,And in return,
+Dialogue: 0,0:04:21.98,0:04:24.56,Main,Rimuru,0000,0000,0000,,the Orcs will contribute labor.
+Dialogue: 0,0:04:26.09,0:04:29.52,Main,Rimuru,0000,0000,0000,,All the races of the Great Forest \Nof Jura will form an alliance
+Dialogue: 0,0:04:29.52,0:04:31.83,Main,Rimuru,0000,0000,0000,,and build a mutually \Ncooperative relationship.
+Dialogue: 0,0:04:31.83,0:04:35.97,Main,Rimuru,0000,0000,0000,,It'd be really cool if we could create \Na nation where all races could coexist!
+Dialogue: 0,0:04:36.15,0:04:41.77,Main,General,0000,0000,0000,,A-And you're saying we could \Nalso take part in this alliance?
+Dialogue: 0,0:04:42.09,0:04:44.62,Main,Rimuru,0000,0000,0000,,Well, you have nowhere else to go, do you?
+Dialogue: 0,0:04:44.62,0:04:47.02,Main,Rimuru,0000,0000,0000,,I have a place for you, so do some work.
+Dialogue: 0,0:04:47.51,0:04:49.44,Main,Rimuru,0000,0000,0000,,I won't tolerate slackers.
+Dialogue: 0,0:04:52.51,0:04:53.74,Main,All,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:04:53.74,0:04:56.18,Main,General,0000,0000,0000,,Of course! Of course we will!
+Dialogue: 0,0:04:56.18,0:04:58.74,Main,General,0000,0000,0000,,We will devote our lives to our work!
+Dialogue: 0,0:05:02.66,0:05:05.50,Main,Chieftan,0000,0000,0000,,We would be honored to join forces with you.
+Dialogue: 0,0:05:05.95,0:05:07.62,Main,Rimuru,0000,0000,0000,,Treyni-san, is that okay with you?
+Dialogue: 0,0:05:08.16,0:05:09.71,Main,Treyni,0000,0000,0000,,Certainly.
+Dialogue: 0,0:05:09.71,0:05:14.63,Main,Treyni,0000,0000,0000,,The Treants under my protection will \Nshare the bounty of the forest, as well.
+Dialogue: 0,0:05:15.13,0:05:19.14,Main,Treyni,0000,0000,0000,,I believe we can alleviate the \NOrcs' hunger for some time.
+Dialogue: 0,0:05:21.54,0:05:22.40,Main,Treyni,0000,0000,0000,,Then...
+Dialogue: 0,0:05:23.64,0:05:25.37,Main,Treyni,0000,0000,0000,,As a caretaker of the forest,
+Dialogue: 0,0:05:25.37,0:05:28.15,Main,Treyni,0000,0000,0000,,I, Treyni, hereby pledge
+Dialogue: 0,0:05:28.54,0:05:32.73,Main,Treyni,0000,0000,0000,,to acknowledge Rimuru-sama as the new \Nchancellor of the Great Forest of Jura...
+Dialogue: 0,0:05:32.94,0:05:34.15,Italics,Rimuru,0000,0000,0000,,Chancellor?!
+Dialogue: 0,0:05:34.41,0:05:36.67,Main,Treyni,0000,0000,0000,,...and declare the Jura Forest Alliance
+Dialogue: 0,0:05:37.09,0:05:40.38,Main,Treyni,0000,0000,0000,,to be established under Chancellor Rimuru.
+Dialogue: 0,0:05:41.84,0:05:43.41,Italics,Rimuru,0000,0000,0000,,Uh... Er... Buh...
+Dialogue: 0,0:05:46.32,0:05:49.62,Italics,Rimuru,0000,0000,0000,,S-Somehow I just ended up the \Nchancellor of the alliance...
+Dialogue: 0,0:05:49.62,0:05:51.75,Italics,Rimuru,0000,0000,0000,,Not Treyni-san?!
+Dialogue: 0,0:05:52.27,0:05:56.05,Italics,Rimuru,0000,0000,0000,,And declining really doesn't \Nseem like an option right now...
+Dialogue: 0,0:05:56.05,0:05:59.13,Italics,Rimuru,0000,0000,0000,,F-Fine, I will! I'll do it!
+Dialogue: 0,0:06:00.22,0:06:04.12,Main,Rimuru,0000,0000,0000,,Okay, um... I guess that's how it's gonna be,
+Dialogue: 0,0:06:04.12,0:06:05.93,Main,Rimuru,0000,0000,0000,,so I'm counting on all of you!
+Dialogue: 0,0:06:06.09,0:06:07.09,Main,All,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:06:08.21,0:06:11.62,Italics,Rimuru,0000,0000,0000,,And thus, while I was left in \Nan uncontrollable cold sweat,
+Dialogue: 0,0:06:11.62,0:06:14.64,Italics,Rimuru,0000,0000,0000,,the Jura Forest Alliance was established.
+Dialogue: 0,0:06:16.86,0:06:18.09,Main,Benimaru,0000,0000,0000,,You need something?
+Dialogue: 0,0:06:19.39,0:06:21.96,Main,General,0000,0000,0000,,Even in the name of survival of the fittest,
+Dialogue: 0,0:06:21.96,0:06:25.20,Main,General,0000,0000,0000,,hate is not a thing that \Ncan be resolved so easily.
+Dialogue: 0,0:06:26.11,0:06:29.17,Main,General,0000,0000,0000,,For what we did to your village...
+Dialogue: 0,0:06:33.53,0:06:35.98,Main,General,0000,0000,0000,,I cannot apologize enough.
+Dialogue: 0,0:06:36.43,0:06:39.63,Main,General,0000,0000,0000,,I realize this is a selfish request...
+Dialogue: 0,0:06:40.07,0:06:45.01,Main,General,0000,0000,0000,,but please, take my head as penance \Nand have mercy on the others!
+Dialogue: 0,0:06:50.90,0:06:55.69,Main,Benimaru,0000,0000,0000,,After the battle, we told Rimuru-sama \Nthat we wished to continue serving him,
+Dialogue: 0,0:06:56.31,0:06:58.32,Main,Benimaru,0000,0000,0000,,and he gave us official titles.
+Dialogue: 0,0:06:59.19,0:07:03.16,Main,Shion,0000,0000,0000,,I am a Samurai, bodyguard to Rimuru-sama.
+Dialogue: 0,0:06:59.99,0:07:04.58,sign_10070_92_Samurai,Text,0000,0000,0000,,{\blur1\fad(231,1)}Samurai
+Dialogue: 0,0:07:03.16,0:07:04.58,Main,Shion,0000,0000,0000,,I'm also his secretary.
+Dialogue: 0,0:07:04.58,0:07:08.83,sign_10180_94_Instructor,TeXt,0000,0000,0000,,{\blur1\pos(128,20)}Instructor
+Dialogue: 0,0:07:04.58,0:07:08.83,sign_10180_95_Spy,Text,0000,0000,0000,,{\blur1\an9\pos(515,20)}Spy
+Dialogue: 0,0:07:05.05,0:07:08.83,Main,Benimaru,0000,0000,0000,,Hakurou is an Instructor, and Souei is a Spy.
+Dialogue: 0,0:07:08.83,0:07:12.21,sign_10180_94_Instructor,Text,0000,0000,0000,,{\blur1\pos(120,20)}Swordsmith
+Dialogue: 0,0:07:08.83,0:07:12.21,sign_10282_99_Holy_Princess,Text,0000,0000,0000,,{\blur1}Holy\NPrincess
+Dialogue: 0,0:07:09.42,0:07:12.02,Main,Benimaru,0000,0000,0000,,Shuna and Kurobe, who remained in \Nthe village, have titles, as well.
+Dialogue: 0,0:07:12.71,0:07:16.46,Main,Benimaru,0000,0000,0000,,And I received the title of Samurai General.
+Dialogue: 0,0:07:14.17,0:07:16.46,sign_10282_99_Holy_Princess,Text,0000,0000,0000,,{\pos(490,20)\fad(190,1)}Samurai\NGeneral
+Dialogue: 0,0:07:18.87,0:07:20.93,Main,Benimaru,0000,0000,0000,,That puts me in charge of military affairs.
+Dialogue: 0,0:07:21.66,0:07:23.78,Main,Benimaru,0000,0000,0000,,And now that I'm in this position,
+Dialogue: 0,0:07:23.78,0:07:26.72,Main,Benimaru,0000,0000,0000,,I can't very well rob us of a \Ncapable fighter, now, can I?
+Dialogue: 0,0:07:33.34,0:07:36.98,Main,Benimaru,0000,0000,0000,,I will show no mercy to any \Nwho do wrong to Rimuru-sama,
+Dialogue: 0,0:07:37.31,0:07:41.06,Main,Benimaru,0000,0000,0000,,but if you join the alliance and revere \Nhim as your chancellor, we are not enemies.
+Dialogue: 0,0:07:41.56,0:07:43.49,Main,General,0000,0000,0000,,I wouldn't dream of doing him wrong!
+Dialogue: 0,0:07:43.77,0:07:46.89,Main,General,0000,0000,0000,,He saved all of us.
+Dialogue: 0,0:07:46.89,0:07:50.25,Main,General,0000,0000,0000,,I wish only to serve him. \NI could never bear him ill will!
+Dialogue: 0,0:07:50.43,0:07:54.25,Main,Benimaru,0000,0000,0000,,Then we are fellow servants \Nunder the same master.
+Dialogue: 0,0:07:55.09,0:07:57.21,Main,Benimaru,0000,0000,0000,,Do your best to be useful to Rimuru-sama.
+Dialogue: 0,0:07:57.73,0:07:59.92,Main,Benimaru,0000,0000,0000,,I'll accept that as your apology.
+Dialogue: 0,0:08:06.08,0:08:08.58,Main,General,0000,0000,0000,,I swear on the name of my father King Geld.
+Dialogue: 0,0:08:11.32,0:08:13.77,Italics,Rimuru,0000,0000,0000,,Benimaru is such a gracious guy.
+Dialogue: 0,0:08:14.38,0:08:16.06,Italics,Rimuru,0000,0000,0000,,I should learn from him.
+Dialogue: 0,0:08:17.03,0:08:19.02,Italics,Rimuru,0000,0000,0000,,And I'll have to give that one a name,
+Dialogue: 0,0:08:19.35,0:08:21.76,Italics,Rimuru,0000,0000,0000,,as the new leader of the Orcs.
+Dialogue: 0,0:08:23.75,0:08:27.74,Main,Rimuru,0000,0000,0000,,In hopes that you inherit the \Nwishes of the Orc Disaster, Geld,
+Dialogue: 0,0:08:28.08,0:08:29.54,Main,Rimuru,0000,0000,0000,,I grant you the name "Geld."
+Dialogue: 0,0:08:30.14,0:08:31.26,Main,Geld,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:08:32.01,0:08:34.40,Main,Rimuru,0000,0000,0000,,Lead the Orcs well.
+Dialogue: 0,0:08:34.40,0:08:35.22,Main,Geld,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:08:41.29,0:08:45.06,Italics,Rimuru,0000,0000,0000,,The new Orc ruler, Geld, \Nevolved into the Orc King.
+Dialogue: 0,0:08:46.69,0:08:47.86,Italics,Rimuru,0000,0000,0000,,After that...
+Dialogue: 0,0:08:48.77,0:08:52.98,Italics,Rimuru,0000,0000,0000,,I spent ten days naming all 150,000 Orcs.
+Dialogue: 0,0:08:55.08,0:08:58.87,Italics,Rimuru,0000,0000,0000,,It goes without saying that I \Nwent into sleep mode after that.
+Dialogue: 0,0:08:59.63,0:09:04.26,Italics,Rimuru,0000,0000,0000,,I also gave the name "Abiru" \Nto the Lizardmen's chieftain.
+Dialogue: 0,0:09:05.81,0:09:07.28,Italics,Rimuru,0000,0000,0000,,His son, Gabiru,
+Dialogue: 0,0:09:07.67,0:09:10.03,Italics,Rimuru,0000,0000,0000,,was charged with the crime of treason.
+Dialogue: 0,0:09:10.68,0:09:12.87,Italics,Gabiru,0000,0000,0000,,I'm sure to receive the death penalty.
+Dialogue: 0,0:09:13.34,0:09:14.84,Italics,Gabiru,0000,0000,0000,,That's as it should be.
+Dialogue: 0,0:09:14.84,0:09:17.23,Italics,Gabiru,0000,0000,0000,,It's the only way to set an example.
+Dialogue: 0,0:09:18.32,0:09:22.05,Italics,Gabiru,0000,0000,0000,,But... if there's one thing I regret...
+Dialogue: 0,0:09:24.13,0:09:28.73,Italics,Gabiru,0000,0000,0000,,I wish I had asked him why he saved me.
+Dialogue: 0,0:09:29.39,0:09:32.51,Italics,Gabiru,0000,0000,0000,,A worthless fool like me...
+Dialogue: 0,0:09:32.96,0:09:34.42,Main,Abiru,0000,0000,0000,,Raise your head.
+Dialogue: 0,0:09:36.58,0:09:39.10,Main,Abiru,0000,0000,0000,,I will now state the verdict.
+Dialogue: 0,0:09:39.30,0:09:43.61,Italics,Gabiru,0000,0000,0000,,I will, at least, accept the \Ndeath penalty with grace.
+Dialogue: 0,0:09:44.30,0:09:47.40,Main,Abiru,0000,0000,0000,,Gabiru, you will be \Nexcommunicated and exiled.
+Dialogue: 0,0:09:47.40,0:09:50.49,Main,Abiru,0000,0000,0000,,You will never call yourself \Na Lizardman again.
+Dialogue: 0,0:09:51.99,0:09:53.99,Main,Abiru,0000,0000,0000,,Cast him out at once!
+Dialogue: 0,0:09:54.42,0:09:56.53,Italics,Gabiru,0000,0000,0000,,What... did he say?!
+Dialogue: 0,0:10:02.20,0:10:03.55,Main,Lizard,0000,0000,0000,,You forgot something.
+Dialogue: 0,0:10:04.64,0:10:05.46,Main,Lizard,0000,0000,0000,,Here.
+Dialogue: 0,0:10:25.24,0:10:27.52,Main,Lizard,0000,0000,0000,,Sir Gabiru!
+Dialogue: 0,0:10:28.11,0:10:30.11,Main,Lizard,0000,0000,0000,,Hey!
+Dialogue: 0,0:10:28.38,0:10:30.11,Main,Lizard,0000,0000,0000,,Sir Gabiru!
+Dialogue: 0,0:10:30.88,0:10:32.78,Main,Lizard,0000,0000,0000,,We've been waiting for you, Sir Gabiru!
+Dialogue: 0,0:10:32.78,0:10:34.68,Main,Lizard,0000,0000,0000,,We were getting sick of waiting!
+Dialogue: 0,0:10:34.68,0:10:36.24,Main,Lizard,0000,0000,0000,,Time is money.
+Dialogue: 0,0:10:36.24,0:10:39.46,Main,Gabiru,0000,0000,0000,,Wh-What are you guys doing?!
+Dialogue: 0,0:10:39.46,0:10:41.38,Main,Gabiru,0000,0000,0000,,I've been excommunicated!
+Dialogue: 0,0:10:41.57,0:10:44.68,Main,Lizard,0000,0000,0000,,If you're excommunicated, \Nwe're all excommunicated!
+Dialogue: 0,0:10:44.68,0:10:45.55,Main,Lizard,0000,0000,0000,,Indeed.
+Dialogue: 0,0:10:46.65,0:10:48.04,Main,Gabiru,0000,0000,0000,,You guys...
+Dialogue: 0,0:10:49.49,0:10:50.30,Main,Gabiru,0000,0000,0000,,You're such fools.
+Dialogue: 0,0:10:54.38,0:10:56.74,Main,Gabiru,0000,0000,0000,,Hopeless, every last one of you!
+Dialogue: 0,0:10:57.82,0:11:01.10,Main,Gabiru,0000,0000,0000,,Very well. I'll look after all of you.
+Dialogue: 0,0:11:01.95,0:11:04.00,Main,Gabiru,0000,0000,0000,,Just follow me!
+Dialogue: 0,0:11:04.00,0:11:05.70,Main,Lizard,0000,0000,0000,,That's our boy!
+Dialogue: 0,0:11:05.70,0:11:06.77,Main,Lizard,0000,0000,0000,,So cool!
+Dialogue: 0,0:11:06.77,0:11:08.25,Main,Lizard,0000,0000,0000,,Most definitely!
+Dialogue: 0,0:11:11.48,0:11:13.90,Main,Laplace,0000,0000,0000,,After you went to the trouble \Nof settin' all that up,
+Dialogue: 0,0:11:13.90,0:11:17.95,Main,Laplace,0000,0000,0000,,I bet it's killin' you that a \Nnew Demon Lord wasn't born, huh?
+Dialogue: 0,0:11:18.46,0:11:19.73,Main,Clayman,0000,0000,0000,,Yes...
+Dialogue: 0,0:11:21.81,0:11:25.19,Main,Clayman,0000,0000,0000,,But I did get to see an interesting sight.
+Dialogue: 0,0:11:25.60,0:11:28.96,Main,Clayman,0000,0000,0000,,Now, what shall I do about that slime?
+Dialogue: 0,0:11:29.16,0:11:31.41,Main,Laplace,0000,0000,0000,,Well, good luck to ya.
+Dialogue: 0,0:11:31.41,0:11:35.24,Main,Laplace,0000,0000,0000,,If ya ever need a hand, \NI'll lend ya one for cheap,
+Dialogue: 0,0:11:35.24,0:11:37.23,Main,Laplace,0000,0000,0000,,Demon Lord Clayman.
+Dialogue: 0,0:11:43.71,0:11:45.94,Italics,Na,0000,0000,0000,,Three months after the \Ndefeat of the Orc Lord,
+Dialogue: 0,0:11:46.51,0:11:49.44,Italics,Na,0000,0000,0000,,the High Orcs that had evolved from the Orcs
+Dialogue: 0,0:11:49.44,0:11:53.27,Italics,Na,0000,0000,0000,,were learning new skills in no time, \Nunder Kaijin's instruction,
+Dialogue: 0,0:11:53.27,0:11:55.29,Italics,Na,0000,0000,0000,,and had become a dependable work force.
+Dialogue: 0,0:11:59.60,0:12:01.58,Main,Rimuru,0000,0000,0000,,It's great that the houses have been built.
+Dialogue: 0,0:12:01.58,0:12:03.61,Main,Rimuru,0000,0000,0000,,We've got clothing and tools, too.
+Dialogue: 0,0:12:03.61,0:12:04.75,Main,Rimuru,0000,0000,0000,,And...
+Dialogue: 0,0:12:04.93,0:12:06.54,Main,Rimuru,0000,0000,0000,,We laid an aqueduct, too!
+Dialogue: 0,0:12:06.54,0:12:10.13,Main,Rimuru,0000,0000,0000,,We even have flushing toilets, \Nand both water and sewage systems!
+Dialogue: 0,0:12:10.40,0:12:11.93,Main,Rimuru,0000,0000,0000,,We're building roads, too.
+Dialogue: 0,0:12:11.93,0:12:14.96,Main,Rimuru,0000,0000,0000,,The stuff I learned as a general \Ncontractor came in handy!
+Dialogue: 0,0:12:14.96,0:12:18.18,Main,Rimuru,0000,0000,0000,,This'll be great for commerce with \Nthe Lizardmen and other regions.
+Dialogue: 0,0:12:18.57,0:12:21.18,Main,Rimuru,0000,0000,0000,,The bath I asked for will \Nbe finished soon, too.
+Dialogue: 0,0:12:21.69,0:12:23.19,Main,Rimuru,0000,0000,0000,,I can't wait!
+Dialogue: 0,0:12:23.65,0:12:25.19,Main,Rimuru,0000,0000,0000,,Right, Ranga?
+Dialogue: 0,0:12:25.19,0:12:29.69,Main,Rimuru,0000,0000,0000,,We should all work hard together to make \Nthis village an even greater place.
+Dialogue: 0,0:12:29.97,0:12:33.28,Main,Ranga,0000,0000,0000,,Yes, master! As you wish!
+Dialogue: 0,0:12:35.66,0:12:37.06,Italics,Rimuru,0000,0000,0000,,A place to live in peace...
+Dialogue: 0,0:12:37.56,0:12:40.05,Italics,Rimuru,0000,0000,0000,,At last, our town was complete!
+Dialogue: 0,0:12:41.68,0:12:45.12,Italics,Rimuru,0000,0000,0000,,But... things just couldn't be that easy.
+Dialogue: 0,0:12:46.72,0:12:49.21,Main,Souei,0000,0000,0000,,Rimuru-sama, we have an emergency.
+Dialogue: 0,0:12:49.42,0:12:50.15,Main,Rimuru,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:59.28,0:13:03.21,Main,Souei,0000,0000,0000,,Several hundred pegasus-mounted \Nknights are heading this way.
+Dialogue: 0,0:13:03.21,0:13:04.08,Main,Rimuru,0000,0000,0000,,What?
+Dialogue: 0,0:13:14.13,0:13:16.25,Flashback,Dorf,0000,0000,0000,,Your Majesty, what news?
+Dialogue: 0,0:13:17.21,0:13:21.23,Flashback,Gazel,0000,0000,0000,,The Orc Lord has been defeated, \Nand the war has ended.
+Dialogue: 0,0:13:22.38,0:13:23.65,Flashback,Dorf,0000,0000,0000,,What?!
+Dialogue: 0,0:13:24.27,0:13:29.07,Flashback,Gazel,0000,0000,0000,,Rather than rampaging, the 150,000 \Nsurviving Orcs have scattered.
+Dialogue: 0,0:13:29.07,0:13:31.83,Flashback,Gazel,0000,0000,0000,,On top of that, they've evolved into High Orcs.
+Dialogue: 0,0:13:31.83,0:13:33.34,Flashback,Dorf,0000,0000,0000,,That can't be...
+Dialogue: 0,0:13:35.10,0:13:39.47,Flashback_Italics,Gazel,0000,0000,0000,,With the participation of several \Nsuperior majin, the war came to an end.
+Dialogue: 0,0:13:40.03,0:13:44.10,Flashback_Italics,Gazel,0000,0000,0000,,Is it safe to assume the majin \Nare all serving that slime?
+Dialogue: 0,0:13:45.13,0:13:49.34,Flashback_Italics,Gazel,0000,0000,0000,,One who rules over majin and \Ncauses monsters to evolve...
+Dialogue: 0,0:13:49.76,0:13:54.90,Flashback_Italics,Gazel,0000,0000,0000,,If this matter is not handled \Nwith care, this nation may fall.
+Dialogue: 0,0:13:59.58,0:14:04.64,Flashback,Gazel,0000,0000,0000,,I will see just who this \Nslime is with my own eyes.
+Dialogue: 0,0:14:33.74,0:14:35.10,Main,Kaijin,0000,0000,0000,,It can't be...
+Dialogue: 0,0:14:35.80,0:14:37.28,Italics,Rimuru,0000,0000,0000,,The Hero King of the Dwarves,
+Dialogue: 0,0:14:37.84,0:14:39.46,Italics,Rimuru,0000,0000,0000,,Gazel Dwargo...
+Dialogue: 0,0:14:40.75,0:14:43.07,Main,Benimaru,0000,0000,0000,,Rimuru-sama, what shall we do?
+Dialogue: 0,0:14:43.56,0:14:46.09,Main,Rimuru,0000,0000,0000,,I'd rather avoid fighting if possible...
+Dialogue: 0,0:14:46.09,0:14:49.16,Main,Shion,0000,0000,0000,,It's no problem. \NWe can just knock them all away.
+Dialogue: 0,0:14:51.35,0:14:54.58,Main,Rimuru,0000,0000,0000,,If it comes down to a fight, \Nevacuate the townsfolk.
+Dialogue: 0,0:14:54.58,0:14:56.80,Main,Rimuru,0000,0000,0000,,We'll buy time until then.
+Dialogue: 0,0:14:57.63,0:14:58.40,Main,Benimaru,0000,0000,0000,,Right.
+Dialogue: 0,0:15:06.06,0:15:07.89,Main,Kaijin,0000,0000,0000,,It is a pleasure to see you again.
+Dialogue: 0,0:15:09.52,0:15:11.69,Main,Gazel,0000,0000,0000,,It's been a long time, Kaijin.
+Dialogue: 0,0:15:11.89,0:15:12.57,Main,Kaijin,0000,0000,0000,,Yes, Majesty!
+Dialogue: 0,0:15:15.98,0:15:17.46,Main,Gazel,0000,0000,0000,,You are the slime?
+Dialogue: 0,0:15:18.50,0:15:20.26,Main,Rimuru,0000,0000,0000,,I'll introduce myself first.
+Dialogue: 0,0:15:20.26,0:15:21.92,Main,Rimuru,0000,0000,0000,,My name is Rimuru.
+Dialogue: 0,0:15:21.92,0:15:25.08,Main,Rimuru,0000,0000,0000,,I'm a slime, but I'd rather \Nyou didn't call me that.
+Dialogue: 0,0:15:25.56,0:15:29.58,Main,Rimuru,0000,0000,0000,,I am the chancellor of the \NJura Forest Alliance, after all.
+Dialogue: 0,0:15:30.76,0:15:33.31,Main,Rimuru,0000,0000,0000,,This isn't really my true form,
+Dialogue: 0,0:15:33.31,0:15:35.84,Main,Rimuru,0000,0000,0000,,but it's easier to talk to me this way, right?
+Dialogue: 0,0:15:36.36,0:15:38.36,Main,Rimuru,0000,0000,0000,,So... why are you here?
+Dialogue: 0,0:15:38.36,0:15:40.22,Main,Gazel,0000,0000,0000,,I'll get right to the point.
+Dialogue: 0,0:15:40.69,0:15:44.22,Main,Gazel,0000,0000,0000,,Rimuru, I've come to see what you truly are.
+Dialogue: 0,0:15:45.02,0:15:45.97,Main,Rimuru,0000,0000,0000,,What I truly—
+Dialogue: 0,0:15:46.80,0:15:50.60,Main,Gazel,0000,0000,0000,,I will expose your true nature with my sword!
+Dialogue: 0,0:15:52.38,0:15:56.27,Main,Gazel,0000,0000,0000,,Since you boasted of being \Nthe chancellor of this forest,
+Dialogue: 0,0:15:56.27,0:15:59.61,Main,Gazel,0000,0000,0000,,it seems I must teach you, \Nexactly, where you stand!
+Dialogue: 0,0:15:59.80,0:16:02.62,Main,Gazel,0000,0000,0000,,If that sword is more than mere decoration,
+Dialogue: 0,0:16:03.48,0:16:05.87,Main,Gazel,0000,0000,0000,,you would do well to accept my proposal.
+Dialogue: 0,0:16:07.20,0:16:08.95,Main,Dorf,0000,0000,0000,,Your Majesty, are you...
+Dialogue: 0,0:16:10.16,0:16:13.60,Main,Gazel,0000,0000,0000,,An earnest battle is the quickest \Nway to settle this, is it not?
+Dialogue: 0,0:16:14.43,0:16:17.00,Main,Rimuru,0000,0000,0000,,All right, then. I accept.
+Dialogue: 0,0:16:17.45,0:16:19.84,Main,Rimuru,0000,0000,0000,,I'll make you regret accusing me of boasting.
+Dialogue: 0,0:16:34.05,0:16:38.61,Main,Gazel,0000,0000,0000,,If you can defend against my \Nentire chain of attacks, you win.
+Dialogue: 0,0:16:40.68,0:16:41.91,Main,Gazel,0000,0000,0000,,However...
+Dialogue: 0,0:16:41.91,0:16:46.87,Main,Gazel,0000,0000,0000,,I suggest you do not underestimate the \Nsword skill of Master Swordsman Gazel Dwargo.
+Dialogue: 0,0:16:47.17,0:16:48.24,Main,Rimuru,0000,0000,0000,,Fine.
+Dialogue: 0,0:16:52.29,0:16:55.83,Main,Treyni,0000,0000,0000,,Very well. I will serve as \Nwitness to this contest.
+Dialogue: 0,0:16:57.60,0:16:59.84,Main,Dorf,0000,0000,0000,,Is that... a Dryad?
+Dialogue: 0,0:17:02.64,0:17:06.42,Main,Gazel,0000,0000,0000,,I willingly apologize for \Naccusing you of boasting.
+Dialogue: 0,0:17:06.42,0:17:09.60,Main,Gazel,0000,0000,0000,,I have a vague understanding \Nof the circumstances now.
+Dialogue: 0,0:17:10.07,0:17:10.81,Main,Rimuru,0000,0000,0000,,Then...
+Dialogue: 0,0:17:11.04,0:17:14.77,Main,Gazel,0000,0000,0000,,But that is a separate matter \Nfrom judging your true nature.
+Dialogue: 0,0:17:15.08,0:17:15.88,Main,Rimuru,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:17.43,0:17:21.78,Main,Gazel,0000,0000,0000,,Now that we have a witness, \Nall that remains is to cross swords!
+Dialogue: 0,0:17:22.41,0:17:24.32,Main,Rimuru,0000,0000,0000,,Yeah, I guess so.
+Dialogue: 0,0:17:24.32,0:17:28.57,Main,Rimuru,0000,0000,0000,,I'll win this in no time and make \Nyou explain what's going on here.
+Dialogue: 0,0:17:30.18,0:17:32.83,Main,Gazel,0000,0000,0000,,If you manage to defeat me, \Nyou will have your answer.
+Dialogue: 0,0:17:34.59,0:17:35.33,Main,Treyni,0000,0000,0000,,Begin!
+Dialogue: 0,0:17:46.41,0:17:49.97,Main,Gazel,0000,0000,0000,,Is that all the strength you have, Rimuru?
+Dialogue: 0,0:17:50.23,0:17:53.41,Main,Rimuru,0000,0000,0000,,Quiet! I just haven't started \Ntaking this seriously yet.
+Dialogue: 0,0:17:53.41,0:17:54.22,Main,Rimuru,0000,0000,0000,,Don't rush me.
+Dialogue: 0,0:18:02.78,0:18:04.64,Italics,Rimuru,0000,0000,0000,,He's strong, all right...
+Dialogue: 0,0:18:04.64,0:18:07.61,Italics,Rimuru,0000,0000,0000,,But I can't just lose this.
+Dialogue: 0,0:18:11.33,0:18:12.78,Italics,Rimuru,0000,0000,0000,,That stance...
+Dialogue: 0,0:18:13.10,0:18:14.62,Main,Gazel,0000,0000,0000,,Here I come, Rimuru!
+Dialogue: 0,0:18:14.99,0:18:16.96,sign_26254_261_Haze__Thunder_of,Text,0000,0000,0000,,Haze: Thunder of Heaven and Earth
+Dialogue: 0,0:18:15.03,0:18:16.96,Main,Gazel,0000,0000,0000,,Haze: Thunder of Heaven and Earth!
+Dialogue: 0,0:18:21.21,0:18:23.17,Italics,Rimuru,0000,0000,0000,,The next strike is coming... from above!
+Dialogue: 0,0:18:38.38,0:18:40.56,Main,Gazel,0000,0000,0000,,You managed to stop my strike!
+Dialogue: 0,0:18:42.16,0:18:43.19,Main,Treyni,0000,0000,0000,,Enough.
+Dialogue: 0,0:18:43.62,0:18:46.11,Main,Treyni,0000,0000,0000,,The winner is Rimuru Tempest.
+Dialogue: 0,0:18:50.00,0:18:52.41,Main,Gazel,0000,0000,0000,,I understand now after \Ncrossing swords with you.
+Dialogue: 0,0:18:52.41,0:18:54.87,Main,Gazel,0000,0000,0000,,You are not an evil being.
+Dialogue: 0,0:18:56.10,0:18:57.87,Main,Rimuru,0000,0000,0000,,What the hell?
+Dialogue: 0,0:18:58.24,0:19:03.06,Main,Gazel,0000,0000,0000,,I am impressed that you saw through \Nmy Haze: Thunder of Heaven and Earth.
+Dialogue: 0,0:19:03.77,0:19:05.88,Main,Gazel,0000,0000,0000,,Well done, Rimuru.
+Dialogue: 0,0:19:06.06,0:19:08.07,Main,Rimuru,0000,0000,0000,,Oh, that was just a coincidence.
+Dialogue: 0,0:19:08.07,0:19:12.11,Main,Rimuru,0000,0000,0000,,My master used that move, so I \Ndealt with it a lot in training.
+Dialogue: 0,0:19:12.11,0:19:13.64,Main,Rimuru,0000,0000,0000,,That's all, really.
+Dialogue: 0,0:19:13.92,0:19:17.93,Main,Gazel,0000,0000,0000,,What? Could it be your master was...
+Dialogue: 0,0:19:21.28,0:19:23.90,Main,Hakurou,0000,0000,0000,,Excellent work, Rimuru-sama.
+Dialogue: 0,0:19:25.22,0:19:26.65,Main,Gazel,0000,0000,0000,,The Savant!
+Dialogue: 0,0:19:27.17,0:19:31.78,Main,Hakurou,0000,0000,0000,,You no longer look like the little \Nboy I found lost in the forest.
+Dialogue: 0,0:19:32.03,0:19:34.30,Main,Hakurou,0000,0000,0000,,Ah... Forgive me, Dwarf King.
+Dialogue: 0,0:19:34.30,0:19:38.94,Main,Hakurou,0000,0000,0000,,I am overjoyed to see that you \Nhave surpassed me with the sword.
+Dialogue: 0,0:19:38.94,0:19:41.79,Main,Gazel,0000,0000,0000,,What an honor to hear you say that.
+Dialogue: 0,0:19:42.12,0:19:44.50,Italics,Rimuru,0000,0000,0000,,Hakurou was his master, huh?
+Dialogue: 0,0:19:44.50,0:19:48.67,Italics,Rimuru,0000,0000,0000,,You really never can tell how things \Nmight be connected in this world.
+Dialogue: 0,0:19:53.64,0:19:55.70,Main,Someone,0000,0000,0000,,Rimuru-sama really is amazing, huh?
+Dialogue: 0,0:19:54.68,0:19:55.70,Main,Someone,0000,0000,0000,,Truly the best.
+Dialogue: 0,0:19:55.70,0:19:57.04,Main,Rimuru,0000,0000,0000,,I see.
+Dialogue: 0,0:19:57.04,0:20:01.18,Main,Rimuru,0000,0000,0000,,You were investigating the odd assembly \Nof monsters that defeated the Orc Lord.
+Dialogue: 0,0:20:01.62,0:20:05.94,Main,Gazel,0000,0000,0000,,Yes, to determine whether \Nthey were friend or foe.
+Dialogue: 0,0:20:07.82,0:20:10.44,Main,Gazel,0000,0000,0000,,Rimuru, there's something I must ask you.
+Dialogue: 0,0:20:10.97,0:20:11.72,Main,Rimuru,0000,0000,0000,,Sure.
+Dialogue: 0,0:20:12.97,0:20:15.70,Main,Gazel,0000,0000,0000,,Have you any interest in \Nentering a treaty with me?
+Dialogue: 0,0:20:17.97,0:20:22.43,Main,Gazel,0000,0000,0000,,If you were to gain control of \Neverything in this vast forest,
+Dialogue: 0,0:20:22.85,0:20:27.21,Main,Gazel,0000,0000,0000,,you could obtain wealth and \Npower surpassing my own nation.
+Dialogue: 0,0:20:27.46,0:20:31.84,Main,Gazel,0000,0000,0000,,It would serve you well to have another \Nnation supporting you at such a time.
+Dialogue: 0,0:20:32.53,0:20:34.67,Main,Rimuru,0000,0000,0000,,That would be fantastic, but...
+Dialogue: 0,0:20:37.58,0:20:38.93,Main,Rimuru,0000,0000,0000,,Are you sure?
+Dialogue: 0,0:20:38.93,0:20:44.98,Main,Rimuru,0000,0000,0000,,That would be the same as acknowledging our \Ngathering of monsters as its own nation.
+Dialogue: 0,0:20:45.37,0:20:46.47,Main,Gazel,0000,0000,0000,,Of course.
+Dialogue: 0,0:20:46.88,0:20:50.78,Main,Gazel,0000,0000,0000,,And this deal would benefit us, as well.
+Dialogue: 0,0:20:50.78,0:20:53.20,Main,Gazel,0000,0000,0000,,Both sides stand to profit.
+Dialogue: 0,0:20:55.25,0:20:57.43,Main,Rimuru,0000,0000,0000,,I guess I have no reason to refuse.
+Dialogue: 0,0:20:58.72,0:21:00.37,Main,Rimuru,0000,0000,0000,,I gladly accept.
+Dialogue: 0,0:21:00.63,0:21:01.79,Main,Gazel,0000,0000,0000,,Good.
+Dialogue: 0,0:21:01.79,0:21:05.37,Main,Gazel,0000,0000,0000,,And what is the name of your nation?
+Dialogue: 0,0:21:07.35,0:21:09.34,Italics,Rimuru,0000,0000,0000,,Our nation's name?
+Dialogue: 0,0:21:09.34,0:21:10.88,Italics,Rimuru,0000,0000,0000,,I didn't think of that!
+Dialogue: 0,0:21:11.62,0:21:17.42,Italics,Rimuru,0000,0000,0000,,Um... If I take one from "Forest \Nof Jura" and "Rimuru Tempest"...
+Dialogue: 0,0:21:18.43,0:21:20.64,Main,Rimuru,0000,0000,0000,,The Jura Tempest Federation!
+Dialogue: 0,0:21:20.95,0:21:23.39,Main,Gazel,0000,0000,0000,,The Jura Tempest Federation?
+Dialogue: 0,0:21:24.48,0:21:26.28,Main,Shion,0000,0000,0000,,That's our Rimuru-sama!
+Dialogue: 0,0:21:26.28,0:21:29.93,Main,Rigurd,0000,0000,0000,,Then our nation shall be called \Nthe Jura Tempest Federation,
+Dialogue: 0,0:21:29.93,0:21:32.69,Main,Rigurd,0000,0000,0000,,and this town shall be called Rimuru!
+Dialogue: 0,0:21:32.92,0:21:33.65,Main,Rimuru,0000,0000,0000,,Huh?!
+Dialogue: 0,0:21:33.94,0:21:36.08,Main,Rigurd,0000,0000,0000,,Capital City Rimuru!
+Dialogue: 0,0:21:36.08,0:21:37.99,Main,Rimuru,0000,0000,0000,,Hang on, that's kinda embarrassi—
+Dialogue: 0,0:21:37.99,0:21:39.60,Main,Shion,0000,0000,0000,,Capital City Rimuru!
+Dialogue: 0,0:21:39.60,0:21:41.24,Main,Shion,0000,0000,0000,,No other name would do!
+Dialogue: 0,0:21:41.24,0:21:44.50,Main,Benimaru,0000,0000,0000,,I agree. It's a perfect name for our town.
+Dialogue: 0,0:21:44.50,0:21:46.36,Italics,Rimuru,0000,0000,0000,,H-Huh?
+Dialogue: 0,0:21:46.36,0:21:48.12,Main,Gazel,0000,0000,0000,,It would seem that this is settled.
+Dialogue: 0,0:21:50.26,0:21:51.08,Main,Rimuru,0000,0000,0000,,Yeah.
+Dialogue: 0,0:21:53.59,0:21:57.47,Italics,Na,0000,0000,0000,,On this day, the names "the Jura Tempest \NFederation" and "Capital City Rimuru"
+Dialogue: 0,0:21:57.47,0:22:02.26,Italics,Na,0000,0000,0000,,were engraved in history for the first time.
+Dialogue: 0,0:23:35.83,0:23:39.27,Italics_Top,Great Sage,0000,0000,0000,,Next time, "Demon Lord Milim Attacks."
+Dialogue: 0,0:23:36.15,0:23:40.03,Next_Ep_Title,Title,0000,0000,0000,,{\fad(857,1)}Demon Lord Milim{\bord0\u1\c&HD9E3E6&} Attacks
+
