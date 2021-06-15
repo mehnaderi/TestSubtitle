@@ -1,0 +1,549 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: sign_1407_3_Tokyo__Present_D,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,120,1
+Style: sign_4961_43_It_hurts,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,13,13,0,1
+Style: sign_5362_56_Pain_Nullificati,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00030093,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,291,291,0,1
+Style: sign_5389_57__Acquired_,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00030093,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,165,1
+Style: sign_5406_61_Pain,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H00140A1A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,80,696,0,1
+Style: sign_5406_62_Nullification,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H00140A1A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,700,40,0,1
+Style: sign_5421_60_Creating_a_body_,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00040A2D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,253,253,0,1
+Style: sign_5820_68_Heat_Resistance_,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00040A2D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,107,533,207,1
+Style: sign_5820_69_Cold_Resistance,Open Sans Semibold,30,&H00DEDCC4,&H000000FF,&H00400708,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,536,111,207,1
+Style: sign_5879_71_Thermal_Fluctuat,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00040A2D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,80,1
+Style: sign_6524_80_Consistency_not_,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00321C1C,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,99,99,147,1
+Style: sign_6547_86_Employing_Altern,Open Sans Semibold,30,&H00495962,&H000000FF,&H00B7DFE7,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,231,231,313,1
+Style: sign_6571_89_Electric_Current,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00241513,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,212,212,0,1
+Style: sign_7648_110_Unique_Skill_Pre,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,203,1
+Style: sign_8749_130_Episode_1__The_S,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&HB4000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,357,53,67,1
+Style: sign_10188_148_Rock,Open Sans Semibold,39,&H00E5F1F0,&H000000FF,&H00160D07,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,439,327,240,1
+Style: sign_10805_158_Plant,Open Sans Semibold,36,&H00A8AF72,&H000000FF,&H00BFD3BD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,188,581,216,1
+Style: sign_10805_159_Intake,Open Sans Semibold,24,&H00ADAB88,&H000000FF,&H00BFD3BD,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,181,604,96,1
+Style: sign_10812_160_Disappear,Open Sans Semibold,27,&H00CCE4E7,&H000000FF,&H00BFD3BD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,623,111,256,1
+Style: sign_10805_161_Surge,Open Sans Semibold,36,&H0061D077,&H000000FF,&H00A7D648,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,728,35,211,1
+Style: sign_12076_176_Manly,Open Sans Semibold,39,&H0004058B,&H000000FF,&H0071B7E4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,676,67,244,1
+Style: sign_12107_177__Self_proclaimed,Open Sans Semibold,33,&H00EBEFFA,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,541,64,139,1
+Style: sign_14133_210_Mimicry_Skill,Open Sans Semibold,36,&H00BCDB99,&H000000FF,&H00BFD3BD,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,13,13,133,1
+Style: absorb,Open Sans Semibold,36,&H00BCDB99,&H000000FF,&H00BFD3BD,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,13,13,133,1
+Style: sign_14850_224_Hipokute_Herbs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,215,431,184,1
+Style: sign_14884_226_A_valuable_herb_,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,193,407,243,1
+Style: sign_15043_228_Magicules,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,572,124,157,1
+Style: sign_15070_232_Magicules_A_spec,Open Sans Semibold,36,&H00BAC1BF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,105,105,200,1
+Style: sign_15241_235_Magical_Beings,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,337,337,0,1
+Style: sign_15241_236_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,387,387,153,1
+Style: sign_15241_237_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,516,257,207,1
+Style: sign_15241_238_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,257,516,207,1
+Style: sign_15241_241_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,515,259,207,1
+Style: sign_15241_240_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,387,387,153,1
+Style: sign_15241_239_Magicules,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,260,513,207,1
+Style: sign_15787_250_Affirmative,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,561,111,147,1
+Style: sign_16029_256_Potion,Open Sans Semibold,30,&H0092D877,&H000000FF,&H00EFFFE8,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,387,387,27,1
+Style: sign_16473_262_Magistone_Ore,Open Sans Semibold,27,&H00E5F1F0,&H000000FF,&H00160D07,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,621,109,213,1
+Style: sign_18051_283_____Water_Pressu,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,165,176,27,1
+Style: sign_18631_292_Notice_Physical_,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,299,299,0,1
+Style: sign_18685_294_Species_Skill_Se,Open Sans Semibold,27,&H00000000,&H000000FF,&H00DEE7EC,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,323,323,0,1
+Style: sign_22511_349_Extra_,Open Sans Semibold,42,&H00BAD5D8,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,364,364,120,1
+Style: sign_22562_351_Magic_Sense,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00714811,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,355,355,0,1
+Style: sign_22696_353_Would_you_like_t,Open Sans Semibold,27,&H00C1D5DA,&H000000FF,&H007B6137,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,219,219,181,1
+Style: sign_27703_419_____Absolute_Sev,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H00000000,1,0,0,0,100,100,0,0,1,1,2,2,229,229,53,1
+Style: sign_27841_421_Unlimited_Impris,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H50000000,&H00000000,1,0,0,0,100,100,0,0,1,1,2,2,233,233,13,1
+Style: sign_28058_425_Summon,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004E2611,&H00000000,1,0,0,0,100,100,0,0,1,4,1,2,568,145,196,1
+Style: sign_31457_472___Never_attempt_,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H64000000,&H64000000,0,0,0,0,100,100,0,0,1,1,1,2,280,293,107,1
+Style: sign_33977_476_Meeting_the_Gobl,Open Sans Semibold,39,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,265,265,147,1
+Style: sign_6555_88_Employing_Altern,Open Sans Semibold,30,&H00664C4D,&H000000FF,&H00E9F5F7,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,231,231,313,1
+Style: sign_8118_119_Sage_will_transf,Open Sans Semibold,36,&H004B4447,&H000000FF,&H00D9E4E5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,217,217,0,1
+Style: sign_18521_288_Pain_Nullificati,Open Sans Semibold,27,&H00000000,&H000000FF,&H00060098,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,324,324,0,1
+Style: sign_18533_289_Pain_Nullificati,Open Sans Semibold,27,&H00000000,&H000000FF,&H00DCE8E8,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,324,324,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:28.35,0:00:30.71,Main,Shizue,0000,0000,0000,,Mommy! What about the bomb shelter?
+Dialogue: 0,0:00:31.06,0:00:32.40,Main,Shizue,0000,0000,0000,,Mommy!
+Dialogue: 0,0:00:58.63,0:01:00.88,sign_1407_3_Tokyo__Present_D,Text,0000,0000,0000,,{\fad(480,1)}Tokyo: Present Day
+Dialogue: 0,0:01:05.68,0:01:07.10,Main,Mikami,0000,0000,0000,,Sure is peaceful...
+Dialogue: 0,0:01:11.02,0:01:13.95,Italics,Mikami,0000,0000,0000,,I live a totally normal, uneventful life.
+Dialogue: 0,0:01:13.95,0:01:18.39,Italics,Mikami,0000,0000,0000,,I graduated from college, got a job \Nat a major general contracting firm,
+Dialogue: 0,0:01:18.39,0:01:21.85,Italics,Mikami,0000,0000,0000,,worked my way up the ladder, \Nand started making decent money.
+Dialogue: 0,0:01:21.85,0:01:24.24,Italics,Mikami,0000,0000,0000,,I'm a perfectly content 37-year-old man.
+Dialogue: 0,0:01:25.93,0:01:30.16,Italics,Mikami,0000,0000,0000,,If there's anything missing in my \Nlife right now, it's a girlfriend.
+Dialogue: 0,0:01:30.73,0:01:34.16,Italics,Mikami,0000,0000,0000,,In fact, I haven't had a \Ngirlfriend in all my 37 years...
+Dialogue: 0,0:01:34.86,0:01:38.55,Italics,Mikami,0000,0000,0000,,But not having one doesn't \Nbother me at all, really.
+Dialogue: 0,0:01:39.79,0:01:41.00,Main,Tamura,0000,0000,0000,,Senpai!
+Dialogue: 0,0:01:41.65,0:01:43.87,Main,Tamura,0000,0000,0000,,Over here, Senpai!
+Dialogue: 0,0:01:44.77,0:01:47.54,Main,Mikami,0000,0000,0000,,Tamura, sorry I'm a bit late.
+Dialogue: 0,0:01:48.04,0:01:49.44,Main,Mikami,0000,0000,0000,,So, what'd you want to discuss?
+Dialogue: 0,0:01:49.90,0:01:52.37,Main,Miho,0000,0000,0000,,Hello! I'm Sawatari Miho.
+Dialogue: 0,0:01:52.37,0:01:55.77,Main,Miho,0000,0000,0000,,I see you around a lot, but this \Nis our first time speaking.
+Dialogue: 0,0:01:56.45,0:01:59.42,Main,Mikami,0000,0000,0000,,Oh... Hi. I'm Mikami Satoru.
+Dialogue: 0,0:01:59.42,0:02:01.69,Main,Mikami,0000,0000,0000,,I know who you are, of course. You're famous.
+Dialogue: 0,0:02:01.94,0:02:03.48,Main,Miho,0000,0000,0000,,What?! Famous?!
+Dialogue: 0,0:02:03.94,0:02:06.24,Main,Mikami,0000,0000,0000,,Yeah, I mean, all those rumors...
+Dialogue: 0,0:02:06.37,0:02:09.03,Main,Miho,0000,0000,0000,,Wh-What rumors?!
+Dialogue: 0,0:02:09.03,0:02:11.93,Main,Tamura,0000,0000,0000,,Easy, Miho. He's just teasing you.
+Dialogue: 0,0:02:11.93,0:02:14.33,Main,Tamura,0000,0000,0000,,Go easy on her, Senpai.
+Dialogue: 0,0:02:14.75,0:02:15.89,Main,Mikami,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:02:16.30,0:02:19.83,Italics,Mikami,0000,0000,0000,,What is this, anyway? \NIs he looking for marriage advice?
+Dialogue: 0,0:02:20.00,0:02:23.14,Main,Tamura,0000,0000,0000,,No need to stand around. \NLet's talk while we eat.
+Dialogue: 0,0:02:23.14,0:02:25.20,Main,Tamura,0000,0000,0000,,You like yakiniku, don't you, Senpai?
+Dialogue: 0,0:02:25.20,0:02:27.25,Main,Tamura,0000,0000,0000,,I booked a great place for us.
+Dialogue: 0,0:02:27.62,0:02:30.83,Italics,Mikami,0000,0000,0000,,Jeez, he arranged one of \Nmy favorites for dinner?
+Dialogue: 0,0:02:30.83,0:02:32.47,Italics,Mikami,0000,0000,0000,,Kid sure knows how to treat his senpai.
+Dialogue: 0,0:02:32.64,0:02:34.05,Main,Miho,0000,0000,0000,,It's just up ahead.
+Dialogue: 0,0:02:34.86,0:02:37.73,Italics,Mikami,0000,0000,0000,,Well, I guess I should offer \Nthem my congratulations.
+Dialogue: 0,0:02:46.03,0:02:46.82,Main,Mikami,0000,0000,0000,,Tamura!
+Dialogue: 0,0:03:05.38,0:03:07.06,Main,Tamura,0000,0000,0000,,S-Senpai!
+Dialogue: 0,0:03:09.56,0:03:11.55,Italics,Mikami,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:03:12.56,0:03:13.91,Italics,Mikami,0000,0000,0000,,It's too hot...
+Dialogue: 0,0:03:14.50,0:03:16.76,Italics,Mikami,0000,0000,0000,,I don't... want this...
+Dialogue: 0,0:03:17.88,0:03:18.97,Italics_Top,Great Sage,0000,0000,0000,,Confirmed.
+Dialogue: 0,0:03:19.57,0:03:22.80,Italics_Top,Great Sage,0000,0000,0000,,Heat Resistance acquisition successful.
+Dialogue: 0,0:03:22.80,0:03:26.77,Italics,Mikami,0000,0000,0000,,How the hell could I get stabbed and die?!
+Dialogue: 0,0:03:26.90,0:03:28.15,sign_4961_43_It_hurts,Text,0000,0000,0000,,{\fad(900,1)}It hurts
+Dialogue: 0,0:03:26.97,0:03:28.11,Italics_Top,Great Sage,0000,0000,0000,,Confirmed.
+Dialogue: 0,0:03:28.32,0:03:29.74,sign_4961_43_It_hurts,Text,0000,0000,0000,,{\fad(899,1)}Get Stabbed and Die
+Dialogue: 0,0:03:28.33,0:03:31.46,Italics_Top,Great Sage,0000,0000,0000,,Stab Resistance acquisition successful.
+Dialogue: 0,0:03:30.19,0:03:31.65,sign_4961_43_It_hurts,Text,0000,0000,0000,,{\fad(864,1)}Stab Resistance
+Dialogue: 0,0:03:31.46,0:03:32.24,Italics_Top,Great Sage,0000,0000,0000,,Continuing...
+Dialogue: 0,0:03:31.65,0:03:32.24,sign_4961_43_It_hurts,Text,0000,0000,0000,,Continuing
+Dialogue: 0,0:03:33.47,0:03:37.16,Italics_Top,Great Sage,0000,0000,0000,,Physical Attack Resistance \Nacquisition successful.
+Dialogue: 0,0:03:33.66,0:03:34.74,sign_4961_43_It_hurts,Text,0000,0000,0000,,Physical Attack Resistance
+Dialogue: 0,0:03:34.74,0:03:36.03,sign_4961_43_It_hurts,Text,0000,0000,0000,,Acquisition
+Dialogue: 0,0:03:36.12,0:03:37.16,sign_4961_43_It_hurts,Text,0000,0000,0000,,Successful.
+Dialogue: 0,0:03:37.38,0:03:39.29,Main,Tamura,0000,0000,0000,,We need an ambulance! Quick!
+Dialogue: 0,0:03:39.87,0:03:42.35,Italics,Mikami,0000,0000,0000,,It hurts... The blood...
+Dialogue: 0,0:03:42.54,0:03:43.91,Italics_Top,Great Sage,0000,0000,0000,,Confirmed.
+Dialogue: 0,0:03:43.62,0:03:45.71,sign_5362_56_Pain_Nullificati,Text,0000,0000,0000,,{\fad(322,1)}Pain Nullification
+Dialogue: 0,0:03:43.91,0:03:45.73,Italics_Top,Great Sage,0000,0000,0000,,Pain Nullification acquired.
+Dialogue: 0,0:03:44.75,0:03:45.71,sign_5389_57__Acquired_,Text,0000,0000,0000,,{\fad(193,1)}[Acquired]
+Dialogue: 0,0:03:45.46,0:03:48.50,sign_5406_61_Pain,Text,0000,0000,0000,,{\fad(1,429)}Pain
+Dialogue: 0,0:03:45.46,0:03:48.50,sign_5406_62_Nullification,Text,0000,0000,0000,,{\fad(1,429)}Nullification
+Dialogue: 0,0:03:45.73,0:03:47.92,Italics_Top,Great Sage,0000,0000,0000,,Creating a body that does not require blood.
+Dialogue: 0,0:03:46.09,0:03:48.50,sign_5421_60_Creating_a_body_,Text,0000,0000,0000,,{\fad(1063,429)}Creating a body that\Ndoes not require blood
+Dialogue: 0,0:03:48.90,0:03:49.80,Italics_Top,Great Sage,0000,0000,0000,,Successful.
+Dialogue: 0,0:03:50.82,0:03:54.86,Italics,Mikami,0000,0000,0000,,Would you... shut up already, Tamura?
+Dialogue: 0,0:03:55.80,0:03:58.10,Main,Tamura,0000,0000,0000,,Senpai, hang in there!
+Dialogue: 0,0:03:58.55,0:03:59.81,Italics,Mikami,0000,0000,0000,,So cold...
+Dialogue: 0,0:04:00.29,0:04:04.26,Italics_Top,Great Sage,0000,0000,0000,,Cold Resistance acquisition successful.
+Dialogue: 0,0:04:02.73,0:04:06.52,sign_5820_68_Heat_Resistance_,Text,0000,0000,0000,,{\fad(272,1)}Heat Resistance
+Dialogue: 0,0:04:02.73,0:04:06.52,sign_5820_69_Cold_Resistance,Text,0000,0000,0000,,{\fad(272,1)}Cold Resistance
+Dialogue: 0,0:04:04.26,0:04:07.66,Italics_Top,Great Sage,0000,0000,0000,,Acquisition of Heat Resistance \Nand Cold Resistance
+Dialogue: 0,0:04:05.19,0:04:06.52,sign_5879_71_Thermal_Fluctuat,Text,0000,0000,0000,,{\fad(272,1)}Thermal Fluctu{\c&HE6EBCD&\3c&H6D3102&}ation Resistance
+Dialogue: 0,0:04:07.66,0:04:10.71,Italics_Top,Great Sage,0000,0000,0000,,results in acquisition of new skill, \NThermal Fluctuation Resistance.
+Dialogue: 0,0:04:10.71,0:04:12.78,Italics,Mikami,0000,0000,0000,,Am I... gonna die?
+Dialogue: 0,0:04:14.12,0:04:16.02,Main,Mikami,0000,0000,0000,,T-Tamura...
+Dialogue: 0,0:04:18.16,0:04:21.66,Main,Mikami,0000,0000,0000,,Take the hard drive out \Nof my computer at home...
+Dialogue: 0,0:04:21.93,0:04:25.70,Main,Mikami,0000,0000,0000,,put it in the bath... and make \Nsure it's completely wiped.
+Dialogue: 0,0:04:25.70,0:04:26.38,Main,Tamura,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:27.01,0:04:29.11,Italics_Top,Great Sage,0000,0000,0000,,Deletion of data via electric current
+Dialogue: 0,0:04:29.11,0:04:31.42,Italics_Top,Great Sage,0000,0000,0000,,has failed due to insufficient information.
+Dialogue: 0,0:04:32.09,0:04:32.13,sign_6524_80_Consistency_not_,Text,0000,0000,0000,,Consistency not found among theoretical values.
+Dialogue: 0,0:04:32.13,0:04:32.17,sign_6524_80_Consistency_not_,Text,0000,0000,0000,,Consistency not found among theoretical values.\N\NConsistency not found among theoretical values.
+Dialogue: 0,0:04:32.17,0:04:32.21,sign_6524_80_Consistency_not_,Text,0000,0000,0000,,Consistency not found among theoretical values.\N\NConsistency not found among theoretical values.\N\NConsistency not found among theoretical values.
+Dialogue: 0,0:04:32.21,0:04:32.30,sign_6524_80_Consistency_not_,Text,0000,0000,0000,,Consistency not found among theoretical values.\N\NConsistency not found among theoretical values.\N\NConsistency not found among theoretical values.\N\NConsistency not found among theoretical values.
+Dialogue: 0,0:04:32.30,0:04:32.46,sign_6524_80_Consistency_not_,Text,0000,0000,0000,,Consistency not found among theoretical values.\N\NConsistency not found among theoretical values.\N\NConsistency not found among theoretical values.\N\NConsistency not found among theoretical values.\N\NConsistency not found among theoretical values.
+Dialogue: 0,0:04:32.46,0:04:33.88,Italics_Top,Great Sage,0000,0000,0000,,As an alternate measure,
+Dialogue: 0,0:04:33.05,0:04:33.26,sign_6547_86_Employing_Altern,Text,0000,0000,0000,,{\fad(149,1)}Employing Alternate Measure
+Dialogue: 0,0:04:33.30,0:04:33.34,sign_6547_86_Employing_Altern,Text,0000,0000,0000,,Employing Alternate Measure
+Dialogue: 0,0:04:33.38,0:04:33.88,sign_6555_88_Employing_Altern,Text,0000,0000,0000,,{\fad(153,1)}Employing Alternate Measure
+Dialogue: 0,0:04:33.88,0:04:35.60,Italics_Top,Great Sage,0000,0000,0000,,Electric Current Resistance acquired.
+Dialogue: 0,0:04:34.05,0:04:35.13,sign_6571_89_Electric_Current,Text,0000,0000,0000,,{\fad(192,1)}Electric Current Resistance
+Dialogue: 0,0:04:35.60,0:04:37.89,Italics_Top,Great Sage,0000,0000,0000,,Attached is Paralysis Resistance.
+Dialogue: 0,0:04:36.72,0:04:37.89,sign_6571_89_Electric_Current,Text,0000,0000,0000,,{\fad(984,1)}Paralysis Resistance
+Dialogue: 0,0:04:38.17,0:04:39.22,Italics_Top,Great Sage,0000,0000,0000,,Acquisition successful.
+Dialogue: 0,0:04:38.26,0:04:39.22,sign_6571_89_Electric_Current,Text,0000,0000,0000,,Successful.
+Dialogue: 0,0:04:40.07,0:04:41.38,Main,Tamura,0000,0000,0000,,Senpai...
+Dialogue: 0,0:04:42.35,0:04:43.60,Main,Mikami,0000,0000,0000,,Please...
+Dialogue: 0,0:04:44.24,0:04:49.65,Main,Tamura,0000,0000,0000,,All I really wanted to do...\Nwas show off Sawatari to you...
+Dialogue: 0,0:04:51.45,0:04:52.48,Main,Mikami,0000,0000,0000,,Jeez...
+Dialogue: 0,0:04:53.50,0:04:55.06,Main,Mikami,0000,0000,0000,,Don't worry about that.
+Dialogue: 0,0:04:55.06,0:04:56.46,Main,Miho,0000,0000,0000,,Mikami-san...
+Dialogue: 0,0:04:57.25,0:05:00.78,Main,Mikami,0000,0000,0000,,Be sure to make her happy.
+Dialogue: 0,0:05:01.28,0:05:03.91,Main,Mikami,0000,0000,0000,,And take care of my computer.
+Dialogue: 0,0:05:06.53,0:05:10.08,Italics,Mikami,0000,0000,0000,,I never thought I'd die a virgin...
+Dialogue: 0,0:05:10.84,0:05:13.25,Italics,Mikami,0000,0000,0000,,If I'm reborn, I'll be a lot more aggressive.
+Dialogue: 0,0:05:13.70,0:05:15.27,Italics,Mikami,0000,0000,0000,,I'll screw every girl I see...
+Dialogue: 0,0:05:16.11,0:05:20.18,Italics_Top,Great Sage,0000,0000,0000,,Unique skill: Predator \Nacquisition successful.
+Dialogue: 0,0:05:17.43,0:05:18.18,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,{\fad(731,1)}Unique Skill
+Dialogue: 0,0:05:18.18,0:05:18.97,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,Unique Skill\N{\fs24}Predator
+Dialogue: 0,0:05:18.97,0:05:20.18,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,Unique Skill\N{\fs24}Predator\N{\fs18}Acquired
+Dialogue: 0,0:05:22.01,0:05:24.85,Italics,Mikami,0000,0000,0000,,If a guy who's still a \Nvirgin at 30 is a magician,
+Dialogue: 0,0:05:25.08,0:05:29.43,Italics,Mikami,0000,0000,0000,,then, given how close I was\Nto 40, I would've been a sage.
+Dialogue: 0,0:05:30.40,0:05:32.58,Italics,Mikami,0000,0000,0000,,I could've even made it \Nto the rank of great sage.
+Dialogue: 0,0:05:33.44,0:05:35.86,Italics_Top,Great Sage,0000,0000,0000,,Extra skill: Sage acquisition successful.
+Dialogue: 0,0:05:33.53,0:05:33.94,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,{\3c&H272419&\fad(396,1)}Extra Skill
+Dialogue: 0,0:05:33.94,0:05:35.11,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,{\3c&H272419&}Extra Skill\N{\fs24}Sage
+Dialogue: 0,0:05:35.11,0:05:35.86,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,{\3c&H272419&}Extra Skill\N{\fs24}Sage\N{\fs18}Acquired
+Dialogue: 0,0:05:36.07,0:05:39.99,Italics_Top,Great Sage,0000,0000,0000,,Continuing, Sage will transform \Ninto the unique skill Great Sage.
+Dialogue: 0,0:05:36.78,0:05:38.57,sign_4961_43_It_hurts,Text,0000,0000,0000,,{\fad(567,1)}Sage will transform into \Nthe unique skill Great Sage
+Dialogue: 0,0:05:38.57,0:05:39.95,sign_8118_119_Sage_will_transf,Text,0000,0000,0000,,Sage will transform into \Nthe unique skill Great Sage
+Dialogue: 0,0:05:40.16,0:05:40.41,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,{\fad(231,1)}Unique Skill
+Dialogue: 0,0:05:40.41,0:05:41.37,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,Unique Skill\N{\fs24}Great Sage
+Dialogue: 0,0:05:41.13,0:05:42.60,Italics_Top,Great Sage,0000,0000,0000,,Successful.
+Dialogue: 0,0:05:41.37,0:05:42.87,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,Unique Skill\N{\fs24}Great Sage\N{\fs18}Successful
+Dialogue: 0,0:05:43.25,0:05:44.99,Italics,Mikami,0000,0000,0000,,Oh, shut up...
+Dialogue: 0,0:05:45.61,0:05:50.63,Italics,Mikami,0000,0000,0000,,Just let me... have some... quiet time...
+Dialogue: 0,0:05:53.61,0:05:54.73,Main,Tamura,0000,0000,0000,,Senpai...
+Dialogue: 0,0:05:55.09,0:05:57.05,Main,Tamura,0000,0000,0000,,Senpai!
+Dialogue: 0,0:06:02.12,0:06:04.35,Italics_Top,Mikami,0000,0000,0000,,I can't see anything.
+Dialogue: 0,0:06:04.89,0:06:09.52,sign_8749_130_Episode_1__The_S,Title,0000,0000,0000,,{\fad(1360,1017)}Episode 1: The Storm Dragon, Verudora
+Dialogue: 0,0:06:05.09,0:06:07.00,Italics_Top,Mikami,0000,0000,0000,,Where am I?
+Dialogue: 0,0:06:07.49,0:06:09.64,Italics_Top,Mikami,0000,0000,0000,,And... what happened?
+Dialogue: 0,0:06:10.23,0:06:14.88,Italics,Mikami,0000,0000,0000,,I feel like someone was teasing me \Nabout being a sage, or a great sage...
+Dialogue: 0,0:06:15.64,0:06:17.90,Italics,Mikami,0000,0000,0000,,That's right... I was stabbed and...
+Dialogue: 0,0:06:18.86,0:06:21.50,Italics,Mikami,0000,0000,0000,,Okay, I remember. It's all right.
+Dialogue: 0,0:06:21.50,0:06:23.33,Italics,Mikami,0000,0000,0000,,This isn't the time to panic yet.
+Dialogue: 0,0:06:24.00,0:06:29.79,Italics,Mikami,0000,0000,0000,,The only time I ever lost my cool was \Nwhen I crapped my pants in grade school.
+Dialogue: 0,0:06:30.42,0:06:33.84,Italics,Mikami,0000,0000,0000,,Okay, so... I was stabbed, and then...
+Dialogue: 0,0:06:36.06,0:06:38.76,Italics,Mikami,0000,0000,0000,,I don't... hurt anywhere.
+Dialogue: 0,0:06:39.52,0:06:40.84,Italics,Mikami,0000,0000,0000,,I'm not cold.
+Dialogue: 0,0:06:41.98,0:06:44.34,Italics,Mikami,0000,0000,0000,,My eyes... won't open?
+Dialogue: 0,0:06:44.86,0:06:46.39,Italics,Mikami,0000,0000,0000,,I can't see anything!
+Dialogue: 0,0:06:47.03,0:06:48.89,Italics,Mikami,0000,0000,0000,,My hands... my feet...
+Dialogue: 0,0:06:50.70,0:06:51.60,Italics,Mikami,0000,0000,0000,,I can't feel them.
+Dialogue: 0,0:06:52.97,0:06:54.03,Italics,Mikami,0000,0000,0000,,My body...
+Dialogue: 0,0:06:57.10,0:06:58.06,Italics,Mikami,0000,0000,0000,,I can move!
+Dialogue: 0,0:06:59.09,0:07:00.40,Italics,Mikami,0000,0000,0000,,So I have sensation.
+Dialogue: 0,0:07:01.97,0:07:04.91,Italics,Mikami,0000,0000,0000,,Are those... rocks?
+Dialogue: 0,0:07:04.91,0:07:06.41,sign_10188_148_Rock,Text,0000,0000,0000,,Rock
+Dialogue: 0,0:07:06.57,0:07:09.54,Italics,Mikami,0000,0000,0000,,Which would mean I'm not in the hospital...
+Dialogue: 0,0:07:10.22,0:07:11.95,Italics,Mikami,0000,0000,0000,,Then, where the hell am I?
+Dialogue: 0,0:07:14.42,0:07:15.44,Italics,Mikami,0000,0000,0000,,Is this...
+Dialogue: 0,0:07:16.06,0:07:17.67,Italics,Mikami,0000,0000,0000,,some kind of plant?
+Dialogue: 0,0:07:18.39,0:07:20.20,Italics,Mikami,0000,0000,0000,,Does my mouth work?
+Dialogue: 0,0:07:20.95,0:07:22.18,Italics,Mikami,0000,0000,0000,,My voice...
+Dialogue: 0,0:07:24.01,0:07:24.72,Italics,Mikami,0000,0000,0000,,Nope.
+Dialogue: 0,0:07:25.75,0:07:27.71,Italics,Mikami,0000,0000,0000,,Huh? It dissolved?
+Dialogue: 0,0:07:30.64,0:07:34.23,sign_10805_158_Plant,Text,0000,0000,0000,,{\fad(1404,1)}Plant
+Dialogue: 0,0:07:30.85,0:07:34.23,sign_10805_159_Intake,Text,0000,0000,0000,,{\fad(1111,1)}Intake
+Dialogue: 0,0:07:30.91,0:07:34.23,Italics,Mikami,0000,0000,0000,,It's permeating throughout my body...
+Dialogue: 0,0:07:30.93,0:07:34.23,sign_10812_160_Disappear,Text,0000,0000,0000,,{\fad(1350)}Disappear
+Dialogue: 0,0:07:31.56,0:07:34.23,sign_10805_161_Surge,Text,0000,0000,0000,,{\fad(693,1)}Surge
+Dialogue: 0,0:07:38.33,0:07:40.62,Italics,Mikami,0000,0000,0000,,What's happened to me?
+Dialogue: 0,0:07:41.33,0:07:42.82,Italics,Mikami,0000,0000,0000,,Something seems weird.
+Dialogue: 0,0:07:43.89,0:07:47.63,Italics,Mikami,0000,0000,0000,,Humans can't usually \Ndissolve plants, can they?
+Dialogue: 0,0:07:48.25,0:07:50.62,Italics,Mikami,0000,0000,0000,,Oh... Huh? Eh?
+Dialogue: 0,0:07:51.31,0:07:53.84,Italics,Mikami,0000,0000,0000,,Maybe I really did die...
+Dialogue: 0,0:07:54.35,0:07:56.56,Italics,Mikami,0000,0000,0000,,What happened to Tamura and Sawatari-san?
+Dialogue: 0,0:07:57.15,0:07:59.05,Italics,Mikami,0000,0000,0000,,Did he wipe my hard drive?
+Dialogue: 0,0:08:00.52,0:08:04.02,Italics,Mikami,0000,0000,0000,,Just... what the heck am I right now?
+Dialogue: 0,0:08:08.43,0:08:11.33,Main,Rimuru,0000,0000,0000,,Hey, I bounce. I seem \Nto have some elasticity.
+Dialogue: 0,0:08:12.07,0:08:14.39,Main,Rimuru,0000,0000,0000,,Let's see, my body's exterior is...
+Dialogue: 0,0:08:15.33,0:08:16.65,Italics,Rimuru,0000,0000,0000,,Uh-huh.
+Dialogue: 0,0:08:17.61,0:08:19.15,Italics,Rimuru,0000,0000,0000,,I see, I see.
+Dialogue: 0,0:08:20.61,0:08:22.74,Italics,Rimuru,0000,0000,0000,,How can this be?!
+Dialogue: 0,0:08:22.74,0:08:26.00,Italics,Rimuru,0000,0000,0000,,I was such a hot, \Nmanly man (self-proclaimed),
+Dialogue: 0,0:08:23.65,0:08:26.45,sign_12076_176_Manly,Text,0000,0000,0000,,{\fad(822,1)}Manly
+Dialogue: 0,0:08:24.95,0:08:26.45,sign_12107_177__Self_proclaimed,Text,0000,0000,0000,,{\be1}(Self-proclaimed)
+Dialogue: 0,0:08:26.00,0:08:29.20,Italics,Rimuru,0000,0000,0000,,but now I've taken on this \Nrefined, streamlined form!
+Dialogue: 0,0:08:29.20,0:08:32.93,Main,Rimuru,0000,0000,0000,,Yeah, right, idiot! \NLike hell I can accept that!
+Dialogue: 0,0:08:33.63,0:08:36.25,Main,Rimuru,0000,0000,0000,,But... I am a slime, aren't I?
+Dialogue: 0,0:08:36.25,0:08:38.71,Main,Rimuru,0000,0000,0000,,Yeah. I'm not human.
+Dialogue: 0,0:08:39.91,0:08:44.18,Main,Rimuru,0000,0000,0000,,It seems like I got stabbed, \Ndied, and reincarnated...
+Dialogue: 0,0:08:44.81,0:08:46.30,Main,Rimuru,0000,0000,0000,,as a slime.
+Dialogue: 0,0:08:48.44,0:08:51.40,Main,Rimuru,0000,0000,0000,,I think it's been a fairly \Nlong time since then.
+Dialogue: 0,0:08:53.53,0:08:56.83,Main,Rimuru,0000,0000,0000,,Surprisingly, it turns out \Nthis body is pretty handy.
+Dialogue: 0,0:08:56.83,0:09:00.15,Main,Rimuru,0000,0000,0000,,I don't even need to eat or sleep.
+Dialogue: 0,0:09:03.05,0:09:05.71,Main,Rimuru,0000,0000,0000,,So why do I eat plants, you ask?
+Dialogue: 0,0:09:05.71,0:09:07.99,Main,Rimuru,0000,0000,0000,,Because I have nothing else to do!
+Dialogue: 0,0:09:08.68,0:09:11.99,Main,Rimuru,0000,0000,0000,,There's no point, but I don't feel \Nright if I'm not doing something.
+Dialogue: 0,0:09:12.27,0:09:15.00,Main,Rimuru,0000,0000,0000,,Wait... Who am I even talking to?
+Dialogue: 0,0:09:15.29,0:09:18.99,Main,Rimuru,0000,0000,0000,,Anyway, I wonder where \Nthis stuff I eat is going.
+Dialogue: 0,0:09:18.99,0:09:20.36,Main,Rimuru,0000,0000,0000,,I haven't pooped or...
+Dialogue: 0,0:09:20.36,0:09:20.84,Italics_Top,Great Sage,0000,0000,0000,,Answer.
+Dialogue: 0,0:09:21.95,0:09:25.51,Italics_Top,Great Sage,0000,0000,0000,,It is stored in the stomach\Nof your unique skill, Predator.
+Dialogue: 0,0:09:25.51,0:09:28.92,Main,Rimuru,0000,0000,0000,,Th-That voice... I heard \Nit when I was stabbed, too!
+Dialogue: 0,0:09:28.92,0:09:30.01,Main,Rimuru,0000,0000,0000,,Wh-Who are you?
+Dialogue: 0,0:09:30.80,0:09:31.64,Italics_Top,Great Sage,0000,0000,0000,,Answer.
+Dialogue: 0,0:09:31.64,0:09:34.47,Italics_Top,Great Sage,0000,0000,0000,,It is the effect of your \Nunique skill, Great Sage.
+Dialogue: 0,0:09:32.06,0:09:34.35,sign_1407_3_Tokyo__Present_D,Text,0000,0000,0000,,Unique Skill \NGreat Sage \NIn Effect
+Dialogue: 0,0:09:34.47,0:09:36.17,Italics_Top,Great Sage,0000,0000,0000,,Now that your ability is established,
+Dialogue: 0,0:09:35.06,0:09:36.39,sign_1407_3_Tokyo__Present_D,Text,0000,0000,0000,,Ability \NEstablished
+Dialogue: 0,0:09:36.17,0:09:39.31,Italics_Top,Great Sage,0000,0000,0000,,you are capable of reacting more quickly.
+Dialogue: 0,0:09:36.39,0:09:38.48,sign_1407_3_Tokyo__Present_D,Text,0000,0000,0000,,Reaction Speed \NUp
+Dialogue: 0,0:09:39.31,0:09:40.98,Main,Rimuru,0000,0000,0000,,Great Sage...
+Dialogue: 0,0:09:40.98,0:09:43.92,Main,Rimuru,0000,0000,0000,,So, um, does "skill" mean my abilities?
+Dialogue: 0,0:09:43.92,0:09:45.57,Main,Rimuru,0000,0000,0000,,What is "Predator"?
+Dialogue: 0,0:09:45.73,0:09:49.07,Italics_Top,Great Sage,0000,0000,0000,,It allows you to ingest objects \Nand analyze them within your body.
+Dialogue: 0,0:09:47.24,0:09:49.07,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,{\fad(607,1)}Unique Skill\N{\fs24\an5\bord4}Predator
+Dialogue: 0,0:09:49.45,0:09:55.08,sign_14133_210_Mimicry_Skill,Text,0000,0000,0000,,{\fad(750,3500)}Mimicry Skill
+Dialogue: 0,0:09:49.51,0:09:52.34,Italics_Top,Great Sage,0000,0000,0000,,You can then acquire that object's skills.
+Dialogue: 0,0:09:50.57,0:09:55.08,absorb,Text,0000,0000,0000,,{\fad(750,3500)}Absorb Into Body
+Dialogue: 0,0:09:51.07,0:09:55.08,sign_14133_210_Mimicry_Skill,Text,0000,0000,0000,,{\fad(750,2500)}Analyze
+Dialogue: 0,0:09:52.08,0:09:55.08,absorb,Text,0000,0000,0000,,{\fad(750,1800)}Parallel
+Dialogue: 0,0:09:52.34,0:09:55.08,Italics_Top,Great Sage,0000,0000,0000,,Once the analysis is complete, you \Ncan mimic the object, as well.
+Dialogue: 0,0:09:55.24,0:09:56.25,Main,Rimuru,0000,0000,0000,,Oh!
+Dialogue: 0,0:09:56.25,0:09:58.69,Italics_Top,Great Sage,0000,0000,0000,,The stomach stores the objects you ingest.
+Dialogue: 0,0:09:58.69,0:10:02.68,Italics_Top,Great Sage,0000,0000,0000,,It can also isolate harmful \Nobjects that cannot be analyzed.
+Dialogue: 0,0:10:03.78,0:10:06.89,Main,Rimuru,0000,0000,0000,,Th-This "Predator" seems like \Na pretty amazing ability.
+Dialogue: 0,0:10:06.89,0:10:09.37,Main,Rimuru,0000,0000,0000,,Is it really something a slime should have?
+Dialogue: 0,0:10:09.76,0:10:11.80,Main,Rimuru,0000,0000,0000,,But, hey, since I do have it...
+Dialogue: 0,0:10:11.80,0:10:14.51,Main,Rimuru,0000,0000,0000,,As a test, can you analyze the plants I ate?
+Dialogue: 0,0:10:16.96,0:10:19.09,Italics_Top,Great Sage,0000,0000,0000,,Analysis complete.
+Dialogue: 0,0:10:19.09,0:10:20.60,Italics_Top,Great Sage,0000,0000,0000,,Hipokute herbs.
+Dialogue: 0,0:10:19.35,0:10:26.78,sign_14850_224_Hipokute_Herbs,Text,0000,0000,0000,,{\fad(445,1)}Hipokute Herbs
+Dialogue: 0,0:10:20.60,0:10:24.33,Italics_Top,Great Sage,0000,0000,0000,,A valuable herb that only grows \Nin areas rich in magicules.
+Dialogue: 0,0:10:20.77,0:10:26.78,sign_14884_226_A_valuable_herb_,Text,0000,0000,0000,,{\fad(1278,1)}A valuable herb that only grows \Nin areas rich in magicules,\Nused in healing potions.
+Dialogue: 0,0:10:24.33,0:10:26.78,Italics_Top,Great Sage,0000,0000,0000,,Used as an ingredient in \Nsalves and healing potions.
+Dialogue: 0,0:10:27.21,0:10:28.03,Main,Rimuru,0000,0000,0000,,Magicules?
+Dialogue: 0,0:10:27.40,0:10:28.03,sign_15043_228_Magicules,Text,0000,0000,0000,,Magicules
+Dialogue: 0,0:10:28.33,0:10:29.35,Italics_Top,Great Sage,0000,0000,0000,,Magicules.
+Dialogue: 0,0:10:28.53,0:10:31.41,sign_15070_232_Magicules_A_spec,Text,0000,0000,0000,,{\fad(358,1)}Magicules
+Dialogue: 0,0:10:29.35,0:10:31.45,Italics_Top,Great Sage,0000,0000,0000,,A special energetic material found in all—
+Dialogue: 0,0:10:29.53,0:10:31.41,sign_15070_232_Magicules_A_spec,Text,0000,0000,0000,,{\fad(1527,1)}A special energetic material found in all...
+Dialogue: 0,0:10:32.32,0:10:34.16,Main,Rimuru,0000,0000,0000,,Explain it so I can understand!
+Dialogue: 0,0:10:35.66,0:10:39.46,sign_15241_235_Magical_Beings,Text,0000,0000,0000,,Magical Beings
+Dialogue: 0,0:10:35.66,0:10:39.46,sign_15241_236_Magicules,Text,0000,0000,0000,,Magicules
+Dialogue: 0,0:10:35.66,0:10:39.46,sign_15241_237_Magicules,Text,0000,0000,0000,,Magicules
+Dialogue: 0,0:10:35.66,0:10:39.46,sign_15241_238_Magicules,Text,0000,0000,0000,,Magicules
+Dialogue: 0,0:10:35.66,0:10:39.46,sign_15241_239_Magicules,Text,0000,0000,0000,,Magicules
+Dialogue: 0,0:10:35.66,0:10:39.46,sign_15241_240_Magicules,Text,0000,0000,0000,,Magicules
+Dialogue: 0,0:10:35.66,0:10:39.46,sign_15241_241_Magicules,Text,0000,0000,0000,,Magicules
+Dialogue: 0,0:10:36.24,0:10:39.46,Italics_Top,Great Sage,0000,0000,0000,,They are the building blocks \Nof life in all magical beings.
+Dialogue: 0,0:10:39.75,0:10:41.22,Main,Rimuru,0000,0000,0000,,Building blocks of life?
+Dialogue: 0,0:10:41.22,0:10:44.21,Main,Rimuru,0000,0000,0000,,I get it. This cave must \Nbe full of that stuff,
+Dialogue: 0,0:10:44.21,0:10:47.36,Main,Rimuru,0000,0000,0000,,which is why all these valuable \Nherbs grow here, right?
+Dialogue: 0,0:10:47.77,0:10:50.43,Main,Rimuru,0000,0000,0000,,So I can analyze these hipokute herbs
+Dialogue: 0,0:10:50.85,0:10:52.65,Main,Rimuru,0000,0000,0000,,and store them in my stomach.
+Dialogue: 0,0:10:52.65,0:10:56.68,Main,Rimuru,0000,0000,0000,,Does that mean I can create and \Nstore salves and healing potions
+Dialogue: 0,0:10:56.68,0:10:58.46,Main,Rimuru,0000,0000,0000,,within my own body?
+Dialogue: 0,0:10:58.43,0:11:00.39,sign_15787_250_Affirmative,Text,0000,0000,0000,,{\fad(238,346)}Affirmative
+Dialogue: 0,0:10:58.46,0:10:59.78,Italics_Top,Great Sage,0000,0000,0000,,Precisely.
+Dialogue: 0,0:10:59.78,0:11:01.03,Main,Rimuru,0000,0000,0000,,I see!
+Dialogue: 0,0:11:01.03,0:11:02.19,Main,Rimuru,0000,0000,0000,,Okay, then...
+Dialogue: 0,0:11:02.91,0:11:06.19,Main,Rimuru,0000,0000,0000,,So I gobbled up all the \Nhipokute herbs in this cave
+Dialogue: 0,0:11:06.81,0:11:11.11,Main,Rimuru,0000,0000,0000,,and immediately turned them into \Npotions in my stomach along the way.
+Dialogue: 0,0:11:08.53,0:11:16.20,sign_16029_256_Potion,Text,0000,0000,0000,,Potion
+Dialogue: 0,0:11:11.11,0:11:13.16,Main,Rimuru,0000,0000,0000,,They could come in handy \Nif I'm ever in trouble...
+Dialogue: 0,0:11:13.16,0:11:16.20,Main,Rimuru,0000,0000,0000,,but mostly, I just have nothing else to do.
+Dialogue: 0,0:11:19.02,0:11:23.31,Main,Rimuru,0000,0000,0000,,If all those plants are actually some \Nvaluable herb you call hipokute herbs,
+Dialogue: 0,0:11:23.31,0:11:25.38,Main,Rimuru,0000,0000,0000,,does that mean this rock \Nis worth something, too?
+Dialogue: 0,0:11:25.99,0:11:27.15,Italics_Top,Great Sage,0000,0000,0000,,Magistone ore.
+Dialogue: 0,0:11:27.05,0:11:34.89,sign_16473_262_Magistone_Ore,Text,0000,0000,0000,,{\fad(438,1)}Magistone\NOre
+Dialogue: 0,0:11:27.15,0:11:29.72,Italics_Top,Great Sage,0000,0000,0000,,Minerals that spend long periods \Nof time in magicule-rich areas
+Dialogue: 0,0:11:29.72,0:11:33.17,Italics_Top,Great Sage,0000,0000,0000,,take in magicules until \Nthey become magistone ore.
+Dialogue: 0,0:11:33.17,0:11:34.89,Italics_Top,Great Sage,0000,0000,0000,,It is very valuable.
+Dialogue: 0,0:11:34.89,0:11:36.64,Main,Rimuru,0000,0000,0000,,Really?! Okay, then!
+Dialogue: 0,0:11:39.39,0:11:41.74,Main,Rimuru,0000,0000,0000,,Magistone ore's pretty awesome, too!
+Dialogue: 0,0:11:45.24,0:11:47.71,Main,Rimuru,0000,0000,0000,,So I gobbled up all the \Nmagistone ore in the cave.
+Dialogue: 0,0:11:48.02,0:11:49.70,Main,Rimuru,0000,0000,0000,,And there's a ton of it!
+Dialogue: 0,0:11:49.99,0:11:53.29,Main,Rimuru,0000,0000,0000,,It's an all-you-can-eat buffet!
+Dialogue: 0,0:12:00.77,0:12:05.66,Main,Rimuru,0000,0000,0000,,Um... Did I just... fall in water?
+Dialogue: 0,0:12:06.06,0:12:07.21,Main,Rimuru,0000,0000,0000,,A lake?
+Dialogue: 0,0:12:07.98,0:12:10.29,Main,Rimuru,0000,0000,0000,,So slimes don't float?
+Dialogue: 0,0:12:10.83,0:12:13.22,Main,Rimuru,0000,0000,0000,,Am I really gonna die this time?
+Dialogue: 0,0:12:13.73,0:12:15.27,Main,Rimuru,0000,0000,0000,,I don't feel like I'm suffocating.
+Dialogue: 0,0:12:15.79,0:12:18.80,Main,Rimuru,0000,0000,0000,,Wait, was I even breathing to begin with?
+Dialogue: 0,0:12:19.18,0:12:20.66,Main,Rimuru,0000,0000,0000,,I guess I wasn't...
+Dialogue: 0,0:12:21.46,0:12:23.38,Main,Rimuru,0000,0000,0000,,But what do I do now?
+Dialogue: 0,0:12:23.77,0:12:25.18,Main,Rimuru,0000,0000,0000,,This looks bad.
+Dialogue: 0,0:12:25.98,0:12:26.77,Main,Rimuru,0000,0000,0000,,I know!
+Dialogue: 0,0:12:27.34,0:12:29.65,Main,Rimuru,0000,0000,0000,,I'll just ingest some water and...
+Dialogue: 0,0:12:31.74,0:12:32.82,Main,Rimuru,0000,0000,0000,,Okay!
+Dialogue: 0,0:12:32.82,0:12:35.94,Italics_Top,Great Sage,0000,0000,0000,,Skill: Water Pressure Propulsion acquired.
+Dialogue: 0,0:12:32.86,0:12:36.16,sign_18051_283_____Water_Pressu,Text,0000,0000,0000,,— Water Pressure Propulsion —\N{\fs14}
+Dialogue: 0,0:12:38.66,0:12:40.41,Main,Rimuru,0000,0000,0000,,W-Wait... I'm going a little too fast!
+Dialogue: 0,0:12:47.71,0:12:51.05,Main,Rimuru,0000,0000,0000,,I'm pretty sure I hit that wall, \Nbut I don't feel any pain.
+Dialogue: 0,0:12:51.55,0:12:52.11,Italics_Top,Great Sage,0000,0000,0000,,Answer.
+Dialogue: 0,0:12:52.46,0:12:52.96,sign_18521_288_Pain_Nullificati,Text,0000,0000,0000,,Pain Nullification
+Dialogue: 0,0:12:52.46,0:12:54.48,Italics_Top,Great Sage,0000,0000,0000,,Because you have acquired Pain Nullification,
+Dialogue: 0,0:12:52.96,0:12:56.55,sign_18533_289_Pain_Nullificati,Text,0000,0000,0000,,Pain Nullification
+Dialogue: 0,0:12:54.48,0:12:56.31,Italics_Top,Great Sage,0000,0000,0000,,you will not feel pain.
+Dialogue: 0,0:12:56.31,0:12:59.06,Italics_Top,Great Sage,0000,0000,0000,,The physical damage you have taken is 10%.
+Dialogue: 0,0:12:57.05,0:12:58.30,sign_18631_292_Notice_Physical_,Text,0000,0000,0000,,{\fad(319,430)}Notice\N{\fs20}Physical Damage Taken \N10%
+Dialogue: 0,0:12:59.06,0:13:02.27,Italics_Top,Great Sage,0000,0000,0000,,Species skill Self-Regeneration \Nhas been activated.
+Dialogue: 0,0:12:59.30,0:13:02.27,sign_18685_294_Species_Skill_Se,Text,0000,0000,0000,,{\fad(822,1)}Species Skill\N{\fs22}Self-Regeneration\N{\fs18}Activated
+Dialogue: 0,0:13:02.41,0:13:05.36,Main,Rimuru,0000,0000,0000,,So I still take damage, \Neven though I don't feel pain?
+Dialogue: 0,0:13:09.62,0:13:13.38,Main,Rimuru,0000,0000,0000,,I repaired the part of me that took damage?
+Dialogue: 0,0:13:13.38,0:13:15.66,Main,Rimuru,0000,0000,0000,,This body really is convenient!
+Dialogue: 0,0:13:15.66,0:13:19.03,Main,Rimuru,0000,0000,0000,,But I guess I should be more careful.
+Dialogue: 0,0:13:19.19,0:13:22.94,Main,Verudora,0000,0000,0000,,Can you hear me, small one?
+Dialogue: 0,0:13:27.39,0:13:30.74,Main,Verudora,0000,0000,0000,,Can you hear me, small one?
+Dialogue: 0,0:13:31.33,0:13:33.75,Main,Verudora,0000,0000,0000,,Hey! I know you can hear me!
+Dialogue: 0,0:13:33.75,0:13:36.26,Main,Rimuru,0000,0000,0000,,Y-You're talking to me, aren't you?
+Dialogue: 0,0:13:36.50,0:13:38.39,Main,Verudora,0000,0000,0000,,Answer me.
+Dialogue: 0,0:13:38.64,0:13:39.98,Main,Rimuru,0000,0000,0000,,Easy for you to say!
+Dialogue: 0,0:13:39.98,0:13:42.35,Main,Rimuru,0000,0000,0000,,How am I supposed to talk \Nwhen I don't have a mouth?!
+Dialogue: 0,0:13:42.70,0:13:43.43,Main,Verudora,0000,0000,0000,,Hey!
+Dialogue: 0,0:13:43.60,0:13:45.60,Main,Rimuru,0000,0000,0000,,Just shut up already, baldy!
+Dialogue: 0,0:13:45.92,0:13:49.85,Main,Verudora,0000,0000,0000,,Oh? You called me a baldy, eh?
+Dialogue: 0,0:13:49.85,0:13:51.57,Main,Verudora,0000,0000,0000,,I see you have guts.
+Dialogue: 0,0:13:51.80,0:13:52.57,Main,Rimuru,0000,0000,0000,,Uh...
+Dialogue: 0,0:14:00.82,0:14:05.20,Main,Verudora,0000,0000,0000,,I was trying to be nice since I \Nhaven't had a visitor in so long,
+Dialogue: 0,0:14:05.20,0:14:07.58,Main,Verudora,0000,0000,0000,,but you seem to have a death wish.
+Dialogue: 0,0:14:07.58,0:14:09.17,Main,Rimuru,0000,0000,0000,,I'm sorry! I'm sorry!
+Dialogue: 0,0:14:09.17,0:14:11.30,Main,Rimuru,0000,0000,0000,,I had no idea you could hear my thoughts!
+Dialogue: 0,0:14:11.30,0:14:13.75,Main,Rimuru,0000,0000,0000,,I don't have a mouth or even eyes, you see...
+Dialogue: 0,0:14:20.44,0:14:23.60,Main,Verudora,0000,0000,0000,,It amazed me that you would say \Nsuch a thing after seeing me,
+Dialogue: 0,0:14:23.60,0:14:25.63,Main,Verudora,0000,0000,0000,,but it turns out you {\i1}can't{\i0} see me, eh?
+Dialogue: 0,0:14:25.63,0:14:28.52,Main,Verudora,0000,0000,0000,,All right. I will give you sight.
+Dialogue: 0,0:14:28.52,0:14:29.59,Main,Rimuru,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:29.97,0:14:32.97,Main,Verudora,0000,0000,0000,,However, there will be conditions.
+Dialogue: 0,0:14:32.97,0:14:34.02,Main,Verudora,0000,0000,0000,,What do you say?
+Dialogue: 0,0:14:34.34,0:14:36.17,Main,Rimuru,0000,0000,0000,,What sort of conditions?
+Dialogue: 0,0:14:36.17,0:14:37.67,Main,Verudora,0000,0000,0000,,It's simple.
+Dialogue: 0,0:14:37.67,0:14:41.65,Main,Verudora,0000,0000,0000,,You must not fear me when you \Nhave the ability to see me,
+Dialogue: 0,0:14:41.65,0:14:44.03,Main,Verudora,0000,0000,0000,,and you must come talk to me again.
+Dialogue: 0,0:14:44.45,0:14:45.86,Main,Verudora,0000,0000,0000,,That's all.
+Dialogue: 0,0:14:45.86,0:14:47.87,Main,Verudora,0000,0000,0000,,A good deal for you, is it not?
+Dialogue: 0,0:14:48.82,0:14:50.97,Main,Rimuru,0000,0000,0000,,That's all I have to do?
+Dialogue: 0,0:14:51.37,0:14:55.92,Main,Verudora,0000,0000,0000,,Yes. You see, I was sealed \Nhere 300 years ago.
+Dialogue: 0,0:14:56.35,0:15:00.89,Main,Verudora,0000,0000,0000,,Ever since then, I've had nothing \Nto do, and it's unbearably boring.
+Dialogue: 0,0:15:00.89,0:15:01.97,Main,Verudora,0000,0000,0000,,What do you say?
+Dialogue: 0,0:15:01.97,0:15:04.39,Main,Rimuru,0000,0000,0000,,I'm curious as to why you were sealed, but...
+Dialogue: 0,0:15:04.39,0:15:06.43,Main,Rimuru,0000,0000,0000,,Okay, I'll gladly do it!
+Dialogue: 0,0:15:06.65,0:15:09.83,Main,Verudora,0000,0000,0000,,Very well. There is a \Nskill called Magic Sense.
+Dialogue: 0,0:15:09.83,0:15:10.94,Main,Verudora,0000,0000,0000,,Can you use it?
+Dialogue: 0,0:15:10.94,0:15:12.69,Main,Rimuru,0000,0000,0000,,No, I can't.
+Dialogue: 0,0:15:12.89,0:15:15.44,Main,Verudora,0000,0000,0000,,It allows you to sense \Nthe magicules around you.
+Dialogue: 0,0:15:15.44,0:15:19.31,Main,Rimuru,0000,0000,0000,,If I can detect magicules, \NI'll be able to see?
+Dialogue: 0,0:15:19.31,0:15:21.44,Main,Rimuru,0000,0000,0000,,Okay, I guess I'll try it.
+Dialogue: 0,0:15:26.89,0:15:28.93,Main,Rimuru,0000,0000,0000,,Hey, there's something...
+Dialogue: 0,0:15:29.33,0:15:31.59,Main,Rimuru,0000,0000,0000,,Is this the stuff you call magicules?
+Dialogue: 0,0:15:34.13,0:15:37.01,Italics_Top,Great Sage,0000,0000,0000,,Extra skill: Magic Sense acquired.
+Dialogue: 0,0:15:34.63,0:15:35.17,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,{\fad(522,1)\c&HBFD8E0&}Extra Skill
+Dialogue: 0,0:15:35.17,0:15:36.17,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,{\c&HBFD8E0&}Extra Skill\N{\fs24}Magic Sense
+Dialogue: 0,0:15:36.17,0:15:38.88,sign_7648_110_Unique_Skill_Pre,Text,0000,0000,0000,,{\c&HBFD8E0&}Extra Skill\N{\fs24}Magic Sense\N{\fs18}Acquired
+Dialogue: 0,0:15:37.01,0:15:38.33,Main,Rimuru,0000,0000,0000,,That easily?!
+Dialogue: 0,0:15:38.33,0:15:39.92,Main,Rimuru,0000,0000,0000,,Also, "extra"?
+Dialogue: 0,0:15:38.88,0:15:39.92,sign_22511_349_Extra_,Text,0000,0000,0000,,{\fad(485,1)}Extra?
+Dialogue: 0,0:15:40.40,0:15:44.34,Italics_Top,Great Sage,0000,0000,0000,,Skills with power and efficiency magnitudes \Nhigher than those of normal skills.
+Dialogue: 0,0:15:41.01,0:15:44.34,sign_22562_351_Magic_Sense,Text,0000,0000,0000,,{\fad(1500,1)}Magic Sense
+Dialogue: 0,0:15:44.34,0:15:46.60,Main,Rimuru,0000,0000,0000,,Wow! "Extra" sounds awesome!
+Dialogue: 0,0:15:46.60,0:15:49.56,sign_22696_353_Would_you_like_t,Text,0000,0000,0000,,{\fad(1,561)}Would you like to use Magic Sense?
+Dialogue: 0,0:15:46.78,0:15:48.58,Italics_Top,Great Sage,0000,0000,0000,,Would you like to use Magic Sense?
+Dialogue: 0,0:15:48.58,0:15:49.64,Main,Rimuru,0000,0000,0000,,Yes!
+Dialogue: 0,0:15:57.11,0:15:58.02,Main,Rimuru,0000,0000,0000,,I can see!
+Dialogue: 0,0:15:58.02,0:15:59.07,Main,Rimuru,0000,0000,0000,,I can see!
+Dialogue: 0,0:15:59.07,0:16:00.69,Main,Rimuru,0000,0000,0000,,I can actually see!
+Dialogue: 0,0:16:00.69,0:16:02.50,Main,Rimuru,0000,0000,0000,,Oh, yeah!
+Dialogue: 0,0:16:06.01,0:16:08.92,Main,Rimuru,0000,0000,0000,,I really am a slime.
+Dialogue: 0,0:16:08.92,0:16:09.92,Main,Verudora,0000,0000,0000,,Well?
+Dialogue: 0,0:16:09.92,0:16:11.00,Main,Rimuru,0000,0000,0000,,Oh, right!
+Dialogue: 0,0:16:11.00,0:16:12.15,Main,Rimuru,0000,0000,0000,,I did it!
+Dialogue: 0,0:16:12.15,0:16:13.98,Main,Rimuru,0000,0000,0000,,Thanks so much!
+Dialogue: 0,0:16:16.22,0:16:19.79,Main,Rimuru,0000,0000,0000,,D-Dragon?!
+Dialogue: 0,0:16:30.85,0:16:33.55,Main,Verudora,0000,0000,0000,,Allow me to formally introduce myself.
+Dialogue: 0,0:16:33.77,0:16:35.65,Main,Rimuru,0000,0000,0000,,O-Okay...
+Dialogue: 0,0:16:35.81,0:16:38.60,Main,Verudora,0000,0000,0000,,I am the Storm Dragon, Verudora.
+Dialogue: 0,0:16:38.60,0:16:40.15,Main,Rimuru,0000,0000,0000,,Storm Dragon?
+Dialogue: 0,0:16:40.38,0:16:44.51,Main,Verudora,0000,0000,0000,,I am one of only four True Dragons \Nthat exist in this world.
+Dialogue: 0,0:16:51.33,0:16:53.79,Main,Verudora,0000,0000,0000,,Hey, you do remember our promise, don't you?
+Dialogue: 0,0:16:53.79,0:16:56.78,Main,Rimuru,0000,0000,0000,,O-Of course! I'm not scared at all!
+Dialogue: 0,0:16:56.78,0:16:58.81,Main,Rimuru,0000,0000,0000,,Well, I'll come to chat again sometime!
+Dialogue: 0,0:16:58.81,0:16:59.46,Main,Verudora,0000,0000,0000,,Hold it!
+Dialogue: 0,0:17:00.46,0:17:02.55,Main,Verudora,0000,0000,0000,,This is indeed unusual.
+Dialogue: 0,0:17:02.55,0:17:05.73,Main,Verudora,0000,0000,0000,,Slimes are normally low-ranked \Nmonsters that don't think,
+Dialogue: 0,0:17:05.73,0:17:07.84,Main,Verudora,0000,0000,0000,,but you have self-awareness.
+Dialogue: 0,0:17:08.03,0:17:09.22,Main,Verudora,0000,0000,0000,,Are you Unique?
+Dialogue: 0,0:17:09.22,0:17:11.21,Main,Rimuru,0000,0000,0000,,What does "Unique" mean?
+Dialogue: 0,0:17:11.21,0:17:14.04,Main,Verudora,0000,0000,0000,,It refers to a being with \Nextraordinary abilities.
+Dialogue: 0,0:17:14.04,0:17:16.23,Main,Rimuru,0000,0000,0000,,I'm not really sure.
+Dialogue: 0,0:17:16.59,0:17:19.85,Main,Rimuru,0000,0000,0000,,The thing is, I used to be a human,
+Dialogue: 0,0:17:19.85,0:17:23.71,Main,Rimuru,0000,0000,0000,,but I got stabbed and died, and next \Nthing I knew, I looked like this.
+Dialogue: 0,0:17:24.13,0:17:26.45,Main,Verudora,0000,0000,0000,,I see. You were reincarnated.
+Dialogue: 0,0:17:26.59,0:17:27.64,Main,Rimuru,0000,0000,0000,,Reincarnated...
+Dialogue: 0,0:17:28.02,0:17:31.12,Main,Rimuru,0000,0000,0000,,So I really was reborn as a slime...
+Dialogue: 0,0:17:31.58,0:17:34.87,Main,Verudora,0000,0000,0000,,You came into this world \Nin a very unusual way.
+Dialogue: 0,0:17:35.15,0:17:36.87,Main,Rimuru,0000,0000,0000,,Huh? Unusual?
+Dialogue: 0,0:17:37.07,0:17:39.98,Main,Verudora,0000,0000,0000,,There are occasionally those who \Ncome here from other worlds,
+Dialogue: 0,0:17:39.98,0:17:43.08,Main,Verudora,0000,0000,0000,,but you are the first I've known \Nof to be reincarnated here.
+Dialogue: 0,0:17:43.08,0:17:46.88,Main,Verudora,0000,0000,0000,,Most would be unable to withstand having \Nonly their soul traverse worlds.
+Dialogue: 0,0:17:47.19,0:17:48.10,Main,Rimuru,0000,0000,0000,,So you're saying
+Dialogue: 0,0:17:48.10,0:17:52.26,Main,Rimuru,0000,0000,0000,,there are people who came here from other \Nworlds, but not through reincarnation?
+Dialogue: 0,0:17:52.55,0:17:56.02,Main,Verudora,0000,0000,0000,,Indeed. We call them Otherworlders.
+Dialogue: 0,0:17:56.38,0:18:01.77,Main,Verudora,0000,0000,0000,,I've heard that they gain special abilities \Nwhen they cross into this world.
+Dialogue: 0,0:18:01.92,0:18:05.35,Main,Rimuru,0000,0000,0000,,I see... I guess that's \Nhow I got my skills, too.
+Dialogue: 0,0:18:05.92,0:18:08.45,Main,Rimuru,0000,0000,0000,,There might even be other \NJapanese people here...
+Dialogue: 0,0:18:08.88,0:18:12.28,Main,Rimuru,0000,0000,0000,,I think I'd like to try and find \Nsome of these Otherworlders.
+Dialogue: 0,0:18:12.56,0:18:15.13,Main,Verudora,0000,0000,0000,,What? You're leaving already?
+Dialogue: 0,0:18:15.13,0:18:16.77,Italics,Verudora,0000,0000,0000,,He's pouting!
+Dialogue: 0,0:18:17.24,0:18:20.36,Main,Rimuru,0000,0000,0000,,U-Um... Maybe I'll stay a little longer.
+Dialogue: 0,0:18:20.36,0:18:22.29,Main,Rimuru,0000,0000,0000,,It's not like I have anything to do...
+Dialogue: 0,0:18:22.43,0:18:25.42,Main,Verudora,0000,0000,0000,,Oh, good! Stay as long as you like!
+Dialogue: 0,0:18:27.48,0:18:32.05,Main,Rimuru,0000,0000,0000,,So, um, you said earlier that \Nyou were sealed here, right?
+Dialogue: 0,0:18:32.26,0:18:34.22,Main,Verudora,0000,0000,0000,,I'm glad you asked that!
+Dialogue: 0,0:18:36.38,0:18:37.95,Main,Verudora,0000,0000,0000,,It was 300 years ago...
+Dialogue: 0,0:18:39.88,0:18:42.94,Main,Verudora,0000,0000,0000,,I sort of turned a town into ashes by mistake.
+Dialogue: 0,0:18:42.94,0:18:44.67,Main,Rimuru,0000,0000,0000,,"Sort of"?
+Dialogue: 0,0:18:45.52,0:18:48.17,Main,Verudora,0000,0000,0000,,So someone came looking to slay me.
+Dialogue: 0,0:18:48.77,0:18:51.82,Main,Verudora,0000,0000,0000,,It's certainly true that I \Nunderestimated my opponent a bit.
+Dialogue: 0,0:18:52.06,0:18:55.08,Main,Verudora,0000,0000,0000,,I started putting my full strength \Ninto the battle partway through...
+Dialogue: 0,0:18:55.79,0:18:57.83,Main,Verudora,0000,0000,0000,,But I still lost!
+Dialogue: 0,0:18:58.22,0:19:00.64,Main,Rimuru,0000,0000,0000,,But you seem really strong.
+Dialogue: 0,0:19:00.64,0:19:03.08,Main,Rimuru,0000,0000,0000,,Was your opponent that powerful?
+Dialogue: 0,0:19:03.29,0:19:05.39,Main,Verudora,0000,0000,0000,,Yes, very powerful.
+Dialogue: 0,0:19:05.94,0:19:09.09,Main,Verudora,0000,0000,0000,,It was someone known to the humans as \Na hero blessed with divine protection.
+Dialogue: 0,0:19:10.47,0:19:14.15,Main,Rimuru,0000,0000,0000,,A human hero? Sounds like \Nsomething out of a video game.
+Dialogue: 0,0:19:14.51,0:19:18.21,Main,Verudora,0000,0000,0000,,{\an8}She overpowered me with her unique \Nskill, Absolute Severance,
+Dialogue: 0,0:19:15.43,0:19:17.10,sign_27703_419_____Absolute_Sev,Text,0000,0000,0000,,{\fad(317,1)}— Absolute Severance —
+Dialogue: 0,0:19:18.21,0:19:22.06,Main,Verudora,0000,0000,0000,,{\an8}and then she sealed me using \NUnlimited Imprisonment.
+Dialogue: 0,0:19:21.19,0:19:23.10,sign_27841_421_Unlimited_Impris,Text,0000,0000,0000,,{\fad(647,1)}Unlimited Imprisonment
+Dialogue: 0,0:19:24.07,0:19:26.86,Main,Rimuru,0000,0000,0000,,Is that shiny stuff her \NUnlimited Imprisonment?
+Dialogue: 0,0:19:27.31,0:19:28.25,Main,Verudora,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:28.63,0:19:32.45,Main,Verudora,0000,0000,0000,,The hero called herself a "Summon."
+Dialogue: 0,0:19:30.24,0:19:32.86,sign_28058_425_Summon,Text,0000,0000,0000,,Summon
+Dialogue: 0,0:19:32.86,0:19:34.50,Main,Rimuru,0000,0000,0000,,A Summon?
+Dialogue: 0,0:19:34.50,0:19:36.87,Main,Rimuru,0000,0000,0000,,Is that different from Otherworlders?
+Dialogue: 0,0:19:37.11,0:19:41.32,Main,Rimuru,0000,0000,0000,,It takes more than 30 mages to perform \Na ritual that lasts several days
+Dialogue: 0,0:19:41.32,0:19:43.12,Main,Rimuru,0000,0000,0000,,to bring one here from another world.
+Dialogue: 0,0:19:43.12,0:19:45.65,Main,Rimuru,0000,0000,0000,,Oh! So there are mages here!
+Dialogue: 0,0:19:45.65,0:19:47.38,Main,Rimuru,0000,0000,0000,,This sounds more and more like a game!
+Dialogue: 0,0:19:47.67,0:19:51.01,Main,Verudora,0000,0000,0000,,They're also expected to \Nserve as powerful weapons.
+Dialogue: 0,0:19:51.01,0:19:52.15,Main,Rimuru,0000,0000,0000,,Weapons?
+Dialogue: 0,0:19:52.15,0:19:54.12,Main,Verudora,0000,0000,0000,,Yes, for the Summoner.
+Dialogue: 0,0:19:54.12,0:19:56.95,Main,Verudora,0000,0000,0000,,Magic is used to carve a \Ncurse into the Summon's soul
+Dialogue: 0,0:19:56.95,0:19:59.64,Main,Verudora,0000,0000,0000,,to ensure that the Summon \Ncan't defy the Summoner.
+Dialogue: 0,0:19:59.81,0:20:02.64,Main,Rimuru,0000,0000,0000,,What the heck?! That's just cruel!
+Dialogue: 0,0:20:02.89,0:20:04.21,Main,Verudora,0000,0000,0000,,Cruel, eh?
+Dialogue: 0,0:20:04.63,0:20:06.77,Main,Verudora,0000,0000,0000,,I don't know what your world was like,
+Dialogue: 0,0:20:07.24,0:20:11.10,Main,Verudora,0000,0000,0000,,but survival of the fittest is the \Nprevailing truth in this world.
+Dialogue: 0,0:20:11.66,0:20:12.92,Main,Rimuru,0000,0000,0000,,I see...
+Dialogue: 0,0:20:13.79,0:20:17.91,Main,Rimuru,0000,0000,0000,,So you've been in here ever \Nsince that hero sealed you?
+Dialogue: 0,0:20:18.11,0:20:20.18,Main,Verudora,0000,0000,0000,,That's right.
+Dialogue: 0,0:20:20.18,0:20:22.67,Main,Verudora,0000,0000,0000,,I'm so very bored...
+Dialogue: 0,0:20:23.21,0:20:28.58,Main,Rimuru,0000,0000,0000,,I felt pretty damn lonely just because \NI never had a girlfriend in 37 years...
+Dialogue: 0,0:20:28.58,0:20:31.66,Main,Rimuru,0000,0000,0000,,I can't imagine being all alone for 300 years.
+Dialogue: 0,0:20:32.26,0:20:33.09,Main,Rimuru,0000,0000,0000,,Okay!
+Dialogue: 0,0:20:33.22,0:20:35.59,Main,Rimuru,0000,0000,0000,,Why don't you and I be friends?
+Dialogue: 0,0:20:36.54,0:20:42.19,Main,Verudora,0000,0000,0000,,What?! A mere slime proposes friendship \Nwith me, the feared Storm Dragon?!
+Dialogue: 0,0:20:42.19,0:20:44.35,Main,Rimuru,0000,0000,0000,,I-If you don't want to, I understand...
+Dialogue: 0,0:20:44.56,0:20:48.11,Main,Verudora,0000,0000,0000,,F-Fool! No one said I didn't want to!
+Dialogue: 0,0:20:48.25,0:20:51.11,Main,Rimuru,0000,0000,0000,,Uh, really? Then... what do you say?
+Dialogue: 0,0:20:51.11,0:20:54.65,Main,Verudora,0000,0000,0000,,Yes, well... if you insist...
+Dialogue: 0,0:20:55.18,0:20:57.70,Main,Verudora,0000,0000,0000,,I guess I'm willing to think about it.
+Dialogue: 0,0:20:57.70,0:20:58.91,Italics,Rimuru,0000,0000,0000,,Are you some tsundere?!
+Dialogue: 0,0:20:58.91,0:21:02.01,Main,Rimuru,0000,0000,0000,,Yes, I insist! So that settles it!
+Dialogue: 0,0:21:02.01,0:21:04.16,Main,Rimuru,0000,0000,0000,,If you refuse, we're through. \NI'll never come here again!
+Dialogue: 0,0:21:04.34,0:21:08.71,Main,Verudora,0000,0000,0000,,W-Well, all right. I'll be your friend. \NYou'd better be grateful!
+Dialogue: 0,0:21:09.00,0:21:10.87,Main,Rimuru,0000,0000,0000,,Just can't be honest, can you?
+Dialogue: 0,0:21:10.87,0:21:12.21,Main,Rimuru,0000,0000,0000,,Well, glad to know ya!
+Dialogue: 0,0:21:12.46,0:21:14.04,Main,Verudora,0000,0000,0000,,I-Indeed.
+Dialogue: 0,0:21:15.82,0:21:20.13,Main,Rimuru,0000,0000,0000,,It's a little embarrassing talking \Nabout "friends" at my age...
+Dialogue: 0,0:21:21.34,0:21:24.85,Main,Rimuru,0000,0000,0000,,But that's the story of \Nhow I got stabbed, died,
+Dialogue: 0,0:21:24.85,0:21:26.61,Main,Rimuru,0000,0000,0000,,reincarnated as a slime,
+Dialogue: 0,0:21:26.61,0:21:29.30,Main,Rimuru,0000,0000,0000,,and became friends with \Nthe Storm Dragon Verudora.
+Dialogue: 0,0:21:29.78,0:21:34.39,Main,Rimuru,0000,0000,0000,,My totally normal, \Nuneventful life... is no more.
+Dialogue: 0,0:21:34.86,0:21:36.63,Main,Rimuru,0000,0000,0000,,How could this have happened?
+Dialogue: 0,0:21:36.63,0:21:38.90,Main,Rimuru,0000,0000,0000,,I never dreamed a life like \Nthis was waiting for me!
+Dialogue: 0,0:21:39.37,0:21:41.49,Main,Rimuru,0000,0000,0000,,Or should I call it a "slife"?
+Dialogue: 0,0:21:42.30,0:21:45.77,Main,Rimuru,0000,0000,0000,,I wonder if Tamura wiped \Nmy hard drive for me...
+Dialogue: 0,0:21:45.77,0:21:48.57,Main,Rimuru,0000,0000,0000,,I hope he didn't look at it first.
+Dialogue: 0,0:21:52.00,0:21:56.01,sign_31457_472___Never_attempt_,Text,0000,0000,0000,,* Never attempt this.
+Dialogue: 0,0:21:56.75,0:21:59.83,Main,Tamura,0000,0000,0000,,Rest in peace, Senpai.
+Dialogue: 0,0:22:00.26,0:22:04.40,Main,Tamura,0000,0000,0000,,If I ever have a son, I'll name him Satoru.
+Dialogue: 0,0:23:36.91,0:23:39.83,Italics_Top,Great Sage,0000,0000,0000,,Next time, "Meeting the Goblins."
+Dialogue: 0,0:23:37.11,0:23:41.03,sign_33977_476_Meeting_the_Gobl,Title,0000,0000,0000,,{\fad(900,1)}Meeting the{\bord0} {\c&HD9E7E7&\u1}Goblins
+

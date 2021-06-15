@@ -1,0 +1,455 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Show_Title,Open Sans Semibold,36,&H00CD9612,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Show_Title_Border,Open Sans Semibold,36,&HFFCD9612,&H000000FF,&H00FEFEFE,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,0,0,0,0,100,100,0,0,1,1,1,3,13,60,67,1
+Style: Next_Ep_Title,Open Sans Semibold,39,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,13,13,147,1
+Style: sign_2170_2_The_Ameldo_River,Open Sans Semibold,30,&H00000000,&H000000FF,&H0093D2DC,&H3C000000,1,0,0,0,100,100,0,0,3,4,2,2,13,13,133,1
+Style: sign_7912_68_The_Armed_Nation,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,1,1,2,280,291,133,1
+Style: sign_11730_124_Huh_,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,1,1,7,224,520,40,1
+Style: sign_12179_133_Companions_C_D_E,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,3,4,0,2,13,13,100,1
+Style: sign_16480_202_Mimic_Black_Serp,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,263,263,140,1
+Style: sign_12957_147_____Menace____,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,2,1,2,13,13,120,1
+Style: sign_13484_151_Report,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,2,1,8,13,13,67,1
+Style: sign_14368_169_Captain_of_Secur,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,2,1,2,305,305,140,1
+Style: sign_17217_216_Rather__Punishin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,2,1,8,233,233,93,1
+Style: sign_20062_254_Weaponsmith__Kai,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,2,1,8,316,316,27,1
+Style: sign_20492_259_Three_Dwarf_Brot,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,2,1,2,320,301,184,1
+Style: sign_20492_260_Middle_Brother_D,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,2,1,2,128,563,173,1
+Style: sign_20492_261_Oldest_Brother_G,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,2,1,2,600,99,173,1
+Style: sign_21977_282_Minister_Vesta,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H28000000,&H28000000,1,0,0,0,100,100,0,0,1,1,1,2,124,520,108,1
+Style: sign_23571_303_Magistone_Ore,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,3,4,0,2,13,13,221,1
+Style: sign_23622_305_Magistone_Ore,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,3,4,0,2,485,195,247,1
+Style: sign_24657_317_Magistone_Cluste,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,1,0,0,0,100,100,0,0,1,2,1,2,291,284,120,1
+Style: sign_28087_366_Producing_Copy,Open Sans Semibold,45,&H00000000,&H000000FF,&H00D8E6E6,&H64000000,1,0,0,0,100,100,0,0,1,3,0,5,268,268,0,1
+Style: sign_29602_385_Butterflies_of_t,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,1,2,349,365,152,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:12.20,0:00:16.08,Show_Title,Title,0000,0000,0000,,{\fad(1614,389)}That {\c&H471E13&}Time {\c&HCD9612&}I Got {\c&H471E13&}Reincarnated {\c&HCD9612&}as a {\c&H7E4F0A&}Slime
+Dialogue: 0,0:01:30.49,0:01:34.50,sign_2170_2_The_Ameldo_River,Text,0000,0000,0000,,{\fad(527,1)\clip(m 226 230 l 426 230 425 270 238 270)}\h\h\h\hThe Ameld River\h\h\h\h
+Dialogue: 0,0:01:34.95,0:01:39.17,Ep_Title,Title,0000,0000,0000,,{\fad(1239,1)}Episode 4: In the Kingdom of the Dwarves
+Dialogue: 0,0:01:39.68,0:01:43.47,Italics,Na,0000,0000,0000,,Rimuru and his friends follow \Nthe Ameld River north
+Dialogue: 0,0:01:43.93,0:01:47.84,Italics,Na,0000,0000,0000,,in search of artisans who can make \Nclothing and houses for the Goblins.
+Dialogue: 0,0:01:47.84,0:01:50.68,Italics,Na,0000,0000,0000,,They're heading to Dwargon, \Nthe Kingdom of the Dwarves.
+Dialogue: 0,0:01:51.52,0:01:53.93,Italics,Na,0000,0000,0000,,He's accompanied by Rigur \Nand two other Goblins,
+Dialogue: 0,0:01:53.93,0:01:58.44,Italics,Na,0000,0000,0000,,and Gobta, who says he's been to \NDwargon before, is their guide.
+Dialogue: 0,0:02:01.64,0:02:04.41,Italics,Na,0000,0000,0000,,The Tempest Wolves that \Nevolved from the Direwolves
+Dialogue: 0,0:02:04.41,0:02:07.63,Italics,Na,0000,0000,0000,,run as fast as the wind.
+Dialogue: 0,0:02:08.76,0:02:11.20,Main,Rimuru,0000,0000,0000,,Hey, no need to push yourself too hard.
+Dialogue: 0,0:02:11.37,0:02:12.20,Main,Ranga,0000,0000,0000,,Yes, Master!
+Dialogue: 0,0:02:14.70,0:02:17.26,Main,Rimuru,0000,0000,0000,,Why are you going even faster?!
+Dialogue: 0,0:02:24.88,0:02:28.61,Main,Rimuru,0000,0000,0000,,Rigur-kun, who gave your brother his name?
+Dialogue: 0,0:02:28.61,0:02:33.43,Main,Rigur,0000,0000,0000,,Sir! I'm told he received his name from \Na passing Demon called Lord Gelmud.
+Dialogue: 0,0:02:33.43,0:02:35.12,Main,Rigur,0000,0000,0000,,He saw promise in him.
+Dialogue: 0,0:02:35.56,0:02:36.77,Main,Rimuru,0000,0000,0000,,Gel...?
+Dialogue: 0,0:02:37.04,0:02:39.85,Main,Rigur,0000,0000,0000,,Gelmud. He's an officer \Nin the Demon Lord's army.
+Dialogue: 0,0:02:40.14,0:02:41.45,Main,Rimuru,0000,0000,0000,,Oh...
+Dialogue: 0,0:02:41.45,0:02:43.10,Italics,Rimuru,0000,0000,0000,,Wait, Demon Lord's army?!
+Dialogue: 0,0:02:43.10,0:02:44.32,Italics,Rimuru,0000,0000,0000,,There's a Demon Lord?
+Dialogue: 0,0:02:45.19,0:02:48.15,Italics,Rimuru,0000,0000,0000,,Veldora said there was a hero, too...
+Dialogue: 0,0:02:48.83,0:02:52.46,Italics,Rimuru,0000,0000,0000,,I hope I never end up meeting them. \NSounds like nothing but trouble.
+Dialogue: 0,0:03:04.91,0:03:06.11,Main,Rimuru,0000,0000,0000,,Hey, Ranga...
+Dialogue: 0,0:03:06.67,0:03:07.33,Main,Ranga,0000,0000,0000,,Master?
+Dialogue: 0,0:03:07.89,0:03:11.48,Main,Rimuru,0000,0000,0000,,I killed your father, which means \Nyou should want revenge, right?
+Dialogue: 0,0:03:11.48,0:03:13.64,Main,Rimuru,0000,0000,0000,,Don't you think about that at all?
+Dialogue: 0,0:03:14.48,0:03:16.47,Italics,Rimuru,0000,0000,0000,,I've been wondering about that all along...
+Dialogue: 0,0:03:19.06,0:03:20.86,Main,Ranga,0000,0000,0000,,I do think about it.
+Dialogue: 0,0:03:22.70,0:03:27.51,Main,Ranga,0000,0000,0000,,But, Master, you not only spared \Nus after defeating us in battle,
+Dialogue: 0,0:03:27.51,0:03:29.49,Main,Ranga,0000,0000,0000,,you also gave us a new name.
+Dialogue: 0,0:03:31.06,0:03:34.53,Main,Ranga,0000,0000,0000,,I have only gratitude toward \Nyou, and no resentment at all.
+Dialogue: 0,0:03:36.54,0:03:41.50,Main,Ranga,0000,0000,0000,,Our loyalty belongs to you \Nand you alone, Master.
+Dialogue: 0,0:03:47.34,0:03:47.98,Main,Rimuru,0000,0000,0000,,Gobta.
+Dialogue: 0,0:03:47.98,0:03:49.00,Main,Gobta,0000,0000,0000,,Yes, sir?
+Dialogue: 0,0:03:49.57,0:03:52.42,Main,Rimuru,0000,0000,0000,,What is the town we're heading for like?
+Dialogue: 0,0:03:52.42,0:03:54.39,Main,Gobta,0000,0000,0000,,W-Well...
+Dialogue: 0,0:03:54.39,0:03:57.97,Main,Gobta,0000,0000,0000,,It's officially called the \N"Armed Nation of Dwargon."
+Dialogue: 0,0:03:58.16,0:04:01.30,Main,Gobta,0000,0000,0000,,It's a beautiful city constructed \Nfrom a modified natural cave system,
+Dialogue: 0,0:04:01.30,0:04:05.20,Main,Gobta,0000,0000,0000,,and it's home to not only dwarves, \Nbut elves, humans, and lots more.
+Dialogue: 0,0:04:05.20,0:04:06.21,Main,Rimuru,0000,0000,0000,,Elves?!
+Dialogue: 0,0:04:08.29,0:04:09.83,Italics,Rimuru,0000,0000,0000,,Elves, huh?
+Dialogue: 0,0:04:10.45,0:04:14.28,Main,Gobta,0000,0000,0000,,The dwarf king, Gazel Dwargo, \Nis known as the Hero King.
+Dialogue: 0,0:04:14.28,0:04:17.07,Main,Gobta,0000,0000,0000,,He's deeply admired by all the people.
+Dialogue: 0,0:04:17.07,0:04:18.53,Main,Rimuru,0000,0000,0000,,Elves...
+Dialogue: 0,0:04:18.78,0:04:20.15,Main,Rimuru,0000,0000,0000,,Elves...
+Dialogue: 0,0:04:20.15,0:04:21.32,Main,Rigur,0000,0000,0000,,Rimuru-sama?
+Dialogue: 0,0:04:21.76,0:04:26.38,Main,Rimuru,0000,0000,0000,,I-Is it okay for monsters \Nlike me to enter Dwargon?
+Dialogue: 0,0:04:26.64,0:04:28.18,Main,Rigur,0000,0000,0000,,No need to worry.
+Dialogue: 0,0:04:28.18,0:04:31.15,Main,Rigur,0000,0000,0000,,Dwargon is a neutral free-trade city.
+Dialogue: 0,0:04:31.15,0:04:34.84,Main,Rigur,0000,0000,0000,,All fighting is prohibited by the king.
+Dialogue: 0,0:04:34.84,0:04:35.77,Main,Rimuru,0000,0000,0000,,I see...
+Dialogue: 0,0:04:36.40,0:04:41.61,Main,Rigur,0000,0000,0000,,And that's made possible by the Armed Nation \Nof Dwargon's immense military might.
+Dialogue: 0,0:04:42.16,0:04:45.67,Main,Rigur,0000,0000,0000,,It's said that the dwarven army has \Nbeen undefeated for a thousand years.
+Dialogue: 0,0:04:45.67,0:04:47.00,Main,Rimuru,0000,0000,0000,,A thousand years?
+Dialogue: 0,0:04:47.00,0:04:48.50,Main,Rimuru,0000,0000,0000,,That is impressive!
+Dialogue: 0,0:04:50.72,0:04:54.77,Italics,Rimuru,0000,0000,0000,,No one would be dumb enough to \Nget on that king's bad side.
+Dialogue: 0,0:04:56.29,0:04:59.49,Main,Gobta,0000,0000,0000,,Last time I went there, they picked \Na fight with me outside the gate...
+Dialogue: 0,0:04:58.03,0:05:00.83,Main,Rigur,0000,0000,0000,,{\an8}There won't be any trouble!
+Dialogue: 0,0:05:01.92,0:05:02.83,Main,Rimuru,0000,0000,0000,,Hm?
+Dialogue: 0,0:05:03.28,0:05:07.68,Italics,Rimuru,0000,0000,0000,,I'm pretty sure a huge flag \Njust went up... Was it just me?
+Dialogue: 0,0:05:07.68,0:05:09.01,Main,Rigur,0000,0000,0000,,Look, Rimuru-sama!
+Dialogue: 0,0:05:09.01,0:05:10.84,Main,Rigur,0000,0000,0000,,They've cooked up nicely!
+Dialogue: 0,0:05:12.26,0:05:17.63,Italics,Na,0000,0000,0000,,It's said that it can take a Goblin two months \Nor more to walk to the Dwarven Kingdom.
+Dialogue: 0,0:05:17.63,0:05:20.39,sign_2170_2_The_Ameldo_River,Text,0000,0000,0000,,{\fad(531,1)\clip(m 208 235 l 438 235 438 270 221 270)}\h\h\h\hThe Canaat Mountains\h\h\h\h
+Dialogue: 0,0:05:20.99,0:05:24.35,Italics,Na,0000,0000,0000,,With the help of Ranga and his packmates,
+Dialogue: 0,0:05:24.35,0:05:27.02,Italics,Na,0000,0000,0000,,Rimuru's party traversed the same \Ndistance in just three days.
+Dialogue: 0,0:05:29.98,0:05:34.69,sign_7912_68_The_Armed_Nation,Text,0000,0000,0000,,{\fad(985,1)}The Armed Nation of Dwargon
+Dialogue: 0,0:05:30.11,0:05:32.15,Italics,Rimuru,0000,0000,0000,,So that's where the Elves...
+Dialogue: 0,0:05:32.15,0:05:34.69,Italics,Rimuru,0000,0000,0000,,I mean, the Dwarves are, huh?
+Dialogue: 0,0:05:34.88,0:05:37.06,Italics,Rimuru,0000,0000,0000,,I hope some beautiful Elves...
+Dialogue: 0,0:05:37.06,0:05:40.95,Italics,Rimuru,0000,0000,0000,,I mean, some skilled Dwarves \Nare waiting there for us.
+Dialogue: 0,0:05:41.82,0:05:45.29,Main,Rigur,0000,0000,0000,,Are you sure you want to go in \Nwith just Gobta, Rimuru-sama?
+Dialogue: 0,0:05:45.76,0:05:46.70,Main,Rimuru,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:46.70,0:05:49.64,Main,Rimuru,0000,0000,0000,,We don't want to draw too much \Nattention by going in a big group.
+Dialogue: 0,0:05:49.64,0:05:51.71,Main,Rimuru,0000,0000,0000,,I'll take Gobta along to show me the way.
+Dialogue: 0,0:05:51.71,0:05:52.85,Main,Rigur,0000,0000,0000,,But...
+Dialogue: 0,0:05:52.85,0:05:54.29,Main,Gobta,0000,0000,0000,,We'll be fine!
+Dialogue: 0,0:05:54.29,0:05:56.01,Main,Ranga,0000,0000,0000,,Master...
+Dialogue: 0,0:05:56.55,0:05:58.01,Main,Rimuru,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:05:58.42,0:06:01.68,Main,Rimuru,0000,0000,0000,,We'll be back soon, so wait for us here.
+Dialogue: 0,0:06:03.38,0:06:04.65,Main,Rigur,0000,0000,0000,,Please be careful.
+Dialogue: 0,0:06:12.94,0:06:14.53,Main,Rimuru,0000,0000,0000,,This is quite a line.
+Dialogue: 0,0:06:14.80,0:06:16.66,Main,Rimuru,0000,0000,0000,,They must be strict about checking everyone.
+Dialogue: 0,0:06:16.66,0:06:19.95,Main,Gobta,0000,0000,0000,,Once we're inside, we can move \Naround as we please, though.
+Dialogue: 0,0:06:20.12,0:06:22.20,Italics,Rimuru,0000,0000,0000,,As we please, huh?
+Dialogue: 0,0:06:25.08,0:06:27.66,Main,Guy,0000,0000,0000,,Hey! Hey, hey, hey!
+Dialogue: 0,0:06:29.18,0:06:31.54,Main,Guy,0000,0000,0000,,What's a couple of monsters doing here?
+Dialogue: 0,0:06:31.54,0:06:35.11,Main,Guy,0000,0000,0000,,We're not inside yet, so we \Ncan still kill it, right?
+Dialogue: 0,0:06:35.11,0:06:37.05,Italics,Rimuru,0000,0000,0000,,And there it is! We're already in trouble!
+Dialogue: 0,0:06:37.05,0:06:38.47,Italics,Rimuru,0000,0000,0000,,Flag collected!
+Dialogue: 0,0:06:39.07,0:06:42.01,Main,Rimuru,0000,0000,0000,,Hey, Gobta-kun, did you hear something?
+Dialogue: 0,0:06:42.01,0:06:44.11,Main,Gobta,0000,0000,0000,,Yes, I did...
+Dialogue: 0,0:06:44.11,0:06:46.97,Main,Gobta,0000,0000,0000,,I was beat up here last time \NI tried to get in, too.
+Dialogue: 0,0:06:47.31,0:06:50.58,Main,Gobta,0000,0000,0000,,It's the fate of us weak monsters.
+Dialogue: 0,0:06:50.58,0:06:52.48,Italics,Rimuru,0000,0000,0000,,Fate, huh?
+Dialogue: 0,0:06:52.78,0:06:56.00,Main,Guy,0000,0000,0000,,Hey, weakling monster! Don't you ignore us!
+Dialogue: 0,0:06:56.00,0:06:58.98,Main,Guy,0000,0000,0000,,Wait, isn't a talking slime pretty rare?
+Dialogue: 0,0:06:58.98,0:07:00.99,Main,Guy,0000,0000,0000,,I bet we could make a fortune off of it!
+Dialogue: 0,0:07:01.36,0:07:02.54,Main,Rimuru,0000,0000,0000,,Gobta-kun.
+Dialogue: 0,0:07:02.54,0:07:04.66,Main,Rimuru,0000,0000,0000,,Do you remember our first rule?
+Dialogue: 0,0:07:04.66,0:07:06.16,Main,Gobta,0000,0000,0000,,Of course, sir!
+Dialogue: 0,0:07:06.16,0:07:08.53,Main,Gobta,0000,0000,0000,,Rule one: no attacking humans!
+Dialogue: 0,0:07:08.53,0:07:11.70,Main,Rimuru,0000,0000,0000,,All right, now, close your \Neyes and cover your ears.
+Dialogue: 0,0:07:11.70,0:07:12.33,Main,Gobta,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:12.33,0:07:14.25,Main,Rimuru,0000,0000,0000,,Don't look this way, whatever you do.
+Dialogue: 0,0:07:14.46,0:07:15.80,Main,Gobta,0000,0000,0000,,Got it!
+Dialogue: 0,0:07:16.67,0:07:18.09,Main,Rimuru,0000,0000,0000,,Now, then...
+Dialogue: 0,0:07:21.35,0:07:22.57,Main,Rimuru,0000,0000,0000,,Hey, there.
+Dialogue: 0,0:07:22.57,0:07:25.38,Main,Rimuru,0000,0000,0000,,I'm a generous sort, so I'll \Nspare you if you leave now.
+Dialogue: 0,0:07:25.38,0:07:26.64,Main,Rimuru,0000,0000,0000,,Get out of here.
+Dialogue: 0,0:07:30.03,0:07:33.49,Main,Guy,0000,0000,0000,,You're just a puny, little weakling \Nmonster! Don't you mess with us!
+Dialogue: 0,0:07:33.49,0:07:34.90,Main,Guy,0000,0000,0000,,You're dead now!
+Dialogue: 0,0:07:34.90,0:07:39.41,Main,Guy,0000,0000,0000,,I was gonna let you live, \Nbut you've pissed us off!
+Dialogue: 0,0:07:39.41,0:07:41.11,Italics,Rimuru,0000,0000,0000,,Ah, that's something a weakling would say.
+Dialogue: 0,0:07:41.59,0:07:43.89,Main,Rimuru,0000,0000,0000,,A puny, little weakling monster?
+Dialogue: 0,0:07:43.89,0:07:45.31,Main,Rimuru,0000,0000,0000,,Are you referring to me?
+Dialogue: 0,0:07:45.31,0:07:47.08,Main,Guy,0000,0000,0000,,Who else would we be referring to?!
+Dialogue: 0,0:07:47.08,0:07:50.45,Main,Rimuru,0000,0000,0000,,Oh! Do I look like a slime to you?
+Dialogue: 0,0:07:50.95,0:07:52.71,Italics,Rimuru,0000,0000,0000,,Well, I am one, but anyway...
+Dialogue: 0,0:07:54.73,0:07:57.96,Main,Rimuru,0000,0000,0000,,How long have you had the \Nmistaken idea that I'm a slime?
+Dialogue: 0,0:07:57.96,0:08:00.96,Main,Rimuru,0000,0000,0000,,Allow me to show you my true form!
+Dialogue: 0,0:08:09.22,0:08:12.18,sign_11730_124_Huh_,Text,0000,0000,0000,,{\fad(529,1)}Huh?
+Dialogue: 0,0:08:09.29,0:08:12.18,Italics,Rimuru,0000,0000,0000,,Huh? Did my Mimic skill evolve?
+Dialogue: 0,0:08:13.33,0:08:15.11,Main,Guy,0000,0000,0000,,You just changed your appearance!
+Dialogue: 0,0:08:15.11,0:08:17.74,Main,Guy,0000,0000,0000,,Did you think you could \Nscare us off with that?!
+Dialogue: 0,0:08:17.74,0:08:20.78,Italics,Rimuru,0000,0000,0000,,Just run away already, damn it.
+Dialogue: 0,0:08:20.78,0:08:22.24,Main,Rimuru,0000,0000,0000,,Good grief...
+Dialogue: 0,0:08:22.24,0:08:23.25,Main,Rimuru,0000,0000,0000,,All right, fine!
+Dialogue: 0,0:08:23.25,0:08:24.32,Main,Rimuru,0000,0000,0000,,Come at me!
+Dialogue: 0,0:08:25.01,0:08:26.22,Main,Guy,0000,0000,0000,,Now you die!
+Dialogue: 0,0:08:26.22,0:08:27.71,Main,Guy,0000,0000,0000,,You guys get him, too!
+Dialogue: 0,0:08:27.95,0:08:30.08,sign_12179_133_Companions_C_D_E,Text,0000,0000,0000,,Companions C.D.E appeared.
+Dialogue: 0,0:08:28.28,0:08:29.52,Main,Rimuru,0000,0000,0000,,There are more of them!
+Dialogue: 0,0:08:30.08,0:08:31.12,Main,Guy,0000,0000,0000,,Take this!
+Dialogue: 0,0:08:31.47,0:08:32.70,Main,Guy,0000,0000,0000,,Slash Attack!
+Dialogue: 0,0:08:33.18,0:08:34.75,Main,Guy,0000,0000,0000,,Heavy Hitting Cut!
+Dialogue: 0,0:08:35.70,0:08:37.54,Main,Guy,0000,0000,0000,,Fireball!
+Dialogue: 0,0:08:38.17,0:08:39.64,Main,Guy,0000,0000,0000,,Magic Wall!
+Dialogue: 0,0:08:44.44,0:08:45.64,Main,Guy,0000,0000,0000,,I-Impossible!
+Dialogue: 0,0:08:45.64,0:08:47.33,Main,Guy,0000,0000,0000,,My Fireball...
+Dialogue: 0,0:08:47.33,0:08:48.51,Main,Guy,0000,0000,0000,,His fur is so tough...
+Dialogue: 0,0:08:48.98,0:08:51.28,Main,Rimuru,0000,0000,0000,,Did you guys just do something?
+Dialogue: 0,0:08:52.62,0:08:54.39,Italics,Rimuru,0000,0000,0000,,Yikes! I thought they were gonna kill me!
+Dialogue: 0,0:08:54.39,0:08:56.23,Italics,Rimuru,0000,0000,0000,,Mimicry is amazing!
+Dialogue: 0,0:08:57.56,0:08:59.33,Main,Rimuru,0000,0000,0000,,Now it's my turn.
+Dialogue: 0,0:09:00.40,0:09:01.82,sign_12957_147_____Menace____,Text,0000,0000,0000,,{\fad(275,1)}— Menace —
+Dialogue: 0,0:09:17.56,0:09:18.13,Italics,Rimuru,0000,0000,0000,,Er...
+Dialogue: 0,0:09:18.62,0:09:19.61,Italics,Rimuru,0000,0000,0000,,Crap.
+Dialogue: 0,0:09:20.29,0:09:22.17,Italics_Top,Great Sage,0000,0000,0000,,Results of Menace to follow.
+Dialogue: 0,0:09:22.38,0:09:23.34,sign_13484_151_Report,Text,0000,0000,0000,,Report
+Dialogue: 0,0:09:23.34,0:09:25.11,Italics_Top,Great Sage,0000,0000,0000,,16 fled.
+Dialogue: 0,0:09:23.34,0:09:25.51,sign_13484_151_Report,Text,0000,0000,0000,,Report\N{\fs20}16 fled
+Dialogue: 0,0:09:25.51,0:09:27.64,Italics_Top,Great Sage,0000,0000,0000,,68 became confused.
+Dialogue: 0,0:09:25.51,0:09:27.84,sign_13484_151_Report,Text,0000,0000,0000,,Report\N{\fs20}16 fled, 68 confused
+Dialogue: 0,0:09:27.64,0:09:29.43,Italics_Top,Great Sage,0000,0000,0000,,92 fainted.
+Dialogue: 0,0:09:27.84,0:09:29.43,sign_13484_151_Report,Text,0000,0000,0000,,Report\N{\fs20}16 fled, 68 confused, 92 fainted
+Dialogue: 0,0:09:29.80,0:09:31.30,Italics_Top,Great Sage,0000,0000,0000,,34 soiled themselves.
+Dialogue: 0,0:09:31.30,0:09:33.69,Italics,Rimuru,0000,0000,0000,,Thanks, but I don't need a damage report!
+Dialogue: 0,0:09:33.69,0:09:34.83,Main,Kaido,0000,0000,0000,,Hey!
+Dialogue: 0,0:09:35.96,0:09:37.94,Main,Kaido,0000,0000,0000,,You there!
+Dialogue: 0,0:09:39.55,0:09:40.19,Main,Kaido,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:42.60,0:09:43.70,Main,Kaido,0000,0000,0000,,A slime?
+Dialogue: 0,0:09:43.70,0:09:44.82,Main,Kaido,0000,0000,0000,,Tee-hee!
+Dialogue: 0,0:09:50.47,0:09:52.95,Italics,Rimuru,0000,0000,0000,,Some guide you turned out to be.
+Dialogue: 0,0:09:53.65,0:09:56.24,Italics,Rimuru,0000,0000,0000,,And you've got some nerve to be sleeping now.
+Dialogue: 0,0:09:56.76,0:09:57.45,Main,Kaido,0000,0000,0000,,Well?
+Dialogue: 0,0:09:57.45,0:09:58.71,Main,Rimuru,0000,0000,0000,,Uh, right!
+Dialogue: 0,0:09:58.94,0:10:01.07,Main,Rimuru,0000,0000,0000,,Actually... that's all.
+Dialogue: 0,0:09:59.25,0:10:02.50,sign_14368_169_Captain_of_Secur,Text,0000,0000,0000,,{\fad(484,264)}Captain of Security  {\fs24}Kaido
+Dialogue: 0,0:10:02.96,0:10:07.84,Main,Kaido,0000,0000,0000,,Well, since you're a slime and a goblin, \Nthey probably saw you as easy targets.
+Dialogue: 0,0:10:07.84,0:10:10.66,Main,Rimuru,0000,0000,0000,,I was only trying to \Nscare them off, really...
+Dialogue: 0,0:10:10.66,0:10:13.81,Main,Rimuru,0000,0000,0000,,I'm very sorry for all the trouble!
+Dialogue: 0,0:10:13.81,0:10:17.35,Main,Kaido,0000,0000,0000,,Well, what you've said agrees \Nwith witness reports.
+Dialogue: 0,0:10:17.68,0:10:18.93,Main,Kaido,0000,0000,0000,,Just this once, I'll let you two—
+Dialogue: 0,0:10:18.93,0:10:20.98,Main,Guy,0000,0000,0000,,Captain! We've got trouble!
+Dialogue: 0,0:10:21.77,0:10:23.92,Main,Guy,0000,0000,0000,,There's an Armorsaurus in the mine!
+Dialogue: 0,0:10:23.92,0:10:25.61,Main,Kaido,0000,0000,0000,,What?! Where's the suppression force?
+Dialogue: 0,0:10:25.61,0:10:26.98,Main,Guy,0000,0000,0000,,They're already en route,
+Dialogue: 0,0:10:26.98,0:10:29.97,Main,Guy,0000,0000,0000,,but Garm and his brothers were deep \Nin the mine gathering magic ore,
+Dialogue: 0,0:10:29.97,0:10:31.24,Main,Guy,0000,0000,0000,,and they were badly hurt!
+Dialogue: 0,0:10:31.51,0:10:32.79,Main,Kaido,0000,0000,0000,,Do we have potions?
+Dialogue: 0,0:10:32.79,0:10:35.74,Main,Guy,0000,0000,0000,,Not enough. We've allotted most \Nof them to war preparations.
+Dialogue: 0,0:10:36.62,0:10:39.25,Main,Kaido,0000,0000,0000,,Those guys are like brothers to me!
+Dialogue: 0,0:10:39.58,0:10:41.96,Main,Kaido,0000,0000,0000,,W-We can't waste time! \NStart looking for potions!
+Dialogue: 0,0:10:41.96,0:10:42.77,Main,Rimuru,0000,0000,0000,,Sir...
+Dialogue: 0,0:10:42.77,0:10:44.35,Main,Kaido,0000,0000,0000,,Gather all you can, whatever it takes!
+Dialogue: 0,0:10:44.35,0:10:45.27,Main,Rimuru,0000,0000,0000,,Sir.
+Dialogue: 0,0:10:45.27,0:10:46.13,Main,Kaido,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:47.80,0:10:49.93,Main,Kaido,0000,0000,0000,,How dare you leave your cell?!
+Dialogue: 0,0:10:49.93,0:10:52.41,Main,Rimuru,0000,0000,0000,,Now, now, this isn't the time for that, is it?
+Dialogue: 0,0:10:52.41,0:10:53.18,Main,Rimuru,0000,0000,0000,,Look.
+Dialogue: 0,0:10:53.84,0:10:55.83,Main,Rimuru,0000,0000,0000,,You need that, don't you?
+Dialogue: 0,0:10:57.14,0:10:58.12,Main,Kaido,0000,0000,0000,,What's that?
+Dialogue: 0,0:10:58.12,0:11:02.28,Main,Rimuru,0000,0000,0000,,Healing potion. The best around! \NYou can drink it or apply it directly!
+Dialogue: 0,0:11:02.28,0:11:03.34,Main,Kaido,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:05.05,0:11:07.28,Main,Rimuru,0000,0000,0000,,Why not give it a try?
+Dialogue: 0,0:11:10.43,0:11:13.68,Main,Guy,0000,0000,0000,,Captain! You're going to \Ntrust the word of a monster?
+Dialogue: 0,0:11:13.68,0:11:14.78,Main,Kaido,0000,0000,0000,,We don't have time!
+Dialogue: 0,0:11:18.19,0:11:18.96,Main,Kaido,0000,0000,0000,,Let's go!
+Dialogue: 0,0:11:18.96,0:11:20.31,Main,Guy,0000,0000,0000,,Yes, Captain Kaido!
+Dialogue: 0,0:11:20.31,0:11:22.87,Main,Kaido,0000,0000,0000,,You'd better stay in your cell!
+Dialogue: 0,0:11:27.95,0:11:30.09,Italics,Rimuru,0000,0000,0000,,He was really worried about his subordinates.
+Dialogue: 0,0:11:31.87,0:11:33.63,Main,Rimuru,0000,0000,0000,,He seems like a good guy.
+Dialogue: 0,0:11:40.73,0:11:42.27,sign_12957_147_____Menace____,Text,0000,0000,0000,,Skill
+Dialogue: 0,0:11:41.01,0:11:42.27,Main,Rimuru,0000,0000,0000,,A cradle!
+Dialogue: 0,0:11:43.18,0:11:44.19,Main,Rimuru,0000,0000,0000,,A diamond!
+Dialogue: 0,0:11:43.27,0:11:44.65,sign_12957_147_____Menace____,Text,0000,0000,0000,,{\fs28}Actually Not
+Dialogue: 0,0:11:44.73,0:11:45.89,Main,Rimuru,0000,0000,0000,,A hand drum!
+Dialogue: 0,0:11:45.40,0:11:46.90,sign_12957_147_____Menace____,Text,0000,0000,0000,,{\fs26}Just Killing Time
+Dialogue: 0,0:11:45.89,0:11:46.90,Main,Rimuru,0000,0000,0000,,A boat!
+Dialogue: 0,0:11:46.90,0:11:48.61,Main,Rimuru,0000,0000,0000,,And now...
+Dialogue: 0,0:11:48.90,0:11:50.57,Main,Rimuru,0000,0000,0000,,Tokyo Tower!
+Dialogue: 0,0:11:54.82,0:11:57.33,sign_12957_147_____Menace____,Text,0000,0000,0000,,{\fs26}Just Killing Time
+Dialogue: 0,0:11:57.80,0:12:01.11,Main,Rimuru,0000,0000,0000,,This guy sure is a deep sleeper.
+Dialogue: 0,0:11:58.08,0:12:01.08,sign_17217_216_Rather__Punishin,Text,0000,0000,0000,,Rather, Punishing Gobta
+Dialogue: 0,0:12:06.20,0:12:08.33,Main,Kaido,0000,0000,0000,,You saved them. I thank you.
+Dialogue: 0,0:12:08.59,0:12:11.53,Main,Garm,0000,0000,0000,,I heard you gave us that potion! Thank you!
+Dialogue: 0,0:12:11.53,0:12:12.30,Main,Rimuru,0000,0000,0000,,Don't mention it.
+Dialogue: 0,0:12:12.30,0:12:14.23,Main,Dord,0000,0000,0000,,My arm was nearly ripped off.
+Dialogue: 0,0:12:14.23,0:12:16.91,Main,Dord,0000,0000,0000,,Even if I'd survived, I would've lost my job.
+Dialogue: 0,0:12:16.91,0:12:17.78,Main,Dord,0000,0000,0000,,Thank you!
+Dialogue: 0,0:12:17.78,0:12:18.81,Main,Rimuru,0000,0000,0000,,You're very welcome.
+Dialogue: 0,0:12:21.90,0:12:22.81,Italics,Rimuru,0000,0000,0000,,Say something!
+Dialogue: 0,0:12:23.01,0:12:24.47,Main,Garm,0000,0000,0000,,Really, thanks so much!
+Dialogue: 0,0:12:24.47,0:12:26.07,Main,Dord,0000,0000,0000,,We owe you!
+Dialogue: 0,0:12:29.80,0:12:31.19,Main,Rimuru,0000,0000,0000,,Am I free?
+Dialogue: 0,0:12:31.45,0:12:33.09,Main,Kaido,0000,0000,0000,,Naturally.
+Dialogue: 0,0:12:33.62,0:12:37.87,Main,Kaido,0000,0000,0000,,I've never seen such \Nremarkable potion before.
+Dialogue: 0,0:12:38.19,0:12:42.37,Main,Kaido,0000,0000,0000,,It won't be enough to thank you, \Nbut if you ever need anything, just ask me.
+Dialogue: 0,0:12:43.17,0:12:44.43,Main,Rimuru,0000,0000,0000,,In that case...
+Dialogue: 0,0:12:47.74,0:12:48.79,Main,Kaido,0000,0000,0000,,I see.
+Dialogue: 0,0:12:49.02,0:12:52.76,Main,Kaido,0000,0000,0000,,In that case, I'll introduce \Nyou to a skilled blacksmith.
+Dialogue: 0,0:12:52.76,0:12:54.38,Main,Rimuru,0000,0000,0000,,I'd appreciate that.
+Dialogue: 0,0:12:54.38,0:12:57.49,Main,Kaido,0000,0000,0000,,No need for thanks! Just leave it to me!
+Dialogue: 0,0:13:00.96,0:13:02.29,Main,Someone,0000,0000,0000,,Welcome!
+Dialogue: 0,0:13:04.30,0:13:06.76,Main,Rimuru,0000,0000,0000,,I can tell I'm in dwarven country!
+Dialogue: 0,0:13:06.76,0:13:10.15,Main,Rimuru,0000,0000,0000,,It looks so much more civilized \Nthan the Goblin Village.
+Dialogue: 0,0:13:10.81,0:13:11.87,Main,Kaido,0000,0000,0000,,This way.
+Dialogue: 0,0:13:13.62,0:13:15.27,Main,Kaido,0000,0000,0000,,Don't get lost, now.
+Dialogue: 0,0:13:17.72,0:13:19.45,Main,Rimuru,0000,0000,0000,,Wow!
+Dialogue: 0,0:13:19.45,0:13:22.24,Italics,Rimuru,0000,0000,0000,,Such detailed workmanship!
+Dialogue: 0,0:13:23.10,0:13:26.50,Italics,Rimuru,0000,0000,0000,,What's up with that sword? \NIs it actually shining?!
+Dialogue: 0,0:13:26.69,0:13:27.95,Italics,Rimuru,0000,0000,0000,,Is it magic?
+Dialogue: 0,0:13:27.95,0:13:31.56,Main,Kaido,0000,0000,0000,,Yeah, that right there. \NIt's the guy who made that.
+Dialogue: 0,0:13:32.28,0:13:34.29,Main,Rimuru,0000,0000,0000,,The blacksmith we're about to meet.
+Dialogue: 0,0:13:39.66,0:13:42.47,Main,Kaido,0000,0000,0000,,This is the place. I guarantee \Nhis skills are top-notch!
+Dialogue: 0,0:13:42.72,0:13:44.98,Main,Kaido,0000,0000,0000,,Hey, Bro, you here?
+Dialogue: 0,0:13:44.98,0:13:46.15,Main,Rimuru,0000,0000,0000,,Bro?
+Dialogue: 0,0:13:49.53,0:13:51.73,Main,Kaijin,0000,0000,0000,,Hey, Kaido. Give me a sec.
+Dialogue: 0,0:13:51.73,0:13:52.53,Main,Kaido,0000,0000,0000,,Sure.
+Dialogue: 0,0:13:52.92,0:13:54.69,Main,Rimuru,0000,0000,0000,,Forgive us for interrupting.
+Dialogue: 0,0:13:54.69,0:13:56.61,Main,Kaido,0000,0000,0000,,That's my older brother, Kaijin.
+Dialogue: 0,0:13:56.74,0:14:00.87,sign_20062_254_Weaponsmith__Kai,Text,0000,0000,0000,,{\fad(523,1)}Weaponsmith  {\fs26}Kaijin
+Dialogue: 0,0:13:57.52,0:14:00.62,Italics,Rimuru,0000,0000,0000,,Wow... He definitely seems like \Nthe tough-as-nails workman type.
+Dialogue: 0,0:14:10.83,0:14:12.23,Main,Kaijin,0000,0000,0000,,A slime?
+Dialogue: 0,0:14:12.69,0:14:14.17,Main,Kaijin,0000,0000,0000,,Friend of yours, boys?
+Dialogue: 0,0:14:14.54,0:14:17.09,Main,Garm,0000,0000,0000,,Kaijin, this is the slime we told you about.
+Dialogue: 0,0:14:14.67,0:14:19.18,sign_20492_259_Three_Dwarf_Brot,Text,0000,0000,0000,,{\fad(527,271)}Three Dwarf Brothers\N\NYoungest Brother\N{\fs24}Myrd\N
+Dialogue: 0,0:14:14.67,0:14:19.18,sign_20492_260_Middle_Brother_D,Text,0000,0000,0000,,{\fad(527,271)}Middle Brother\N{\fs24}Dord
+Dialogue: 0,0:14:14.67,0:14:19.18,sign_20492_261_Oldest_Brother_G,Text,0000,0000,0000,,{\fad(527,271)}Oldest Brother\N{\fs24}Garm
+Dialogue: 0,0:14:17.09,0:14:20.58,Main,Dord,0000,0000,0000,,The one that saved us when \Nwe were hurt yesterday.
+Dialogue: 0,0:14:21.18,0:14:23.76,Main,Kaijin,0000,0000,0000,,Oh, so this is the one!
+Dialogue: 0,0:14:25.84,0:14:27.89,Main,Kaijin,0000,0000,0000,,You have my thanks.
+Dialogue: 0,0:14:29.75,0:14:33.89,Main,Rimuru,0000,0000,0000,,Oh, really, it was nothing... \Nor maybe it was?
+Dialogue: 0,0:14:35.22,0:14:37.28,Main,Kaijin,0000,0000,0000,,So, what can I do for you?
+Dialogue: 0,0:14:39.92,0:14:41.20,Main,Kaijin,0000,0000,0000,,I see.
+Dialogue: 0,0:14:41.48,0:14:43.05,Main,Kaijin,0000,0000,0000,,I get what you're saying.
+Dialogue: 0,0:14:43.05,0:14:46.46,Main,Kaijin,0000,0000,0000,,But I'm sorry... I'm pretty \Nbacked up at the moment.
+Dialogue: 0,0:14:46.87,0:14:50.68,Main,Kaijin,0000,0000,0000,,Thanks to the impossible order a \Ncertain numskull minister put in...
+Dialogue: 0,0:14:50.68,0:14:52.33,Main,Rimuru,0000,0000,0000,,Impossible order?
+Dialogue: 0,0:14:52.72,0:14:56.61,Main,Kaijin,0000,0000,0000,,We might be going to war soon, \Nso he asked for twenty longswords...
+Dialogue: 0,0:14:56.61,0:14:59.06,Main,Kaijin,0000,0000,0000,,by the end of the week, no less.
+Dialogue: 0,0:14:59.06,0:15:02.34,Main,Kaijin,0000,0000,0000,,I'm short on materials, \Nso I've only made one so far.
+Dialogue: 0,0:15:03.52,0:15:06.80,Main,Kaido,0000,0000,0000,,Then, couldn't you have told him \Nit wasn't possible and refused?
+Dialogue: 0,0:15:06.80,0:15:07.60,Main,Rimuru,0000,0000,0000,,Good point.
+Dialogue: 0,0:15:07.88,0:15:09.56,Main,Kaijin,0000,0000,0000,,Don't be dumb!
+Dialogue: 0,0:15:09.56,0:15:12.67,Main,Kaijin,0000,0000,0000,,I did tell him that, at first!
+Dialogue: 0,0:15:12.67,0:15:16.03,Main,Kaijin,0000,0000,0000,,But then that damned Minister Vesta said...
+Dialogue: 0,0:15:16.03,0:15:17.32,Flashback,Vesta,0000,0000,0000,,My, my!
+Dialogue: 0,0:15:16.61,0:15:21.66,sign_21977_282_Minister_Vesta,Text,0000,0000,0000,,{\fad(524,272)}Minister Vesta
+Dialogue: 0,0:15:17.32,0:15:21.63,Flashback,Vesta,0000,0000,0000,,The great Kaijin that everyone \Ncalls the best blacksmith around
+Dialogue: 0,0:15:21.63,0:15:24.37,Flashback,Vesta,0000,0000,0000,,can't handle such a simple task?
+Dialogue: 0,0:15:24.57,0:15:27.33,Main,Kaijin,0000,0000,0000,,He had the nerve to say that! \NCould you have let that slide?!
+Dialogue: 0,0:15:27.33,0:15:29.09,Main,Kaijin,0000,0000,0000,,That bastard!
+Dialogue: 0,0:15:29.53,0:15:32.12,Italics,Rimuru,0000,0000,0000,,My boss was like that, too...
+Dialogue: 0,0:15:32.12,0:15:35.80,Italics,Rimuru,0000,0000,0000,,I guess interpersonal relationships \Nare a pain in any world.
+Dialogue: 0,0:15:36.44,0:15:38.09,Main,Rimuru,0000,0000,0000,,You say you're short on materials?
+Dialogue: 0,0:15:38.09,0:15:42.76,Main,Kaijin,0000,0000,0000,,Yeah, I need a special ore called magic ore.
+Dialogue: 0,0:15:42.76,0:15:45.48,Main,Garm,0000,0000,0000,,We were trying to dig some up yesterday...
+Dialogue: 0,0:15:45.48,0:15:48.00,Main,Dord,0000,0000,0000,,...but that Armorsaurus showed up.
+Dialogue: 0,0:15:48.56,0:15:49.47,Main,Rimuru,0000,0000,0000,,I see.
+Dialogue: 0,0:15:49.88,0:15:53.62,Main,Garm,0000,0000,0000,,But that mine was pretty \Nwell cleared out, anyway.
+Dialogue: 0,0:15:53.62,0:15:55.71,Main,Dord,0000,0000,0000,,There wasn't any ore left.
+Dialogue: 0,0:15:56.76,0:16:01.44,Main,Kaijin,0000,0000,0000,,And even if I did have the materials,
+Dialogue: 0,0:16:01.44,0:16:03.61,Main,Kaijin,0000,0000,0000,,it takes two weeks to make twenty swords!
+Dialogue: 0,0:16:05.41,0:16:09.57,Main,Kaijin,0000,0000,0000,,Yet I have to get them \Nto the king in five days.
+Dialogue: 0,0:16:09.57,0:16:13.95,Main,Kaijin,0000,0000,0000,,They contracted smiths all over the kingdom \Nand allotted the work to all of us.
+Dialogue: 0,0:16:13.95,0:16:17.00,Main,Kaijin,0000,0000,0000,,If I can't do it, my certification \Nas a smith could be revoked.
+Dialogue: 0,0:16:17.36,0:16:18.82,Main,Kaido,0000,0000,0000,,Bro...
+Dialogue: 0,0:16:18.82,0:16:20.59,Main,Rimuru,0000,0000,0000,,That really sucks.
+Dialogue: 0,0:16:22.06,0:16:22.83,Italics,Rimuru,0000,0000,0000,,Wait...
+Dialogue: 0,0:16:23.09,0:16:25.22,sign_23571_303_Magistone_Ore,Text,0000,0000,0000,,{\fad(235,1)}Magic Ore
+Dialogue: 0,0:16:23.26,0:16:25.22,Italics,Rimuru,0000,0000,0000,,Magic ore? Don't I...
+Dialogue: 0,0:16:25.22,0:16:26.72,sign_23622_305_Magistone_Ore,Text,0000,0000,0000,,Magic Ore
+Dialogue: 0,0:16:25.45,0:16:27.18,Italics,Rimuru,0000,0000,0000,,have some of that?!
+Dialogue: 0,0:16:35.49,0:16:36.76,Main,Rimuru,0000,0000,0000,,Old man...
+Dialogue: 0,0:16:40.36,0:16:42.19,Main,Rimuru,0000,0000,0000,,Can you use that?
+Dialogue: 0,0:16:44.61,0:16:45.53,Main,Kaijin,0000,0000,0000,,Wait...
+Dialogue: 0,0:16:46.29,0:16:49.33,Main,Kaijin,0000,0000,0000,,Wait, wait, wait, wait, \Nwait, wait, wait, wait!
+Dialogue: 0,0:16:49.51,0:16:51.57,Main,Kaijin,0000,0000,0000,,That's magic ore!
+Dialogue: 0,0:16:51.57,0:16:54.19,Main,Kaijin,0000,0000,0000,,And it's unbelievably pure!
+Dialogue: 0,0:16:56.71,0:17:00.13,Main,Rimuru,0000,0000,0000,,Hey, old man, are you blind?
+Dialogue: 0,0:17:00.13,0:17:00.84,Main,Kaijin,0000,0000,0000,,Huh?!
+Dialogue: 0,0:17:05.06,0:17:06.61,Main,Kaijin,0000,0000,0000,,It's not even magic ore!
+Dialogue: 0,0:17:06.61,0:17:09.68,Main,Kaijin,0000,0000,0000,,{\an8}It's already been processed! \NIt's a cluster of magisteel!
+Dialogue: 0,0:17:08.39,0:17:10.60,sign_24657_317_Magistone_Cluste,Text,0000,0000,0000,,{\fad(522,1)}Magisteel Cluster
+Dialogue: 0,0:17:09.68,0:17:10.60,Main,Rimuru,0000,0000,0000,,{\an8}Precisely!
+Dialogue: 0,0:17:10.76,0:17:13.59,Main,Kaijin,0000,0000,0000,,I can make even stronger swords with this!
+Dialogue: 0,0:17:13.59,0:17:14.89,Main,Kaijin,0000,0000,0000,,It can't be...
+Dialogue: 0,0:17:14.89,0:17:17.22,Main,Kaijin,0000,0000,0000,,This entire cluster is...
+Dialogue: 0,0:17:18.00,0:17:20.08,Main,Kaijin,0000,0000,0000,,Y-You're sure I can have this?
+Dialogue: 0,0:17:20.08,0:17:22.36,Main,Kaijin,0000,0000,0000,,I'll pay you handsomely, of course!
+Dialogue: 0,0:17:22.68,0:17:25.61,Main,Rimuru,0000,0000,0000,,Well, now... I wonder what I should do...
+Dialogue: 0,0:17:26.63,0:17:28.12,Main,Kaijin,0000,0000,0000,,What is it you want?
+Dialogue: 0,0:17:28.12,0:17:29.99,Main,Kaijin,0000,0000,0000,,I'll do anything in my power for it!
+Dialogue: 0,0:17:30.63,0:17:33.04,Main,Rimuru,0000,0000,0000,,That's what I wanted to hear.
+Dialogue: 0,0:17:43.52,0:17:45.38,Main,Rimuru,0000,0000,0000,,I'd like you to find some fellow artisans
+Dialogue: 0,0:17:45.38,0:17:49.30,Main,Rimuru,0000,0000,0000,,who'll come to my village to teach \Ntheir crafts to the villagers.
+Dialogue: 0,0:17:51.98,0:17:54.10,Main,Kaijin,0000,0000,0000,,That's all you want?
+Dialogue: 0,0:17:54.10,0:17:58.66,Main,Rimuru,0000,0000,0000,,Our priority right now is the "shelter and \Nclothing" part of food, shelter, and clothing.
+Dialogue: 0,0:17:58.66,0:18:02.82,Main,Rimuru,0000,0000,0000,,I'd also like to get some clothing for \Nfuture use, as well as weapons and armor.
+Dialogue: 0,0:18:06.14,0:18:08.07,Main,Kaijin,0000,0000,0000,,That's easy!
+Dialogue: 0,0:18:08.34,0:18:09.28,Main,Garm,0000,0000,0000,,But...
+Dialogue: 0,0:18:09.57,0:18:12.36,Main,Dord,0000,0000,0000,,Even if you start on those swords now...
+Dialogue: 0,0:18:13.89,0:18:15.20,Main,Rimuru,0000,0000,0000,,Can you finish in time?
+Dialogue: 0,0:18:15.55,0:18:18.46,Main,Kaijin,0000,0000,0000,,Well, I'll do what I can.
+Dialogue: 0,0:18:18.65,0:18:20.49,Main,Kaijin,0000,0000,0000,,All right, let's get started!
+Dialogue: 0,0:18:20.49,0:18:21.64,Main,Bros,0000,0000,0000,,Right!
+Dialogue: 0,0:18:24.91,0:18:26.01,Main,Rimuru,0000,0000,0000,,Oh, yeah.
+Dialogue: 0,0:18:26.01,0:18:28.01,Italics,Rimuru,0000,0000,0000,,Great Sage-san, got a minute?
+Dialogue: 0,0:18:28.36,0:18:29.25,Italics_Top,Great Sage,0000,0000,0000,,Yes.
+Dialogue: 0,0:18:31.22,0:18:32.65,Main,Rimuru,0000,0000,0000,,Hey, old man...
+Dialogue: 0,0:18:33.39,0:18:35.54,Main,Rimuru,0000,0000,0000,,You said you've already made one, right?
+Dialogue: 0,0:18:35.54,0:18:37.22,Main,Rimuru,0000,0000,0000,,Can I see it?
+Dialogue: 0,0:18:37.22,0:18:39.64,Main,Kaijin,0000,0000,0000,,Oh... Hey.
+Dialogue: 0,0:18:41.90,0:18:43.75,Main,Rimuru,0000,0000,0000,,It's magnificent.
+Dialogue: 0,0:18:43.75,0:18:47.65,Main,Rimuru,0000,0000,0000,,Even an untrained eye like mine \Ncan tell you have real skill.
+Dialogue: 0,0:18:48.84,0:18:50.73,Main,Rimuru,0000,0000,0000,,The blade looks like it's shining.
+Dialogue: 0,0:18:51.21,0:18:53.82,Main,Kaijin,0000,0000,0000,,It has a magisteel core.
+Dialogue: 0,0:18:55.28,0:19:00.61,Main,Kaijin,0000,0000,0000,,Put simply, it's a sword that \Nmatures in the image of its user.
+Dialogue: 0,0:19:00.61,0:19:02.21,Main,Rimuru,0000,0000,0000,,Amazing!
+Dialogue: 0,0:19:02.21,0:19:06.09,Italics,Rimuru,0000,0000,0000,,That's incredible! I wish he'd \Ncome to the village himself!
+Dialogue: 0,0:19:06.35,0:19:08.60,Main,Rimuru,0000,0000,0000,,For that to happen...
+Dialogue: 0,0:19:08.60,0:19:10.34,Main,Rimuru,0000,0000,0000,,I'm gonna borrow this sword!
+Dialogue: 0,0:19:11.89,0:19:12.76,Main,Kaijin,0000,0000,0000,,Hey!
+Dialogue: 0,0:19:13.52,0:19:14.33,Main,Garm,0000,0000,0000,,The sword...
+Dialogue: 0,0:19:14.33,0:19:15.48,Main,Dord,0000,0000,0000,,What did you...
+Dialogue: 0,0:19:18.07,0:19:19.50,Main,Kaido,0000,0000,0000,,Rimuru, you...
+Dialogue: 0,0:19:19.50,0:19:20.69,Main,Rimuru,0000,0000,0000,,Just give me a second.
+Dialogue: 0,0:19:21.16,0:19:22.72,Italics,Rimuru,0000,0000,0000,,Great Sage, analyze it.
+Dialogue: 0,0:19:23.20,0:19:25.73,Italics_Top,Great Sage,0000,0000,0000,,Analyzing: Longsword.
+Dialogue: 0,0:19:26.39,0:19:27.94,Italics_Top,Great Sage,0000,0000,0000,,Analysis successful.
+Dialogue: 0,0:19:28.17,0:19:30.90,Main,Rimuru,0000,0000,0000,,Use some magisteel clusters\Nto make some copies.
+Dialogue: 0,0:19:31.25,0:19:32.64,Italics_Top,Great Sage,0000,0000,0000,,Producing copy.
+Dialogue: 0,0:19:31.45,0:19:32.86,sign_28087_366_Producing_Copy,Text,0000,0000,0000,,{\fad(313,1)}Producing Copy
+Dialogue: 0,0:19:33.89,0:19:35.12,Italics_Top,Great Sage,0000,0000,0000,,Successful.
+Dialogue: 0,0:19:46.84,0:19:50.67,Main,Rimuru,0000,0000,0000,,Twenty longswords made \Nfrom magisteel clusters!
+Dialogue: 0,0:19:51.26,0:19:53.68,Main,All,0000,0000,0000,,What?!
+Dialogue: 0,0:19:55.55,0:19:56.59,Main,Rimuru,0000,0000,0000,,A party?
+Dialogue: 0,0:19:56.59,0:20:00.18,Main,Kaijin,0000,0000,0000,,Yeah! I made my delivery \Non time, thanks to you!
+Dialogue: 0,0:20:00.39,0:20:02.56,Main,Rimuru,0000,0000,0000,,But you don't have to do that for me.
+Dialogue: 0,0:20:02.56,0:20:06.31,Main,Garm,0000,0000,0000,,Aw, come on! There'll be lots \Nof cute elf girls there!
+Dialogue: 0,0:20:06.31,0:20:07.14,Main,Rimuru,0000,0000,0000,,Elf?!
+Dialogue: 0,0:20:07.14,0:20:09.73,Main,Dord,0000,0000,0000,,Yeah! It's a place called \N"Butterflies of the Night"
+Dialogue: 0,0:20:09.73,0:20:13.83,Main,Dord,0000,0000,0000,,where girls of all ages, from young \Nto mature, wait on you hand and foot!
+Dialogue: 0,0:20:13.83,0:20:15.01,Main,Rimuru,0000,0000,0000,,Butterflies...
+Dialogue: 0,0:20:15.42,0:20:16.45,Main,Rimuru,0000,0000,0000,,Speak, man!
+Dialogue: 0,0:20:16.61,0:20:20.07,Main,Kaijin,0000,0000,0000,,C'mon, Rimuru. It won't \Nbe a party without you.
+Dialogue: 0,0:20:20.07,0:20:21.11,Main,Dord,0000,0000,0000,,Yeah!
+Dialogue: 0,0:20:21.11,0:20:24.31,Main,Rimuru,0000,0000,0000,,Well, if you insist, I suppose I'll have to.
+Dialogue: 0,0:20:24.31,0:20:25.71,Main,Garm,0000,0000,0000,,That's the spirit!
+Dialogue: 0,0:20:27.18,0:20:28.62,Italics,Rimuru,0000,0000,0000,,Sheesh...
+Dialogue: 0,0:20:29.38,0:20:31.05,Italics,Rimuru,0000,0000,0000,,What am I gonna do with you guys?
+Dialogue: 0,0:20:34.63,0:20:36.84,sign_29602_385_Butterflies_of_t,Text,0000,0000,0000,,{\fad(530,1)}Butterflies\Nof the Night
+Dialogue: 0,0:20:37.93,0:20:40.60,Main,Owner,0000,0000,0000,,Oh, Kaijin! How nice to see you!
+Dialogue: 0,0:20:40.77,0:20:42.89,Main,Elves,0000,0000,0000,,Welcome!
+Dialogue: 0,0:20:44.98,0:20:46.01,Italics,Rimuru,0000,0000,0000,,Elves!
+Dialogue: 0,0:20:46.97,0:20:48.03,Italics,Rimuru,0000,0000,0000,,Elves!
+Dialogue: 0,0:20:49.05,0:20:50.35,Italics,Rimuru,0000,0000,0000,,Eros...
+Dialogue: 0,0:20:50.35,0:20:51.86,Italics,Rimuru,0000,0000,0000,,I mean, elves!
+Dialogue: 0,0:20:52.57,0:20:55.32,Main,Elf,0000,0000,0000,,Oh, how cute!
+Dialogue: 0,0:20:55.82,0:20:58.57,Italics,Rimuru,0000,0000,0000,,Oh, yesssss!
+Dialogue: 0,0:20:58.57,0:21:01.80,Main,Elf,0000,0000,0000,,Hey! I had my eye on it first!
+Dialogue: 0,0:21:01.80,0:21:04.46,Italics,Rimuru,0000,0000,0000,,Oh, my God! Her dress is so thin!
+Dialogue: 0,0:21:04.64,0:21:07.09,Main,Elf,0000,0000,0000,,It feels so nice and bouncy!
+Dialogue: 0,0:21:07.09,0:21:09.71,Italics,Rimuru,0000,0000,0000,,My thoughts exactly...
+Dialogue: 0,0:21:12.23,0:21:15.89,Italics,Rimuru,0000,0000,0000,,So this is what women's boobs feel like...
+Dialogue: 0,0:21:15.89,0:21:17.79,Italics,Rimuru,0000,0000,0000,,I've never felt them before.
+Dialogue: 0,0:21:18.43,0:21:20.51,Italics,Rimuru,0000,0000,0000,,This must be paradise!
+Dialogue: 0,0:21:20.51,0:21:24.97,Main,Kaijin,0000,0000,0000,,After the way you resisted coming here, \Nyou sure seem to be enjoying yourself.
+Dialogue: 0,0:21:24.97,0:21:25.81,Main,Rimuru,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:26.44,0:21:27.90,Main,Rimuru,0000,0000,0000,,N-No, I wouldn't say that.
+Dialogue: 0,0:21:34.11,0:21:36.03,Main,Elf,0000,0000,0000,,Well, come on! Let's drink!
+Dialogue: 0,0:21:36.03,0:21:37.99,Main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:21:39.57,0:21:42.71,Italics,Rimuru,0000,0000,0000,,During this time, I was in heaven.
+Dialogue: 0,0:21:43.85,0:21:46.83,Italics,Rimuru,0000,0000,0000,,I want to live in this valley forever.
+Dialogue: 0,0:21:48.77,0:21:52.41,Italics,Rimuru,0000,0000,0000,,What a blessed life, \Nso abundant in peaks and valleys!
+Dialogue: 0,0:21:54.29,0:21:58.37,Italics,Rimuru,0000,0000,0000,,But fun times never last long.
+Dialogue: 0,0:21:59.18,0:22:02.23,Italics,Rimuru,0000,0000,0000,,That's just how life is.
+Dialogue: 0,0:23:35.77,0:23:39.13,Italics_Top,Great Sage,0000,0000,0000,,Next time, "Hero King, Gazel Dwargo."
+Dialogue: 0,0:23:36.07,0:23:39.94,Next_Ep_Title,Title,0000,0000,0000,,{\fad(900,1)}Hero King,{\c&HFFFFFF&\bord0} {\u1}Gazel Dwargo
+

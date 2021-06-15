@@ -1,0 +1,348 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Show_Title,Open Sans Semibold,36,&H00CD9612,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Show_Title_Border,Open Sans Semibold,36,&HFFCD9612,&H000000FF,&H00FEFEFE,&H00000000,1,0,0,0,100,100,0,0,3,4,0,8,13,13,27,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H8C000000,&H64000000,0,0,0,0,100,100,0,0,1,0,2,3,13,67,67,1
+Style: Next_Ep_Title,Open Sans Semibold,39,&H00000000,&H000000FF,&H00DDE6EB,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,13,13,147,1
+Style: sign_10639_105_Only_those_20_or,Open Sans Semibold,18,&H0007851F,&H000000FF,&H0022C3DF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,1,208,148,23,1
+Style: sign_10621_103_Fruit_Wine_Alcoh,Open Sans Semibold,42,&H000A891C,&H000000FF,&H0032D4E1,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,195,364,187,1
+Style: sign_10648_104_Alcohol_Content,Open Sans Semibold,30,&H000A891C,&H000000FF,&H0032D4E1,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,241,412,127,1
+Style: sign_10639_105_Fruit_Wine__Carb,Open Sans Semibold,21,&H0007851F,&H000000FF,&H0046A3C2,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,32,709,127,1
+Style: sign_20176_200_Hero_King_____Ga,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H50000000,&H50000000,1,0,0,0,100,100,0,0,1,1,1,3,13,336,133,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:12.16,0:00:16.08,Show_Title,,0000,0000,0000,,{\fad(1614,389)}That {\c&H471E13&}Time {\c&HCD9612&}I Got {\c&H471E13&}Reincarnated {\c&HCD9612&}as a {\c&H7E4F0A&}Slime
+Dialogue: 0,0:01:30.83,0:01:34.75,Ep_Title,Title,0000,0000,0000,,{\fad(1146,355)}Episode 5: Hero King, Gazel Dwargo
+Dialogue: 0,0:01:39.28,0:01:41.65,Main,Kaijin,0000,0000,0000,,Man, that sure threw me for a loop!
+Dialogue: 0,0:01:41.65,0:01:46.72,Main,Kaijin,0000,0000,0000,,I busted my ass to make that sword, \Nand you made all those copies in seconds!
+Dialogue: 0,0:01:47.04,0:01:50.22,Main,Rimuru,0000,0000,0000,,Only because the original \Nyou made was so incredible.
+Dialogue: 0,0:01:50.64,0:01:52.59,Main,Rimuru,0000,0000,0000,,All I did was analyze it
+Dialogue: 0,0:01:52.59,0:01:55.22,Main,Rimuru,0000,0000,0000,,and use that magisteel cluster to copy it.
+Dialogue: 0,0:01:57.50,0:01:59.15,Main,Rimuru,0000,0000,0000,,Was I out of line?
+Dialogue: 0,0:02:03.33,0:02:06.50,Main,Kaijin,0000,0000,0000,,If I'm being honest, it is a little vexing...
+Dialogue: 0,0:02:07.39,0:02:13.01,Main,Kaijin,0000,0000,0000,,But next time, I'll make one so amazing \Nthat even you won't be able to copy it!
+Dialogue: 0,0:02:13.01,0:02:14.60,Main,Kaijin,0000,0000,0000,,I relish the challenge!
+Dialogue: 0,0:02:16.43,0:02:18.15,Main,Rimuru,0000,0000,0000,,That's the spirit!
+Dialogue: 0,0:02:18.15,0:02:19.75,Main,Rimuru,0000,0000,0000,,Refill, please!
+Dialogue: 0,0:02:20.08,0:02:22.63,Main,Owner,0000,0000,0000,,Can you even taste this?
+Dialogue: 0,0:02:22.88,0:02:28.38,Main,Rimuru,0000,0000,0000,,I can't, but any drink is delicious \Nif a pretty lady pours it for me!
+Dialogue: 0,0:02:28.38,0:02:30.52,Main,Owner,0000,0000,0000,,Oh, very smooth!
+Dialogue: 0,0:02:30.52,0:02:31.93,Main,Owner,0000,0000,0000,,Here you go.
+Dialogue: 0,0:02:34.17,0:02:37.14,Italics,Rimuru,0000,0000,0000,,It's nice being the one entertained for once.
+Dialogue: 0,0:02:38.08,0:02:39.96,Italics,Rimuru,0000,0000,0000,,As a human, I was always the \None doing the entertaining.
+Dialogue: 0,0:02:39.96,0:02:42.52,Italics,Rimuru,0000,0000,0000,,There was a lot I had to be attentive to.
+Dialogue: 0,0:02:44.22,0:02:46.83,Italics,Rimuru,0000,0000,0000,,Ah, this is paradise!
+Dialogue: 0,0:02:48.83,0:02:52.51,Italics,Na,0000,0000,0000,,Meanwhile, Gobta had been \Ncompletely forgotten.
+Dialogue: 0,0:02:57.62,0:02:59.08,Main,Elf,0000,0000,0000,,Hey, Slime-san!
+Dialogue: 0,0:03:00.56,0:03:02.58,Main,Elf,0000,0000,0000,,Would you like to try this?
+Dialogue: 0,0:03:04.38,0:03:06.73,Main,Elf,0000,0000,0000,,I'm very good at it.
+Dialogue: 0,0:03:06.73,0:03:09.70,Main,Elf,0000,0000,0000,,Everyone says I'm pretty amazing, in fact.
+Dialogue: 0,0:03:11.68,0:03:14.51,Italics,Rimuru,0000,0000,0000,,C-Could this be the legend I've heard about?!
+Dialogue: 0,0:03:16.60,0:03:18.83,Italics,Rimuru,0000,0000,0000,,Is she gonna do that...
+Dialogue: 0,0:03:19.70,0:03:21.23,Main,,0000,0000,0000,,No!
+Dialogue: 0,0:03:21.70,0:03:23.40,Italics,Rimuru,0000,0000,0000,,and even that?!
+Dialogue: 0,0:03:23.68,0:03:25.66,Main,Rimuru,0000,0000,0000,,Uh, th-that's...
+Dialogue: 0,0:03:25.66,0:03:29.57,Main,Rimuru,0000,0000,0000,,M-Ma'am, we mustn't...
+Dialogue: 0,0:03:29.57,0:03:30.34,Main,Elf,0000,0000,0000,,Slime-san?
+Dialogue: 0,0:03:30.34,0:03:32.17,Main,Rimuru,0000,0000,0000,,Ma'am... Ma'am...
+Dialogue: 0,0:03:32.17,0:03:33.57,Main,Elf,0000,0000,0000,,Slime-san!
+Dialogue: 0,0:03:34.43,0:03:35.79,Main,Elf,0000,0000,0000,,Are you ready?
+Dialogue: 0,0:03:36.46,0:03:38.62,Italics,Rimuru,0000,0000,0000,,Oh. She meant fortunetelling.
+Dialogue: 0,0:03:39.27,0:03:41.87,Main,Rimuru,0000,0000,0000,,So what kind of reading can you do?
+Dialogue: 0,0:03:43.29,0:03:44.95,Main,Elf,0000,0000,0000,,Well...
+Dialogue: 0,0:03:44.95,0:03:46.04,Main,Elf,0000,0000,0000,,What would you like?
+Dialogue: 0,0:03:48.60,0:03:50.71,Main,Elf,0000,0000,0000,,How about the person he's \Ndestined to be with?
+Dialogue: 0,0:03:50.91,0:03:51.51,Main,Rimuru,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:54.24,0:03:56.10,Main,Elf,0000,0000,0000,,Oh, good idea!
+Dialogue: 0,0:03:57.78,0:03:59.91,Main,Elf,0000,0000,0000,,Okay, here I go.
+Dialogue: 0,0:04:04.36,0:04:07.33,Main,Elf,0000,0000,0000,,What's this? I can't see anything.
+Dialogue: 0,0:04:07.33,0:04:08.23,Main,Rimuru,0000,0000,0000,,Hey!
+Dialogue: 0,0:04:09.31,0:04:10.73,Main,Elf,0000,0000,0000,,I'm just kidding.
+Dialogue: 0,0:04:10.97,0:04:12.99,Main,Elf,0000,0000,0000,,You're so silly, Slime-san!
+Dialogue: 0,0:04:12.99,0:04:13.74,Main,Rimuru,0000,0000,0000,,Huh? Me?
+Dialogue: 0,0:04:14.11,0:04:16.82,Main,Elf,0000,0000,0000,,Okay, for real this time.
+Dialogue: 0,0:04:23.10,0:04:25.19,Italics,Rimuru,0000,0000,0000,,The person I'm destined to be with...
+Dialogue: 0,0:04:25.19,0:04:27.84,Italics,Rimuru,0000,0000,0000,,Could someone like that \Nreally be in this world?
+Dialogue: 0,0:04:28.92,0:04:31.96,Italics,Rimuru,0000,0000,0000,,Maybe it's actually a slime \NI'm destined to be with.
+Dialogue: 0,0:04:32.20,0:04:34.09,Main,Elf,0000,0000,0000,,Oh, I see something!
+Dialogue: 0,0:05:01.14,0:05:03.29,Italics,Rimuru,0000,0000,0000,,She sort of looked Japanese...
+Dialogue: 0,0:05:03.29,0:05:05.78,Main,Kaijin,0000,0000,0000,,That was one pretty girl.
+Dialogue: 0,0:05:06.37,0:05:07.62,Main,Kaijin,0000,0000,0000,,You're turning red.
+Dialogue: 0,0:05:07.62,0:05:08.51,Main,Rimuru,0000,0000,0000,,Huh?!
+Dialogue: 0,0:05:08.51,0:05:10.25,Main,Rimuru,0000,0000,0000,,I don't change colors!
+Dialogue: 0,0:05:10.43,0:05:14.05,Main,Elf,0000,0000,0000,,Oh, you're curious about this girl \Nyou're destined to be with, huh?
+Dialogue: 0,0:05:14.24,0:05:17.23,Main,Elf,0000,0000,0000,,No fair, cheating on us!
+Dialogue: 0,0:05:17.23,0:05:19.55,Main,Rimuru,0000,0000,0000,,Sure, I'm curious, but...
+Dialogue: 0,0:05:20.08,0:05:21.95,Italics,Rimuru,0000,0000,0000,,Destined, huh?
+Dialogue: 0,0:05:21.95,0:05:25.08,Italics,Rimuru,0000,0000,0000,,If she's also Japanese, \NI guess I'd like to meet her.
+Dialogue: 0,0:05:25.08,0:05:29.48,Main,Vesta,0000,0000,0000,,Should you really be wasting \Ntime in a place like this,
+Dialogue: 0,0:05:32.50,0:05:34.22,Main,Vesta,0000,0000,0000,,Kaijin?
+Dialogue: 0,0:05:35.59,0:05:37.45,Main,Kaijin,0000,0000,0000,,It's Minister Vesta.
+Dialogue: 0,0:05:37.62,0:05:39.37,Italics,Rimuru,0000,0000,0000,,So that's him?
+Dialogue: 0,0:05:39.69,0:05:42.09,Italics,Rimuru,0000,0000,0000,,He looks pretty stubborn and high-strung.
+Dialogue: 0,0:05:44.98,0:05:48.12,Main,Vesta,0000,0000,0000,,Is this a good time to be playing around?
+Dialogue: 0,0:05:48.12,0:05:51.25,Main,Vesta,0000,0000,0000,,I believe the deadline for \Nthose longswords is...
+Dialogue: 0,0:05:51.45,0:05:52.88,Main,Kaijin,0000,0000,0000,,I just sent them in.
+Dialogue: 0,0:05:52.88,0:05:55.76,Main,Vesta,0000,0000,0000,,If you don't get them finished in time...
+Dialogue: 0,0:05:56.88,0:05:58.83,Main,Vesta,0000,0000,0000,,What? You sent them in?!
+Dialogue: 0,0:05:58.83,0:06:01.16,Main,Kaijin,0000,0000,0000,,Yep. All twenty of them.
+Dialogue: 0,0:06:01.16,0:06:03.03,Main,Vesta,0000,0000,0000,,B-But that's...
+Dialogue: 0,0:06:03.03,0:06:05.49,Main,Kaijin,0000,0000,0000,,Want to see the invoice?
+Dialogue: 0,0:06:07.87,0:06:09.59,Main,Vesta,0000,0000,0000,,Is that so?
+Dialogue: 0,0:06:09.59,0:06:12.96,Main,Vesta,0000,0000,0000,,{\an8}Well, well, finishing your work in \Nthe time allotted is to be expected.
+Dialogue: 0,0:06:10.67,0:06:15.53,Italics,Rimuru,0000,0000,0000,,Did this Minister Vesta guy knowingly \Ngive him an impossible order?
+Dialogue: 0,0:06:12.96,0:06:16.45,Main,Vesta,0000,0000,0000,,{\an8}Yes, it's only to be expected.
+Dialogue: 0,0:06:16.45,0:06:18.76,Italics,Rimuru,0000,0000,0000,,Doesn't look like they're on good terms...
+Dialogue: 0,0:06:18.76,0:06:21.28,Main,Vesta,0000,0000,0000,,I'm more concerned with {\i1}that{\i0}!
+Dialogue: 0,0:06:21.51,0:06:23.28,Main,Rimuru,0000,0000,0000,,Huh? Me?
+Dialogue: 0,0:06:23.55,0:06:30.10,Main,Vesta,0000,0000,0000,,You shouldn't bring such a lowly monster \Ninto a high-brow establishment like this.
+Dialogue: 0,0:06:30.53,0:06:32.53,Main,Vesta,0000,0000,0000,,It's making me feel ill.
+Dialogue: 0,0:06:33.25,0:06:37.25,Main,Vesta,0000,0000,0000,,Hey! Do you allow monsters \Nto be brought in here?
+Dialogue: 0,0:06:37.25,0:06:41.09,Main,OWner,0000,0000,0000,,It may be a monster, but it \Nseems like a harmless slime.
+Dialogue: 0,0:06:41.27,0:06:42.29,Main,Vesta,0000,0000,0000,,What?
+Dialogue: 0,0:06:42.29,0:06:45.01,Main,Vesta,0000,0000,0000,,It {\i1}is{\i0} a monster, am I wrong?
+Dialogue: 0,0:06:45.01,0:06:48.14,Main,Vesta,0000,0000,0000,,Are you trying to say slimes aren't monsters?
+Dialogue: 0,0:06:48.37,0:06:51.65,Main,Owner,0000,0000,0000,,No, not in the least.
+Dialogue: 0,0:06:52.32,0:06:56.05,Main,Owner,0000,0000,0000,,Come, now, Minister. How about a drink?
+Dialogue: 0,0:06:56.05,0:06:57.53,Main,Owner,0000,0000,0000,,Please, help yourself.
+Dialogue: 0,0:06:58.59,0:07:03.17,Main,Vesta,0000,0000,0000,,Hmph. This is what should \Nbe done to monsters.
+Dialogue: 0,0:07:03.91,0:07:05.32,Main,Elf,0000,0000,0000,,Slime-san!
+Dialogue: 0,0:07:07.22,0:07:09.21,Main,Rimuru,0000,0000,0000,,Don't worry. I'm okay.
+Dialogue: 0,0:07:09.21,0:07:10.63,Main,Rimuru,0000,0000,0000,,Did your dress get wet?
+Dialogue: 0,0:07:10.63,0:07:12.17,Main,Elf,0000,0000,0000,,I-I'm fine...
+Dialogue: 0,0:07:13.89,0:07:15.42,Italics,Rimuru,0000,0000,0000,,That made me mad,
+Dialogue: 0,0:07:15.67,0:07:17.67,Italics,Rimuru,0000,0000,0000,,but the guy's a minister.
+Dialogue: 0,0:07:17.93,0:07:21.99,Italics,Rimuru,0000,0000,0000,,I can't let my short temper screw \Nthings up for Kaijin and this bar.
+Dialogue: 0,0:07:22.93,0:07:26.07,Italics_Top,Great Sage,0000,0000,0000,,Fruit wine. Alcohol content: 7%.
+Dialogue: 0,0:07:22.97,0:07:28.81,sign_10621_103_Fruit_Wine_Alcoh,Text,0000,0000,0000,,{\fad(774,1)}Fruit Wine
+Dialogue: 0,0:07:23.72,0:07:28.81,sign_10639_105_Fruit_Wine__Carb,Text,0000,0000,0000,,{\fad(608,1)}Fruit\NWine\N(Carbonated)
+Dialogue: 0,0:07:23.72,0:07:28.81,sign_10639_105_Only_those_20_or,Text,0000,0000,0000,,Only those 20 or older should drink alcohol. \NEnjoy in moderation, and be sure to recycle the container afterward. {right}
+Dialogue: 0,0:07:24.09,0:07:28.81,sign_10648_104_Alcohol_Content,Text,0000,0000,0000,,{\fad(774,1)}Alcohol Content
+Dialogue: 0,0:07:26.07,0:07:28.81,Italics,Rimuru,0000,0000,0000,,{\an8}Uh, Great Sage, I don't \Nneed that info right now.
+Dialogue: 0,0:07:36.08,0:07:37.56,Main,Kaijin,0000,0000,0000,,Vesta!
+Dialogue: 0,0:07:37.56,0:07:42.54,Main,Kaijin,0000,0000,0000,,I hope you're prepared to pay \Nfor treating my guest like that.
+Dialogue: 0,0:07:43.03,0:07:45.02,Main,Vesta,0000,0000,0000,,Y-You...
+Dialogue: 0,0:07:45.02,0:07:47.16,Main,Vesta,0000,0000,0000,,How dare you speak to me like that?!
+Dialogue: 0,0:07:47.16,0:07:48.29,Main,Kaijin,0000,0000,0000,,Shut up!
+Dialogue: 0,0:07:48.59,0:07:49.71,Main,Dold,0000,0000,0000,,Hey, Kaijin!
+Dialogue: 0,0:07:49.71,0:07:50.83,Main,Garm,0000,0000,0000,,Go easy on him!
+Dialogue: 0,0:07:51.03,0:07:52.87,Main,Rimuru,0000,0000,0000,,Not the face! Go for the body!
+Dialogue: 0,0:08:00.57,0:08:03.02,Main,Rimuru,0000,0000,0000,,Was that a good idea? Isn't he a minister?
+Dialogue: 0,0:08:03.02,0:08:04.72,Main,Rimuru,0000,0000,0000,,Won't this mean trouble for you?
+Dialogue: 0,0:08:08.87,0:08:10.56,Main,Kaijin,0000,0000,0000,,Hey, Rimuru...
+Dialogue: 0,0:08:11.06,0:08:14.10,Main,Kaijin,0000,0000,0000,,You were looking for skilled artisans, right?
+Dialogue: 0,0:08:17.38,0:08:18.98,Main,Kaijin,0000,0000,0000,,Would you settle for me?
+Dialogue: 0,0:08:19.41,0:08:21.49,Main,Rimuru,0000,0000,0000,,What?! You mean it?
+Dialogue: 0,0:08:21.76,0:08:23.99,Main,Rimuru,0000,0000,0000,,I don't need to settle if I have you!
+Dialogue: 0,0:08:24.27,0:08:27.12,Main,Rimuru,0000,0000,0000,,I'd be thrilled to have your help, Kaijin!
+Dialogue: 0,0:08:31.33,0:08:35.61,Italics,Na,0000,0000,0000,,But things rarely work out \Nso smoothly in this world.
+Dialogue: 0,0:08:37.92,0:08:40.80,Main,Kaido,0000,0000,0000,,C'mon, Bro, what were you thinking?
+Dialogue: 0,0:08:43.28,0:08:48.31,Main,Kaijin,0000,0000,0000,,Hmph. That moron there was \Nrude to my buddy Rimuru.
+Dialogue: 0,0:08:48.31,0:08:51.00,Main,Kaijin,0000,0000,0000,,I just gave him a little scolding.
+Dialogue: 0,0:08:51.79,0:08:53.63,Main,Kaido,0000,0000,0000,,"A little"?
+Dialogue: 0,0:08:53.63,0:08:56.19,Main,Kaido,0000,0000,0000,,You know you can't do that to a minister.
+Dialogue: 0,0:08:56.94,0:08:57.81,Main,Kaijin,0000,0000,0000,,Hmph.
+Dialogue: 0,0:09:00.03,0:09:03.06,Main,Kaido,0000,0000,0000,,Don't hold this against me. \NIt's just the law.
+Dialogue: 0,0:09:03.06,0:09:07.56,Main,Kaido,0000,0000,0000,,I'll have to keep you all \Nrestrained until your trial.
+Dialogue: 0,0:09:07.56,0:09:08.55,Main,Kaido,0000,0000,0000,,Move.
+Dialogue: 0,0:09:08.55,0:09:10.49,Main,Guy,0000,0000,0000,,It's just our job, you know.
+Dialogue: 0,0:09:15.70,0:09:16.71,Main,Rimuru,0000,0000,0000,,Trial?
+Dialogue: 0,0:09:25.32,0:09:26.80,Main,Rimuru,0000,0000,0000,,You've been asleep all this time?!
+Dialogue: 0,0:09:28.21,0:09:30.97,Main,Kaijin,0000,0000,0000,,If only I hadn't lost my temper...
+Dialogue: 0,0:09:32.12,0:09:34.27,Main,Kaijin,0000,0000,0000,,I dragged you all into this.
+Dialogue: 0,0:09:35.95,0:09:37.10,Main,Kaijin,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:09:37.36,0:09:39.88,Main,Garm,0000,0000,0000,,Hey, it's okay! No problem!
+Dialogue: 0,0:09:39.88,0:09:42.44,Main,Dord,0000,0000,0000,,Nothing you need to worry about!
+Dialogue: 0,0:09:43.60,0:09:44.74,Italics,Rimuru,0000,0000,0000,,Speak, man!
+Dialogue: 0,0:09:45.79,0:09:48.03,Main,Rimuru,0000,0000,0000,,Are we going to be put on trial?
+Dialogue: 0,0:09:48.37,0:09:49.98,Main,Kaijin,0000,0000,0000,,Yeah, I guess so.
+Dialogue: 0,0:09:49.98,0:09:52.70,Main,Kaijin,0000,0000,0000,,We won't be executed or anything, though.
+Dialogue: 0,0:09:52.70,0:09:55.08,Main,Kaijin,0000,0000,0000,,We'll probably just have to pay a fine.
+Dialogue: 0,0:09:56.71,0:09:58.18,Main,Rimuru,0000,0000,0000,,I hope so...
+Dialogue: 0,0:09:58.62,0:10:02.92,Main,Rimuru,0000,0000,0000,,But that minister really \Nseemed to have it in for you.
+Dialogue: 0,0:10:06.47,0:10:11.30,Main,Kaijin,0000,0000,0000,,I used to serve this nation's \Nking, Gazel Dwargo.
+Dialogue: 0,0:10:11.81,0:10:16.86,Main,Kaijin,0000,0000,0000,,I was the captain of one of the \Nseven orders of royal knights.
+Dialogue: 0,0:10:17.76,0:10:21.67,Main,Kaijin,0000,0000,0000,,At the time, he was my adjutant.
+Dialogue: 0,0:10:21.67,0:10:23.19,Main,Kaijin,0000,0000,0000,,He came from the marquis's family,
+Dialogue: 0,0:10:23.80,0:10:25.97,Main,Kaijin,0000,0000,0000,,and I was from a family of peasants.
+Dialogue: 0,0:10:25.97,0:10:28.25,Main,Kaijin,0000,0000,0000,,It must have infuriated him.
+Dialogue: 0,0:10:28.25,0:10:31.20,Main,Kaijin,0000,0000,0000,,Even back then, we clashed all the time.
+Dialogue: 0,0:10:32.02,0:10:33.60,Main,Kaijin,0000,0000,0000,,And then...
+Dialogue: 0,0:10:49.76,0:10:54.76,Main,Kaijin,0000,0000,0000,,One of the projects he'd been under pressure \Nto complete, the Magisoldier Project...
+Dialogue: 0,0:10:56.03,0:10:57.69,Main,Kaijin,0000,0000,0000,,went up in smoke.
+Dialogue: 0,0:10:59.21,0:11:03.34,Main,Kaijin,0000,0000,0000,,Vesta foisted all the responsibility \Nfor his failure onto me.
+Dialogue: 0,0:11:03.34,0:11:08.07,Main,Kaijin,0000,0000,0000,,He got our forces on his side and \Neven came up with false testimony.
+Dialogue: 0,0:11:10.01,0:11:13.91,Main,Kaijin,0000,0000,0000,,So I assumed responsibility \Nand quit the force.
+Dialogue: 0,0:11:14.65,0:11:16.93,Main,Kaijin,0000,0000,0000,,He still holds a grudge against me and
+Dialogue: 0,0:11:16.93,0:11:20.29,Main,Kaijin,0000,0000,0000,,makes unreasonable demands \Nof me at every opportunity.
+Dialogue: 0,0:11:20.29,0:11:23.12,Main,Kaijin,0000,0000,0000,,That's what this was all about, too.
+Dialogue: 0,0:11:23.12,0:11:25.04,Main,Rimuru,0000,0000,0000,,He's pretty pathetic.
+Dialogue: 0,0:11:25.04,0:11:26.71,Main,Kaijin,0000,0000,0000,,You got that right.
+Dialogue: 0,0:11:27.25,0:11:31.30,Main,Kaijin,0000,0000,0000,,But it's not as if he's a bad guy, really.
+Dialogue: 0,0:11:31.49,0:11:33.69,Main,Kaijin,0000,0000,0000,,He and I weren't a good match,
+Dialogue: 0,0:11:33.69,0:11:36.51,Main,Kaijin,0000,0000,0000,,but he was always a hard worker \Nand passionate about his research.
+Dialogue: 0,0:11:36.99,0:11:41.57,Main,Kaijin,0000,0000,0000,,The pressure he felt to complete that project \Ncame from his need to please the king.
+Dialogue: 0,0:11:42.54,0:11:47.19,Main,Kaijin,0000,0000,0000,,If I leave this country, \Nit might make him a better man.
+Dialogue: 0,0:11:47.19,0:11:49.04,Main,Rimuru,0000,0000,0000,,You really think so?
+Dialogue: 0,0:11:50.47,0:11:51.82,Main,Kaijin,0000,0000,0000,,Well, Rimuru...
+Dialogue: 0,0:11:52.93,0:11:54.57,Main,Kaijin,0000,0000,0000,,I'm all yours.
+Dialogue: 0,0:11:54.94,0:11:55.74,Main,Rimuru,0000,0000,0000,,Thanks.
+Dialogue: 0,0:11:58.39,0:11:59.83,Main,Garm,0000,0000,0000,,About that...
+Dialogue: 0,0:12:00.48,0:12:02.66,Main,Garm,0000,0000,0000,,We're gonna follow Kaijin, too.
+Dialogue: 0,0:12:03.91,0:12:04.98,Main,Dold,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:04.98,0:12:07.96,Main,Dold,0000,0000,0000,,We'll go anywhere if it means \Nwe can work with Kaijin.
+Dialogue: 0,0:12:10.33,0:12:11.21,Italics,Rimuru,0000,0000,0000,,Yeah, I figured.
+Dialogue: 0,0:12:12.77,0:12:14.63,Main,Kaijin,0000,0000,0000,,You guys...
+Dialogue: 0,0:12:15.00,0:12:18.89,Main,Garm,0000,0000,0000,,Rimuru, would we be in your \Nway if we tagged along?
+Dialogue: 0,0:12:19.44,0:12:22.74,Main,Rimuru,0000,0000,0000,,Heh. I'll be glad to take all of you in!
+Dialogue: 0,0:12:22.74,0:12:24.77,Main,Rimuru,0000,0000,0000,,But be ready. I'm gonna\Nwork you to the bone!
+Dialogue: 0,0:12:25.09,0:12:26.13,Main,Both,0000,0000,0000,,Right!
+Dialogue: 0,0:12:41.27,0:12:44.79,Italics,Rimuru,0000,0000,0000,,He's even silent when he's sleeping.
+Dialogue: 0,0:12:50.59,0:12:53.33,Main,Gobta,0000,0000,0000,,Rimuru-sama? Did something happen?
+Dialogue: 0,0:12:53.33,0:12:55.55,Italics,Rimuru,0000,0000,0000,,He's so carefree...
+Dialogue: 0,0:12:56.23,0:12:59.85,Main,Rimuru,0000,0000,0000,,We've got some things to do. \NMind if we leave you here?
+Dialogue: 0,0:13:00.37,0:13:00.97,Main,Gobta,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:01.20,0:13:04.88,Main,Rimuru,0000,0000,0000,,If you want to get out, \Ncall your Tempest Wolf partner.
+Dialogue: 0,0:13:04.88,0:13:06.69,Main,Gobta,0000,0000,0000,,Wait... What?! That's just mean!
+Dialogue: 0,0:13:07.04,0:13:10.16,Main,Gobta,0000,0000,0000,,{\an8}What am I doing up here, \Nanyway?! Get me down!
+Dialogue: 0,0:13:07.24,0:13:11.14,Main,Rimuru,0000,0000,0000,,Don't worry. I won't forget to \Ncome back for you when we're done.
+Dialogue: 0,0:13:10.16,0:13:11.82,Main,Gobta,0000,0000,0000,,{\an8}Please let me down!
+Dialogue: 0,0:13:16.35,0:13:21.36,Italics,Rimuru,0000,0000,0000,,I'd feel bad getting him dragged in \Nto this trial when he wasn't involved.
+Dialogue: 0,0:13:35.26,0:13:38.44,Main,Guy,0000,0000,0000,,His Majesty Gazel Dwargo will now enter!
+Dialogue: 0,0:13:56.63,0:14:00.31,Italics,Na,0000,0000,0000,,The judge presiding over Rimuru's \Nparty is the Hero King of the Dwarves,
+Dialogue: 0,0:14:00.31,0:14:02.00,Italics,Na,0000,0000,0000,,Gazel Dwargo.
+Dialogue: 0,0:14:01.49,0:14:04.74,sign_20176_200_Hero_King_____Ga,Text,0000,0000,0000,,{\fad(527,262)}Hero King     {\fs24}Gazel Dwargo
+Dialogue: 0,0:14:02.57,0:14:05.66,Italics,Rimuru,0000,0000,0000,,Yikes, this guy's bad news! He's a beast!
+Dialogue: 0,0:14:05.66,0:14:07.21,Italics,Rimuru,0000,0000,0000,,He's obviously strong!
+Dialogue: 0,0:14:08.84,0:14:12.00,Main,Guy,0000,0000,0000,,The trial will now begin.
+Dialogue: 0,0:14:12.00,0:14:13.38,Main,Guy,0000,0000,0000,,All rise.
+Dialogue: 0,0:14:15.35,0:14:16.92,Italics,Rimuru,0000,0000,0000,,I'm rising.
+Dialogue: 0,0:14:17.69,0:14:19.13,Italics,Na,0000,0000,0000,,In the Armed Nation of Dwargon,
+Dialogue: 0,0:14:19.87,0:14:23.96,Italics,Na,0000,0000,0000,,no one can speak during a trial \Nwithout the king's permission.
+Dialogue: 0,0:14:24.35,0:14:27.91,Italics,Na,0000,0000,0000,,For that reason, a proxy \Nspeaks for the defense...
+Dialogue: 0,0:14:28.32,0:14:33.90,Main,Guy,0000,0000,0000,,As we have seen, when Minister Vesta was \Nenjoying a drink in said establishment,
+Dialogue: 0,0:14:34.06,0:14:38.53,Main,Guy,0000,0000,0000,,Kaijin and his gang stormed \Nthe place and assaulted him.
+Dialogue: 0,0:14:38.85,0:14:42.28,Main,Guy,0000,0000,0000,,Such behavior must not be tolerated.
+Dialogue: 0,0:14:43.73,0:14:45.29,Main,Kaijin,0000,0000,0000,,He's been bought.
+Dialogue: 0,0:14:45.42,0:14:49.11,Italics,Rimuru,0000,0000,0000,,What? Isn't he supposed to be defending us?
+Dialogue: 0,0:14:49.11,0:14:49.79,Italics,Rimuru,0000,0000,0000,,Also...
+Dialogue: 0,0:14:50.19,0:14:53.29,Italics,Rimuru,0000,0000,0000,,I don't remember him being {\i0}that{\i1} injured...
+Dialogue: 0,0:14:53.60,0:14:55.55,Main,Guy,0000,0000,0000,,Is this true?
+Dialogue: 0,0:14:55.77,0:14:58.38,Main,Guy,0000,0000,0000,,Yes. There is no mistake.
+Dialogue: 0,0:14:58.58,0:15:02.64,Main,Vesta,0000,0000,0000,,King Gazel, have you heard all this?
+Dialogue: 0,0:15:03.11,0:15:06.57,Main,Vesta,0000,0000,0000,,Please pass strict judgment \Nupon these people!
+Dialogue: 0,0:15:07.22,0:15:10.76,Italics,Rimuru,0000,0000,0000,,Kaijin said Vesta wasn't a bad guy,
+Dialogue: 0,0:15:10.76,0:15:13.15,Italics,Rimuru,0000,0000,0000,,but he totally is.
+Dialogue: 0,0:15:13.69,0:15:14.90,Main,Vesta,0000,0000,0000,,Your Majesty!
+Dialogue: 0,0:15:18.96,0:15:22.03,Main,Guy,0000,0000,0000,,I will now state the verdict.
+Dialogue: 0,0:15:22.29,0:15:25.80,Italics,Rimuru,0000,0000,0000,,It doesn't look like we'll get \Nout of this with just a fine.
+Dialogue: 0,0:15:25.80,0:15:27.79,Italics,Rimuru,0000,0000,0000,,I've got a really bad feeling...
+Dialogue: 0,0:15:28.02,0:15:30.01,Main,Guy,0000,0000,0000,,The principal offender, Kaijin,
+Dialogue: 0,0:15:30.01,0:15:34.52,Main,Guy,0000,0000,0000,,is sentenced to twenty years \Nof forced labor in the mines.
+Dialogue: 0,0:15:34.52,0:15:35.29,Main,Rimuru,0000,0000,0000,,Huh?!
+Dialogue: 0,0:15:35.56,0:15:41.38,Main,Guy,0000,0000,0000,,And his accomplices are sentenced to \Nten years of forced labor in the mines.
+Dialogue: 0,0:15:41.38,0:15:43.30,Italics,Rimuru,0000,0000,0000,,Wait, wait, wait, wait!
+Dialogue: 0,0:15:43.67,0:15:46.59,Main,Guy,0000,0000,0000,,The court is now adjourned.
+Dialogue: 0,0:15:46.59,0:15:47.20,Italics,Rimuru,0000,0000,0000,,H...
+Dialogue: 0,0:15:47.86,0:15:49.21,Italics,Rimuru,0000,0000,0000,,Hey! Wait just a minute!
+Dialogue: 0,0:15:49.21,0:15:49.81,Main,Gazel,0000,0000,0000,,Wait.
+Dialogue: 0,0:15:55.00,0:15:56.67,Main,Gazel,0000,0000,0000,,It's been some time, Kaijin.
+Dialogue: 0,0:15:57.17,0:15:58.44,Main,Gazel,0000,0000,0000,,Have you been well?
+Dialogue: 0,0:15:59.16,0:16:00.03,Main,Kaijin,0000,0000,0000,,Yes.
+Dialogue: 0,0:16:01.85,0:16:04.20,Main,Guy,0000,0000,0000,,Kaijin, you may answer His Majesty.
+Dialogue: 0,0:16:04.47,0:16:05.42,Main,Kaijin,0000,0000,0000,,Yes, Your Majesty.
+Dialogue: 0,0:16:05.42,0:16:09.70,Main,Kaijin,0000,0000,0000,,I am relieved to find you \Nin good health, as well.
+Dialogue: 0,0:16:11.12,0:16:12.12,Main,Gazel,0000,0000,0000,,Kaijin.
+Dialogue: 0,0:16:14.46,0:16:17.00,Main,Gazel,0000,0000,0000,,Have you any interest in \Nreturning to my ranks?
+Dialogue: 0,0:16:25.81,0:16:30.33,Main,Kaijin,0000,0000,0000,,Forgive me, Your Majesty, \Nbut I have already found my master.
+Dialogue: 0,0:16:30.33,0:16:33.39,Main,Kaijin,0000,0000,0000,,My sworn oath is my greatest treasure.
+Dialogue: 0,0:16:33.72,0:16:39.15,Main,Kaijin,0000,0000,0000,,I will never part with this treasure, \Neven if Your Majesty orders it.
+Dialogue: 0,0:16:39.42,0:16:40.23,Main,Guard,0000,0000,0000,,Insolence!
+Dialogue: 0,0:16:41.82,0:16:43.70,Italics,Rimuru,0000,0000,0000,,Wha... You're kidding!
+Dialogue: 0,0:16:49.98,0:16:51.70,Main,Gazel,0000,0000,0000,,I see.
+Dialogue: 0,0:16:56.87,0:16:58.75,Main,Gazel,0000,0000,0000,,I will now pass judgment.
+Dialogue: 0,0:16:59.18,0:17:03.02,Main,Gazel,0000,0000,0000,,Kaijin and his companions shall be exiled.
+Dialogue: 0,0:17:03.02,0:17:04.39,Main,Gazel,0000,0000,0000,,That concludes my verdict.
+Dialogue: 0,0:17:05.74,0:17:08.03,Main,Gazel,0000,0000,0000,,Disappear from my sight at once!
+Dialogue: 0,0:17:09.94,0:17:12.34,Italics,Rimuru,0000,0000,0000,,We got off with just exile...
+Dialogue: 0,0:17:13.28,0:17:14.02,Italics,Rimuru,0000,0000,0000,,Still...
+Dialogue: 0,0:17:14.71,0:17:16.71,Italics,Rimuru,0000,0000,0000,,He seems a little sad.
+Dialogue: 0,0:17:20.53,0:17:22.63,Main,Guy,0000,0000,0000,,This court is now adjourned.
+Dialogue: 0,0:17:27.28,0:17:31.62,Main,Gazel,0000,0000,0000,,Now then, Vesta, is there \Nanything you wish to say?
+Dialogue: 0,0:17:31.85,0:17:35.29,Main,Vesta,0000,0000,0000,,Y-Your Majesty... I...
+Dialogue: 0,0:17:35.29,0:17:37.12,Main,Vesta,0000,0000,0000,,W-Well...
+Dialogue: 0,0:17:38.03,0:17:39.53,Main,Gazel,0000,0000,0000,,It is unfortunate.
+Dialogue: 0,0:17:40.09,0:17:43.88,Main,Gazel,0000,0000,0000,,I have lost a loyal retainer.
+Dialogue: 0,0:17:44.11,0:17:47.47,Main,Vesta,0000,0000,0000,,H-How can you say such a thing? Kaijin...
+Dialogue: 0,0:17:47.69,0:17:51.51,Main,Vesta,0000,0000,0000,,That man did not swear loyalty to you!
+Dialogue: 0,0:17:51.51,0:17:54.36,Main,Vesta,0000,0000,0000,,He chose some slime of \Nunknown background to—
+Dialogue: 0,0:17:54.36,0:17:55.62,Main,Gazel,0000,0000,0000,,Vesta.
+Dialogue: 0,0:17:56.22,0:17:58.31,Main,Gazel,0000,0000,0000,,You are mistaken.
+Dialogue: 0,0:18:00.62,0:18:03.15,Main,Gazel,0000,0000,0000,,The loyal retainer I have lost...
+Dialogue: 0,0:18:03.79,0:18:04.81,Main,Gazel,0000,0000,0000,,is, in fact...
+Dialogue: 0,0:18:11.93,0:18:14.59,Main,Gazel,0000,0000,0000,,I had great hopes for you.
+Dialogue: 0,0:18:15.37,0:18:20.08,Main,Gazel,0000,0000,0000,,I waited years, even through the \Nfailure of the Magisoldier Project,
+Dialogue: 0,0:18:21.24,0:18:23.84,Main,Gazel,0000,0000,0000,,for you to tell me the truth.
+Dialogue: 0,0:18:24.30,0:18:26.97,Main,Vesta,0000,0000,0000,,Y-Your Majesty, please...
+Dialogue: 0,0:18:27.16,0:18:28.95,Main,Gazel,0000,0000,0000,,And now, as well...
+Dialogue: 0,0:18:30.22,0:18:31.22,Main,Gazel,0000,0000,0000,,Look there.
+Dialogue: 0,0:18:34.84,0:18:36.18,Main,Gazel,0000,0000,0000,,Do you know what that is?
+Dialogue: 0,0:18:36.61,0:18:41.34,Main,Gazel,0000,0000,0000,,It is a full potion, a draught of complete \Nrecovery, made from hipokute herbs.
+Dialogue: 0,0:18:41.34,0:18:42.36,Main,Vesta,0000,0000,0000,,But...
+Dialogue: 0,0:18:42.77,0:18:45.38,Main,Vesta,0000,0000,0000,,Even with the most advanced \Ndwarven techniques,
+Dialogue: 0,0:18:45.79,0:18:49.32,Main,Vesta,0000,0000,0000,,a potion can only achieve \N98% recovery at most...
+Dialogue: 0,0:18:49.69,0:18:51.91,Main,Vesta,0000,0000,0000,,How is this possible?
+Dialogue: 0,0:18:52.78,0:18:55.79,Main,Gazel,0000,0000,0000,,It was that slime who gave it to us.
+Dialogue: 0,0:18:59.57,0:19:04.17,Main,Gazel,0000,0000,0000,,Your actions have severed our \Nrelationship with that slime.
+Dialogue: 0,0:19:05.24,0:19:07.92,Main,Gazel,0000,0000,0000,,Now, is there anything you wish to say?
+Dialogue: 0,0:19:12.42,0:19:16.51,Main,Vesta,0000,0000,0000,,I have nothing to say, Your Majesty.
+Dialogue: 0,0:19:23.42,0:19:28.27,Main,Vesta,0000,0000,0000,,I wanted only to be useful to you.
+Dialogue: 0,0:19:32.03,0:19:35.33,Main,Vesta,0000,0000,0000,,Ever since I first saw you as a young boy,
+Dialogue: 0,0:19:37.32,0:19:39.20,Main,Vesta,0000,0000,0000,,that is all I have ever wanted.
+Dialogue: 0,0:19:44.66,0:19:47.91,Main,Vesta,0000,0000,0000,,Did I choose the wrong path?
+Dialogue: 0,0:19:49.10,0:19:51.19,Main,Vesta,0000,0000,0000,,Was it when I began to envy Kaijin?
+Dialogue: 0,0:19:52.34,0:19:54.98,Main,Vesta,0000,0000,0000,,Or was it even earlier?
+Dialogue: 0,0:19:58.22,0:20:00.72,Main,Vesta,0000,0000,0000,,For betraying Your Majesty's expectations...
+Dialogue: 0,0:20:01.65,0:20:03.49,Main,Vesta,0000,0000,0000,,I ask your forgiveness.
+Dialogue: 0,0:20:06.15,0:20:10.30,Main,Gazel,0000,0000,0000,,Vesta, never show yourself before me again.
+Dialogue: 0,0:20:10.81,0:20:15.49,Main,Gazel,0000,0000,0000,,I have one last thing to say to you.
+Dialogue: 0,0:20:17.22,0:20:18.77,Main,Gazel,0000,0000,0000,,Thank you for your service.
+Dialogue: 0,0:20:29.61,0:20:31.84,Main,Kaido,0000,0000,0000,,Take care of yourself, Bro.
+Dialogue: 0,0:20:32.05,0:20:35.47,Main,Kaijin,0000,0000,0000,,Sorry for all the trouble. \NYou take care, too.
+Dialogue: 0,0:20:37.04,0:20:39.72,Main,Kaido,0000,0000,0000,,Rimuru, take care of my brother.
+Dialogue: 0,0:20:39.99,0:20:42.48,Main,Rimuru,0000,0000,0000,,No need to worry. \NI'll only work him to death.
+Dialogue: 0,0:20:45.17,0:20:50.65,Main,Kaido,0000,0000,0000,,In accordance with the king's sentence, \NKaijin and his companions are now exiled.
+Dialogue: 0,0:20:50.65,0:20:52.24,Main,Kaido,0000,0000,0000,,Leave at once!
+Dialogue: 0,0:21:08.31,0:21:10.05,Main,Rimuru,0000,0000,0000,,Well, shall we get moving?
+Dialogue: 0,0:21:10.72,0:21:12.96,Main,Rimuru,0000,0000,0000,,My friends are waiting in the forest.
+Dialogue: 0,0:21:14.17,0:21:15.23,Main,Kaijin,0000,0000,0000,,Right.
+Dialogue: 0,0:21:16.30,0:21:18.34,Italics,Na,0000,0000,0000,,Despite all that happened,
+Dialogue: 0,0:21:18.34,0:21:22.90,Italics,Na,0000,0000,0000,,Rimuru achieved his initial goal \Nof bringing back some artisans.
+Dialogue: 0,0:21:23.57,0:21:28.35,Italics,Na,0000,0000,0000,,And they happened to be some of \Nthe most skilled artisans around.
+Dialogue: 0,0:21:34.87,0:21:37.12,Main,Gazel,0000,0000,0000,,You've apprehended the proxy?
+Dialogue: 0,0:21:37.12,0:21:38.67,Main,Gazel,0000,0000,0000,,Punish him severely.
+Dialogue: 0,0:21:38.67,0:21:39.30,Main,Woman,0000,0000,0000,,Of course.
+Dialogue: 0,0:21:40.20,0:21:43.01,Main,Gazel,0000,0000,0000,,And observe that slime's movements.
+Dialogue: 0,0:21:43.53,0:21:46.39,Main,Gazel,0000,0000,0000,,It is unthinkable that such \Na monster has been released.
+Dialogue: 0,0:21:47.96,0:21:51.69,Main,Gazel,0000,0000,0000,,Do not be noticed, no matter what it takes.
+Dialogue: 0,0:21:51.69,0:21:52.52,Main,Woman,0000,0000,0000,,Of course.
+Dialogue: 0,0:21:56.22,0:21:58.04,Main,Gazel,0000,0000,0000,,That slime is a true beast...
+Dialogue: 0,0:22:00.24,0:22:03.40,Main,Gazel,0000,0000,0000,,Just like the Storm Dragon, Veldora!
+Dialogue: 0,0:23:35.82,0:23:38.00,Italics_Top,Great Sage,0000,0000,0000,,Next time, "Shizu."
+Dialogue: 0,0:23:36.11,0:23:39.94,Next_Ep_Title,Title,0000,0000,0000,,{\fad(148,1)}Shizu
+
